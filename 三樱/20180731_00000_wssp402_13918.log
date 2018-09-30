@@ -1,0 +1,13 @@
+Date: 2018/07/31    Time: 13:27:36
+T100 error message : wssp402
+ std-00015
+: 企業(100)內，不存在據點DSCNJ，稍後請更換所在據點。
+
+
+請點選據點更換，指定新登入據點。
+
+-------------------------------------------------------------------
+Date: 2018/07/31    Time: 13:27:36
+Program error at 'lib_cl_err.4gl', line number 799.
+FORMS statement error number -1170.
+The type of your terminal is unknown to the system.

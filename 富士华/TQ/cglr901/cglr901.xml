@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="BIG5" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="cglr901">
+            <xs:complexType>
+              <xs:sequence>
+                  <xs:element name="traqh_code" type="xs:string" minOccurs="0" /> 
+                  <xs:element name="description" type="xs:string" minOccurs="0" />
+                  <xs:element name="mtd_a" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="mtd_b" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="mtd_diff" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="mtd_diff_percent" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="qtd_a" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="qtd_b" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="qtd_diff" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="qtd_diff_percent" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="btd_a" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="btd_b" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="btd_diff" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="btd_diff_percent" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ytd_a" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ytd_b" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ytd_diff" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ytd_diff_percent" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+           </xs:complexType>
+         </xs:element>
+       </xs:choice>
+     </xs:complexType>
+   </xs:element>
+ </xs:schema> 
+</NewDataSet>

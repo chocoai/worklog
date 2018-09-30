@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="BIG5" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="axmr620">
+            <xs:complexType>
+              <xs:sequence>
+                  <xs:element name="oga01" type="xs:string" minOccurs="0" />
+                  <xs:element name="oga02" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="oga03" type="xs:string" minOccurs="0" />
+                  <xs:element name="ogaconf" type="xs:string" minOccurs="0" /> 
+                  <xs:element name="oga032" type="xs:string" minOccurs="0" />
+                  <xs:element name="oga04" type="xs:string" minOccurs="0" />
+                  <xs:element name="occ02" type="xs:string" minOccurs="0" />
+                  <xs:element name="oga14" type="xs:string" minOccurs="0" />
+                  <xs:element name="gen02" type="xs:string" minOccurs="0" />
+                  <xs:element name="oga15" type="xs:string" minOccurs="0" />
+                  <xs:element name="gem02" type="xs:string" minOccurs="0" />
+                  <xs:element name="ogb03" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ogb31" type="xs:string" minOccurs="0" />
+                  <xs:element name="ogb04" type="xs:string" minOccurs="0" />
+                  <xs:element name="ogb06" type="xs:string" minOccurs="0" />
+                  <xs:element name="ima021" type="xs:string" minOccurs="0" />
+                  <xs:element name="str2" type="xs:string" minOccurs="0" />
+                  <xs:element name="ogb05" type="xs:string" minOccurs="0" />
+                  <xs:element name="oga23" type="xs:string" minOccurs="0" />
+                  <xs:element name="ogb13" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ogb12" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ogb916" type="xs:string" minOccurs="0" />
+                  <xs:element name="ogb917" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ogb14" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ogb14t" type="xs:decimal" minOccurs="0" /> 
+                  <xs:element name="ogb14c" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="oga10" type="xs:string" minOccurs="0" />
+                  <xs:element name="y" type="xs:string" minOccurs="0" />
+                  <xs:element name="c" type="xs:string" minOccurs="0" />
+                  <xs:element name="oaz23" type="xs:string" minOccurs="0" />
+                  <xs:element name="ogc175" type="xs:string" minOccurs="0" />
+                  <xs:element name="ima025" type="xs:string" minOccurs="0" />
+                  <xs:element name="ima0215" type="xs:string" minOccurs="0" />
+                  <xs:element name="ogc125" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="azi03" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="azi04" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="azi05" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="plant" type="xs:string" minOccurs="0" />
+                  <xs:element name="oea10" type="xs:string" minOccurs="0" />
+                  <xs:element name="ogb32" type="xs:decimal" minOccurs="0" />
+				          <xs:element name="oga01a" type="xs:string" minOccurs="0" />
+                  <xs:element name="ta_ogb01" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ta_ogb02" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ta_ogb03" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ta_ogb04" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="oap041" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+           </xs:complexType>
+         </xs:element>
+       </xs:choice>
+     </xs:complexType>
+   </xs:element>
+ </xs:schema>
+ <axmr620>
+   <oga01>AAA-000001</oga01>
+   <oga02>2007-04-05</oga02>
+  </axmr620>
+</NewDataSet>

@@ -1,0 +1,59 @@
+<Form width="91" lstrtoalltitle="false" lstrtoallitem="false" database_name="formonly" spacing="normal" CHECKSUM="26528" posX="0" percommentheader="" height="13" posY="0" percommentinstruction="" percommentattribute="" lstrtoallcomment="false" percommentschema="" fourSTFile="" name="axcr771" defaultspacing="true" text="axcr771" lstrtoalltext="false" percommentlayout="GRIDGRID
+VBOX
+LAYOUT
+" gstVersion="11401" >
+ <VBox tag="" posX="1" posY="0" hidden="--------" style="" name="vb8" >
+  <Grid width="88" posX="1" height="11" posY="0" lstrcomment="false" hidden="--------" name="gr16" fontPitch="default" scroll="false" >
+   <Group width="88" lstrtext="false" gridWidth="88" posX="0" height="5" posY="0" lstrcomment="false" hidden="--------" name="group01" fontPitch="default" gridHeight="5" text="QBE" gridChildrenInParent="--------" >
+    <Text width="10" lstrtext="false" gridWidth="10" posX="1" height="1" posY="1" sizePolicy="initial" name="text60" text="Cost Group" />
+    <FormField colName="ima12" sqlTabName="formonly" fieldId="0" name="formonly.ima12" fieldtype="FORM_ONLY" >
+     <Edit width="20" case="NONE" gridWidth="20" invisible="--------" notNull="--------" posX="22" formfieldname="formfield0" height="1" posY="1" lstrcomment="false" autoNext="--------" hidden="--------" verify="--------" tabIndex="1" sizePolicy="initial" zeroFill="--------" name="ima12" data_type="VARCHAR" lstrtitle="false" reverse="--------" fontPitch="default" color="black" century="R" required="--------" noEntry="--------" scroll="--------" />
+    </FormField>
+    <Text width="11" lstrtext="false" gridWidth="11" posX="45" height="1" posY="1" sizePolicy="initial" name="text61" text="Cost Levels" />
+    <FormField colName="ima57" sqlTabName="formonly" fieldId="1" name="formonly.ima57" fieldtype="FORM_ONLY" >
+     <Edit width="20" case="NONE" gridWidth="20" invisible="--------" notNull="--------" posX="66" formfieldname="formfield1" height="1" posY="1" lstrcomment="false" autoNext="--------" hidden="--------" verify="--------" tabIndex="2" sizePolicy="initial" zeroFill="--------" name="ima57" data_type="VARCHAR" lstrtitle="false" reverse="--------" fontPitch="default" color="black" century="R" required="--------" noEntry="--------" scroll="--------" />
+    </FormField>
+    <Text width="11" lstrtext="false" gridWidth="11" posX="1" height="1" posY="2" sizePolicy="initial" name="text62" text="Source Code" />
+    <FormField colName="ima08" sqlTabName="formonly" fieldId="2" name="formonly.ima08" fieldtype="FORM_ONLY" >
+     <Edit width="20" case="NONE" gridWidth="20" invisible="--------" notNull="--------" posX="22" formfieldname="formfield2" height="1" posY="2" lstrcomment="false" autoNext="--------" hidden="--------" verify="--------" tabIndex="3" sizePolicy="initial" zeroFill="--------" name="ima08" data_type="VARCHAR" lstrtitle="false" reverse="--------" fontPitch="default" color="black" century="R" required="--------" noEntry="--------" scroll="--------" />
+    </FormField>
+    <Text width="8" lstrtext="false" gridWidth="8" posX="45" height="1" posY="2" sizePolicy="initial" name="text63" text="Item No." />
+    <FormField colName="ima01" sqlTabName="formonly" fieldId="3" name="formonly.ima01" fieldtype="FORM_ONLY" >
+     <ButtonEdit width="20" comment="&lt;P>" case="UPPER" gridWidth="20" invisible="--------" notNull="--------" posX="66" image="zoom" formfieldname="formfield3" height="1" posY="2" action="controlp" lstrcomment="false" autoNext="--------" imagetype="Select File" hidden="--------" verify="--------" tabIndex="4" sizePolicy="initial" zeroFill="--------" name="ima01" data_type="VARCHAR" lstrtitle="false" reverse="--------" fontPitch="default" color="black" century="R" required="--------" noEntry="--------" scroll="--------" />
+    </FormField>
+    <Text width="7" lstrtext="false" gridWidth="7" posX="1" height="1" posY="3" sizePolicy="initial" name="text64" text="W/O No." />
+    <FormField colName="tlf62" sqlTabName="formonly" fieldId="4" name="formonly.tlf62" fieldtype="FORM_ONLY" >
+     <Edit width="20" case="NONE" gridWidth="20" invisible="--------" notNull="--------" posX="22" formfieldname="formfield4" height="1" posY="3" lstrcomment="false" autoNext="--------" hidden="--------" verify="--------" tabIndex="5" sizePolicy="initial" zeroFill="--------" name="tlf62" lstrtitle="false" reverse="--------" fontPitch="default" color="black" century="R" required="--------" noEntry="--------" scroll="--------" />
+    </FormField>
+   </Group>
+   <Group width="87" lstrtext="false" gridWidth="88" posX="0" height="5" posY="5" lstrcomment="false" hrecindex="-1" hidden="--------" name="group02" fontPitch="default" gridHeight="4" text="INPUT" browserStatus="true" gridChildrenInParent="--------" >
+    <Text width="4" posX="1" height="1" posY="2" hrecindex="-1" name="text67" text="Type" />
+    <FormField hrecindex="-1" colName="a" sqlTabName="formonly" fieldId="7" name="formonly.a" fieldtype="FORM_ONLY" >
+     <CheckBox width="32" lstrtext="false" gridWidth="32" notNull="true" posX="1" formfieldname="formfield7" height="1" posY="3" lstrcomment="false" hidden="--------" tabIndex="8" sizePolicy="initial" name="a" data_type="VARCHAR" lstrtitle="false" valueUnchecked="N" fontPitch="default" text="Print Detail?" required="true" noEntry="--------" valueChecked="Y" />
+    </FormField>
+    <FormField hrecindex="-1" colName="edate" sqlTabName="formonly" fieldId="6" name="formonly.edate" fieldtype="FORM_ONLY" >
+     <DateEdit width="12" gridWidth="12" notNull="--------" posX="37" formfieldname="formfield6" height="1" posY="1" lstrcomment="false" autoNext="--------" hidden="--------" tabIndex="7" sizePolicy="initial" name="edate" data_type="DATE" lstrtitle="false" fontPitch="default" color="black" century="R" required="--------" noEntry="--------" />
+    </FormField>
+    <Text width="1" lstrtext="false" gridWidth="1" posX="35" height="1" posY="1" hrecindex="-1" sizePolicy="initial" name="text66" text="-" />
+    <FormField hrecindex="-1" colName="bdate" sqlTabName="formonly" fieldId="5" name="formonly.bdate" fieldtype="FORM_ONLY" >
+     <DateEdit width="12" gridWidth="12" notNull="--------" posX="22" formfieldname="formfield5" height="1" posY="1" lstrcomment="false" autoNext="--------" hidden="--------" tabIndex="6" sizePolicy="initial" name="bdate" data_type="DATE" lstrtitle="false" fontPitch="default" color="black" century="R" required="--------" noEntry="--------" />
+    </FormField>
+    <Text width="10" lstrtext="false" gridWidth="10" posX="1" height="1" posY="1" hrecindex="-1" sizePolicy="initial" name="text65" text="Date Range" />
+    <FormField colName="type" sqlTabName="formonly" name="type" fieldtype="FORM_ONLY" >
+     <ComboBox width="36" case="NONE" notNull="true" posX="22" posY="2" height="1" formfieldname="formfield13" lstrcomment="false" colorCondition="black" hidden="--------" tabIndex="10" sizePolicy="initial" name="type" data_type="--------" fontPitch="default" color="black" required="--------" noEntry="--------" queryEditable="--------" scroll="--------" >
+      <Item lstrtext="false" name="1" text="Monthly Weighted Unit Cost" />
+      <Item lstrtext="false" name="2" text="FIFO Cost" />
+      <Item lstrtext="false" name="3" text="Identify Manually???Batch Cost" />
+      <Item lstrtext="false" name="4" text="Identify Manually???Item Cost" />
+      <Item lstrtext="false" name="5" text="Identify Manually???Store Profit Center" />
+     </ComboBox>
+    </FormField>
+   </Group>
+  </Grid>
+  <Grid width="88" posX="1" height="1" posY="11" lstrcomment="false" hidden="--------" name="gr17" fontPitch="default" scroll="false" >
+   <FormField colName="more" sqlTabName="formonly" fieldId="8" name="formonly.more" fieldtype="FORM_ONLY" >
+    <CheckBox width="67" lstrtext="false" gridWidth="67" notNull="true" posX="1" formfieldname="formfield8" height="1" posY="0" lstrcomment="false" hidden="--------" tabIndex="9" sizePolicy="initial" name="more" lstrtitle="false" valueUnchecked="N" fontPitch="default" text="Other codition to print" required="true" noEntry="--------" valueChecked="Y" />
+   </FormField>
+  </Grid>
+ </VBox>
+</Form>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="ds" gstVersion="22800" name="ManagedForm" uid="{a5f36799-0000-4000-9b94-e9aa54f3849d}">
+  <AGSettings/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{70d490d0-72c1-4d11-bc96-fea8150bea80}" where="">
+    <RecordField colName="" fieldIdRef="1" fieldType="NON_DATABASE" name="imgmksg" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{708969b5-43d0-418c-841d-f02f9e82a73f}"/>
+  </Record>
+  <Form gridHeight="26" gridWidth="518" lstrtext="true" name="cemi100" spacing="normal" text="aimi100">
+    <Folder gridHeight="26" gridWidth="518" name="pc39" posX="0" posY="0">
+      <Page action="main" lstrtext="true" name="page111" text="Page0">
+        <VBox gridHeight="25" gridWidth="518" name="vb11" posX="0" posY="0">
+          <Folder gridHeight="23" gridWidth="518" name="pc10" posX="0" posY="1">
+            <Page action="info_pg" lstrtext="true" name="info" text="Info">
+              <Grid gridHeight="7" gridWidth="104" name="gr1785" posX="0" posY="0">
+                <FFImage aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoScale="true" colName="" columnCount="" fieldId="1" fieldType="NON_DATABASE" gridHeight="2" gridWidth="7" height="2" lstrcomment="false" lstrtitle="false" name="imgmksg" posX="72" posY="1" rowCount="" sqlTabName="" sqlType="CHAR" stepX="" stepY="" table_alias_name="" widget="FFImage" width="7"/>
+                <Button gridHeight="1" gridWidth="17" name="Button1" posX="85" posY="1" tabIndex="1" text="1"/>
+                <Button gridHeight="1" gridWidth="17" name="Button2" posX="85" posY="2" tabIndex="2" text="2"/>
+                <Button gridHeight="1" gridWidth="17" name="Button3" posX="85" posY="3" tabIndex="3" text="3"/>
+                <Button gridHeight="1" gridWidth="17" name="Button4" posX="85" posY="4" tabIndex="4" text="4"/>
+              </Grid>
+            </Page>
+          </Folder>
+        </VBox>
+      </Page>
+    </Folder>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA3ADAAOAA5ADYAOQBiADUALQA0ADMAZAAwAC0ANAAxADgAYwAtADgANAAxAGQALQBmADAAMgBmADkAZQA4ADIAYQA3ADMAZgB9QCAAAAgAAAFAPZmZqGZmaAAAAAAAAAAAAQAAAEwAewA3ADAAZAA0ADkAMABkADAALQA3ADIAYwAxAC0ANABkADEAMQAtAGIAYwA5ADYALQBmAGUAYQA4ADEANQAwAGIAZQBhADgAMAB9QGhmZm0AAAA/6ZmaIAAAID9QYk3S8an8AQ==]]>
+  </DiagramLayout>
+</ManagedForm>

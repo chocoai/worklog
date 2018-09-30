@@ -1,0 +1,42 @@
+---------------------------------------------------------------------------------- 
+-- File created from /u53/tiptop/aoo/42f/aoop151.4fd by Genero Studio
+-- WARNING! All changes made in this file will be lost!
+----------------------------------------------------------------------------------
+
+SCHEMA ds
+
+LAYOUT (spacing=normal, text=%"axmp650")
+Grid gr2199
+{
+
+    <G group01                                                                                                                           >
+         conditon [cond                 ]
+
+                    [dummy01   ]                       [dummy02   ]                                  [dummy03   ]
+         Purchase[hsc01            ]    [old_tax                                 ]     [new_tax                                 ]
+         Sales   [hsc01_1          ]    [old_tax1                                ]     [new_tax1                                ]
+
+    <                                                                                                                                    >
+
+}
+END -- gr2199
+END -- aoop151
+
+ATTRIBUTES
+Group group01:group01;
+ComboBox cond=formonly.cond type VARCHAR, tabIndex=2, not null, required, items=(("1", "1.Customer"),("2", "2.Vendor"),("3", "3.ALL"));
+Label dummy01:dummy01, text=%"dummy01";
+Label dummy02:dummy02, text=%"dummy02";
+Label dummy03:dummy03, text=%"dummy03";
+ButtonEdit hsc01=formonly.hsc01 type VARCHAR, action=controlp, tabIndex=1, not null, required, image="zoom";
+Edit old_tax=formonly.old_tax type VARCHAR, tabIndex=3, noEntry;
+Edit new_tax=formonly.new_tax type VARCHAR, tabIndex=4, noEntry;
+ButtonEdit hsc01_1=formonly.hsc01_1 type VARCHAR, action=controlp, tabIndex=5, not null, required, image="zoom";
+Edit old_tax1=formonly.old_tax1 type VARCHAR, tabIndex=6, noEntry;
+Edit new_tax1=formonly.new_tax1 type VARCHAR, tabIndex=7, noEntry;
+END -- ATTRIBUTES
+
+INSTRUCTIONS
+SCREEN RECORD Undefined(formonly.hsc01,formonly.new_tax,formonly.old_tax,formonly.cond,formonly.hsc01_1,formonly.old_tax1,formonly.new_tax1)
+END -- INSTRUCTIONS
+

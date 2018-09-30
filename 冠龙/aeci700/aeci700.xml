@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="aeci700">
+            <xs:complexType>
+              <xs:sequence>
+                  <xs:element name="sfb01" type="xs:string" minOccurs="0" />
+                  <xs:element name="smydesc" type="xs:string" minOccurs="0" />
+                  <xs:element name="sfb05" type="xs:string" minOccurs="0" />
+                  <xs:element name="ima02" type="xs:string" minOccurs="0" />
+                  <xs:element name="ima021" type="xs:string" minOccurs="0" />
+                  <xs:element name="sfb06" type="xs:string" minOccurs="0" />
+                  <xs:element name="ima55" type="xs:string" minOccurs="0" />
+                  <xs:element name="sfb02" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="sfb02_d" type="xs:string" minOccurs="0" />
+                  <xs:element name="sfb81" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="sfb82" type="xs:string" minOccurs="0" />
+                  <xs:element name="pmc03" type="xs:string" minOccurs="0" />
+                  <xs:element name="sfb22" type="xs:string" minOccurs="0" />
+                  <xs:element name="sfb221" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="sfb13" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="sfb15" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="a" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="b" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="sfb99" type="xs:string" minOccurs="0" />
+                  <xs:element name="sfb87" type="xs:string" minOccurs="0" />
+                  <xs:element name="ecm03" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm04" type="xs:string" minOccurs="0" />
+                  <xs:element name="ecm45" type="xs:string" minOccurs="0" />
+                  <xs:element name="ecm06" type="xs:string" minOccurs="0" />
+                  <xs:element name="eca02" type="xs:string" minOccurs="0" />
+                  <xs:element name="vmn081" type="xs:string" minOccurs="0" />
+                  <xs:element name="ecm14" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm13" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm16" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm15" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm49" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm50" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="ecm51" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="ecm05" type="xs:string" minOccurs="0" />
+                  <xs:element name="vmn08" type="xs:string" minOccurs="0" />
+                  <xs:element name="ecm52" type="xs:string" minOccurs="0" />
+                  <xs:element name="ecm53" type="xs:string" minOccurs="0" />
+                  <xs:element name="ecm54" type="xs:string" minOccurs="0" />
+                  <xs:element name="ecm011" type="xs:string" minOccurs="0" />
+                  <xs:element name="ecm012" type="xs:string" minOccurs="0" />
+                  <xs:element name="ecu014" type="xs:string" minOccurs="0" />
+                  <xs:element name="ecm015" type="xs:string" minOccurs="0" />                  
+                  <xs:element name="ecm321" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm62" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm63" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm65" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm12" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm34" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm64" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="wipqty" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm301" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm302" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm303" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm311" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm312" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm316" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm313" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm314" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm315" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm322" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm291" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ecm292" type="xs:decimal" minOccurs="0" />
+		            <xs:element name="imaud02" type="xs:string" minOccurs="0" />
+                  <xs:element name="sfbud03" type="xs:string" minOccurs="0" />
+                  <xs:element name="sfbud10" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="sfb08" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="sfb96" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_ima02" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_ima04" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+           </xs:complexType>
+         </xs:element>
+       </xs:choice>
+     </xs:complexType>
+   </xs:element>
+ </xs:schema>
+ <aeci700>
+   <sfb01>511-10060001</sfb01>
+   <smydesc>A</smydesc>
+   <sfb05>C001</sfb05>
+   <ima02>C001 IMA02</ima02>
+   <ima021>C001 IMA021</ima021>
+   <sfb06>Y01</sfb06>
+   <ima55>PCS</ima55>
+   <sfb02>1</sfb02>
+   <sfb02_d>sfb02_d</sfb02_d>
+   <sfb82>sfb82</sfb82>
+   <pmc03>pmc03</pmc03>
+   <sfb22>sfb22</sfb22>
+   <sfb221>1</sfb221>
+   <a>1</a>
+   <b>2</b>
+   <sfb99>1</sfb99>
+   <sfb87>1</sfb87>
+   <ecm03>3</ecm03>
+   <ecm04>ecm04</ecm04>
+   <ecm45>ecm45</ecm45>
+   <ecm06>ecm06</ecm06>
+   <eca02>eca02</eca02>
+   <vmn081>vmn081</vmn081>
+   <ecm14>14</ecm14>
+   <ecm13>13</ecm13>
+   <ecm16>16</ecm16>
+   <ecm15>15</ecm15>
+   <ecm49>49</ecm49>
+   <ecm05>ecm05</ecm05>
+   <vmn08>vmn08</vmn08>
+   <ecm52>2</ecm52>
+   <ecm53>3</ecm53>
+   <ecm54>4</ecm54>
+   <ecm011>ecm011</ecm011>
+   <ecm012>ecm012</ecm012>
+   <ecu014>ecu014</ecu014>
+   <ecm321>321</ecm321>
+   <ecm62>62</ecm62>
+   <ecm63>63</ecm63>
+   <ecm65>65</ecm65>
+   <ecm12>12</ecm12>
+   <ecm34>34</ecm34>
+   <ecm64>64</ecm64>
+   <wipqty>0</wipqty>
+   <ecm301>0</ecm301>
+   <ecm302>0</ecm302>
+   <ecm303>0</ecm303>
+   <ecm311>0</ecm311>
+   <ecm312>0</ecm312>
+   <ecm316>0</ecm316>
+   <ecm313>0</ecm313>
+   <ecm314>0</ecm314>
+   <ecm315>0</ecm315>
+   <ecm322>0</ecm322>
+   <ecm291>0</ecm291>
+   <ecm292>0</ecm292>
+  </aeci700>
+</NewDataSet>

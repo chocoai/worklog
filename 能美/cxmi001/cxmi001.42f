@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Form name="cxmi001.tmp" build="2.40.03-2081" sqlDbName="ds" spacing="normal" text="axcq450" width="135" height="13">
+  <LStr text="axcq450"/>
+  <VBox name="vb6">
+    <Folder name="folder01">
+      <Page name="page01" text="Main">
+        <Grid name="gr1554" width="45" height="4">
+          <Label text="tc_oqd01" posY="2" posX="1" gridWidth="8"/>
+          <FormField name="formonly.tc_oqd01" colName="tc_oqd01" sqlType="VARCHAR" fieldId="0" sqlTabName="formonly" tabIndex="1" notNull="1" required="1">
+            <Edit width="18" posY="2" posX="26" gridWidth="18"/>
+          </FormField>
+        </Grid>
+      </Page>h
+    </Folder>
+    <Table pageSize="11" name="s_tc_oqd" tabName="s_tc_oqd">
+      <TableColumn name="formonly.tc_oqd02" colName="tc_oqd02" sqlType="VARCHAR" fieldId="1" sqlTabName="formonly" tabIndex="2" text="tc_oqd02" notNull="1" required="1">
+        <ButtonEdit width="14" action="controlp" image="zoom"/>
+      </TableColumn>
+      <TableColumn name="formonly.ima02" colName="ima02" sqlType="VARCHAR" fieldId="2" sqlTabName="formonly" tabIndex="3" text="ima02" noEntry="1">
+        <Edit width="19"/>
+      </TableColumn>
+      <TableColumn name="formonly.ima021" colName="ima021" sqlType="VARCHAR" fieldId="3" sqlTabName="formonly" tabIndex="4" text="ima021" noEntry="1">
+        <Edit width="17"/>
+      </TableColumn>
+      <TableColumn name="formonly.tc_oqd03" colName="tc_oqd03" sqlType="VARCHAR" fieldId="4" sqlTabName="formonly" tabIndex="5" text="tc_oqd03">
+        <Edit width="18"/>
+      </TableColumn>
+      <TableColumn name="formonly.tc_oqd04" colName="tc_oqd04" sqlType="VARCHAR" fieldId="5" sqlTabName="formonly" tabIndex="6" text="tc_oqd04">
+        <Edit width="17"/>
+      </TableColumn>
+      <TableColumn name="formonly.tc_oqd05" colName="tc_oqd05" sqlType="VARCHAR" fieldId="6" sqlTabName="formonly" tabIndex="7" text="tc_oqd05" required="1">
+        <Edit width="20"/>
+      </TableColumn>
+      <TableColumn name="formonly.tc_oqd06" colName="tc_oqd06" sqlType="VARCHAR" fieldId="7" sqlTabName="formonly" tabIndex="8" text="tc_oqd06">
+        <Edit width="20"/>
+      </TableColumn>
+    </Table>
+  </VBox>
+  <RecordView tabName="formonly">
+    <Link colName="tc_oqd01" fieldIdRef="0"/>
+    <Link colName="tc_oqd02" fieldIdRef="1"/>
+    <Link colName="ima02" fieldIdRef="2"/>
+    <Link colName="ima021" fieldIdRef="3"/>
+    <Link colName="tc_oqd03" fieldIdRef="4"/>
+    <Link colName="tc_oqd04" fieldIdRef="5"/>
+    <Link colName="tc_oqd05" fieldIdRef="6"/>
+    <Link colName="tc_oqd06" fieldIdRef="7"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="tc_oqd01" fieldIdRef="0"/>
+  </RecordView>
+</Form>

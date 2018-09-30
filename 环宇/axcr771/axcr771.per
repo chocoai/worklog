@@ -1,0 +1,53 @@
+---------------------------------------------------------------------------------- 
+-- File created from /u1/topprod/topcust/cxc/4fd/axcr771.4fd by Genero Studio
+-- WARNING! All changes made in this file will be lost!
+----------------------------------------------------------------------------------
+
+SCHEMA formonly
+
+LAYOUT (spacing=normal, text=%"axcr771")
+VBox vb8
+Grid gr16
+{
+ <G group01                                                                             >
+  Cost Group          [ima12               ]  Cost Levels         [ima57               ]
+  Source Code         [ima08               ]  Item No.            [ima01               ]
+  W/O No.             [tlf62               ]  sfb05               [sfb05               ]
+ <                                                                                      >
+ <G group02                                                                            >
+  Date Range          [bdate       ]-[edate       ]
+  Type                [type                                ]
+ [a                               ]
+ <                                                                                     >
+
+}
+END -- gr16
+Grid gr17
+{
+[more                                                               ]
+
+}
+END -- gr17
+END -- vb8
+END -- axcr771
+
+ATTRIBUTES
+Group group01:group01, text="QBE";
+Edit ima12=formonly.ima12 type VARCHAR, tabIndex=1;
+Edit ima57=formonly.ima57 type VARCHAR, tabIndex=2;
+Edit ima08=formonly.ima08 type VARCHAR, tabIndex=3;
+ButtonEdit ima01=formonly.ima01 type VARCHAR, action=controlp, tabIndex=4, image="zoom", upShift, comment="<P>";
+Edit tlf62=formonly.tlf62 type VARCHAR, tabIndex=5;
+ButtonEdit sfb05=formonly.sfb05 type VARCHAR, action=controlp, tabIndex=6, image="zoom", upShift, comment="<P>";
+Group group02:group02, text="INPUT";
+DateEdit bdate=formonly.bdate type DATE, tabIndex=7;
+DateEdit edate=formonly.edate type DATE, tabIndex=8;
+ComboBox type=formonly.type type VARCHAR, tabIndex=9, not null, items=(("1", "Monthly Weighted Unit Cost"),("2", "FIFO Cost"),("3", "Identify Manually???Batch Cost"),("4", "Identify Manually???Item Cost"),("5", "Identify Manually???Store Profit Center"));
+CheckBox a=formonly.a type VARCHAR, tabIndex=10, text="Print Detail?", not null, required, valueChecked = "Y", valueUnchecked = "N";
+CheckBox more=formonly.more type VARCHAR, tabIndex=11, text="Other codition to print", not null, required, valueChecked = "Y", valueUnchecked = "N";
+END -- ATTRIBUTES
+
+INSTRUCTIONS
+SCREEN RECORD Undefined(formonly.ima12,formonly.ima57,formonly.ima08,formonly.ima01,formonly.tlf62,formonly.bdate,formonly.edate,formonly.type,formonly.a,formonly.more,formonly.sfb05)
+END -- INSTRUCTIONS
+

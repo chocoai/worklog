@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="ds" gstVersion="22800" name="Root" uid="{dc914341-0000-4000-8538-d91ae439bf7f}">
+  <AGSettings/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{fa8016d2-0000-4000-bd03-8b2f309cbe58}" where="">
+    <RecordField colName="oga01" fieldIdRef="2" fieldType="NON_DATABASE" name="hsc01" sqlTabName="oga_file" sqlType="VARCHAR" table_alias_name="" uid="{0d4086ba-e196-42a0-a6dc-b1378bdc5d8a}"/>
+    <RecordField colName="oga01" fieldIdRef="3" fieldType="NON_DATABASE" name="new_tax" sqlTabName="oga_file" sqlType="VARCHAR" table_alias_name="" uid="{2491d7db-7910-42f4-a4be-205646037e7e}"/>
+    <RecordField colName="oga01" fieldIdRef="4" fieldType="NON_DATABASE" name="old_tax" sqlTabName="oga_file" sqlType="VARCHAR" table_alias_name="" uid="{eb57edb1-4cd8-4979-81d7-9d57d0bee81c}"/>
+    <RecordField colName="oga01" fieldIdRef="5" fieldType="NON_DATABASE" name="cond" sqlTabName="oga_file" sqlType="VARCHAR" table_alias_name="" uid="{45cfd0df-49b9-4149-8523-ba9cf59fe5a8}"/>
+    <RecordField colName="oga01" fieldIdRef="1" fieldType="NON_DATABASE" name="hsc01_1" sqlTabName="oga_file" sqlType="VARCHAR" table_alias_name="" uid="{bf55ba26-4154-409f-93c6-ac7cf14ac161}"/>
+    <RecordField colName="oga01" fieldIdRef="6" fieldType="NON_DATABASE" name="old_tax1" sqlTabName="oga_file" sqlType="VARCHAR" table_alias_name="" uid="{37c51c01-43b3-44d8-bdad-abf5d113a3f9}"/>
+    <RecordField colName="oga01" fieldIdRef="7" fieldType="NON_DATABASE" name="new_tax1" sqlTabName="oga_file" sqlType="VARCHAR" table_alias_name="" uid="{e1e76314-02e5-47ee-8d2c-93eb3be44301}"/>
+  </Record>
+  <Form gridHeight="11" gridWidth="143" name="aoop151" spacing="normal" text="axmp650">
+    <Grid gridHeight="10" gridWidth="140" lstrcomment="false" name="gr2199" posX="0" posY="0">
+      <Group gridHeight="8" gridWidth="134" lstrcomment="false" lstrtext="false" name="group01" posX="4" posY="1">
+        <Label posX="1" posY="1" text=" "/>
+        <Label posX="5" posY="1" text="conditon"/>
+        <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="oga01" columnCount="" fieldId="5" fieldType="NON_DATABASE" gridHeight="1" gridWidth="21" items="1.Customer, 2.Vendor, 3.ALL" lstrcomment="false" lstrtitle="false" name="cond" notNull="true" posX="15" posY="1" required="true" rowCount="" sqlTabName="oga_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="2" table_alias_name="" widget="ComboBox">
+          <Item lstrtext="false" name="1" text="1.Customer"/>
+          <Item lstrtext="false" name="2" text="2.Vendor"/>
+          <Item lstrtext="false" name="3" text="3.ALL"/>
+        </ComboBox>
+        <Label posX="1" posY="3" text=" "/>
+        <Label gridHeight="1" gridWidth="10" name="dummy01" posX="17" posY="3" text="dummy01"/>
+        <Label gridHeight="1" gridWidth="10" name="dummy02" posX="52" posY="3" text="dummy02"/>
+        <Label gridHeight="1" gridWidth="10" name="dummy03" posX="98" posY="3" text="dummy03"/>
+        <Label posX="5" posY="4" text="Purchase"/>
+        <ButtonEdit action="controlp" aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="oga01" columnCount="" fieldId="2" fieldType="NON_DATABASE" gridHeight="1" gridWidth="17" image="zoom" lstrcomment="false" lstrtitle="false" name="hsc01" notNull="true" posX="14" posY="4" required="true" rowCount="" sqlTabName="oga_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="1" table_alias_name="" widget="ButtonEdit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="oga01" columnCount="" fieldId="4" fieldType="NON_DATABASE" gridHeight="1" gridWidth="40" lstrcomment="false" lstrtitle="false" name="old_tax" noEntry="true" posX="37" posY="4" rowCount="" sqlTabName="oga_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="3" table_alias_name="" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="oga01" columnCount="" fieldId="3" fieldType="NON_DATABASE" gridHeight="1" gridWidth="40" lstrcomment="false" lstrtitle="false" name="new_tax" noEntry="true" posX="84" posY="4" rowCount="" sqlTabName="oga_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="4" table_alias_name="" widget="Edit"/>
+        <Label posX="1" posY="5" text=" "/>
+        <Label posX="5" posY="5" text="Sales"/>
+        <ButtonEdit action="controlp" aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="oga01" columnCount="" fieldId="1" fieldType="NON_DATABASE" gridHeight="1" gridWidth="17" image="zoom" lstrcomment="false" lstrtitle="false" name="hsc01_1" notNull="true" posX="14" posY="5" required="true" rowCount="" sqlTabName="oga_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="5" table_alias_name="" widget="ButtonEdit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="oga01" columnCount="" fieldId="6" fieldType="NON_DATABASE" gridHeight="1" gridWidth="40" lstrcomment="false" lstrtitle="false" name="old_tax1" noEntry="true" posX="37" posY="5" rowCount="" sqlTabName="oga_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="6" table_alias_name="" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="oga01" columnCount="" fieldId="7" fieldType="NON_DATABASE" gridHeight="1" gridWidth="40" lstrcomment="false" lstrtitle="false" name="new_tax1" noEntry="true" posX="84" posY="5" rowCount="" sqlTabName="oga_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="7" table_alias_name="" widget="Edit"/>
+      </Group>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBmAGEAOAAwADEANgBkADIALQAwADAAMAAwAC0ANAAwADAAMAAtAGIAZAAwADMALQA4AGIAMgBmADMAMAA5AGMAYgBlADUAOAB9AAAAAAAAAAAAAAAAAAAAAD9ok3S8an76AQAAAEwAewAyADQAOQAxAGQANwBkAGIALQA3ADkAMQAwAC0ANAAyAGYANAAtAGEANABiAGUALQAyADAANQA2ADQANgAwADMANwBlADcAZQB9QCQAAAAAAABATYAAAAAAAAAAAAAAAAAAAQAAAEwAewBiAGYANQA1AGIAYQAyADYALQA0ADEANQA0AC0ANAAwADkAZgAtADkAMwBjADYALQBhAGMANwBjAGYAMQA0AGEAYwAxADYAMQB9QCQAAAAAAABAX0AAAAAAAAAAAAAAAAAAAQAAAEwAewA0ADUAYwBmAGQAMABkAGYALQA0ADkAYgA5AC0ANAAxADQAOQAtADgANQAyADMALQBiAGEAOQBjAGYANQA5AGYAZQA1AGEAOAB9QCQAAAAAAABAWcAAAAAAAAAAAAAAAAAAAQAAAEwAewBlAGIANQA3AGUAZABiADEALQA0AGMAZAA4AC0ANAA5ADcAOQAtADgAMQBkADcALQA5AGQANQA3AGQAMABiAGUAZQA4ADEAYwB9QCQAAAAAAABAVEAAAAAAAAAAAAAAAAAAAQAAAEwAewAzADcAYwA1ADEAYwAwADEALQA0ADMAYgAzAC0ANAA0AGQAOAAtAGIAZABhAGQALQBhAGIAZgA1AGQAMQAxADMAYQAzAGYAOQB9QCQAAAAAAABAYmAAAAAAAAAAAAAAAAAAAQAAAEwAewAwAGQANAAwADgANgBiAGEALQBlADEAOQA2AC0ANAAyAGEAMAAtAGEANgBkAGMALQBiADEAMwA3ADgAYgBkAGMANQBkADgAYQB9QCQAAAAAAABAQoAAAAAAAD90euFHrhR7AQAAAEwAewBlADEAZQA3ADYAMwAxADQALQAwADIAZQA1AC0ANAA3AGUAZQAtADgAZAAyAGMALQA5ADMAZQBiADMAYgBlADQANAAzADAAMQB9QCQAAAAAAABAZSAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

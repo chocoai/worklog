@@ -1,0 +1,224 @@
+SCHEMA FORMONLY
+
+LAYOUT
+  VBOX
+    GRID
+      {
+      <G group01                                                                               >
+       Order No.            [oea01               ]  Empl No.             [oea14               ]
+       Order Dt             [oea02               ]  Dept No.             [oea15               ]     
+       Ac.Cust              [oea03               ]  Curr                 [ea23                ]
+       Shp.Cust             [oea04               ]  Cont.No.             [oea12               ]     
+                                                    On-Hd No.            [hold                ]
+                                                                                 
+      }
+    END --GRID
+    GROUP g01 (TEXT="INPUT")
+      VBOX
+        GRID
+          {
+          <G group02                                                              >         
+           [s1                  ] [s2                   ] [s3                    ]      
+           [t1                  ] [t2                   ] [t3                    ]      
+           [u1                  ] [u2                   ] [u3                    ]      
+  
+          <G group03                           > <G group04                       >
+           [a                    ]                [b                    ]                              
+                                                                                    
+  
+  
+          }
+        END --GRID
+        GRID
+          {
+          [c                    ]
+          }
+        END --GRID
+      END --VBOX
+    END --GROUP
+    GRID
+      {
+      [m                                                 ]
+      }
+    END --GRID
+  END --VBOX
+END --LAYOUT
+
+ATTRIBUTES
+  GROUP      group01 : group01, TEXT="QBE";
+  GROUP      group02 : group02, TEXT="Sequence";
+  GROUP      group03 : group03, TEXT="Data Option 1";
+  GROUP      group04 : group04, TEXT="Data Option 2";
+  BUTTONEDIT oea01   = FORMONLY.oea01 TYPE CHAR, ACTION=CONTROLP, IMAGE="zoom";
+  DATEEDIT   oea02   = FORMONLY.oea02 TYPE DATE;
+  BUTTONEDIT oea03   = FORMONLY.oea03 TYPE CHAR, ACTION=CONTROLP, IMAGE="zoom";
+  BUTTONEDIT oea04   = FORMONLY.oea04 TYPE CHAR, ACTION=CONTROLP, IMAGE="zoom";
+  BUTTONEDIT oea14   = FORMONLY.oea14 TYPE CHAR, ACTION=CONTROLP, IMAGE="zoom";
+  BUTTONEDIT oea15   = FORMONLY.oea15 TYPE CHAR, ACTION=CONTROLP, IMAGE="zoom";
+             ea23    = FORMONLY.oea23 TYPE CHAR;
+             oea12   = FORMONLY.oea12 TYPE CHAR;
+             hold    = FORMONLY.oeahold TYPE CHAR;
+  COMBOBOX   s1      = FORMONLY.s1, QUERYEDITABLE,
+                       ITEMS=((1,"Order No."),(2,"Order Dt"),(3,"Ac. Cust"),(4,"Shp. Cust"),
+                              (5,"Empl No."),(6,"Dept No."),(7,"Curr"),(8,"Cont. No."),
+                              (9,"On-Hd No."));
+  COMBOBOX   s2      = FORMONLY.s2, QUERYEDITABLE,
+                       ITEMS=((1,"Order No."),(2,"Order Dt"),(3,"Ac. Cust"),(4,"Shp. Cust"),
+                              (5,"Empl No."),(6,"Dept No."),(7,"Curr"),(8,"Cont. No."),
+                              (9,"On-Hd No."));
+  COMBOBOX   s3      = FORMONLY.s3, QUERYEDITABLE,
+                       ITEMS=((1,"Order No."),(2,"Order Dt"),(3,"Ac. Cust"),(4,"Shp. Cust"),
+                              (5,"Empl No."),(6,"Dept No."),(7,"Curr"),(8,"Cont. No."),
+                              (9,"On-Hd No."));
+  CHECKBOX   t1      = FORMONLY.t1, NOT NULL,
+                       VALUECHECKED="Y", VALUEUNCHECKED="N", TEXT="Next Page";
+  CHECKBOX   t2      = FORMONLY.t2, NOT NULL,
+                       VALUECHECKED="Y", VALUEUNCHECKED="N", TEXT="Next Page";
+  CHECKBOX   t3      = FORMONLY.t3, NOT NULL,
+                       VALUECHECKED="Y", VALUEUNCHECKED="N", TEXT="Next Page";
+  CHECKBOX   u1      = FORMONLY.u1, NOT NULL,
+                       VALUECHECKED="Y", VALUEUNCHECKED="N", TEXT="Subtotal";
+  CHECKBOX   u2      = FORMONLY.u2, NOT NULL,
+                       VALUECHECKED="Y", VALUEUNCHECKED="N", TEXT="Subtotal";
+  CHECKBOX   u3      = FORMONLY.u3, NOT NULL,
+                       VALUECHECKED="Y", VALUEUNCHECKED="N", TEXT="Subtotal";
+  RADIOGROUP a       = FORMONLY.a TYPE CHAR,
+                       ITEMS=((1,"Confirmed"),(2,"UnConfirmed"),(3,"All"));
+  RADIOGROUP b       = FORMONLY.b TYPE CHAR,
+                       ITEMS=((1,"Held"),(2,"Unheld"),(3,"All"));
+  CHECKBOX   c       = FORMONLY.c TYPE CHAR, NOT NULL,
+                       VALUECHECKED="Y", VALUEUNCHECKED="N", TEXT="Print total qty";
+  CHECKBOX   m       = FORMONLY.more TYPE CHAR, NOT NULL,
+                       VALUECHECKED="Y", VALUEUNCHECKED="N", TEXT="Other codition to print";
+END
+▼----------------------------------------------------------------
+#  Per_version = '1.00.03-04.10.13'   #
+.
+系統名稱
+
+    axm  銷售管理系統
+.
+程式名稱
+
+    axmr410   客戶訂單明細表
+.
+執行指令
+
+    axmr410
+.
+作業目的
+
+    1.列印客戶訂單明細資料, 供存檔備查
+    2.可選擇是否列印金額, 故生管部門列印時不應印出單價金額
+
+注意事項
+
+    1.權限有 '$' 者, 才可選擇列印金額
+.
+操作功能
+
+    本作業分條件輸入, 報表產生, 列印報表三段處理, 操作說明如下:
+     1.條件輸入
+       ●於畫面出現後, 請在畫面上直接輸入條件, 注意前面的部份條件欄位
+         屬於ＱＢＥ型態, 後面的部份條件欄位屬於問答型態, 條件輸入完自
+         動執行報表產生。
+          (ＱＢＥ型態的條件欄位為 1－ 3 項)。
+       ●可按 <DEL>放棄執行本作業。
+       ●於非ＱＢＥ型態欄位可按 <^P> 輸入更多的欄位條件。
+       ●於非ＱＢＥ型態欄位可按 <^T> 指示系統於執行後續處理時, 顯示作
+         業狀況。
+       ●條件中若設定延後處理, 則本作業暫時結束, 而於指定時間以後庭處
+         理方式自動產生報表並列印報表。
+     2.報表產生
+       ●執行時, 系統顯示「作業中」的訊息, 此時可按<^\>強迫中斷, 本作
+         業將不正常結束. 若非必要請儘量勿用此鍵。
+     3.列印報表
+       ●報表產生後, 系統將詢問列印方式, 請選擇之. 列印方式的說明請參
+         考2.4.7。
+       ●列印處理完畢, 系統將重複回到原先條件欄位的輸入處理。
+.
+欄位說明
+
+    ◎第 1-9 項欄位 , 請以 QBE方式輸入範圍條件 :
+      － 訂單單號範圍、訂單日期範圍、帳款客戶範圍、送貨客戶範圍、
+         人員編號範圍、部門編號範圍、幣別範圍、合約編號範圍、
+         留置碼範圍。
+
+    ○排列順序項目:
+      －此處分三個欄位輸入, 說明如下:
+        1.排列順序項目 [s] (C3) (O) :
+          您在第一個欄位可輸入您所希望的各種排列順序項目組
+          合, 此欄位可以空白或最多三個項目, 輸入前預設為「123」。
+        2.列印跳頁 [t] (C3) (O) :
+          您在第二個欄位可指定何項目列印結束則跳頁。
+          此欄位可以空白或最多有一個 「Y」。
+        3.列印合計 [u] (C3) (O) :
+          您在第三個欄位可指定何項目列印結束再印合計。
+          此欄位可以空白或可有一個以上的 「Y」。
+          例如 排列順序項目[312] [ Y ] [Y  ]表示依第３,第１,第２項的
+               順序排列。
+               表示第２順序的同類資料列印結束則跳頁。
+               表示第１順序的同類資料列印結束均再列印合計。
+
+    ○選擇是否列印確認資料 [a](C01) :
+      －預設[3]。
+      －請輸入[1-3]。
+        1.已確認。
+        2.未確認。
+        3.全部。
+
+    ○選擇是否列印留置資料 [b](C01) :
+      －預設[3]。
+      －請輸入[1-3]。
+        1.已留置。
+        2.未留置。
+        3.全部。
+
+    ○是否列印總數量 [c](C01) :
+      －預設[N]。
+      －請輸入'Y'或'N'。
+      －預設值為'N'。
+
+    ○是否輸入其它特殊列印條件:
+      －輸入預設值為 「N」。
+      －請輸入「Y」或「N」。
+      －若輸入「Y」,則系統立刻開出視窗, 讓您輸入其
+         它列印條件。其它列印條件請參考 2.4.7 的說明。
+.
+資料處理
+
+   1. SELECT 訂單單頭檔[oea_file],參考訂單單身檔[oeb_file],人員資料檔[gen_file]
+      部門資料檔[gem_file],客戶基本資料[occ_file]
+   2. 判斷
+      2-1.QBE 條件
+      2-2.請輸入選擇項為'已確認'[tm.a='1'],判斷確認碼oeaconf = 'Y'
+      2-3.請輸入選擇項為'未確認'[tm.a='2'],判斷確認碼oeaconf = 'N'
+      2-4.請輸入選擇項為'被留置'[tm.b='1'],判斷留置碼oeahold <> 空白
+      2-5.請輸入選擇項為'未留置'[tm.b='2'],判斷留置碼oeahold = 空白
+   3. 依訂單單號oea01+選項 排序
+.
+報表格式
+                                                      鼎新電腦股份有限公司(dstest)
+                                                                                                                            FROM:tiptop
+                                                             客戶訂單明細表
+
+製表日期:00/06/28 17:02:03             排列順序:訂單單號--      已確認+未確認      已留置+未留置                                頁次:1
+========================================================================================================================================
+訂單單號   帳款客戶        人員     幣別 合約編號 價格條件 留置 項 產品編號/            單位       數量       單價         金額  交貨日
+訂單日期   送貨客戶        部門     稅別          收款條件 確認 次 品名
+---------- ------ -------- -------- ---- ---------- ------ ---- -- -------------------- ---- ----------- ---------- ----------- --------
+B01-530102 CU001  CUS-001           TWD             A            1 YMM11                SET       200.00      11.00    2,200.00 95/03/23
+95/03/23   CU001  CUS-001           T301            001    Y       SEMI-PRODUCT 11
+                                                                 2 396SS11              PCS          .00       0.00        0.00 95/03/23
+                                                                   Monitor
+
+                                                                     訂單單號  小計:              200.00               2,200.00
+
+
+                                                                               總計:              200.00               2,200.00
+========================================================================================================================================
+列印條件:oea01='B01-530102'
+========================================================================================================================================
+總經理:____________  經理:____________  副理:____________  製表:____________                                                  (結   束)
+.
+

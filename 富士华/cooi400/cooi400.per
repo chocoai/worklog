@@ -1,0 +1,93 @@
+---------------------------------------------------------------------------------- 
+-- File created from /u1/topprod/topcust/coo/4fd/cooi400.4fd by Genero Studio
+-- WARNING! All changes made in this file will be lost!
+----------------------------------------------------------------------------------
+
+SCHEMA ds
+
+LAYOUT (spacing=normal, text=%"aooi400")
+VBox VBox1
+Folder folder01
+Page page01(text="Main")
+Grid gr4645
+{
+ Coding Category       [tc_gef01  ][gei02               ]
+ Coding Property       [gei03     ][geh02               ]
+ Cur Segment/Total Seg [tc_gef02  ]/[gei04     ]
+ Length/Total Len      [tc_gef03  ]/[gei05     ]
+ Model                 [tc_gef05  ][desc      ][gel05     ]
+ Description           [gel06               ]
+ Last Code No.         [tc_gef04                      ]
+}
+END -- gr4645
+END -- page01
+Page info(text="Info")
+Grid gr4646
+{
+ Record Owner        [tc_gefuser] Last Modified by    [tc_gefmodu] Data Valid Code     [tc_gefacti]
+ Department          [tc_gefgrup] Create/Modify Date  [tc_gefdate]
+ Record Orig.        [tc_geforiu]
+ Dept Orig.          [tc_geforig]
+}
+END -- gr4646
+END -- info
+END -- folder01
+Table s_tc_geg
+{
+[tc_geg02  |tc_geg03                      |tc_geg04                      |tc_geg06       ]
+[tc_geg02  |tc_geg03                      |tc_geg04                      |tc_geg06       ]
+[tc_geg02  |tc_geg03                      |tc_geg04                      |tc_geg06       ]
+[tc_geg02  |tc_geg03                      |tc_geg04                      |tc_geg06       ]
+[tc_geg02  |tc_geg03                      |tc_geg04                      |tc_geg06       ]
+[tc_geg02  |tc_geg03                      |tc_geg04                      |tc_geg06       ]
+[tc_geg02  |tc_geg03                      |tc_geg04                      |tc_geg06       ]
+[tc_geg02  |tc_geg03                      |tc_geg04                      |tc_geg06       ]
+[tc_geg02  |tc_geg03                      |tc_geg04                      |tc_geg06       ]
+[tc_geg02  |tc_geg03                      |tc_geg04                      |tc_geg06       ]
+[tc_geg02  |tc_geg03                      |tc_geg04                      |tc_geg06       ]
+
+}
+END -- s_tc_geg
+Grid gr4647
+{
+ ---------- Rows [cnt   ] / [cn2   ] ----------
+
+}
+END -- gr4647
+END -- VBox1
+END -- cooi400
+
+ATTRIBUTES
+ButtonEdit tc_gef01=formonly.tc_gef01 type VARCHAR, action=controlp, tabIndex=1, not null, required, image="zoom", comment="KEY Field, No Blank/Required! <^P> Qry Coding Category";
+Edit gei02=formonly.gei02 type VARCHAR, tabIndex=2, noEntry;
+Edit gei03=formonly.gei03 type VARCHAR, tabIndex=3, noEntry;
+Edit geh02=formonly.geh02 type VARCHAR, tabIndex=4, noEntry;
+Edit tc_gef02=formonly.tc_gef02 type SMALLINT, tabIndex=5;
+Edit gei04=formonly.gei04 type SMALLINT, tabIndex=6, noEntry;
+Edit tc_gef03=formonly.tc_gef03 type SMALLINT, tabIndex=7, noEntry;
+Edit gei05=formonly.gei05 type SMALLINT, tabIndex=8, noEntry;
+Edit tc_gef05=formonly.tc_gef05 type VARCHAR, tabIndex=9, noEntry;
+Edit desc=formonly.desc type VARCHAR, tabIndex=10, noEntry;
+Edit gel05=formonly.gel05 type VARCHAR, tabIndex=11, noEntry;
+Edit gel06=formonly.gel06 type VARCHAR, tabIndex=12, noEntry;
+ButtonEdit tc_gef04=formonly.tc_gef04 type VARCHAR, action=controlp, tabIndex=13, image="zoom", comment="<^P> Qry Details";
+Edit tc_gefuser=formonly.tc_gefuser type VARCHAR, tabIndex=14, noEntry;
+Edit tc_gefmodu=formonly.tc_gefmodu type VARCHAR, tabIndex=15, noEntry;
+Edit tc_gefacti=formonly.tc_gefacti type VARCHAR, tabIndex=16, noEntry;
+Edit tc_gefgrup=formonly.tc_gefgrup type VARCHAR, tabIndex=17, noEntry;
+DateEdit tc_gefdate=formonly.tc_gefdate type DATE, tabIndex=18, noEntry;
+Edit tc_geforiu=formonly.tc_geforiu type VARCHAR, tabIndex=19, noEntry;
+Edit tc_geforig=formonly.tc_geforig type VARCHAR, tabIndex=20, noEntry;
+Edit tc_geg02=formonly.tc_geg02 type SMALLINT, tabIndex=21, title="Line No.", not null, required;
+Edit tc_geg03=formonly.tc_geg03 type VARCHAR, tabIndex=22, title="Code No.", not null, required, comment="Ought not to be System Symbol,ex *,_,%,? ";
+Edit tc_geg04=formonly.tc_geg04 type VARCHAR, tabIndex=23, title="Code Description";
+Edit tc_geg06=formonly.tc_geg06 type VARCHAR, tabIndex=24, title="tc_geg05";
+Edit cnt=formonly.cnt type SMALLINT, tabIndex=25;
+Edit cn2=formonly.cn2 type SMALLINT, tabIndex=26;
+END -- ATTRIBUTES
+
+INSTRUCTIONS
+SCREEN RECORD s_tcgeg(formonly.tc_geg02,formonly.tc_geg03,formonly.tc_geg04,formonly.tc_geg06)
+SCREEN RECORD Undefined(formonly.tc_gef01,formonly.gei02,formonly.gei03,formonly.geh02,formonly.tc_gef02,formonly.gei04,formonly.tc_gef03,formonly.gei05,formonly.tc_gef05,formonly.desc,formonly.gel05,formonly.gel06,formonly.tc_gef04,formonly.tc_gefuser,formonly.tc_gefmodu,formonly.tc_gefacti,formonly.tc_gefgrup,formonly.tc_gefdate,formonly.tc_geforiu,formonly.tc_geforig,formonly.cnt,formonly.cn2)
+END -- INSTRUCTIONS
+

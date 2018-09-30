@@ -1,0 +1,2335 @@
+#--------------------------- (2017-11-06 09:02:01) ------------------------#
+
+Begin Time at 09:01:58.041
+
+ end at 09:02:01.651
+
+time-consuming:  request:   0.230 BPM response:   0:00:03.610   apmt500   002-PMB0-171100013
+Program: apmt500
+
+Code: apmt500
+
+Request XML:
+
+<request type="sync" key="a9230ac236a48076103f3424efdf7bae">
+  <host prod="T100" ver="1.0" ip="192.168.10.7" id="topprd" lang="zh_CN" timezone="+8" timestamp="20171106090157282" acct="17040655"/>
+  <service prod="BPM" name="ProcessCreate" srvver="" ip="192.168.10.8" id=""/>
+  <datakey type="FOM">
+    <key name="EntId">9</key>
+    <key name="CompanyId">SX02</key>
+    <key name="RefId">CN</key>
+    <key name="DocProp">apmt500</key>
+    <key name="Prog">apmt500</key>
+    <key name="FormId">PMB0</key>
+    <key name="SheetNo">002-PMB0-171100013</key>
+    <key name="PK3"></key>
+    <key name="DocKey">pmdlent=9{+}pmdldocno=002-PMB0-171100013</key>
+  </datakey>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Request>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="workItem" value=""/>
+        <Field name="ori_processSN" value=""/>
+        <Field name="flow_processId" value="ALL_apmt500_PMB0"/>
+        <Field name="subject" value=""/>
+        <Field name="importance" value="0"/>
+        <Field name="EFLoginID" value="17040655"/>
+        <Field name="OrgUnitID" value="D2116"/>
+        <Field name="formOwnerID" value="17040655"/>
+        <Field name="formOwnerDP" value="D2116"/>
+        <Field name="formCreatorID" value="17040655"/>
+        <Field name="formCreatorDP" value="D2116"/>
+        <Field name="prog_url" value="http://192.168.10.7/wtopprd/wa/r/app/gwc_apmt500?Arg=T100Trust&amp;Arg=SSOKey&amp;Arg=002-PMB0-171100013"/>
+        <Field name="att_url" value="http://192.168.10.7/wtopprd/wa/r/app/gwc_awsp001?Arg=T100Trust&amp;Arg=SSOKey"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="1" node_id="1">
+          <Record>
+            <Field name="pmdlcomp" value="SX02"/>
+            <Field name="pmdlcomp_desc" value="福建士兴"/>
+            <Field name="pmdldocno" value="002-PMB0-171100013"/>
+            <Field name="pmdl001" value="0"/>
+            <Field name="pmdldocno_desc" value="OA送签采购单"/>
+            <Field name="pmdldocdt" value="2017-11-06"/>
+            <Field name="pmdl004" value="G001215"/>
+            <Field name="pmdl004_desc" value="萨尔茨曼"/>
+            <Field name="pmdl002" value="17040655"/>
+            <Field name="pmdl002_desc" value="王朝艳"/>
+            <Field name="pmdl003" value="D2116"/>
+            <Field name="pmdl003_desc" value="成都公司-生计部"/>
+            <Field name="pmdlsite" value="SX02"/>
+            <Field name="pmdl005" value="1:一般采购"/>
+            <Field name="pmdl006" value="1:一般交易"/>
+            <Field name="pmdl007" value="1:无"/>
+            <Field name="pmdl008" value=""/>
+            <Field name="pmdl027" value=""/>
+            <Field name="pmdl027_desc" value=""/>
+            <Field name="pmdl052" value=""/>
+            <Field name="pmdl052_desc" value=""/>
+            <Field name="pmdl053" value=""/>
+            <Field name="pmdl009" value="20010"/>
+            <Field name="pmdl009_desc" value="现金交易"/>
+            <Field name="pmdl010" value="CFR"/>
+            <Field name="pmdl010_desc" value="成本+运费"/>
+            <Field name="pmdl011" value="004"/>
+            <Field name="pmdl011_desc" value="增值税17含税"/>
+            <Field name="pmdl012" value="17.00%"/>
+            <Field name="pmdl013" value="Y"/>
+            <Field name="pmdl033" value="03"/>
+            <Field name="pmdl033_desc" value="大陸用-一般纳税人增值税专用发票(3联)"/>
+            <Field name="pmdl015" value="CNY"/>
+            <Field name="pmdl015_desc" value="人民币"/>
+            <Field name="pmdl016" value="1.000000"/>
+            <Field name="pmdl017" value="SX01"/>
+            <Field name="pmdl017_desc" value="采购核价"/>
+            <Field name="pmdl018" value=""/>
+            <Field name="pmdl018_desc" value=""/>
+            <Field name="pmdl023" value="11"/>
+            <Field name="pmdl023_desc" value=""/>
+            <Field name="pmdl044" value=""/>
+            <Field name="pmdl051" value=""/>
+            <Field name="pmdl051_desc" value=""/>
+            <Field name="pmdl020" value="02"/>
+            <Field name="pmdl020_desc" value="公路运输"/>
+            <Field name="pmdl025" value=""/>
+            <Field name="pmdl025_desc" value=""/>
+            <Field name="oofb017" value=""/>
+            <Field name="pmdl026" value=""/>
+            <Field name="pmdl026_desc" value=""/>
+            <Field name="oofb017_1" value=""/>
+            <Field name="pmdl029" value=""/>
+            <Field name="pmdl029_desc" value=""/>
+            <Field name="pmdl021" value="G001215"/>
+            <Field name="pmdl021_desc" value="萨尔茨曼"/>
+            <Field name="pmdl022" value="G001215"/>
+            <Field name="pmdl022_desc" value="萨尔茨曼"/>
+            <Field name="pmdl032" value=""/>
+            <Field name="pmdl032_desc" value=""/>
+            <Field name="pmdl024" value="001"/>
+            <Field name="pmdl024_desc" value="国内采购"/>
+            <Field name="pmdl054" value="1:内购"/>
+            <Field name="pmdl055" value="1:依采购日汇率"/>
+            <Field name="pmdl030" value="N"/>
+            <Field name="pmdl031" value=""/>
+            <Field name="pmdl028" value=""/>
+            <Field name="pmdl042" value="123.50"/>
+            <Field name="pmdl047" value="N"/>
+            <Field name="pmdl048" value="N"/>
+            <Field name="pmdl049" value="N"/>
+            <Field name="pmdl046" value="1:不开立发票"/>
+            <Field name="pmdl040" value="726.50"/>
+            <Field name="pmdl041" value="850.00"/>
+            <Field name="pmdlownid" value="17040655"/>
+            <Field name="pmdlownid_desc" value="王朝艳"/>
+            <Field name="pmdlowndp" value="D2116"/>
+            <Field name="pmdlowndp_desc" value="成都公司-生计部"/>
+            <Field name="pmdlcrtid" value="17040655"/>
+            <Field name="pmdlcrtid_desc" value="王朝艳"/>
+            <Field name="pmdlcrtdp" value="D2116"/>
+            <Field name="pmdlcrtdp_desc" value="成都公司-生计部"/>
+            <Field name="pmdlcrtdt" value="2017-11-06 08:59:12"/>
+            <Field name="pmdlmodid" value="17040655"/>
+            <Field name="pmdlmodid_desc" value="王朝艳"/>
+            <Field name="pmdlmoddt" value="2017-11-06 08:59:12"/>
+            <Field name="pmdlcnfid" value=""/>
+            <Field name="pmdlcnfid_desc" value=""/>
+            <Field name="pmdlcnfdt" value=""/>
+            <Detail name="s_detail1" node_id="1_1">
+              <Record>
+                <Field name="pmdnsite" value="SX02"/>
+                <Field name="pmdnseq" value="1"/>
+                <Field name="pmdnorga" value="D21"/>
+                <Field name="pmdnorga_desc" value="成都公司"/>
+                <Field name="pmdn001" value="LFG10000000001"/>
+                <Field name="pmdn001_desc" value="低值易耗品-反光背心"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="pmdn002" value=""/>
+                <Field name="pmdn002_desc" value=""/>
+                <Field name="pmdn004" value=""/>
+                <Field name="pmdn004_desc" value=""/>
+                <Field name="pmdn005" value=""/>
+                <Field name="pmdn006" value="PCS"/>
+                <Field name="pmdn006_desc" value="PCS"/>
+                <Field name="pmdn007" value="25.000"/>
+                <Field name="pmdn008" value=""/>
+                <Field name="pmdn008_desc" value=""/>
+                <Field name="pmdn009" value=""/>
+                <Field name="pmdn024" value="N"/>
+                <Field name="pmdn012" value="2017-11-02"/>
+                <Field name="pmdn013" value="2017-11-03"/>
+                <Field name="pmdn014" value="2017-11-03"/>
+                <Field name="pmdn045" value="1:一般"/>
+                <Field name="pmdn010" value="PCS"/>
+                <Field name="pmdn010_desc" value="PCS"/>
+                <Field name="pmdn011" value="25.000"/>
+                <Field name="pmdn015" value="34.0000"/>
+                <Field name="pmdn016" value="004"/>
+                <Field name="pmdn016_desc" value="增值税17含税"/>
+                <Field name="pmdn017" value="17.00%"/>
+                <Field name="pmdn046" value="726.50"/>
+                <Field name="pmdn047" value="850.00"/>
+                <Field name="pmdn048" value="123.50"/>
+                <Field name="pmdn023" value="G001215"/>
+                <Field name="pmdn023_desc" value="萨尔茨曼"/>
+                <Field name="pmdn019" value="1:一般"/>
+                <Field name="pmdn020" value="3:特急"/>
+                <Field name="pmdn052" value="N"/>
+                <Field name="pmdn021" value="N"/>
+                <Field name="pmdn022" value="Y"/>
+                <Field name="pmdnunit" value="SX02"/>
+                <Field name="pmdnunit_desc" value="福建士兴"/>
+                <Field name="pmdn049" value=""/>
+                <Field name="pmdn049_desc" value=""/>
+                <Field name="pmdn051" value=""/>
+                <Field name="pmdn051_desc" value=""/>
+                <Field name="pmdn054" value="0.000"/>
+                <Field name="pmdn055" value="0.000"/>
+                <Field name="pmdn056" value="0.000"/>
+                <Field name="pmdn057" value="0.000"/>
+                <Field name="pmdn050" value="管理人员"/>
+                <Field name="pmdncomp" value="SX02"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail2" node_id="1_2">
+              <Record>
+                <Field name="pmdnseq" value="1"/>
+                <Field name="imaa001" value="LFG10000000001"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="imaa005_1_desc" value=""/>
+                <Field name="pmdn027" value=""/>
+                <Field name="l_pmao009" value=""/>
+                <Field name="l_pmao010" value=""/>
+                <Field name="pmdn028" value="02D21-GD"/>
+                <Field name="pmdn028_desc" value="福建-成都-工地仓"/>
+                <Field name="pmdn029" value=""/>
+                <Field name="pmdn029_desc" value=""/>
+                <Field name="pmdn030" value=""/>
+                <Field name="pmdn053" value="02-D21-2017009"/>
+                <Field name="pmdn025" value=""/>
+                <Field name="pmdn025_desc" value=""/>
+                <Field name="pmdn026" value=""/>
+                <Field name="pmdn026_desc" value=""/>
+                <Field name="pmdn031" value="02"/>
+                <Field name="pmdn031_desc" value="公路运输"/>
+                <Field name="pmdn032" value="1:供应商运送"/>
+                <Field name="pmdn033" value=""/>
+                <Field name="pmdn003" value=""/>
+                <Field name="pmdn003_desc" value=""/>
+                <Field name="pmdn036" value="02-D21-2017009"/>
+                <Field name="pmdn036_desc" value="安博新都国际物流港（一期）一期工程"/>
+                <Field name="pmdn037" value=""/>
+                <Field name="pmdn037_desc" value=""/>
+                <Field name="pmdn038" value=""/>
+                <Field name="pmdn038_desc" value=""/>
+                <Field name="pmdn058" value=""/>
+                <Field name="pmdn058_desc" value=""/>
+                <Field name="pmdn039" value=""/>
+                <Field name="pmdn035" value="1:核准价"/>
+                <Field name="pmdn040" value="X"/>
+                <Field name="pmdn041" value=""/>
+                <Field name="pmdn042" value=""/>
+                <Field name="pmdn043" value="0.0000"/>
+                <Field name="pmdn044" value="0.00%"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail3" node_id="1_3">
+              <Record>
+                <Field name="pmdosite" value="SX02"/>
+                <Field name="pmdoseq" value="1"/>
+                <Field name="pmdoseq1" value="1"/>
+                <Field name="pmdo003" value="1:一般"/>
+                <Field name="pmdo001" value="LFG10000000001"/>
+                <Field name="pmdo001_desc" value="低值易耗品-反光背心"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="pmdo002" value=""/>
+                <Field name="pmdo004" value="PCS"/>
+                <Field name="pmdo004_desc" value="PCS"/>
+                <Field name="pmdo005" value="25.000"/>
+                <Field name="pmdoseq2" value="1"/>
+                <Field name="pmdo006" value="25.000"/>
+                <Field name="pmdo028" value=""/>
+                <Field name="pmdo028_desc" value=""/>
+                <Field name="pmdo029" value=""/>
+                <Field name="pmdo011" value="2017-11-02"/>
+                <Field name="pmdo012" value="2017-11-03"/>
+                <Field name="pmdo013" value="2017-11-03"/>
+                <Field name="pmdo010" value="10"/>
+                <Field name="pmdo010_desc" value="整天(随时)"/>
+                <Field name="pmdo014" value="N"/>
+                <Field name="pmdo009" value="1:约定交期"/>
+                <Field name="pmdo015" value="0.000"/>
+                <Field name="pmdo016" value="0.000"/>
+                <Field name="pmdo017" value="0.000"/>
+                <Field name="pmdo040" value="0.000"/>
+                <Field name="pmdo019" value="0.000"/>
+                <Field name="pmdo020" value="0.000"/>
+                <Field name="pmdo021" value="2:准时交货"/>
+                <Field name="pmdo030" value="PCS"/>
+                <Field name="pmdo030_desc" value="PCS"/>
+                <Field name="pmdo031" value="25.000"/>
+                <Field name="pmdo022" value="34.0000"/>
+                <Field name="pmdo023" value="004"/>
+                <Field name="pmdo023_desc" value="增值税17含税"/>
+                <Field name="pmdo024" value="17.00%"/>
+                <Field name="pmdo032" value="726.50"/>
+                <Field name="pmdo033" value="850.00"/>
+                <Field name="pmdo034" value="123.50"/>
+                <Field name="pmdo025" value=""/>
+                <Field name="pmdo026" value="17040655"/>
+                <Field name="pmdo026_desc" value="王朝艳"/>
+                <Field name="pmdo027" value="2017-11-06 00:00:00"/>
+                <Field name="pmdo041" value="0.000"/>
+                <Field name="pmdo042" value="0.000"/>
+                <Field name="pmdo043" value="0.000"/>
+                <Field name="pmdo044" value="0.000"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail4" node_id="1_4">
+              <Record>
+                <Field name="pmdpsite" value="SX02"/>
+                <Field name="pmdpseq" value="1"/>
+                <Field name="pmdpseq1" value="1"/>
+                <Field name="pmdp001" value="LFG10000000001"/>
+                <Field name="pmdp001_desc" value="低值易耗品-反光背心"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="pmdp002" value=""/>
+                <Field name="pmdp003" value="002-PM82-171100011"/>
+                <Field name="pmdp004" value="1"/>
+                <Field name="pmdp005" value=""/>
+                <Field name="pmdp006" value=""/>
+                <Field name="pmdp007" value="LFG10000000001"/>
+                <Field name="pmdp008" value=""/>
+                <Field name="pmdp009" value=""/>
+                <Field name="pmdp010" value=""/>
+                <Field name="pmdp011" value=""/>
+                <Field name="pmdp012" value=""/>
+                <Field name="pmdp021" value="1"/>
+                <Field name="pmdp022" value="PCS"/>
+                <Field name="pmdp022_desc" value="PCS"/>
+                <Field name="pmdp023" value="25.000"/>
+                <Field name="pmdp024" value="25.000"/>
+                <Field name="pmdp025" value="0.000"/>
+                <Field name="pmdp026" value="0.000"/>
+                <Field name="pmdb006" value="25.000"/>
+                <Field name="pmdb049" value="25.000"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail6" node_id="1_5">
+              <Record>
+                <Field name="pmdmsite" value="SX02"/>
+                <Field name="pmdm001" value="1"/>
+                <Field name="pmdm014" value="1:预付款"/>
+                <Field name="pmdm002" value="20010"/>
+                <Field name="pmdm003" value="2017-11-06"/>
+                <Field name="pmdm004" value="2017-11-15"/>
+                <Field name="pmdm005" value="726.50"/>
+                <Field name="pmdm006" value="850.00"/>
+                <Field name="pmdm007" value=""/>
+                <Field name="pmdm008" value=""/>
+                <Field name="pmdm009" value=""/>
+              </Record>
+            </Detail>
+            <Memo/>
+            <Attachment count="0" download="Y"/>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+  </RequestContent>
+</Request>
+]]>
+    </param>
+  </payload>
+</request>
+
+
+Response XML:
+
+ <response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+   <param key="data" type="XML"><![CDATA[
+ <Response>
+  <Execution>
+   <Status code="0" sqlcode="0" description="NO ERROR"/>
+  </Execution>
+  <ResponseContent>
+   <Parameter>
+    <Record>
+     <Field name="work_processSN" processId="" value=""/>
+     <Field name="flow_processSN" processId="ALL_apmt500_PMB0" value="ALL_apmt500_PMB000002675"/>
+     <Field name="status" value="W"/>
+    </Record>
+   </Parameter>
+  </ResponseContent>
+ </Response>
+]]></param>
+  </payload>
+ </response>
+
+#------------------------------------------------------------------------------#
+#--------------------------- (2017-11-06 09:06:26) ------------------------#
+
+Begin Time at 09:06:25.504
+
+ end at 09:06:26.007
+
+time-consuming:  request:   BPM response:   0:00:00.503   awsi011    
+Program: awsi011
+
+Code: awsi011
+
+Request XML:
+
+<request type="sync" key="d768a5e4612927e559492633162a0273">
+  <host prod="T100" ver="1.0" ip="192.168.10.7" id="topprd" lang="zh_CN" timezone="+8" timestamp="20171106090625051" acct="15080415"/>
+  <service prod="BPM" name="FlowTemplateGet" srvver="" ip="192.168.10.8" id=""/>
+  <datakey/>
+  <payload/>
+</request>
+
+
+Response XML:
+
+ <response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+   <param key="data" type="XML"><![CDATA[
+ <Response>
+  <Execution>
+   <Status code="0" sqlcode="0" description="NO ERROR"/>
+  </Execution>
+  <ResponseContent>
+   <Parameter/>
+   <Document>
+    <RecordSet id="1">
+     <Master name="1" node_id="1">
+      <Record>
+       <Detail name="1_1" node_id="1_1">
+        <Record>
+         <Field name="flowTemplate" value="2ActTemplate"/>
+         <Field name="flowTemplateName" value="兩關制簽核樣板"/>
+         <Field name="flowTemplateDescription" value=""/>
+         <Field name="flowTemplateImageUrl" value="GP/WMS/PreviewProcess/ViewProcessPackage?hdnMethod=viewProcessPackage&amp;hdnProcessPkgOID=944c2407dc1110048f5a3456e2128b5f"/>
+        </Record>
+       </Detail>
+      </Record>
+     </Master>
+    </RecordSet>
+   </Document>
+  </ResponseContent>
+ </Response>
+]]></param>
+  </payload>
+ </response>
+
+#------------------------------------------------------------------------------#
+#--------------------------- (2017-11-06 09:08:52) ------------------------#
+
+Begin Time at 09:08:49.927
+
+ end at 09:08:52.652
+
+time-consuming:  request:   0.190 BPM response:   0:00:02.725   apmt500   002-PMB0-171100014
+Program: apmt500
+
+Code: apmt500
+
+Request XML:
+
+<request type="sync" key="ad5b6bed410d49fc4adb23a9795545fd">
+  <host prod="T100" ver="1.0" ip="192.168.10.7" id="topprd" lang="zh_CN" timezone="+8" timestamp="20171106090849705" acct="17040655"/>
+  <service prod="BPM" name="ProcessCreate" srvver="" ip="192.168.10.8" id=""/>
+  <datakey type="FOM">
+    <key name="EntId">9</key>
+    <key name="CompanyId">SX02</key>
+    <key name="RefId">CN</key>
+    <key name="DocProp">apmt500</key>
+    <key name="Prog">apmt500</key>
+    <key name="FormId">PMB0</key>
+    <key name="SheetNo">002-PMB0-171100014</key>
+    <key name="PK3"></key>
+    <key name="DocKey">pmdlent=9{+}pmdldocno=002-PMB0-171100014</key>
+  </datakey>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Request>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="workItem" value=""/>
+        <Field name="ori_processSN" value=""/>
+        <Field name="flow_processId" value="ALL_apmt500_PMB0"/>
+        <Field name="subject" value=""/>
+        <Field name="importance" value="0"/>
+        <Field name="EFLoginID" value="17040655"/>
+        <Field name="OrgUnitID" value="D2116"/>
+        <Field name="formOwnerID" value="17040655"/>
+        <Field name="formOwnerDP" value="D2116"/>
+        <Field name="formCreatorID" value="17040655"/>
+        <Field name="formCreatorDP" value="D2116"/>
+        <Field name="prog_url" value="http://192.168.10.7/wtopprd/wa/r/app/gwc_apmt500?Arg=T100Trust&amp;Arg=SSOKey&amp;Arg=002-PMB0-171100014"/>
+        <Field name="att_url" value="http://192.168.10.7/wtopprd/wa/r/app/gwc_awsp001?Arg=T100Trust&amp;Arg=SSOKey"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="1" node_id="1">
+          <Record>
+            <Field name="pmdlcomp" value="SX02"/>
+            <Field name="pmdlcomp_desc" value="福建士兴"/>
+            <Field name="pmdldocno" value="002-PMB0-171100014"/>
+            <Field name="pmdl001" value="0"/>
+            <Field name="pmdldocno_desc" value="OA送签采购单"/>
+            <Field name="pmdldocdt" value="2017-11-06"/>
+            <Field name="pmdl004" value="G011218"/>
+            <Field name="pmdl004_desc" value="上海佳护"/>
+            <Field name="pmdl002" value="17040655"/>
+            <Field name="pmdl002_desc" value="王朝艳"/>
+            <Field name="pmdl003" value="D2116"/>
+            <Field name="pmdl003_desc" value="成都公司-生计部"/>
+            <Field name="pmdlsite" value="SX02"/>
+            <Field name="pmdl005" value="1:一般采购"/>
+            <Field name="pmdl006" value="1:一般交易"/>
+            <Field name="pmdl007" value="1:无"/>
+            <Field name="pmdl008" value=""/>
+            <Field name="pmdl027" value=""/>
+            <Field name="pmdl027_desc" value=""/>
+            <Field name="pmdl052" value=""/>
+            <Field name="pmdl052_desc" value=""/>
+            <Field name="pmdl053" value=""/>
+            <Field name="pmdl009" value="20010"/>
+            <Field name="pmdl009_desc" value="现金交易"/>
+            <Field name="pmdl010" value="CFR"/>
+            <Field name="pmdl010_desc" value="成本+运费"/>
+            <Field name="pmdl011" value="004"/>
+            <Field name="pmdl011_desc" value="增值税17含税"/>
+            <Field name="pmdl012" value="17.00%"/>
+            <Field name="pmdl013" value="Y"/>
+            <Field name="pmdl033" value="03"/>
+            <Field name="pmdl033_desc" value="大陸用-一般纳税人增值税专用发票(3联)"/>
+            <Field name="pmdl015" value="CNY"/>
+            <Field name="pmdl015_desc" value="人民币"/>
+            <Field name="pmdl016" value="1.000000"/>
+            <Field name="pmdl017" value="SX01"/>
+            <Field name="pmdl017_desc" value="采购核价"/>
+            <Field name="pmdl018" value=""/>
+            <Field name="pmdl018_desc" value=""/>
+            <Field name="pmdl023" value="13"/>
+            <Field name="pmdl023_desc" value=""/>
+            <Field name="pmdl044" value=""/>
+            <Field name="pmdl051" value=""/>
+            <Field name="pmdl051_desc" value=""/>
+            <Field name="pmdl020" value="02"/>
+            <Field name="pmdl020_desc" value="公路运输"/>
+            <Field name="pmdl025" value=""/>
+            <Field name="pmdl025_desc" value=""/>
+            <Field name="oofb017" value=""/>
+            <Field name="pmdl026" value=""/>
+            <Field name="pmdl026_desc" value=""/>
+            <Field name="oofb017_1" value=""/>
+            <Field name="pmdl029" value=""/>
+            <Field name="pmdl029_desc" value=""/>
+            <Field name="pmdl021" value="G011218"/>
+            <Field name="pmdl021_desc" value="上海佳护"/>
+            <Field name="pmdl022" value="G011218"/>
+            <Field name="pmdl022_desc" value="上海佳护"/>
+            <Field name="pmdl032" value=""/>
+            <Field name="pmdl032_desc" value=""/>
+            <Field name="pmdl024" value="001"/>
+            <Field name="pmdl024_desc" value="国内采购"/>
+            <Field name="pmdl054" value="1:内购"/>
+            <Field name="pmdl055" value="2:依收货日汇率"/>
+            <Field name="pmdl030" value="N"/>
+            <Field name="pmdl031" value=""/>
+            <Field name="pmdl028" value=""/>
+            <Field name="pmdl042" value="363.25"/>
+            <Field name="pmdl047" value="N"/>
+            <Field name="pmdl048" value="N"/>
+            <Field name="pmdl049" value="N"/>
+            <Field name="pmdl046" value="1:不开立发票"/>
+            <Field name="pmdl040" value="2,136.75"/>
+            <Field name="pmdl041" value="2,500.00"/>
+            <Field name="pmdlownid" value="17040655"/>
+            <Field name="pmdlownid_desc" value="王朝艳"/>
+            <Field name="pmdlowndp" value="D2116"/>
+            <Field name="pmdlowndp_desc" value="成都公司-生计部"/>
+            <Field name="pmdlcrtid" value="17040655"/>
+            <Field name="pmdlcrtid_desc" value="王朝艳"/>
+            <Field name="pmdlcrtdp" value="D2116"/>
+            <Field name="pmdlcrtdp_desc" value="成都公司-生计部"/>
+            <Field name="pmdlcrtdt" value="2017-11-06 09:04:27"/>
+            <Field name="pmdlmodid" value="17040655"/>
+            <Field name="pmdlmodid_desc" value="王朝艳"/>
+            <Field name="pmdlmoddt" value="2017-11-06 09:08:08"/>
+            <Field name="pmdlcnfid" value=""/>
+            <Field name="pmdlcnfid_desc" value=""/>
+            <Field name="pmdlcnfdt" value=""/>
+            <Detail name="s_detail1" node_id="1_1">
+              <Record>
+                <Field name="pmdnsite" value="SX02"/>
+                <Field name="pmdnseq" value="1"/>
+                <Field name="pmdnorga" value="D21"/>
+                <Field name="pmdnorga_desc" value="成都公司"/>
+                <Field name="pmdn001" value="LFG10000000001"/>
+                <Field name="pmdn001_desc" value="低值易耗品-反光背心"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="pmdn002" value=""/>
+                <Field name="pmdn002_desc" value=""/>
+                <Field name="pmdn004" value=""/>
+                <Field name="pmdn004_desc" value=""/>
+                <Field name="pmdn005" value=""/>
+                <Field name="pmdn006" value="PCS"/>
+                <Field name="pmdn006_desc" value="PCS"/>
+                <Field name="pmdn007" value="200.000"/>
+                <Field name="pmdn008" value=""/>
+                <Field name="pmdn008_desc" value=""/>
+                <Field name="pmdn009" value=""/>
+                <Field name="pmdn024" value="N"/>
+                <Field name="pmdn012" value="2017-11-02"/>
+                <Field name="pmdn013" value="2017-11-03"/>
+                <Field name="pmdn014" value="2017-11-03"/>
+                <Field name="pmdn045" value="1:一般"/>
+                <Field name="pmdn010" value="PCS"/>
+                <Field name="pmdn010_desc" value="PCS"/>
+                <Field name="pmdn011" value="200.000"/>
+                <Field name="pmdn015" value="12.5000"/>
+                <Field name="pmdn016" value="004"/>
+                <Field name="pmdn016_desc" value="增值税17含税"/>
+                <Field name="pmdn017" value="17.00%"/>
+                <Field name="pmdn046" value="2,136.75"/>
+                <Field name="pmdn047" value="2,500.00"/>
+                <Field name="pmdn048" value="363.25"/>
+                <Field name="pmdn023" value="G011218"/>
+                <Field name="pmdn023_desc" value="上海佳护"/>
+                <Field name="pmdn019" value="1:一般"/>
+                <Field name="pmdn020" value="3:特急"/>
+                <Field name="pmdn052" value="N"/>
+                <Field name="pmdn021" value="N"/>
+                <Field name="pmdn022" value="Y"/>
+                <Field name="pmdnunit" value="SX02"/>
+                <Field name="pmdnunit_desc" value="福建士兴"/>
+                <Field name="pmdn049" value=""/>
+                <Field name="pmdn049_desc" value=""/>
+                <Field name="pmdn051" value=""/>
+                <Field name="pmdn051_desc" value=""/>
+                <Field name="pmdn054" value="0.000"/>
+                <Field name="pmdn055" value="0.000"/>
+                <Field name="pmdn056" value="0.000"/>
+                <Field name="pmdn057" value="0.000"/>
+                <Field name="pmdn050" value="工人"/>
+                <Field name="pmdncomp" value="SX02"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail2" node_id="1_2">
+              <Record>
+                <Field name="pmdnseq" value="1"/>
+                <Field name="imaa001" value="LFG10000000001"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="imaa005_1_desc" value=""/>
+                <Field name="pmdn027" value=""/>
+                <Field name="l_pmao009" value=""/>
+                <Field name="l_pmao010" value=""/>
+                <Field name="pmdn028" value="02D21-GD"/>
+                <Field name="pmdn028_desc" value="福建-成都-工地仓"/>
+                <Field name="pmdn029" value=""/>
+                <Field name="pmdn029_desc" value=""/>
+                <Field name="pmdn030" value=""/>
+                <Field name="pmdn053" value="02-D21-2017009"/>
+                <Field name="pmdn025" value=""/>
+                <Field name="pmdn025_desc" value=""/>
+                <Field name="pmdn026" value=""/>
+                <Field name="pmdn026_desc" value=""/>
+                <Field name="pmdn031" value="02"/>
+                <Field name="pmdn031_desc" value="公路运输"/>
+                <Field name="pmdn032" value="1:供应商运送"/>
+                <Field name="pmdn033" value=""/>
+                <Field name="pmdn003" value=""/>
+                <Field name="pmdn003_desc" value=""/>
+                <Field name="pmdn036" value="02-D21-2017009"/>
+                <Field name="pmdn036_desc" value="安博新都国际物流港（一期）一期工程"/>
+                <Field name="pmdn037" value=""/>
+                <Field name="pmdn037_desc" value=""/>
+                <Field name="pmdn038" value=""/>
+                <Field name="pmdn038_desc" value=""/>
+                <Field name="pmdn058" value=""/>
+                <Field name="pmdn058_desc" value=""/>
+                <Field name="pmdn039" value=""/>
+                <Field name="pmdn035" value="1:核准价"/>
+                <Field name="pmdn040" value="X"/>
+                <Field name="pmdn041" value=""/>
+                <Field name="pmdn042" value=""/>
+                <Field name="pmdn043" value="0.0000"/>
+                <Field name="pmdn044" value="0.00%"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail3" node_id="1_3">
+              <Record>
+                <Field name="pmdosite" value="SX02"/>
+                <Field name="pmdoseq" value="1"/>
+                <Field name="pmdoseq1" value="1"/>
+                <Field name="pmdo003" value="1:一般"/>
+                <Field name="pmdo001" value="LFG10000000001"/>
+                <Field name="pmdo001_desc" value="低值易耗品-反光背心"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="pmdo002" value=""/>
+                <Field name="pmdo004" value="PCS"/>
+                <Field name="pmdo004_desc" value="PCS"/>
+                <Field name="pmdo005" value="200.000"/>
+                <Field name="pmdoseq2" value="1"/>
+                <Field name="pmdo006" value="200.000"/>
+                <Field name="pmdo028" value=""/>
+                <Field name="pmdo028_desc" value=""/>
+                <Field name="pmdo029" value=""/>
+                <Field name="pmdo011" value="2017-11-02"/>
+                <Field name="pmdo012" value="2017-11-03"/>
+                <Field name="pmdo013" value="2017-11-03"/>
+                <Field name="pmdo010" value="10"/>
+                <Field name="pmdo010_desc" value="整天(随时)"/>
+                <Field name="pmdo014" value="N"/>
+                <Field name="pmdo009" value="1:约定交期"/>
+                <Field name="pmdo015" value="0.000"/>
+                <Field name="pmdo016" value="0.000"/>
+                <Field name="pmdo017" value="0.000"/>
+                <Field name="pmdo040" value="0.000"/>
+                <Field name="pmdo019" value="0.000"/>
+                <Field name="pmdo020" value="0.000"/>
+                <Field name="pmdo021" value="2:准时交货"/>
+                <Field name="pmdo030" value="PCS"/>
+                <Field name="pmdo030_desc" value="PCS"/>
+                <Field name="pmdo031" value="200.000"/>
+                <Field name="pmdo022" value="12.5000"/>
+                <Field name="pmdo023" value="004"/>
+                <Field name="pmdo023_desc" value="增值税17含税"/>
+                <Field name="pmdo024" value="17.00%"/>
+                <Field name="pmdo032" value="2,136.75"/>
+                <Field name="pmdo033" value="2,500.00"/>
+                <Field name="pmdo034" value="363.25"/>
+                <Field name="pmdo025" value=""/>
+                <Field name="pmdo026" value="17040655"/>
+                <Field name="pmdo026_desc" value="王朝艳"/>
+                <Field name="pmdo027" value="2017-11-06 00:00:00"/>
+                <Field name="pmdo041" value="0.000"/>
+                <Field name="pmdo042" value="0.000"/>
+                <Field name="pmdo043" value="0.000"/>
+                <Field name="pmdo044" value="0.000"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail4" node_id="1_4">
+              <Record>
+                <Field name="pmdpsite" value="SX02"/>
+                <Field name="pmdpseq" value="1"/>
+                <Field name="pmdpseq1" value="1"/>
+                <Field name="pmdp001" value="LFG10000000001"/>
+                <Field name="pmdp001_desc" value="低值易耗品-反光背心"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="pmdp002" value=""/>
+                <Field name="pmdp003" value="002-PM82-171100012"/>
+                <Field name="pmdp004" value="1"/>
+                <Field name="pmdp005" value=""/>
+                <Field name="pmdp006" value=""/>
+                <Field name="pmdp007" value="LFG10000000001"/>
+                <Field name="pmdp008" value=""/>
+                <Field name="pmdp009" value=""/>
+                <Field name="pmdp010" value=""/>
+                <Field name="pmdp011" value=""/>
+                <Field name="pmdp012" value=""/>
+                <Field name="pmdp021" value="1"/>
+                <Field name="pmdp022" value="PCS"/>
+                <Field name="pmdp022_desc" value="PCS"/>
+                <Field name="pmdp023" value="200.000"/>
+                <Field name="pmdp024" value="200.000"/>
+                <Field name="pmdp025" value="0.000"/>
+                <Field name="pmdp026" value="0.000"/>
+                <Field name="pmdb006" value="200.000"/>
+                <Field name="pmdb049" value="200.000"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail6" node_id="1_5">
+              <Record>
+                <Field name="pmdmsite" value="SX02"/>
+                <Field name="pmdm001" value="1"/>
+                <Field name="pmdm014" value="1:预付款"/>
+                <Field name="pmdm002" value="20010"/>
+                <Field name="pmdm003" value="2017-11-25"/>
+                <Field name="pmdm004" value="2017-12-15"/>
+                <Field name="pmdm005" value="2,136.75"/>
+                <Field name="pmdm006" value="2,500.00"/>
+                <Field name="pmdm007" value=""/>
+                <Field name="pmdm008" value=""/>
+                <Field name="pmdm009" value=""/>
+              </Record>
+            </Detail>
+            <Memo/>
+            <Attachment count="0" download="Y"/>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+  </RequestContent>
+</Request>
+]]>
+    </param>
+  </payload>
+</request>
+
+
+Response XML:
+
+ <response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+   <param key="data" type="XML"><![CDATA[
+ <Response>
+  <Execution>
+   <Status code="0" sqlcode="0" description="NO ERROR"/>
+  </Execution>
+  <ResponseContent>
+   <Parameter>
+    <Record>
+     <Field name="work_processSN" processId="" value=""/>
+     <Field name="flow_processSN" processId="ALL_apmt500_PMB0" value="ALL_apmt500_PMB000002676"/>
+     <Field name="status" value="W"/>
+    </Record>
+   </Parameter>
+  </ResponseContent>
+ </Response>
+]]></param>
+  </payload>
+ </response>
+
+#------------------------------------------------------------------------------#
+#--------------------------- (2017-11-06 09:09:03) ------------------------#
+
+Begin Time at 09:09:03.137
+
+ end at 09:09:03.902
+
+time-consuming:  request:   0.190 BPM response:   0:00:00.765   apmt500   002-PMB0-171100014
+Program: apmt500
+
+Code: apmt500
+
+Request XML:
+
+<request type="sync" key="7089ebeb4584f17801411c7ab2cba1bd">
+  <host prod="T100" ver="1.0" ip="192.168.10.7" id="topprd" lang="zh_CN" timezone="+8" timestamp="20171106090903107" acct="17040655"/>
+  <service prod="BPM" name="ProcessStatusUpdate" srvver="" ip="192.168.10.8" id=""/>
+  <datakey type="FOM">
+    <key name="EntId">9</key>
+    <key name="CompanyId">SX02</key>
+    <key name="RefId">CN</key>
+    <key name="DocProp">apmt500</key>
+    <key name="Prog">apmt500</key>
+    <key name="FormId">PMB0</key>
+    <key name="SheetNo">002-PMB0-171100014</key>
+    <key name="PK3"></key>
+    <key name="DocKey">pmdlent=9{+}pmdldocno=002-PMB0-171100014</key>
+  </datakey>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Request>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="processSN" value="ALL_apmt500_PMB000002676"/>
+        <Field name="status" value="D"/>
+        <Field name="descrption" value=""/>
+      </Record>
+    </Parameter>
+  </RequestContent>
+</Request>
+]]>
+    </param>
+  </payload>
+</request>
+
+
+Response XML:
+
+ <response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+   <param key="data" type="XML"><![CDATA[
+ <Response>
+  <Execution>
+   <Status code="0" sqlcode="0" description="NO ERROR"/>
+  </Execution>
+ </Response>
+]]></param>
+  </payload>
+ </response>
+
+#------------------------------------------------------------------------------#
+#--------------------------- (2017-11-06 09:09:38) ------------------------#
+
+Begin Time at 09:09:37.669
+
+ end at 09:09:38.831
+
+time-consuming:  request:   BPM response:   0:00:01.162   apmt500   002-PMB0-171100013
+Program: apmt500
+
+Code: apmt500
+
+Request XML:
+
+<request type="sync" key="ed48e51017a83b4de825f91296b58f04">
+  <host prod="T100" ver="1.0" ip="192.168.10.7" id="topprd" lang="zh_CN" timezone="+8" timestamp="20171106090937205" acct="17040655"/>
+  <service prod="BPM" name="ProcessStatusUpdate" srvver="" ip="192.168.10.8" id=""/>
+  <datakey type="FOM">
+    <key name="EntId">9</key>
+    <key name="CompanyId">SX02</key>
+    <key name="RefId">CN</key>
+    <key name="DocProp">apmt500</key>
+    <key name="Prog">apmt500</key>
+    <key name="FormId">PMB0</key>
+    <key name="SheetNo">002-PMB0-171100013</key>
+    <key name="PK3"></key>
+    <key name="DocKey">pmdlent=9{+}pmdldocno=002-PMB0-171100013</key>
+  </datakey>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Request>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="processSN" value="ALL_apmt500_PMB000002675"/>
+        <Field name="status" value="D"/>
+        <Field name="descrption" value=""/>
+      </Record>
+    </Parameter>
+  </RequestContent>
+</Request>
+]]>
+    </param>
+  </payload>
+</request>
+
+
+Response XML:
+
+ <response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+   <param key="data" type="XML"><![CDATA[
+ <Response>
+  <Execution>
+   <Status code="0" sqlcode="0" description="NO ERROR"/>
+  </Execution>
+ </Response>
+]]></param>
+  </payload>
+ </response>
+
+#------------------------------------------------------------------------------#
+#--------------------------- (2017-11-06 09:12:08) ------------------------#
+
+Begin Time at 09:12:05.419
+
+ end at 09:12:08.884
+
+time-consuming:  request:   0.167 BPM response:   0:00:03.465   apmt500   002-PMB0-171100013
+Program: apmt500
+
+Code: apmt500
+
+Request XML:
+
+<request type="sync" key="14c1e5344170865d1824c249bb57cf60">
+  <host prod="T100" ver="1.0" ip="192.168.10.7" id="topprd" lang="zh_CN" timezone="+8" timestamp="20171106091205195" acct="17040655"/>
+  <service prod="BPM" name="ProcessCreate" srvver="" ip="192.168.10.8" id=""/>
+  <datakey type="FOM">
+    <key name="EntId">9</key>
+    <key name="CompanyId">SX02</key>
+    <key name="RefId">CN</key>
+    <key name="DocProp">apmt500</key>
+    <key name="Prog">apmt500</key>
+    <key name="FormId">PMB0</key>
+    <key name="SheetNo">002-PMB0-171100013</key>
+    <key name="PK3"></key>
+    <key name="DocKey">pmdlent=9{+}pmdldocno=002-PMB0-171100013</key>
+  </datakey>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Request>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="workItem" value=""/>
+        <Field name="ori_processSN" value=""/>
+        <Field name="flow_processId" value="ALL_apmt500_PMB0"/>
+        <Field name="subject" value=""/>
+        <Field name="importance" value="0"/>
+        <Field name="EFLoginID" value="17040655"/>
+        <Field name="OrgUnitID" value="D2116"/>
+        <Field name="formOwnerID" value="17040655"/>
+        <Field name="formOwnerDP" value="D2116"/>
+        <Field name="formCreatorID" value="17040655"/>
+        <Field name="formCreatorDP" value="D2116"/>
+        <Field name="prog_url" value="http://192.168.10.7/wtopprd/wa/r/app/gwc_apmt500?Arg=T100Trust&amp;Arg=SSOKey&amp;Arg=002-PMB0-171100013"/>
+        <Field name="att_url" value="http://192.168.10.7/wtopprd/wa/r/app/gwc_awsp001?Arg=T100Trust&amp;Arg=SSOKey"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="1" node_id="1">
+          <Record>
+            <Field name="pmdlcomp" value="SX02"/>
+            <Field name="pmdlcomp_desc" value="福建士兴"/>
+            <Field name="pmdldocno" value="002-PMB0-171100013"/>
+            <Field name="pmdl001" value="0"/>
+            <Field name="pmdldocno_desc" value="OA送签采购单"/>
+            <Field name="pmdldocdt" value="2017-11-06"/>
+            <Field name="pmdl004" value="G001215"/>
+            <Field name="pmdl004_desc" value="萨尔茨曼"/>
+            <Field name="pmdl002" value="17040655"/>
+            <Field name="pmdl002_desc" value="王朝艳"/>
+            <Field name="pmdl003" value="D2116"/>
+            <Field name="pmdl003_desc" value="成都公司-生计部"/>
+            <Field name="pmdlsite" value="SX02"/>
+            <Field name="pmdl005" value="1:一般采购"/>
+            <Field name="pmdl006" value="1:一般交易"/>
+            <Field name="pmdl007" value="1:无"/>
+            <Field name="pmdl008" value=""/>
+            <Field name="pmdl027" value=""/>
+            <Field name="pmdl027_desc" value=""/>
+            <Field name="pmdl052" value=""/>
+            <Field name="pmdl052_desc" value=""/>
+            <Field name="pmdl053" value=""/>
+            <Field name="pmdl009" value="20010"/>
+            <Field name="pmdl009_desc" value="现金交易"/>
+            <Field name="pmdl010" value="CFR"/>
+            <Field name="pmdl010_desc" value="成本+运费"/>
+            <Field name="pmdl011" value="004"/>
+            <Field name="pmdl011_desc" value="增值税17含税"/>
+            <Field name="pmdl012" value="17.00%"/>
+            <Field name="pmdl013" value="Y"/>
+            <Field name="pmdl033" value="03"/>
+            <Field name="pmdl033_desc" value="大陸用-一般纳税人增值税专用发票(3联)"/>
+            <Field name="pmdl015" value="CNY"/>
+            <Field name="pmdl015_desc" value="人民币"/>
+            <Field name="pmdl016" value="1.000000"/>
+            <Field name="pmdl017" value="SX01"/>
+            <Field name="pmdl017_desc" value="采购核价"/>
+            <Field name="pmdl018" value=""/>
+            <Field name="pmdl018_desc" value=""/>
+            <Field name="pmdl023" value="11"/>
+            <Field name="pmdl023_desc" value=""/>
+            <Field name="pmdl044" value=""/>
+            <Field name="pmdl051" value=""/>
+            <Field name="pmdl051_desc" value=""/>
+            <Field name="pmdl020" value="02"/>
+            <Field name="pmdl020_desc" value="公路运输"/>
+            <Field name="pmdl025" value=""/>
+            <Field name="pmdl025_desc" value=""/>
+            <Field name="oofb017" value=""/>
+            <Field name="pmdl026" value=""/>
+            <Field name="pmdl026_desc" value=""/>
+            <Field name="oofb017_1" value=""/>
+            <Field name="pmdl029" value=""/>
+            <Field name="pmdl029_desc" value=""/>
+            <Field name="pmdl021" value="G001215"/>
+            <Field name="pmdl021_desc" value="萨尔茨曼"/>
+            <Field name="pmdl022" value="G001215"/>
+            <Field name="pmdl022_desc" value="萨尔茨曼"/>
+            <Field name="pmdl032" value=""/>
+            <Field name="pmdl032_desc" value=""/>
+            <Field name="pmdl024" value="001"/>
+            <Field name="pmdl024_desc" value="国内采购"/>
+            <Field name="pmdl054" value="1:内购"/>
+            <Field name="pmdl055" value="1:依采购日汇率"/>
+            <Field name="pmdl030" value="N"/>
+            <Field name="pmdl031" value=""/>
+            <Field name="pmdl028" value=""/>
+            <Field name="pmdl042" value="123.50"/>
+            <Field name="pmdl047" value="N"/>
+            <Field name="pmdl048" value="N"/>
+            <Field name="pmdl049" value="N"/>
+            <Field name="pmdl046" value="1:不开立发票"/>
+            <Field name="pmdl040" value="726.50"/>
+            <Field name="pmdl041" value="850.00"/>
+            <Field name="pmdlownid" value="17040655"/>
+            <Field name="pmdlownid_desc" value="王朝艳"/>
+            <Field name="pmdlowndp" value="D2116"/>
+            <Field name="pmdlowndp_desc" value="成都公司-生计部"/>
+            <Field name="pmdlcrtid" value="17040655"/>
+            <Field name="pmdlcrtid_desc" value="王朝艳"/>
+            <Field name="pmdlcrtdp" value="D2116"/>
+            <Field name="pmdlcrtdp_desc" value="成都公司-生计部"/>
+            <Field name="pmdlcrtdt" value="2017-11-06 08:59:12"/>
+            <Field name="pmdlmodid" value="17040655"/>
+            <Field name="pmdlmodid_desc" value="王朝艳"/>
+            <Field name="pmdlmoddt" value="2017-11-06 09:11:56"/>
+            <Field name="pmdlcnfid" value=""/>
+            <Field name="pmdlcnfid_desc" value=""/>
+            <Field name="pmdlcnfdt" value=""/>
+            <Detail name="s_detail1" node_id="1_1">
+              <Record>
+                <Field name="pmdnsite" value="SX02"/>
+                <Field name="pmdnseq" value="1"/>
+                <Field name="pmdnorga" value="D21"/>
+                <Field name="pmdnorga_desc" value="成都公司"/>
+                <Field name="pmdn001" value="LFG10000000001"/>
+                <Field name="pmdn001_desc" value="低值易耗品-反光背心"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="pmdn002" value=""/>
+                <Field name="pmdn002_desc" value=""/>
+                <Field name="pmdn004" value=""/>
+                <Field name="pmdn004_desc" value=""/>
+                <Field name="pmdn005" value=""/>
+                <Field name="pmdn006" value="PCS"/>
+                <Field name="pmdn006_desc" value="PCS"/>
+                <Field name="pmdn007" value="25.000"/>
+                <Field name="pmdn008" value=""/>
+                <Field name="pmdn008_desc" value=""/>
+                <Field name="pmdn009" value=""/>
+                <Field name="pmdn024" value="N"/>
+                <Field name="pmdn012" value="2017-11-02"/>
+                <Field name="pmdn013" value="2017-11-03"/>
+                <Field name="pmdn014" value="2017-11-03"/>
+                <Field name="pmdn045" value="1:一般"/>
+                <Field name="pmdn010" value="PCS"/>
+                <Field name="pmdn010_desc" value="PCS"/>
+                <Field name="pmdn011" value="25.000"/>
+                <Field name="pmdn015" value="34.0000"/>
+                <Field name="pmdn016" value="004"/>
+                <Field name="pmdn016_desc" value="增值税17含税"/>
+                <Field name="pmdn017" value="17.00%"/>
+                <Field name="pmdn046" value="726.50"/>
+                <Field name="pmdn047" value="850.00"/>
+                <Field name="pmdn048" value="123.50"/>
+                <Field name="pmdn023" value="G001215"/>
+                <Field name="pmdn023_desc" value="萨尔茨曼"/>
+                <Field name="pmdn019" value="1:一般"/>
+                <Field name="pmdn020" value="3:特急"/>
+                <Field name="pmdn052" value="N"/>
+                <Field name="pmdn021" value="N"/>
+                <Field name="pmdn022" value="Y"/>
+                <Field name="pmdnunit" value="SX02"/>
+                <Field name="pmdnunit_desc" value="福建士兴"/>
+                <Field name="pmdn049" value=""/>
+                <Field name="pmdn049_desc" value=""/>
+                <Field name="pmdn051" value=""/>
+                <Field name="pmdn051_desc" value=""/>
+                <Field name="pmdn054" value="0.000"/>
+                <Field name="pmdn055" value="0.000"/>
+                <Field name="pmdn056" value="0.000"/>
+                <Field name="pmdn057" value="0.000"/>
+                <Field name="pmdn050" value="管理人员"/>
+                <Field name="pmdncomp" value="SX02"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail2" node_id="1_2">
+              <Record>
+                <Field name="pmdnseq" value="1"/>
+                <Field name="imaa001" value="LFG10000000001"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="imaa005_1_desc" value=""/>
+                <Field name="pmdn027" value=""/>
+                <Field name="l_pmao009" value=""/>
+                <Field name="l_pmao010" value=""/>
+                <Field name="pmdn028" value="02D21-GD"/>
+                <Field name="pmdn028_desc" value="福建-成都-工地仓"/>
+                <Field name="pmdn029" value=""/>
+                <Field name="pmdn029_desc" value=""/>
+                <Field name="pmdn030" value=""/>
+                <Field name="pmdn053" value="02-D21-2017009"/>
+                <Field name="pmdn025" value=""/>
+                <Field name="pmdn025_desc" value=""/>
+                <Field name="pmdn026" value=""/>
+                <Field name="pmdn026_desc" value=""/>
+                <Field name="pmdn031" value="02"/>
+                <Field name="pmdn031_desc" value="公路运输"/>
+                <Field name="pmdn032" value="1:供应商运送"/>
+                <Field name="pmdn033" value=""/>
+                <Field name="pmdn003" value=""/>
+                <Field name="pmdn003_desc" value=""/>
+                <Field name="pmdn036" value="02-D21-2017009"/>
+                <Field name="pmdn036_desc" value="安博新都国际物流港（一期）一期工程"/>
+                <Field name="pmdn037" value=""/>
+                <Field name="pmdn037_desc" value=""/>
+                <Field name="pmdn038" value=""/>
+                <Field name="pmdn038_desc" value=""/>
+                <Field name="pmdn058" value=""/>
+                <Field name="pmdn058_desc" value=""/>
+                <Field name="pmdn039" value=""/>
+                <Field name="pmdn035" value="1:核准价"/>
+                <Field name="pmdn040" value="X"/>
+                <Field name="pmdn041" value=""/>
+                <Field name="pmdn042" value=""/>
+                <Field name="pmdn043" value="0.0000"/>
+                <Field name="pmdn044" value="0.00%"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail3" node_id="1_3">
+              <Record>
+                <Field name="pmdosite" value="SX02"/>
+                <Field name="pmdoseq" value="1"/>
+                <Field name="pmdoseq1" value="1"/>
+                <Field name="pmdo003" value="1:一般"/>
+                <Field name="pmdo001" value="LFG10000000001"/>
+                <Field name="pmdo001_desc" value="低值易耗品-反光背心"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="pmdo002" value=""/>
+                <Field name="pmdo004" value="PCS"/>
+                <Field name="pmdo004_desc" value="PCS"/>
+                <Field name="pmdo005" value="25.000"/>
+                <Field name="pmdoseq2" value="1"/>
+                <Field name="pmdo006" value="25.000"/>
+                <Field name="pmdo028" value=""/>
+                <Field name="pmdo028_desc" value=""/>
+                <Field name="pmdo029" value=""/>
+                <Field name="pmdo011" value="2017-11-02"/>
+                <Field name="pmdo012" value="2017-11-03"/>
+                <Field name="pmdo013" value="2017-11-03"/>
+                <Field name="pmdo010" value="10"/>
+                <Field name="pmdo010_desc" value="整天(随时)"/>
+                <Field name="pmdo014" value="N"/>
+                <Field name="pmdo009" value="1:约定交期"/>
+                <Field name="pmdo015" value="0.000"/>
+                <Field name="pmdo016" value="0.000"/>
+                <Field name="pmdo017" value="0.000"/>
+                <Field name="pmdo040" value="0.000"/>
+                <Field name="pmdo019" value="0.000"/>
+                <Field name="pmdo020" value="0.000"/>
+                <Field name="pmdo021" value="2:准时交货"/>
+                <Field name="pmdo030" value="PCS"/>
+                <Field name="pmdo030_desc" value="PCS"/>
+                <Field name="pmdo031" value="25.000"/>
+                <Field name="pmdo022" value="34.0000"/>
+                <Field name="pmdo023" value="004"/>
+                <Field name="pmdo023_desc" value="增值税17含税"/>
+                <Field name="pmdo024" value="17.00%"/>
+                <Field name="pmdo032" value="726.50"/>
+                <Field name="pmdo033" value="850.00"/>
+                <Field name="pmdo034" value="123.50"/>
+                <Field name="pmdo025" value=""/>
+                <Field name="pmdo026" value="17040655"/>
+                <Field name="pmdo026_desc" value="王朝艳"/>
+                <Field name="pmdo027" value="2017-11-06 00:00:00"/>
+                <Field name="pmdo041" value="0.000"/>
+                <Field name="pmdo042" value="0.000"/>
+                <Field name="pmdo043" value="0.000"/>
+                <Field name="pmdo044" value="0.000"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail4" node_id="1_4">
+              <Record>
+                <Field name="pmdpsite" value="SX02"/>
+                <Field name="pmdpseq" value="1"/>
+                <Field name="pmdpseq1" value="1"/>
+                <Field name="pmdp001" value="LFG10000000001"/>
+                <Field name="pmdp001_desc" value="低值易耗品-反光背心"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="pmdp002" value=""/>
+                <Field name="pmdp003" value="002-PM82-171100011"/>
+                <Field name="pmdp004" value="1"/>
+                <Field name="pmdp005" value=""/>
+                <Field name="pmdp006" value=""/>
+                <Field name="pmdp007" value="LFG10000000001"/>
+                <Field name="pmdp008" value=""/>
+                <Field name="pmdp009" value=""/>
+                <Field name="pmdp010" value=""/>
+                <Field name="pmdp011" value=""/>
+                <Field name="pmdp012" value=""/>
+                <Field name="pmdp021" value="1"/>
+                <Field name="pmdp022" value="PCS"/>
+                <Field name="pmdp022_desc" value="PCS"/>
+                <Field name="pmdp023" value="25.000"/>
+                <Field name="pmdp024" value="25.000"/>
+                <Field name="pmdp025" value="0.000"/>
+                <Field name="pmdp026" value="0.000"/>
+                <Field name="pmdb006" value="25.000"/>
+                <Field name="pmdb049" value="25.000"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail6" node_id="1_5">
+              <Record>
+                <Field name="pmdmsite" value="SX02"/>
+                <Field name="pmdm001" value="1"/>
+                <Field name="pmdm014" value="1:预付款"/>
+                <Field name="pmdm002" value="20010"/>
+                <Field name="pmdm003" value="2017-11-06"/>
+                <Field name="pmdm004" value="2017-11-15"/>
+                <Field name="pmdm005" value="726.50"/>
+                <Field name="pmdm006" value="850.00"/>
+                <Field name="pmdm007" value=""/>
+                <Field name="pmdm008" value=""/>
+                <Field name="pmdm009" value=""/>
+              </Record>
+            </Detail>
+            <Memo/>
+            <Attachment count="1" download="Y">
+              <Document type="1" desc="" url="aHR0cDovLzE5Mi4xNjguMTAuNy90b3BwcmQvb3V0LyVFOSU4NyU4NyVFOCVCNCVBRCVFNiVBMCVCOCVFNCVCQiVCNyVFNSU4RCU5NS0lRTUlQUUlODklRTUlOEQlOUElRTQlQjglODAlRTYlOUMlOUYtJUU1JThGJThEJUU1JTg1JTg5JUU4JTgzJThDJUU1JUJGJTgzLSVFOCU5MCVBOCVFNSVCMCU5NCVFOCU4QyVBOCVFNiU5QiVCQy0xNy4xMS4wNi5wZGY=" key="9|[{&quot;column&quot;:&quot;pmdldocno&quot;,&quot;values&quot;:&quot;002-PMB0-171100013&quot;}]|1|1" filename="采购核价单-安博一期-反光背心-萨尔茨曼-17.11.06.pdf" owner="17040655" creator="17040655" size="100486"/>
+            </Attachment>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+  </RequestContent>
+</Request>
+]]>
+    </param>
+  </payload>
+</request>
+
+
+Response XML:
+
+ <response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+   <param key="data" type="XML"><![CDATA[
+ <Response>
+  <Execution>
+   <Status code="0" sqlcode="0" description="NO ERROR"/>
+  </Execution>
+  <ResponseContent>
+   <Parameter>
+    <Record>
+     <Field name="work_processSN" processId="" value=""/>
+     <Field name="flow_processSN" processId="ALL_apmt500_PMB0" value="ALL_apmt500_PMB000002677"/>
+     <Field name="status" value="W"/>
+    </Record>
+   </Parameter>
+  </ResponseContent>
+ </Response>
+]]></param>
+  </payload>
+ </response>
+
+#------------------------------------------------------------------------------#
+#--------------------------- (2017-11-06 09:12:58) ------------------------#
+
+Begin Time at 09:12:54.749
+
+ end at 09:12:58.685
+
+time-consuming:  request:   0.214 BPM response:   0:00:03.936   apmt500   002-PMB0-171100014
+Program: apmt500
+
+Code: apmt500
+
+Request XML:
+
+<request type="sync" key="9aa422eab370c1f9367e8c3b98d9b33b">
+  <host prod="T100" ver="1.0" ip="192.168.10.7" id="topprd" lang="zh_CN" timezone="+8" timestamp="20171106091254503" acct="17040655"/>
+  <service prod="BPM" name="ProcessCreate" srvver="" ip="192.168.10.8" id=""/>
+  <datakey type="FOM">
+    <key name="EntId">9</key>
+    <key name="CompanyId">SX02</key>
+    <key name="RefId">CN</key>
+    <key name="DocProp">apmt500</key>
+    <key name="Prog">apmt500</key>
+    <key name="FormId">PMB0</key>
+    <key name="SheetNo">002-PMB0-171100014</key>
+    <key name="PK3"></key>
+    <key name="DocKey">pmdlent=9{+}pmdldocno=002-PMB0-171100014</key>
+  </datakey>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Request>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="workItem" value=""/>
+        <Field name="ori_processSN" value=""/>
+        <Field name="flow_processId" value="ALL_apmt500_PMB0"/>
+        <Field name="subject" value=""/>
+        <Field name="importance" value="0"/>
+        <Field name="EFLoginID" value="17040655"/>
+        <Field name="OrgUnitID" value="D2116"/>
+        <Field name="formOwnerID" value="17040655"/>
+        <Field name="formOwnerDP" value="D2116"/>
+        <Field name="formCreatorID" value="17040655"/>
+        <Field name="formCreatorDP" value="D2116"/>
+        <Field name="prog_url" value="http://192.168.10.7/wtopprd/wa/r/app/gwc_apmt500?Arg=T100Trust&amp;Arg=SSOKey&amp;Arg=002-PMB0-171100014"/>
+        <Field name="att_url" value="http://192.168.10.7/wtopprd/wa/r/app/gwc_awsp001?Arg=T100Trust&amp;Arg=SSOKey"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="1" node_id="1">
+          <Record>
+            <Field name="pmdlcomp" value="SX02"/>
+            <Field name="pmdlcomp_desc" value="福建士兴"/>
+            <Field name="pmdldocno" value="002-PMB0-171100014"/>
+            <Field name="pmdl001" value="0"/>
+            <Field name="pmdldocno_desc" value="OA送签采购单"/>
+            <Field name="pmdldocdt" value="2017-11-06"/>
+            <Field name="pmdl004" value="G011218"/>
+            <Field name="pmdl004_desc" value="上海佳护"/>
+            <Field name="pmdl002" value="17040655"/>
+            <Field name="pmdl002_desc" value="王朝艳"/>
+            <Field name="pmdl003" value="D2116"/>
+            <Field name="pmdl003_desc" value="成都公司-生计部"/>
+            <Field name="pmdlsite" value="SX02"/>
+            <Field name="pmdl005" value="1:一般采购"/>
+            <Field name="pmdl006" value="1:一般交易"/>
+            <Field name="pmdl007" value="1:无"/>
+            <Field name="pmdl008" value=""/>
+            <Field name="pmdl027" value=""/>
+            <Field name="pmdl027_desc" value=""/>
+            <Field name="pmdl052" value=""/>
+            <Field name="pmdl052_desc" value=""/>
+            <Field name="pmdl053" value=""/>
+            <Field name="pmdl009" value="20010"/>
+            <Field name="pmdl009_desc" value="现金交易"/>
+            <Field name="pmdl010" value="CFR"/>
+            <Field name="pmdl010_desc" value="成本+运费"/>
+            <Field name="pmdl011" value="004"/>
+            <Field name="pmdl011_desc" value="增值税17含税"/>
+            <Field name="pmdl012" value="17.00%"/>
+            <Field name="pmdl013" value="Y"/>
+            <Field name="pmdl033" value="03"/>
+            <Field name="pmdl033_desc" value="大陸用-一般纳税人增值税专用发票(3联)"/>
+            <Field name="pmdl015" value="CNY"/>
+            <Field name="pmdl015_desc" value="人民币"/>
+            <Field name="pmdl016" value="1.000000"/>
+            <Field name="pmdl017" value="SX01"/>
+            <Field name="pmdl017_desc" value="采购核价"/>
+            <Field name="pmdl018" value=""/>
+            <Field name="pmdl018_desc" value=""/>
+            <Field name="pmdl023" value="13"/>
+            <Field name="pmdl023_desc" value=""/>
+            <Field name="pmdl044" value=""/>
+            <Field name="pmdl051" value=""/>
+            <Field name="pmdl051_desc" value=""/>
+            <Field name="pmdl020" value="02"/>
+            <Field name="pmdl020_desc" value="公路运输"/>
+            <Field name="pmdl025" value=""/>
+            <Field name="pmdl025_desc" value=""/>
+            <Field name="oofb017" value=""/>
+            <Field name="pmdl026" value=""/>
+            <Field name="pmdl026_desc" value=""/>
+            <Field name="oofb017_1" value=""/>
+            <Field name="pmdl029" value=""/>
+            <Field name="pmdl029_desc" value=""/>
+            <Field name="pmdl021" value="G011218"/>
+            <Field name="pmdl021_desc" value="上海佳护"/>
+            <Field name="pmdl022" value="G011218"/>
+            <Field name="pmdl022_desc" value="上海佳护"/>
+            <Field name="pmdl032" value=""/>
+            <Field name="pmdl032_desc" value=""/>
+            <Field name="pmdl024" value="001"/>
+            <Field name="pmdl024_desc" value="国内采购"/>
+            <Field name="pmdl054" value="1:内购"/>
+            <Field name="pmdl055" value="2:依收货日汇率"/>
+            <Field name="pmdl030" value="N"/>
+            <Field name="pmdl031" value=""/>
+            <Field name="pmdl028" value=""/>
+            <Field name="pmdl042" value="363.25"/>
+            <Field name="pmdl047" value="N"/>
+            <Field name="pmdl048" value="N"/>
+            <Field name="pmdl049" value="N"/>
+            <Field name="pmdl046" value="1:不开立发票"/>
+            <Field name="pmdl040" value="2,136.75"/>
+            <Field name="pmdl041" value="2,500.00"/>
+            <Field name="pmdlownid" value="17040655"/>
+            <Field name="pmdlownid_desc" value="王朝艳"/>
+            <Field name="pmdlowndp" value="D2116"/>
+            <Field name="pmdlowndp_desc" value="成都公司-生计部"/>
+            <Field name="pmdlcrtid" value="17040655"/>
+            <Field name="pmdlcrtid_desc" value="王朝艳"/>
+            <Field name="pmdlcrtdp" value="D2116"/>
+            <Field name="pmdlcrtdp_desc" value="成都公司-生计部"/>
+            <Field name="pmdlcrtdt" value="2017-11-06 09:04:27"/>
+            <Field name="pmdlmodid" value="17040655"/>
+            <Field name="pmdlmodid_desc" value="王朝艳"/>
+            <Field name="pmdlmoddt" value="2017-11-06 09:09:11"/>
+            <Field name="pmdlcnfid" value=""/>
+            <Field name="pmdlcnfid_desc" value=""/>
+            <Field name="pmdlcnfdt" value=""/>
+            <Detail name="s_detail1" node_id="1_1">
+              <Record>
+                <Field name="pmdnsite" value="SX02"/>
+                <Field name="pmdnseq" value="1"/>
+                <Field name="pmdnorga" value="D21"/>
+                <Field name="pmdnorga_desc" value="成都公司"/>
+                <Field name="pmdn001" value="LFG10000000001"/>
+                <Field name="pmdn001_desc" value="低值易耗品-反光背心"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="pmdn002" value=""/>
+                <Field name="pmdn002_desc" value=""/>
+                <Field name="pmdn004" value=""/>
+                <Field name="pmdn004_desc" value=""/>
+                <Field name="pmdn005" value=""/>
+                <Field name="pmdn006" value="PCS"/>
+                <Field name="pmdn006_desc" value="PCS"/>
+                <Field name="pmdn007" value="200.000"/>
+                <Field name="pmdn008" value=""/>
+                <Field name="pmdn008_desc" value=""/>
+                <Field name="pmdn009" value=""/>
+                <Field name="pmdn024" value="N"/>
+                <Field name="pmdn012" value="2017-11-02"/>
+                <Field name="pmdn013" value="2017-11-03"/>
+                <Field name="pmdn014" value="2017-11-03"/>
+                <Field name="pmdn045" value="1:一般"/>
+                <Field name="pmdn010" value="PCS"/>
+                <Field name="pmdn010_desc" value="PCS"/>
+                <Field name="pmdn011" value="200.000"/>
+                <Field name="pmdn015" value="12.5000"/>
+                <Field name="pmdn016" value="004"/>
+                <Field name="pmdn016_desc" value="增值税17含税"/>
+                <Field name="pmdn017" value="17.00%"/>
+                <Field name="pmdn046" value="2,136.75"/>
+                <Field name="pmdn047" value="2,500.00"/>
+                <Field name="pmdn048" value="363.25"/>
+                <Field name="pmdn023" value="G011218"/>
+                <Field name="pmdn023_desc" value="上海佳护"/>
+                <Field name="pmdn019" value="1:一般"/>
+                <Field name="pmdn020" value="3:特急"/>
+                <Field name="pmdn052" value="N"/>
+                <Field name="pmdn021" value="N"/>
+                <Field name="pmdn022" value="Y"/>
+                <Field name="pmdnunit" value="SX02"/>
+                <Field name="pmdnunit_desc" value="福建士兴"/>
+                <Field name="pmdn049" value=""/>
+                <Field name="pmdn049_desc" value=""/>
+                <Field name="pmdn051" value=""/>
+                <Field name="pmdn051_desc" value=""/>
+                <Field name="pmdn054" value="0.000"/>
+                <Field name="pmdn055" value="0.000"/>
+                <Field name="pmdn056" value="0.000"/>
+                <Field name="pmdn057" value="0.000"/>
+                <Field name="pmdn050" value="工人"/>
+                <Field name="pmdncomp" value="SX02"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail2" node_id="1_2">
+              <Record>
+                <Field name="pmdnseq" value="1"/>
+                <Field name="imaa001" value="LFG10000000001"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="imaa005_1_desc" value=""/>
+                <Field name="pmdn027" value=""/>
+                <Field name="l_pmao009" value=""/>
+                <Field name="l_pmao010" value=""/>
+                <Field name="pmdn028" value="02D21-GD"/>
+                <Field name="pmdn028_desc" value="福建-成都-工地仓"/>
+                <Field name="pmdn029" value=""/>
+                <Field name="pmdn029_desc" value=""/>
+                <Field name="pmdn030" value=""/>
+                <Field name="pmdn053" value="02-D21-2017009"/>
+                <Field name="pmdn025" value=""/>
+                <Field name="pmdn025_desc" value=""/>
+                <Field name="pmdn026" value=""/>
+                <Field name="pmdn026_desc" value=""/>
+                <Field name="pmdn031" value="02"/>
+                <Field name="pmdn031_desc" value="公路运输"/>
+                <Field name="pmdn032" value="1:供应商运送"/>
+                <Field name="pmdn033" value=""/>
+                <Field name="pmdn003" value=""/>
+                <Field name="pmdn003_desc" value=""/>
+                <Field name="pmdn036" value="02-D21-2017009"/>
+                <Field name="pmdn036_desc" value="安博新都国际物流港（一期）一期工程"/>
+                <Field name="pmdn037" value=""/>
+                <Field name="pmdn037_desc" value=""/>
+                <Field name="pmdn038" value=""/>
+                <Field name="pmdn038_desc" value=""/>
+                <Field name="pmdn058" value=""/>
+                <Field name="pmdn058_desc" value=""/>
+                <Field name="pmdn039" value=""/>
+                <Field name="pmdn035" value="1:核准价"/>
+                <Field name="pmdn040" value="X"/>
+                <Field name="pmdn041" value=""/>
+                <Field name="pmdn042" value=""/>
+                <Field name="pmdn043" value="0.0000"/>
+                <Field name="pmdn044" value="0.00%"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail3" node_id="1_3">
+              <Record>
+                <Field name="pmdosite" value="SX02"/>
+                <Field name="pmdoseq" value="1"/>
+                <Field name="pmdoseq1" value="1"/>
+                <Field name="pmdo003" value="1:一般"/>
+                <Field name="pmdo001" value="LFG10000000001"/>
+                <Field name="pmdo001_desc" value="低值易耗品-反光背心"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="pmdo002" value=""/>
+                <Field name="pmdo004" value="PCS"/>
+                <Field name="pmdo004_desc" value="PCS"/>
+                <Field name="pmdo005" value="200.000"/>
+                <Field name="pmdoseq2" value="1"/>
+                <Field name="pmdo006" value="200.000"/>
+                <Field name="pmdo028" value=""/>
+                <Field name="pmdo028_desc" value=""/>
+                <Field name="pmdo029" value=""/>
+                <Field name="pmdo011" value="2017-11-02"/>
+                <Field name="pmdo012" value="2017-11-03"/>
+                <Field name="pmdo013" value="2017-11-03"/>
+                <Field name="pmdo010" value="10"/>
+                <Field name="pmdo010_desc" value="整天(随时)"/>
+                <Field name="pmdo014" value="N"/>
+                <Field name="pmdo009" value="1:约定交期"/>
+                <Field name="pmdo015" value="0.000"/>
+                <Field name="pmdo016" value="0.000"/>
+                <Field name="pmdo017" value="0.000"/>
+                <Field name="pmdo040" value="0.000"/>
+                <Field name="pmdo019" value="0.000"/>
+                <Field name="pmdo020" value="0.000"/>
+                <Field name="pmdo021" value="2:准时交货"/>
+                <Field name="pmdo030" value="PCS"/>
+                <Field name="pmdo030_desc" value="PCS"/>
+                <Field name="pmdo031" value="200.000"/>
+                <Field name="pmdo022" value="12.5000"/>
+                <Field name="pmdo023" value="004"/>
+                <Field name="pmdo023_desc" value="增值税17含税"/>
+                <Field name="pmdo024" value="17.00%"/>
+                <Field name="pmdo032" value="2,136.75"/>
+                <Field name="pmdo033" value="2,500.00"/>
+                <Field name="pmdo034" value="363.25"/>
+                <Field name="pmdo025" value=""/>
+                <Field name="pmdo026" value="17040655"/>
+                <Field name="pmdo026_desc" value="王朝艳"/>
+                <Field name="pmdo027" value="2017-11-06 00:00:00"/>
+                <Field name="pmdo041" value="0.000"/>
+                <Field name="pmdo042" value="0.000"/>
+                <Field name="pmdo043" value="0.000"/>
+                <Field name="pmdo044" value="0.000"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail4" node_id="1_4">
+              <Record>
+                <Field name="pmdpsite" value="SX02"/>
+                <Field name="pmdpseq" value="1"/>
+                <Field name="pmdpseq1" value="1"/>
+                <Field name="pmdp001" value="LFG10000000001"/>
+                <Field name="pmdp001_desc" value="低值易耗品-反光背心"/>
+                <Field name="imaal004" value="00-00-00"/>
+                <Field name="pmdp002" value=""/>
+                <Field name="pmdp003" value="002-PM82-171100012"/>
+                <Field name="pmdp004" value="1"/>
+                <Field name="pmdp005" value=""/>
+                <Field name="pmdp006" value=""/>
+                <Field name="pmdp007" value="LFG10000000001"/>
+                <Field name="pmdp008" value=""/>
+                <Field name="pmdp009" value=""/>
+                <Field name="pmdp010" value=""/>
+                <Field name="pmdp011" value=""/>
+                <Field name="pmdp012" value=""/>
+                <Field name="pmdp021" value="1"/>
+                <Field name="pmdp022" value="PCS"/>
+                <Field name="pmdp022_desc" value="PCS"/>
+                <Field name="pmdp023" value="200.000"/>
+                <Field name="pmdp024" value="200.000"/>
+                <Field name="pmdp025" value="0.000"/>
+                <Field name="pmdp026" value="0.000"/>
+                <Field name="pmdb006" value="200.000"/>
+                <Field name="pmdb049" value="200.000"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail6" node_id="1_5">
+              <Record>
+                <Field name="pmdmsite" value="SX02"/>
+                <Field name="pmdm001" value="1"/>
+                <Field name="pmdm014" value="1:预付款"/>
+                <Field name="pmdm002" value="20010"/>
+                <Field name="pmdm003" value="2017-11-25"/>
+                <Field name="pmdm004" value="2017-12-15"/>
+                <Field name="pmdm005" value="2,136.75"/>
+                <Field name="pmdm006" value="2,500.00"/>
+                <Field name="pmdm007" value=""/>
+                <Field name="pmdm008" value=""/>
+                <Field name="pmdm009" value=""/>
+              </Record>
+            </Detail>
+            <Memo/>
+            <Attachment count="1" download="Y">
+              <Document type="1" desc="" url="aHR0cDovLzE5Mi4xNjguMTAuNy90b3BwcmQvb3V0LyVFOSU4NyU4NyVFOCVCNCVBRCVFNiVBMCVCOCVFNCVCQiVCNyVFNSU4RCU5NS0lRTUlQUUlODklRTUlOEQlOUElRTQlQjglODAlRTYlOUMlOUYtJUU1JThGJThEJUU1JTg1JTg5JUU4JTgzJThDJUU1JUJGJTgzLSVFNCVCOCU4QSVFNiVCNSVCNyVFNCVCRCVCMyVFNiU4QSVBNC0xNy4xMS4wNi5wZGY=" key="9|[{&quot;column&quot;:&quot;pmdldocno&quot;,&quot;values&quot;:&quot;002-PMB0-171100014&quot;}]|1|1" filename="采购核价单-安博一期-反光背心-上海佳护-17.11.06.pdf" owner="17040655" creator="17040655" size="100656"/>
+            </Attachment>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+  </RequestContent>
+</Request>
+]]>
+    </param>
+  </payload>
+</request>
+
+
+Response XML:
+
+ <response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+   <param key="data" type="XML"><![CDATA[
+ <Response>
+  <Execution>
+   <Status code="0" sqlcode="0" description="NO ERROR"/>
+  </Execution>
+  <ResponseContent>
+   <Parameter>
+    <Record>
+     <Field name="work_processSN" processId="" value=""/>
+     <Field name="flow_processSN" processId="ALL_apmt500_PMB0" value="ALL_apmt500_PMB000002678"/>
+     <Field name="status" value="W"/>
+    </Record>
+   </Parameter>
+  </ResponseContent>
+ </Response>
+]]></param>
+  </payload>
+ </response>
+
+#------------------------------------------------------------------------------#
+#--------------------------- (2017-11-06 09:17:12) ------------------------#
+
+Begin Time at 09:17:09.834
+
+ end at 09:17:12.216
+
+time-consuming:  request:   0.103 BPM response:   0:00:02.382   cpjt310   001-CPJ3-171100001
+Program: cpjt310
+
+Code: cpjt310
+
+Request XML:
+
+<request type="sync" key="884279abfd8baeda975b8424c03bb826">
+  <host prod="T100" ver="1.0" ip="192.168.10.7" id="topprd" lang="zh_CN" timezone="+8" timestamp="20171106091709345" acct="10070118"/>
+  <service prod="BPM" name="ProcessCreate" srvver="" ip="192.168.10.8" id=""/>
+  <datakey type="FOM">
+    <key name="EntId">9</key>
+    <key name="CompanyId">SX01</key>
+    <key name="RefId">CN</key>
+    <key name="DocProp">cpjt310</key>
+    <key name="Prog">cpjt310</key>
+    <key name="FormId">CPJ3</key>
+    <key name="SheetNo">001-CPJ3-171100001</key>
+    <key name="PK3"></key>
+    <key name="DocKey">pjbnent=9{+}pjbn001=01-C02-2017008{+}pjbn900=3</key>
+  </datakey>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Request>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="workItem" value=""/>
+        <Field name="ori_processSN" value=""/>
+        <Field name="flow_processId" value="ALL_cpjt310_CPJ3"/>
+        <Field name="subject" value=""/>
+        <Field name="importance" value="0"/>
+        <Field name="EFLoginID" value="10070118"/>
+        <Field name="OrgUnitID" value="B0302"/>
+        <Field name="formOwnerID" value="10070118"/>
+        <Field name="formOwnerDP" value="B0302"/>
+        <Field name="formCreatorID" value="10070118"/>
+        <Field name="formCreatorDP" value="B0302"/>
+        <Field name="prog_url" value="http://192.168.10.7/wtopprd/wa/r/app/gwc_cpjt310?Arg=T100Trust&amp;Arg=SSOKey&amp;Arg=01-C02-2017008&amp;Arg=3"/>
+        <Field name="att_url" value="http://192.168.10.7/wtopprd/wa/r/app/gwc_awsp001?Arg=T100Trust&amp;Arg=SSOKey"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="1" node_id="1">
+          <Record>
+            <Field name="pjbnuadocno" value="001-CPJ3-171100001"/>
+            <Field name="pjbn000" value="10"/>
+            <Field name="pjbn000_desc" value=""/>
+            <Field name="pjbn001" value="01-C02-2017008"/>
+            <Field name="pjbn002" value="N"/>
+            <Field name="pjbnl003" value="宁波亚德客3号厂房项目工程"/>
+            <Field name="pjbnl004" value=""/>
+            <Field name="pjbn009" value="3"/>
+            <Field name="pjbn900" value="3"/>
+            <Field name="pjbn003" value=""/>
+            <Field name="pjbn003_desc" value=""/>
+            <Field name="pjbn004" value="CNY"/>
+            <Field name="pjbn004_desc" value="人民币"/>
+            <Field name="pjbn005" value="2017-08-17"/>
+            <Field name="pjbn006" value="业务与业主协商追加女儿墙板和窗户内侧打胶，女儿墙板安装需要增加膨胀螺栓和角钢，窗户内侧打胶需增加耐候胶和美纹纸。"/>
+            <Field name="pjbn010" value=""/>
+            <Field name="pjbn010_desc" value=""/>
+            <Field name="pjbn011" value="N"/>
+            <Field name="pjbn012" value=""/>
+            <Field name="pjbn012_desc" value=""/>
+            <Field name="pjbn013" value=""/>
+            <Field name="pjbn014" value=""/>
+            <Field name="pjbn014_desc" value=""/>
+            <Field name="pjbn015" value="cpjt310"/>
+            <Field name="pjbnstus" value="N:未审核"/>
+            <Field name="pjbn007" value="1"/>
+            <Field name="pjbn008" value="CN"/>
+            <Field name="pjbn008_desc" value="大陆行事历"/>
+            <Field name="pjbn017" value="1,843,160.74"/>
+            <Field name="pjbn019" value="2,029,707.32"/>
+            <Field name="pjbn018" value="2,144,144.14"/>
+            <Field name="pjbn020" value="2,380,000.00"/>
+            <Field name="pjbn052" value="1,345,028.85"/>
+            <Field name="pjbn053" value="0.00"/>
+            <Field name="pjbn054" value="0.00"/>
+            <Field name="pjbn055" value="498,131.89"/>
+            <Field name="pjbn056" value="0.00"/>
+            <Field name="pjbn057" value="0.00"/>
+            <Field name="pjbn058" value="0.00"/>
+            <Field name="pjbn059" value="0.00"/>
+            <Field name="pjbn016" value="3:业主认定"/>
+            <Field name="pjbn022" value="2"/>
+            <Field name="pjbn023" value="0:未结案"/>
+            <Field name="pjbn024" value=""/>
+            <Field name="pjbn025" value=""/>
+            <Field name="pjbn026" value="K00993"/>
+            <Field name="pjbn026_desc" value=""/>
+            <Field name="pjbn027" value=""/>
+            <Field name="pjbncrtid" value="10070118"/>
+            <Field name="pjbncrtid_desc" value="张青"/>
+            <Field name="pjbncrtdp" value="B0302"/>
+            <Field name="pjbncrtdp_desc" value="华东工程管理部"/>
+            <Field name="pjbncrtdt" value="2017-11-02 09:43:57"/>
+            <Detail name="s_detail1" node_id="1_1">
+              <Record/>
+            </Detail>
+            <Detail name="s_detail2" node_id="1_2">
+              <Record>
+                <Field name="pjbq003" value="14"/>
+                <Field name="pjbq004" value=""/>
+                <Field name="pjbq004_desc" value=""/>
+                <Field name="pjbq005" value="IBL10000000029"/>
+                <Field name="pjbq005_desc" value="胶类-结构胶"/>
+                <Field name="pjbq005_desc_desc" value="00-00-00 道康宁耐候胶  DC-991 深灰色 （进口）"/>
+                <Field name="pjbq021" value=""/>
+                <Field name="pjbq021_desc" value=""/>
+                <Field name="pjbq010" value="DC-991 FYMLG颜色是"/>
+                <Field name="pjbq006" value="PCS"/>
+                <Field name="pjbq006_desc" value="PCS"/>
+                <Field name="pjbq007" value="800.000"/>
+                <Field name="pjbqud002" value=""/>
+                <Field name="pjbqud002_desc" value=""/>
+                <Field name="pjbqud011" value=""/>
+                <Field name="pjbq012" value="CNY"/>
+                <Field name="pjbq012_desc" value="人民币"/>
+                <Field name="pjbq013" value="1.000000"/>
+                <Field name="pjbq014" value="004"/>
+                <Field name="pjbq014_desc" value="增值税17含税"/>
+                <Field name="pjbq015" value="17.00%"/>
+                <Field name="pjbq008" value="42.0000"/>
+                <Field name="pjbq009" value="28,717.95"/>
+                <Field name="pjbq016" value="33,600.00"/>
+                <Field name="pjbq017" value="4,882.05"/>
+                <Field name="pjbq018" value="28,717.95"/>
+                <Field name="pjbq019" value="33,600.00"/>
+                <Field name="pjbq020" value="4,882.05"/>
+                <Field name="pjbq011" value="1,000.000"/>
+                <Field name="pjbqud001" value="C"/>
+              </Record>
+              <Record>
+                <Field name="pjbq003" value="48"/>
+                <Field name="pjbq004" value=""/>
+                <Field name="pjbq004_desc" value=""/>
+                <Field name="pjbq005" value="IBL10000000026"/>
+                <Field name="pjbq005_desc" value="胶类-结构胶"/>
+                <Field name="pjbq005_desc_desc" value="00-00-00 道康宁耐候胶 DC.991 碳黑色（进口）"/>
+                <Field name="pjbq021" value=""/>
+                <Field name="pjbq021_desc" value=""/>
+                <Field name="pjbq010" value=""/>
+                <Field name="pjbq006" value="PCS"/>
+                <Field name="pjbq006_desc" value="PCS"/>
+                <Field name="pjbq007" value="300.000"/>
+                <Field name="pjbqud002" value=""/>
+                <Field name="pjbqud002_desc" value=""/>
+                <Field name="pjbqud011" value="0.0"/>
+                <Field name="pjbq012" value=""/>
+                <Field name="pjbq012_desc" value=""/>
+                <Field name="pjbq013" value="0.000000"/>
+                <Field name="pjbq014" value="004"/>
+                <Field name="pjbq014_desc" value="增值税17含税"/>
+                <Field name="pjbq015" value="17.00%"/>
+                <Field name="pjbq008" value="42.0000"/>
+                <Field name="pjbq009" value="10,769.23"/>
+                <Field name="pjbq016" value="12,600.00"/>
+                <Field name="pjbq017" value="1,830.77"/>
+                <Field name="pjbq018" value="0.00"/>
+                <Field name="pjbq019" value="0.00"/>
+                <Field name="pjbq020" value="0.00"/>
+                <Field name="pjbq011" value="300.000"/>
+                <Field name="pjbqud001" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbq003" value="49"/>
+                <Field name="pjbq004" value=""/>
+                <Field name="pjbq004_desc" value=""/>
+                <Field name="pjbq005" value="AFH10100000272"/>
+                <Field name="pjbq005_desc" value="成品类-复合板（宁波亚德客 01-C02-2017008）"/>
+                <Field name="pjbq005_desc_desc" value="0.8-0.5-普强-AZ150 PVDF/PE WL-YH-WB 1000 岩棉100K 铁青灰/乳白"/>
+                <Field name="pjbq021" value=""/>
+                <Field name="pjbq021_desc" value=""/>
+                <Field name="pjbq010" value=""/>
+                <Field name="pjbq006" value="M2"/>
+                <Field name="pjbq006_desc" value="平方公尺"/>
+                <Field name="pjbq007" value="411.690"/>
+                <Field name="pjbqud002" value="PCS"/>
+                <Field name="pjbqud002_desc" value="PCS"/>
+                <Field name="pjbqud011" value="411.69"/>
+                <Field name="pjbq012" value=""/>
+                <Field name="pjbq012_desc" value=""/>
+                <Field name="pjbq013" value="0.000000"/>
+                <Field name="pjbq014" value="004"/>
+                <Field name="pjbq014_desc" value="增值税17含税"/>
+                <Field name="pjbq015" value="17.00%"/>
+                <Field name="pjbq008" value="96.9900"/>
+                <Field name="pjbq009" value="34,128.05"/>
+                <Field name="pjbq016" value="39,929.81"/>
+                <Field name="pjbq017" value="5,801.77"/>
+                <Field name="pjbq018" value="0.00"/>
+                <Field name="pjbq019" value="0.00"/>
+                <Field name="pjbq020" value="0.00"/>
+                <Field name="pjbq011" value="0.000"/>
+                <Field name="pjbqud001" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbq003" value="50"/>
+                <Field name="pjbq004" value=""/>
+                <Field name="pjbq004_desc" value=""/>
+                <Field name="pjbq005" value="IBL10000000009"/>
+                <Field name="pjbq005_desc" value="胶类-结构胶"/>
+                <Field name="pjbq005_desc_desc" value="00-00-00 道康宁 耐候胶 SJ-168   黑色 590ml"/>
+                <Field name="pjbq021" value=""/>
+                <Field name="pjbq021_desc" value=""/>
+                <Field name="pjbq010" value=""/>
+                <Field name="pjbq006" value="PCS"/>
+                <Field name="pjbq006_desc" value="PCS"/>
+                <Field name="pjbq007" value="200.000"/>
+                <Field name="pjbqud002" value=""/>
+                <Field name="pjbqud002_desc" value=""/>
+                <Field name="pjbqud011" value=""/>
+                <Field name="pjbq012" value="CNY"/>
+                <Field name="pjbq012_desc" value="人民币"/>
+                <Field name="pjbq013" value="1.000000"/>
+                <Field name="pjbq014" value="004"/>
+                <Field name="pjbq014_desc" value="增值税17含税"/>
+                <Field name="pjbq015" value="17.00%"/>
+                <Field name="pjbq008" value="28.0000"/>
+                <Field name="pjbq009" value="4,786.32"/>
+                <Field name="pjbq016" value="5,600.00"/>
+                <Field name="pjbq017" value="813.68"/>
+                <Field name="pjbq018" value="4,786.32"/>
+                <Field name="pjbq019" value="5,600.00"/>
+                <Field name="pjbq020" value="813.68"/>
+                <Field name="pjbq011" value="0.000"/>
+                <Field name="pjbqud001" value="C"/>
+              </Record>
+              <Record>
+                <Field name="pjbq003" value="51"/>
+                <Field name="pjbq004" value=""/>
+                <Field name="pjbq004_desc" value=""/>
+                <Field name="pjbq005" value="EPZ10000000024"/>
+                <Field name="pjbq005_desc" value="螺丝类-膨胀螺栓"/>
+                <Field name="pjbq005_desc_desc" value="00-00-00 M8*100"/>
+                <Field name="pjbq021" value=""/>
+                <Field name="pjbq021_desc" value=""/>
+                <Field name="pjbq010" value=""/>
+                <Field name="pjbq006" value="PCS"/>
+                <Field name="pjbq006_desc" value="PCS"/>
+                <Field name="pjbq007" value="850.000"/>
+                <Field name="pjbqud002" value=""/>
+                <Field name="pjbqud002_desc" value=""/>
+                <Field name="pjbqud011" value=""/>
+                <Field name="pjbq012" value="CNY"/>
+                <Field name="pjbq012_desc" value="人民币"/>
+                <Field name="pjbq013" value="1.000000"/>
+                <Field name="pjbq014" value="004"/>
+                <Field name="pjbq014_desc" value="增值税17含税"/>
+                <Field name="pjbq015" value="17.00%"/>
+                <Field name="pjbq008" value="1.2000"/>
+                <Field name="pjbq009" value="871.79"/>
+                <Field name="pjbq016" value="1,020.00"/>
+                <Field name="pjbq017" value="148.21"/>
+                <Field name="pjbq018" value="871.79"/>
+                <Field name="pjbq019" value="1,020.00"/>
+                <Field name="pjbq020" value="148.21"/>
+                <Field name="pjbq011" value="0.000"/>
+                <Field name="pjbqud001" value="C"/>
+              </Record>
+              <Record>
+                <Field name="pjbq003" value="52"/>
+                <Field name="pjbq004" value=""/>
+                <Field name="pjbq004_desc" value=""/>
+                <Field name="pjbq005" value="DJT10100000019"/>
+                <Field name="pjbq005_desc" value="型材类-角钢"/>
+                <Field name="pjbq005_desc_desc" value="3.0-Q235-Z275 L30*30"/>
+                <Field name="pjbq021" value=""/>
+                <Field name="pjbq021_desc" value=""/>
+                <Field name="pjbq010" value="黑铁的a"/>
+                <Field name="pjbq006" value="KG"/>
+                <Field name="pjbq006_desc" value="公斤"/>
+                <Field name="pjbq007" value="140.000"/>
+                <Field name="pjbqud002" value="PCS"/>
+                <Field name="pjbqud002_desc" value="PCS"/>
+                <Field name="pjbqud011" value="140.0"/>
+                <Field name="pjbq012" value="CNY"/>
+                <Field name="pjbq012_desc" value="人民币"/>
+                <Field name="pjbq013" value="1.000000"/>
+                <Field name="pjbq014" value="004"/>
+                <Field name="pjbq014_desc" value="增值税17含税"/>
+                <Field name="pjbq015" value="17.00%"/>
+                <Field name="pjbq008" value="5.0000"/>
+                <Field name="pjbq009" value="598.29"/>
+                <Field name="pjbq016" value="700.00"/>
+                <Field name="pjbq017" value="101.71"/>
+                <Field name="pjbq018" value="598.29"/>
+                <Field name="pjbq019" value="700.00"/>
+                <Field name="pjbq020" value="101.71"/>
+                <Field name="pjbq011" value="0.000"/>
+                <Field name="pjbqud001" value="C"/>
+              </Record>
+              <Record>
+                <Field name="pjbq003" value="53"/>
+                <Field name="pjbq004" value=""/>
+                <Field name="pjbq004_desc" value=""/>
+                <Field name="pjbq005" value="EZG10800000012"/>
+                <Field name="pjbq005_desc" value="螺丝类-自攻钉"/>
+                <Field name="pjbq005_desc_desc" value="00-00-00 镀白锌 M5.5*75"/>
+                <Field name="pjbq021" value=""/>
+                <Field name="pjbq021_desc" value=""/>
+                <Field name="pjbq010" value=""/>
+                <Field name="pjbq006" value="PCS"/>
+                <Field name="pjbq006_desc" value="PCS"/>
+                <Field name="pjbq007" value="15,000.000"/>
+                <Field name="pjbqud002" value=""/>
+                <Field name="pjbqud002_desc" value=""/>
+                <Field name="pjbqud011" value=""/>
+                <Field name="pjbq012" value="CNY"/>
+                <Field name="pjbq012_desc" value="人民币"/>
+                <Field name="pjbq013" value="1.000000"/>
+                <Field name="pjbq014" value="004"/>
+                <Field name="pjbq014_desc" value="增值税17含税"/>
+                <Field name="pjbq015" value="17.00%"/>
+                <Field name="pjbq008" value="0.2040"/>
+                <Field name="pjbq009" value="2,615.38"/>
+                <Field name="pjbq016" value="3,060.00"/>
+                <Field name="pjbq017" value="444.62"/>
+                <Field name="pjbq018" value="2,615.38"/>
+                <Field name="pjbq019" value="3,060.00"/>
+                <Field name="pjbq020" value="444.62"/>
+                <Field name="pjbq011" value="0.000"/>
+                <Field name="pjbqud001" value="E 原业主要求复合板自攻钉用6.3*75大扁头草绳自攻钉，由于采购单价太高，现改为普通5.5*75镀锌自攻钉，但业主要求原打一颗钉现改为打两颗。"/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail3" node_id="1_3"/>
+            <Detail name="s_detail4" node_id="1_4"/>
+            <Detail name="s_detail5" node_id="1_5">
+              <Record>
+                <Field name="pjbt003" value="540102"/>
+                <Field name="pjbt003_desc" value="运输费"/>
+                <Field name="pjbt006" value="006"/>
+                <Field name="pjbt006_desc" value="增值税11含税"/>
+                <Field name="pjbt007" value="11.00%"/>
+                <Field name="pjbtud011" value="57600.0"/>
+                <Field name="pjbtud012" value="1.0"/>
+                <Field name="pjbtud001" value="式"/>
+                <Field name="pjbt004" value="51,891.89"/>
+                <Field name="pjbt008" value="57,600.00"/>
+                <Field name="pjbt009" value="51,891.89"/>
+                <Field name="pjbt010" value="57,600.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbt003" value="540106-001"/>
+                <Field name="pjbt003_desc" value="办公费(文具，刻章，打印，晒图，名片，招聘)"/>
+                <Field name="pjbt006" value="001"/>
+                <Field name="pjbt006_desc" value="零税"/>
+                <Field name="pjbt007" value="0.00%"/>
+                <Field name="pjbtud011" value="1400.0"/>
+                <Field name="pjbtud012" value="1.0"/>
+                <Field name="pjbtud001" value="式"/>
+                <Field name="pjbt004" value="1,400.00"/>
+                <Field name="pjbt008" value="1,400.00"/>
+                <Field name="pjbt009" value="1,400.00"/>
+                <Field name="pjbt010" value="1,400.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbt003" value="540108"/>
+                <Field name="pjbt003_desc" value="差旅费(出差车票，机票，餐费，住宿)"/>
+                <Field name="pjbt006" value="001"/>
+                <Field name="pjbt006_desc" value="零税"/>
+                <Field name="pjbt007" value="0.00%"/>
+                <Field name="pjbtud011" value="6000.0"/>
+                <Field name="pjbtud012" value="1.0"/>
+                <Field name="pjbtud001" value="式"/>
+                <Field name="pjbt004" value="6,000.00"/>
+                <Field name="pjbt008" value="6,000.00"/>
+                <Field name="pjbt009" value="6,000.00"/>
+                <Field name="pjbt010" value="6,000.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbt003" value="540109"/>
+                <Field name="pjbt003_desc" value="招待费(招待客人餐费，娱乐，住宿，送礼)"/>
+                <Field name="pjbt006" value="001"/>
+                <Field name="pjbt006_desc" value="零税"/>
+                <Field name="pjbt007" value="0.00%"/>
+                <Field name="pjbtud011" value="2000.0"/>
+                <Field name="pjbtud012" value="1.0"/>
+                <Field name="pjbtud001" value="式"/>
+                <Field name="pjbt004" value="2,000.00"/>
+                <Field name="pjbt008" value="2,000.00"/>
+                <Field name="pjbt009" value="2,000.00"/>
+                <Field name="pjbt010" value="2,000.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbt003" value="540110"/>
+                <Field name="pjbt003_desc" value="交通费(市内交通，过路过桥，打车，加油费等)"/>
+                <Field name="pjbt006" value="001"/>
+                <Field name="pjbt006_desc" value="零税"/>
+                <Field name="pjbt007" value="0.00%"/>
+                <Field name="pjbtud011" value="4000.0"/>
+                <Field name="pjbtud012" value="1.0"/>
+                <Field name="pjbtud001" value="式"/>
+                <Field name="pjbt004" value="4,000.00"/>
+                <Field name="pjbt008" value="4,000.00"/>
+                <Field name="pjbt009" value="4,000.00"/>
+                <Field name="pjbt010" value="4,000.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbt003" value="540111"/>
+                <Field name="pjbt003_desc" value="吊车费"/>
+                <Field name="pjbt006" value="001"/>
+                <Field name="pjbt006_desc" value="零税"/>
+                <Field name="pjbt007" value="0.00%"/>
+                <Field name="pjbtud011" value="2000.0"/>
+                <Field name="pjbtud012" value="1.0"/>
+                <Field name="pjbtud001" value="式"/>
+                <Field name="pjbt004" value="2,000.00"/>
+                <Field name="pjbt008" value="2,000.00"/>
+                <Field name="pjbt009" value="2,000.00"/>
+                <Field name="pjbt010" value="2,000.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbt003" value="540115"/>
+                <Field name="pjbt003_desc" value="保固"/>
+                <Field name="pjbt006" value="001"/>
+                <Field name="pjbt006_desc" value="零税"/>
+                <Field name="pjbt007" value="0.00%"/>
+                <Field name="pjbtud011" value="11900.0"/>
+                <Field name="pjbtud012" value="1.0"/>
+                <Field name="pjbtud001" value="式"/>
+                <Field name="pjbt004" value="11,900.00"/>
+                <Field name="pjbt008" value="11,900.00"/>
+                <Field name="pjbt009" value="11,900.00"/>
+                <Field name="pjbt010" value="11,900.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbt003" value="540120-003"/>
+                <Field name="pjbt003_desc" value="加工费-墙面彩板"/>
+                <Field name="pjbt006" value="001"/>
+                <Field name="pjbt006_desc" value="零税"/>
+                <Field name="pjbt007" value="0.00%"/>
+                <Field name="pjbtud011" value="270.0"/>
+                <Field name="pjbtud012" value="16.0"/>
+                <Field name="pjbtud001" value="T"/>
+                <Field name="pjbt004" value="4,320.00"/>
+                <Field name="pjbt008" value="4,320.00"/>
+                <Field name="pjbt009" value="4,320.00"/>
+                <Field name="pjbt010" value="4,320.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbt003" value="540120-004"/>
+                <Field name="pjbt003_desc" value="加工费-墙面复合板"/>
+                <Field name="pjbt006" value="001"/>
+                <Field name="pjbt006_desc" value="零税"/>
+                <Field name="pjbt007" value="0.00%"/>
+                <Field name="pjbtud011" value="60.0"/>
+                <Field name="pjbtud012" value="5400.0"/>
+                <Field name="pjbtud001" value="M2"/>
+                <Field name="pjbt004" value="324,000.00"/>
+                <Field name="pjbt008" value="324,000.00"/>
+                <Field name="pjbt009" value="324,000.00"/>
+                <Field name="pjbt010" value="324,000.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbt003" value="540120-009"/>
+                <Field name="pjbt003_desc" value="加工费-收边贴膜费用"/>
+                <Field name="pjbt006" value="001"/>
+                <Field name="pjbt006_desc" value="零税"/>
+                <Field name="pjbt007" value="0.00%"/>
+                <Field name="pjbtud011" value="1.0"/>
+                <Field name="pjbtud012" value="7000.0"/>
+                <Field name="pjbtud001" value="M"/>
+                <Field name="pjbt004" value="7,000.00"/>
+                <Field name="pjbt008" value="7,000.00"/>
+                <Field name="pjbt009" value="7,000.00"/>
+                <Field name="pjbt010" value="7,000.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbt003" value="540120-010"/>
+                <Field name="pjbt003_desc" value="加工费-RS-760电动咬合"/>
+                <Field name="pjbt006" value="001"/>
+                <Field name="pjbt006_desc" value="零税"/>
+                <Field name="pjbt007" value="0.00%"/>
+                <Field name="pjbtud011" value="80.0"/>
+                <Field name="pjbtud012" value="14.0"/>
+                <Field name="pjbtud001" value="天"/>
+                <Field name="pjbt004" value="1,120.00"/>
+                <Field name="pjbt008" value="1,120.00"/>
+                <Field name="pjbt009" value="1,120.00"/>
+                <Field name="pjbt010" value="1,120.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbt003" value="540120-012"/>
+                <Field name="pjbt003_desc" value="加工费-屋面板RS-760机台"/>
+                <Field name="pjbt006" value="001"/>
+                <Field name="pjbt006_desc" value="零税"/>
+                <Field name="pjbt007" value="0.00%"/>
+                <Field name="pjbtud011" value="2300.0"/>
+                <Field name="pjbtud012" value="3.0"/>
+                <Field name="pjbtud001" value="天"/>
+                <Field name="pjbt004" value="6,900.00"/>
+                <Field name="pjbt008" value="6,900.00"/>
+                <Field name="pjbt009" value="6,900.00"/>
+                <Field name="pjbt010" value="6,900.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbt003" value="540120-015"/>
+                <Field name="pjbt003_desc" value="加工费-现场成型费"/>
+                <Field name="pjbt006" value="001"/>
+                <Field name="pjbt006_desc" value="零税"/>
+                <Field name="pjbt007" value="0.00%"/>
+                <Field name="pjbtud011" value="200.0"/>
+                <Field name="pjbtud012" value="3.0"/>
+                <Field name="pjbtud001" value="式"/>
+                <Field name="pjbt004" value="600.00"/>
+                <Field name="pjbt008" value="600.00"/>
+                <Field name="pjbt009" value="600.00"/>
+                <Field name="pjbt010" value="600.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbt003" value="540120-016"/>
+                <Field name="pjbt003_desc" value="加工费-吊杆"/>
+                <Field name="pjbt006" value="001"/>
+                <Field name="pjbt006_desc" value="零税"/>
+                <Field name="pjbt007" value="0.00%"/>
+                <Field name="pjbtud011" value="600.0"/>
+                <Field name="pjbtud012" value="1.0"/>
+                <Field name="pjbtud001" value="式"/>
+                <Field name="pjbt004" value="600.00"/>
+                <Field name="pjbt008" value="600.00"/>
+                <Field name="pjbt009" value="600.00"/>
+                <Field name="pjbt010" value="600.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbt003" value="540123-001"/>
+                <Field name="pjbt003_desc" value="工资-工务补贴"/>
+                <Field name="pjbt006" value="001"/>
+                <Field name="pjbt006_desc" value="零税"/>
+                <Field name="pjbt007" value="0.00%"/>
+                <Field name="pjbtud011" value="3000.0"/>
+                <Field name="pjbtud012" value="1.0"/>
+                <Field name="pjbtud001" value="式"/>
+                <Field name="pjbt004" value="3,000.00"/>
+                <Field name="pjbt008" value="3,000.00"/>
+                <Field name="pjbt009" value="3,000.00"/>
+                <Field name="pjbt010" value="3,000.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+              <Record>
+                <Field name="pjbt003" value="640203"/>
+                <Field name="pjbt003_desc" value="财管费"/>
+                <Field name="pjbt006" value="001"/>
+                <Field name="pjbt006_desc" value="零税"/>
+                <Field name="pjbt007" value="0.00%"/>
+                <Field name="pjbtud011" value="71400.0"/>
+                <Field name="pjbtud012" value="1.0"/>
+                <Field name="pjbtud001" value="式"/>
+                <Field name="pjbt004" value="71,400.00"/>
+                <Field name="pjbt008" value="71,400.00"/>
+                <Field name="pjbt009" value="71,400.00"/>
+                <Field name="pjbt010" value="71,400.00"/>
+                <Field name="pjbt011" value="4:制造费用1"/>
+                <Field name="pjbt005" value=""/>
+              </Record>
+            </Detail>
+            <Detail name="s_detail6" node_id="1_6">
+              <Record/>
+            </Detail>
+            <Memo/>
+            <Attachment count="0" download="Y"/>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+  </RequestContent>
+</Request>
+]]>
+    </param>
+  </payload>
+</request>
+
+
+Response XML:
+
+ <response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+   <param key="data" type="XML"><![CDATA[
+ <Response>
+  <Execution>
+   <Status code="0" sqlcode="0" description="NO ERROR"/>
+  </Execution>
+  <ResponseContent>
+   <Parameter>
+    <Record>
+     <Field name="work_processSN" processId="" value=""/>
+     <Field name="flow_processSN" processId="ALL_cpjt310_CPJ3" value="ALL_cpjt310_CPJ300001402"/>
+     <Field name="status" value="W"/>
+    </Record>
+   </Parameter>
+  </ResponseContent>
+ </Response>
+]]></param>
+  </payload>
+ </response>
+
+#------------------------------------------------------------------------------#

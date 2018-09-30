@@ -1,0 +1,53 @@
+---------------------------------------------------------------------------------- 
+-- File created from /u1/topprod/topcust/csf/4fd/csfi001.4fd by Genero Studio
+-- WARNING! All changes made in this file will be lost!
+----------------------------------------------------------------------------------
+
+SCHEMA ds
+
+LAYOUT (spacing=normal, text=%"csfi001")
+VBox vbox1
+Folder pc832
+Page page01(text=%"Page01")
+Table s_tc_csf
+{
+[tc_csf01       |tc_csf02       |ima02          |ima021               |tc_csf03       |tc_csf04       |tc_csf05       ]
+[tc_csf01       |tc_csf02       |ima02          |ima021               |tc_csf03       |tc_csf04       |tc_csf05       ]
+[tc_csf01       |tc_csf02       |ima02          |ima021               |tc_csf03       |tc_csf04       |tc_csf05       ]
+[tc_csf01       |tc_csf02       |ima02          |ima021               |tc_csf03       |tc_csf04       |tc_csf05       ]
+[tc_csf01       |tc_csf02       |ima02          |ima021               |tc_csf03       |tc_csf04       |tc_csf05       ]
+[tc_csf01       |tc_csf02       |ima02          |ima021               |tc_csf03       |tc_csf04       |tc_csf05       ]
+[tc_csf01       |tc_csf02       |ima02          |ima021               |tc_csf03       |tc_csf04       |tc_csf05       ]
+[tc_csf01       |tc_csf02       |ima02          |ima021               |tc_csf03       |tc_csf04       |tc_csf05       ]
+[tc_csf01       |tc_csf02       |ima02          |ima021               |tc_csf03       |tc_csf04       |tc_csf05       ]
+[tc_csf01       |tc_csf02       |ima02          |ima021               |tc_csf03       |tc_csf04       |tc_csf05       ]
+}
+END -- s_tc_csf
+END -- page01
+END -- pc832
+Grid gr4618
+{
+ ----------Rows [cn2   ] ----------
+
+
+}
+END -- gr4618
+END -- vbox1
+END -- csfi001
+
+ATTRIBUTES
+ButtonEdit tc_csf01=formonly.tc_csf01 type VARCHAR, action=controlp, tabIndex=1, title=%"tc_csf01", not null, required, image="zoom";
+ButtonEdit tc_csf02=formonly.tc_csf02 type VARCHAR, action=controlp, tabIndex=2, title=%"tc_csf02", image="zoom";
+Edit ima02=formonly.ima02, tabIndex=3, title=%"ima02";
+Edit ima021=formonly.ima021, tabIndex=4, title=%"ima021";
+Edit tc_csf03=formonly.tc_csf03 type VARCHAR, tabIndex=5, title=%"tc_csf03";
+Edit tc_csf04=formonly.tc_csf04 type VARCHAR, tabIndex=6, title=%"tc_csf04";
+Edit tc_csf05=formonly.tc_csf05 type VARCHAR, tabIndex=7, title=%"tc_csf05";
+Edit cn2=formonly.cn2 type SMALLINT, tabIndex=8, noEntry;
+END -- ATTRIBUTES
+
+INSTRUCTIONS
+SCREEN RECORD undefined(formonly.cn2)
+SCREEN RECORD s_tc_csf(formonly.tc_csf01,formonly.tc_csf02,formonly.ima02,formonly.ima021,formonly.tc_csf03,formonly.tc_csf04,formonly.tc_csf05)
+END -- INSTRUCTIONS
+

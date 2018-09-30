@@ -1,0 +1,66 @@
+---------------------------------------------------------------------------------- 
+-- File created from /u1/topprod/topcust/cxm/4fd/cxmi001.4fd by Genero Studio
+-- WARNING! All changes made in this file will be lost!
+----------------------------------------------------------------------------------
+
+SCHEMA ds
+
+LAYOUT (spacing=normal, text=%"axcq450")
+VBox vb6
+Folder folder01
+Page page01(text="Main")
+Grid gr1554
+{
+
+
+ tc_oqd01                [tc_oqd01          ]
+
+}
+END -- gr1554
+END -- page01
+END -- folder01
+Table s_tc_oqd
+{
+[tc_oqd02        |ima02              |ima021           |tc_oqd03          |tc_oqd04         |tc_oqd05            |tc_oqd06            ]
+[tc_oqd02        |ima02              |ima021           |tc_oqd03          |tc_oqd04         |tc_oqd05            |tc_oqd06            ]
+[tc_oqd02        |ima02              |ima021           |tc_oqd03          |tc_oqd04         |tc_oqd05            |tc_oqd06            ]
+[tc_oqd02        |ima02              |ima021           |tc_oqd03          |tc_oqd04         |tc_oqd05            |tc_oqd06            ]
+[tc_oqd02        |ima02              |ima021           |tc_oqd03          |tc_oqd04         |tc_oqd05            |tc_oqd06            ]
+[tc_oqd02        |ima02              |ima021           |tc_oqd03          |tc_oqd04         |tc_oqd05            |tc_oqd06            ]
+[tc_oqd02        |ima02              |ima021           |tc_oqd03          |tc_oqd04         |tc_oqd05            |tc_oqd06            ]
+[tc_oqd02        |ima02              |ima021           |tc_oqd03          |tc_oqd04         |tc_oqd05            |tc_oqd06            ]
+[tc_oqd02        |ima02              |ima021           |tc_oqd03          |tc_oqd04         |tc_oqd05            |tc_oqd06            ]
+[tc_oqd02        |ima02              |ima021           |tc_oqd03          |tc_oqd04         |tc_oqd05            |tc_oqd06            ]
+[tc_oqd02        |ima02              |ima021           |tc_oqd03          |tc_oqd04         |tc_oqd05            |tc_oqd06            ]
+
+}
+END -- s_tc_oqd
+Grid gr
+{
+    Rows[cnt1  ]/[cnt   ] ---  [cnt2  ]    ---
+
+
+}
+END -- gr
+END -- vb6
+END -- axcq450
+
+ATTRIBUTES
+Edit tc_oqd01=formonly.tc_oqd01 type VARCHAR, tabIndex=1, not null, required;
+ButtonEdit tc_oqd02=formonly.tc_oqd02 type VARCHAR, action=controlp, tabIndex=2, title="tc_oqd02", not null, required, image="zoom";
+Edit ima02=formonly.ima02 type VARCHAR, tabIndex=3, title="ima02", noEntry;
+Edit ima021=formonly.ima021 type VARCHAR, tabIndex=4, title="ima021", noEntry;
+Edit tc_oqd03=formonly.tc_oqd03 type VARCHAR, tabIndex=5, title="tc_oqd03";
+Edit tc_oqd04=formonly.tc_oqd04 type VARCHAR, tabIndex=6, title="tc_oqd04";
+DateEdit tc_oqd05=formonly.tc_oqd05 type DATE, tabIndex=7, title="tc_oqd05", required;
+Edit tc_oqd06=formonly.tc_oqd06 type VARCHAR, tabIndex=8, title="tc_oqd06";
+Edit cnt1=formonly.cnt1 type SMALLINT, tabIndex=10, noEntry;
+Edit cnt=formonly.cnt type SMALLINT, tabIndex=9, noEntry;
+Edit cnt2=formonly.cnt2 type SMALLINT, tabIndex=11, noEntry;
+END -- ATTRIBUTES
+
+INSTRUCTIONS
+SCREEN RECORD s_tc_oqd(formonly.tc_oqd02,formonly.ima02,formonly.ima021,formonly.tc_oqd03,formonly.tc_oqd04,formonly.tc_oqd05,formonly.tc_oqd06)
+SCREEN RECORD Undefined(formonly.tc_oqd01,formonly.cnt,formonly.cnt1,formonly.cnt2)
+END -- INSTRUCTIONS
+

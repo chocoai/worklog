@@ -1,0 +1,8 @@
+sqlplus system/manager/@topprod
+@q_datafile
+alter tablespace temptabs add datafile '/u2/oradb/oradata/topprod/temptabs-01.dbf' size 4G;
+
+
+alter tablespace temptabs add datafile '/u2/oracle/oradata/topprod/temptabs02.dbf' size 4G;
+
+sqlplus '/as sysdba'

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form CHECKSUM="-1" browserStatus="true" database_name="ds" fourSTFile="" gstVersion="11401" height="23" lstrtext="false" lstrtoallcomment="false" lstrtoallitem="false" lstrtoalltext="false" lstrtoalltitle="false" name="cpyi008" posX="0" posY="0" spacing="normal" text="cpyi008" unitHeight="4 CHARACTERS" width="310">
+  <VBox hidden="--------" name="vb2" posX="16" posY="6" style="" tag="">
+    <PageControl browserStatus="false" fontPitch="default" height="5" hidden="--------" lstrcomment="false" name="pc1" posX="16" posY="6" width="295">
+      <Page browserStatus="false" flag_text_changed="FALSE" name="Page1" text="Page0">
+        <Grid browserStatus="false" fontPitch="default" height="3" hidden="--------" lstrcomment="false" name="gr1" posX="2" posY="1" width="195">
+          <Text height="1" name="text1" posX="6" posY="1" text="text1" width="6"/>
+          <Text height="1" name="text1_1" posX="35" posY="1" text="text1" width="6"/>
+          <Text gridWidth="7" height="1" lstrtext="false" name="text9" posX="65" posY="1" sizePolicy="initial" text="Confirm" width="7"/>
+          <FormField colName="tc_pyaconf" fieldId="12" fieldtype="TABLE_COLUMN" name="tc_pyaconf" sqlDBName="ds" sqlTabName="tc_pya_file">
+            <ComboBox case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield11" gridWidth="10" height="1" hidden="--------" length="1" lstrcomment="false" lstrtitle="false" name="tc_pyaconf" noEntry="true" notNull="--------" posX="75" posY="1" queryEditable="--------" required="--------" sizePolicy="initial" sortItem="" tabIndex="33" width="15">
+              <Item lstrtext="false" name="Y" text="Confirmed"/>
+              <Item lstrtext="false" name="N" text="NOT Confirm"/>
+            </ComboBox>
+          </FormField>
+          <FormField colName="imgmksg" fieldtype="FORM_ONLY" sqlTabName="formonly">
+            <Image autoScale="--------" data_type="--------" formfieldname="formfield1" height="1" hidden="--------" lstrcomment="false" name="imgmksg" posX="94" posY="1" sizePolicy="initial" stretch="both" unitHeight="1 PIXELS" unitWidth="8 PIXELS" width="8"/>
+          </FormField>
+          <FormField colName="tc_pya01" fieldtype="TABLE_COLUMN" name="tc_pya01" sqlDBName="ds" sqlTabName="tc_pya_file">
+            <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield0" height="1" hidden="--------" imagetype="Image as URL" invisible="--------" justify="none" length="10" lstrcomment="false" name="tc_pya01" noEntry="--------" notNull="--------" posX="14" posY="1" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="34" verify="--------" width="11"/>
+          </FormField>
+          <FormField colName="tc_pya02" fieldtype="TABLE_COLUMN" name="tc_pya02" sqlDBName="ds" sqlTabName="tc_pya_file">
+            <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield0" height="1" hidden="--------" imagetype="Image as URL" invisible="--------" justify="none" length="10" lstrcomment="false" name="tc_pya02" noEntry="--------" notNull="--------" posX="43" posY="1" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="35" verify="--------" width="11"/>
+          </FormField>
+        </Grid>
+      </Page>
+    </PageControl>
+    <Table browserStatus="true" fontPitch="default" height="12" hidden="--------" name="s_tc_pya" posX="16" posY="11" tabName="s_tc_pya" totalRows="10" unhidableColumns="--------" unitHeight="-------- CHARACTERS" unitWidth="-------- CHARACTERS" unmovableColumns="--------" unsizableColumns="--------" unsortableColumns="--------" wantFixedPageSize="--------" width="295">
+      <TableColumn colName="tc_pya03" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya03" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="1" text="tc_pya03" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="12">
+        <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" image="zoom" imagetype="Select File" invisible="--------" justify="none" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="12"/>
+      </TableColumn>
+      <TableColumn colName="ima02" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="ima02" sqlDBName="ds" sqlTabName="ima_file" tabIndex="26" text="ima02" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="8">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="90" lstrcomment="false" noEntry="true" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="8"/>
+      </TableColumn>
+      <TableColumn colName="ima1916" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="ima1916" sqlDBName="ds" sqlTabName="ima_file" tabIndex="19" text="ima1916" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="7">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="40" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="7"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya04" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya04" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="2" text="tc_pya04" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="6">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="SMALLINT" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="5" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="6"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya05" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya05" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="3" text="tc_pya05" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="8">
+        <ButtonEdit action="controlp" autoNext="--------" case="UPPER" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" image="zoom" imagetype="Select File" invisible="--------" justify="none" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="8"/>
+      </TableColumn>
+      <TableColumn colName="tc_jjr005" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_jjr005" sqlDBName="ds" sqlTabName="tc_jjr_file" tabIndex="4" text="tc_jjr005" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="6">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="100" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="6"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya06" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya06" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="5" text="tc_pya06" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="9">
+        <ButtonEdit action="controlp" autoNext="--------" case="UPPER" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" image="zoom" imagetype="Select File" invisible="--------" justify="none" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="9"/>
+      </TableColumn>
+      <TableColumn colName="tc_jjf004" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_jjf004" sqlDBName="ds" sqlTabName="tc_jjf_file" tabIndex="6" text="tc_jjf004" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="7">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="120" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="7"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya27" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya27" sortItem="" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="30" text="tc_pya27" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="10">
+        <ComboBox case="NONE" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" lstrcomment="false" noEntry="--------" notNull="--------" queryEditable="--------" required="--------" scroll="--------" sizePolicy="initial">
+          <Item lstrtext="false" name="M01" text="手工"/>
+          <Item lstrtext="false" name="M02" text="设备类"/>
+        </ComboBox>
+      </TableColumn>
+      <TableColumn colName="tc_pya28" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya28" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="31" text="tc_pya28" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="10">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="DECIMAL" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="22" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya29" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya29" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="32" text="tc_pya29" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="10">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="DECIMAL" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="22" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya08" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya08" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="8" text="tc_pya08" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="9">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="DECIMAL" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="15" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="9"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya09" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya09" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="9" text="tc_pya09" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="9">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="DECIMAL" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="22" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="9"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya07" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya07" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="7" text="tc_pya07" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="10">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" invisible="--------" justify="none" lstrcomment="false" noEntry="true" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="10"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya10" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya10" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="10" text="tc_pya10" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="9">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="30" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="9"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya11" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya11" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="11" text="tc_pya11" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="10">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" invisible="--------" justify="none" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya12" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya12" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="12" text="tc_pya12" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="7">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" invisible="--------" justify="none" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="7"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya13" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya13" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="13" text="tc_pya13" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="9">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="9"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya14" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya14" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="14" text="tc_pya14" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="6">
+        <CheckBox data_type="VARCHAR" fontPitch="default" hidden="--------" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" sizePolicy="initial" valueChecked="Y" valueUnchecked="N" width="6"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya15" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya15" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="15" text="tc_pya15" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="8">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" invisible="--------" justify="none" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="8"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya16" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya16" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="20" text="tc_pya16" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="6">
+        <CheckBox data_type="VARCHAR" fontPitch="default" hidden="--------" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" sizePolicy="initial" valueChecked="Y" valueUnchecked="N" width="6"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya17" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya17" sortItem="" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="21" text="tc_pya17" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="10">
+        <ComboBox case="NONE" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" lstrcomment="false" noEntry="--------" notNull="--------" queryEditable="--------" required="--------" scroll="--------" sizePolicy="initial">
+          <Item lstrtext="false" name="1" text="1"/>
+          <Item lstrtext="false" name="2" text="2"/>
+        </ComboBox>
+      </TableColumn>
+      <TableColumn colName="tc_pya18" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya18" sortItem="" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="22" text="tc_pya18" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="10">
+        <ComboBox case="NONE" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" lstrcomment="false" noEntry="--------" notNull="--------" queryEditable="--------" required="--------" scroll="--------" sizePolicy="initial">
+          <Item lstrtext="false" name="F" text="机装/装配(F)"/>
+          <Item lstrtext="false" name="P" text="手装/包装(P)"/>
+          <Item lstrtext="false" name="Z" text="自动包装(Z)"/>
+        </ComboBox>
+      </TableColumn>
+      <TableColumn colName="tc_pyaacti" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pyaacti" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="16" text="tc_pyaacti" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="6">
+        <CheckBox data_type="VARCHAR" fontPitch="default" hidden="--------" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" sizePolicy="initial" valueChecked="Y" valueUnchecked="N" width="6"/>
+      </TableColumn>
+      <TableColumn colName="tc_pyamodu" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pyamodu" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="17" text="tc_pyamodu" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="7">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="8" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="7"/>
+      </TableColumn>
+      <TableColumn colName="tc_pyadate" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pyadate" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="18" text="tc_pyadate" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="10">
+        <DateEdit century="R" color="black" colorCondition="black" data_type="DATE" fontPitch="default" hidden="--------" justify="none" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" sizePolicy="initial" width="10"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya19" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya19" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="23" text="tc_pya19" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="7">
+        <CheckBox data_type="VARCHAR" fontPitch="default" hidden="--------" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" sizePolicy="initial" valueChecked="Y" valueUnchecked="N" width="7"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya20" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya20" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="24" text="tc_pya20" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="7">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="VARCHAR" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="16" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="7"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya21" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya21" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="25" text="tc_pya21" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="7">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="INTEGER" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="10" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="7"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya22" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya22" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="27" text="tc_pya22" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="5">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="SMALLINT" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="5" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="5"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya23" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya23" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="28" text="tc_pya23" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="7">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="DECIMAL" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="19" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="7"/>
+      </TableColumn>
+      <TableColumn colName="tc_pya24" fieldtype="TABLE_COLUMN" flag_text_changed="FALSE" lstrtext="false" name="tc_pya24" sqlDBName="ds" sqlTabName="tc_pya_file" tabIndex="29" text="tc_pya24" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="10">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" colorCondition="black" data_type="DECIMAL" fontPitch="default" hidden="--------" invisible="--------" justify="none" length="22" lstrcomment="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------"/>
+      </TableColumn>
+    </Table>
+  </VBox>
+  <RecordView SRType="default" fromTable="true" name="s_tc_pya" tableKey="tb1">
+    <Link colKey="Col1" colName="tc_pya_file.tc_pya03" fromTable="true"/>
+    <Link colKey="Col2" colName="ima_file.ima02" fromTable="true"/>
+    <Link colKey="Col3" colName="ima_file.ima1916" fromTable="true"/>
+    <Link colKey="Col4" colName="tc_pya_file.tc_pya04" fromTable="true"/>
+    <Link colKey="Col5" colName="tc_pya_file.tc_pya05" fromTable="true"/>
+    <Link colKey="Col6" colName="tc_jjr_file.tc_jjr005" fromTable="true"/>
+    <Link colKey="Col7" colName="tc_pya_file.tc_pya06" fromTable="true"/>
+    <Link colKey="Col8" colName="tc_jjf_file.tc_jjf004" fromTable="true"/>
+    <Link colKey="Col9" colName="tc_pya_file.tc_pya27" fromTable="true"/>
+    <Link colKey="Col10" colName="tc_pya_file.tc_pya28" fromTable="true"/>
+    <Link colKey="Col11" colName="tc_pya_file.tc_pya29" fromTable="true"/>
+    <Link colKey="Col12" colName="tc_pya_file.tc_pya08" fromTable="true"/>
+    <Link colKey="Col13" colName="tc_pya_file.tc_pya09" fromTable="true"/>
+    <Link colKey="Col14" colName="tc_pya_file.tc_pya07" fromTable="true"/>
+    <Link colKey="Col15" colName="tc_pya_file.tc_pya10" fromTable="true"/>
+    <Link colKey="Col16" colName="tc_pya_file.tc_pya11" fromTable="true"/>
+    <Link colKey="Col17" colName="tc_pya_file.tc_pya12" fromTable="true"/>
+    <Link colKey="Col18" colName="tc_pya_file.tc_pya13" fromTable="true"/>
+    <Link colKey="Col19" colName="tc_pya_file.tc_pya14" fromTable="true"/>
+    <Link colKey="Col20" colName="tc_pya_file.tc_pya15" fromTable="true"/>
+    <Link colKey="Col21" colName="tc_pya_file.tc_pya16" fromTable="true"/>
+    <Link colKey="Col22" colName="tc_pya_file.tc_pya17" fromTable="true"/>
+    <Link colKey="Col23" colName="tc_pya_file.tc_pya18" fromTable="true"/>
+    <Link colKey="Col24" colName="tc_pya_file.tc_pyaacti" fromTable="true"/>
+    <Link colKey="Col25" colName="tc_pya_file.tc_pyamodu" fromTable="true"/>
+    <Link colKey="Col26" colName="tc_pya_file.tc_pyadate" fromTable="true"/>
+    <Link colKey="Col27" colName="tc_pya_file.tc_pya19" fromTable="true"/>
+    <Link colKey="Col28" colName="tc_pya_file.tc_pya20" fromTable="true"/>
+    <Link colKey="Col29" colName="tc_pya_file.tc_pya21" fromTable="true"/>
+    <Link colKey="Col30" colName="tc_pya_file.tc_pya22" fromTable="true"/>
+    <Link colKey="Col31" colName="tc_pya_file.tc_pya23" fromTable="true"/>
+    <Link colKey="Col32" colName="tc_pya_file.tc_pya24" fromTable="true"/>
+  </RecordView>
+</Form>

@@ -1,0 +1,31 @@
+
+ <request type="sync" key="e90273605bdd576af188a01a8ff524dc">
+  <host prod="BPM" ver="Examination" ip="192.168.10.8" id="" lang="zh_CN" timezone="+8" timestamp="20171106094125676" acct="15110427"/>
+  <service prod="TIPTOP" name="ProcessStatusUpdate" srvver="1.0" ip="192.168.10.7" id="topprd"/>
+  <datakey type="FOM">
+   <key name="FormId">PM81</key>
+   <key name="EntId">9</key>
+   <key name="Prog">apmt400</key>
+   <key name="CompanyId">SX05</key>
+   <key name="DocKey">pmdaent=9{+}pmdadocno=005-PM81-171100009</key>
+   <key name="PK3"/>
+   <key name="DocProp">apmt400</key>
+   <key name="SheetNo">005-PM81-171100009</key>
+  </datakey>
+  <payload>
+   <param key="data" type="XML"><![CDATA[
+ <Request>
+  <RequestContent>
+   <Parameter>
+    <Record>
+     <Field name="processSN" value="ALL_apmt400_PM8100002049"/>
+     <Field name="status" value="A"/>
+     <Field name="description" value=""/>
+    </Record>
+   </Parameter>
+  </RequestContent>
+  <Document/>
+ </Request>
+]]></param>
+  </payload>
+ </request>

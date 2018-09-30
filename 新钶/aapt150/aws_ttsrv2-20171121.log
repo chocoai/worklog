@@ -1,0 +1,2076 @@
+#--------------------------- (2017-11-21 10:54:40) ----------------------------#
+[Request Service #105440493]
+    'CreatePLMTempTableData' begin at 10:54:40.493
+
+[Request Message #105440493]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""></Authentication>
+    <Connection application="PLM" source="10.0.2.8"></Connection>
+    <Organization name="SHXK"></Organization>
+    <Locale language="zh_cn"></Locale>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"></Field>
+        <Field name="datakey" value="5110779740464500001"></Field>
+        <Field name="tot_cnt" value="1"></Field>
+        <Field name="sub_cnt" value="1"></Field>
+        <Field name="status" value="Y"></Field>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8003-0023"></Field>
+            <Field name="ima02" value="1U 机架式可调电源 输入AC110V±15% 60Hz 单相，输出DC0~60V，50W"></Field>
+            <Field name="ima06" value="8003"></Field>
+            <Field name="ima021" value="4NIC-ZYQG50"></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="071BART"></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5110779740464500"></Field>
+        <Field name="seq_tot_cnt" value="1"></Field>
+        <Field name="seq_sub_cnt" value="1"></Field>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+
+[Response Service #105440493]
+    'CreatePLMTempTableData' end at 10:54:40.674
+
+[Response Message #105440493]
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 10:54:41) ----------------------------#
+[Request Service #105441527]
+    'CreatePLMTempTableData' begin at 10:54:41.527
+
+[Request Message #105441527]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""></Authentication>
+    <Connection application="PLM" source="10.0.2.8"></Connection>
+    <Organization name="SHXK_STE"></Organization>
+    <Locale language="zh_cn"></Locale>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"></Field>
+        <Field name="datakey" value="5110779750636464001"></Field>
+        <Field name="tot_cnt" value="1"></Field>
+        <Field name="sub_cnt" value="1"></Field>
+        <Field name="status" value="Y"></Field>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8003-0023"></Field>
+            <Field name="ima02" value="1U 机架式可调电源 输入AC110V±15% 60Hz 单相，输出DC0~60V，50W"></Field>
+            <Field name="ima06" value="8003"></Field>
+            <Field name="ima021" value="4NIC-ZYQG50"></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="071BART"></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5110779750636464"></Field>
+        <Field name="seq_tot_cnt" value="1"></Field>
+        <Field name="seq_sub_cnt" value="1"></Field>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+
+[Response Service #105441527]
+    'CreatePLMTempTableData' end at 10:54:41.866
+
+[Response Message #105441527]
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 10:54:42) ----------------------------#
+[Request Service #105442048]
+    '' begin at 10:54:42.048
+
+[Request Message #105442048]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""/>
+    <Connection application="PLM" source="10.0.2.8"/>
+    <Organization name="SHXK"/>
+    <Locale language="zh_cn"/>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"/>
+        <Field name="datakey" value="5110779740464500001"/>
+        <Field name="tot_cnt" value="1"/>
+        <Field name="sub_cnt" value="1"/>
+        <Field name="status" value="Y"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8003-0023"/>
+            <Field name="ima02" value="1U 机架式可调电源 输入AC110V±15% 60Hz 单相，输出DC0~60V，50W"/>
+            <Field name="ima06" value="8003"/>
+            <Field name="ima021" value="4NIC-ZYQG50"/>
+            <Field name="ima25" value="PCS"/>
+            <Field name="imaud02" value="071BART"/>
+            <Field name="ima08" value="P"/>
+            <Field name="ima37" value="2"/>
+            <Field name="ima921" value="N"/>
+            <Field name="ima70" value="N"/>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5110779740464500"/>
+        <Field name="seq_tot_cnt" value="1"/>
+        <Field name="seq_sub_cnt" value="1"/>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+[Response Service #105442048]
+    '' end at 10:54:42.069
+
+[Response Message #105442048]
+<Response>
+  <Execution>
+    <Status code="aws-624" sqlcode="0" description="傳入的DataKey不存在於暫存資料表(wcf_file) ，請確認!"/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 10:54:43) ----------------------------#
+[Request Service #105443254]
+    '' begin at 10:54:43.254
+
+[Request Message #105443254]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""/>
+    <Connection application="PLM" source="10.0.2.8"/>
+    <Organization name="SHXK_STE"/>
+    <Locale language="zh_cn"/>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"/>
+        <Field name="datakey" value="5110779750636464001"/>
+        <Field name="tot_cnt" value="1"/>
+        <Field name="sub_cnt" value="1"/>
+        <Field name="status" value="Y"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8003-0023"/>
+            <Field name="ima02" value="1U 机架式可调电源 输入AC110V±15% 60Hz 单相，输出DC0~60V，50W"/>
+            <Field name="ima06" value="8003"/>
+            <Field name="ima021" value="4NIC-ZYQG50"/>
+            <Field name="ima25" value="PCS"/>
+            <Field name="imaud02" value="071BART"/>
+            <Field name="ima08" value="P"/>
+            <Field name="ima37" value="2"/>
+            <Field name="ima921" value="N"/>
+            <Field name="ima70" value="N"/>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5110779750636464"/>
+        <Field name="seq_tot_cnt" value="1"/>
+        <Field name="seq_sub_cnt" value="1"/>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+[Response Service #105443254]
+    '' end at 10:54:43.272
+
+[Response Message #105443254]
+<Response>
+  <Execution>
+    <Status code="aws-624" sqlcode="0" description="傳入的DataKey不存在於暫存資料表(wcf_file) ，請確認!"/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 10:56:42) ----------------------------#
+[Request Service #105642774]
+    'CreatePLMTempTableData' begin at 10:56:42.774
+
+[Request Message #105642774]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""></Authentication>
+    <Connection application="PLM" source="10.0.2.8"></Connection>
+    <Organization name="SHXK"></Organization>
+    <Locale language="zh_cn"></Locale>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"></Field>
+        <Field name="datakey" value="5110909362318465001"></Field>
+        <Field name="tot_cnt" value="1"></Field>
+        <Field name="sub_cnt" value="1"></Field>
+        <Field name="status" value="Y"></Field>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8003-0024"></Field>
+            <Field name="ima02" value="1U机架式开关电源 输入AC110V±15% 60HZ 单相，输出DC48V/1A;DC 36V/8A;DC 24V/1A;DC 12V/2A 384W"></Field>
+            <Field name="ima06" value="8003"></Field>
+            <Field name="ima021" value="4NIC-ZYQG384-4"></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="071BART"></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5110909362318465"></Field>
+        <Field name="seq_tot_cnt" value="1"></Field>
+        <Field name="seq_sub_cnt" value="1"></Field>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+
+[Response Service #105642774]
+    'CreatePLMTempTableData' end at 10:56:43.095
+
+[Response Message #105642774]
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 10:56:43) ----------------------------#
+[Request Service #105643807]
+    'CreatePLMTempTableData' begin at 10:56:43.807
+
+[Request Message #105643807]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""></Authentication>
+    <Connection application="PLM" source="10.0.2.8"></Connection>
+    <Organization name="SHXK_STE"></Organization>
+    <Locale language="zh_cn"></Locale>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"></Field>
+        <Field name="datakey" value="5110909381231483001"></Field>
+        <Field name="tot_cnt" value="1"></Field>
+        <Field name="sub_cnt" value="1"></Field>
+        <Field name="status" value="Y"></Field>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8003-0024"></Field>
+            <Field name="ima02" value="1U机架式开关电源 输入AC110V±15% 60HZ 单相，输出DC48V/1A;DC 36V/8A;DC 24V/1A;DC 12V/2A 384W"></Field>
+            <Field name="ima06" value="8003"></Field>
+            <Field name="ima021" value="4NIC-ZYQG384-4"></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="071BART"></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5110909381231483"></Field>
+        <Field name="seq_tot_cnt" value="1"></Field>
+        <Field name="seq_sub_cnt" value="1"></Field>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+
+[Response Service #105643807]
+    'CreatePLMTempTableData' end at 10:56:43.985
+
+[Response Message #105643807]
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 10:56:44) ----------------------------#
+[Request Service #105644475]
+    '' begin at 10:56:44.475
+
+[Request Message #105644475]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""/>
+    <Connection application="PLM" source="10.0.2.8"/>
+    <Organization name="SHXK"/>
+    <Locale language="zh_cn"/>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"/>
+        <Field name="datakey" value="5110909362318465001"/>
+        <Field name="tot_cnt" value="1"/>
+        <Field name="sub_cnt" value="1"/>
+        <Field name="status" value="Y"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8003-0024"/>
+            <Field name="ima02" value="1U机架式开关电源 输入AC110V±15% 60HZ 单相，输出DC48V/1A;DC 36V/8A;DC 24V/1A;DC 12V/2A 384W"/>
+            <Field name="ima06" value="8003"/>
+            <Field name="ima021" value="4NIC-ZYQG384-4"/>
+            <Field name="ima25" value="PCS"/>
+            <Field name="imaud02" value="071BART"/>
+            <Field name="ima08" value="P"/>
+            <Field name="ima37" value="2"/>
+            <Field name="ima921" value="N"/>
+            <Field name="ima70" value="N"/>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5110909362318465"/>
+        <Field name="seq_tot_cnt" value="1"/>
+        <Field name="seq_sub_cnt" value="1"/>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+[Response Service #105644475]
+    '' end at 10:56:44.492
+
+[Response Message #105644475]
+<Response>
+  <Execution>
+    <Status code="aws-624" sqlcode="0" description="傳入的DataKey不存在於暫存資料表(wcf_file) ，請確認!"/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 10:56:45) ----------------------------#
+[Request Service #105645336]
+    '' begin at 10:56:45.336
+
+[Request Message #105645336]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""/>
+    <Connection application="PLM" source="10.0.2.8"/>
+    <Organization name="SHXK_STE"/>
+    <Locale language="zh_cn"/>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"/>
+        <Field name="datakey" value="5110909381231483001"/>
+        <Field name="tot_cnt" value="1"/>
+        <Field name="sub_cnt" value="1"/>
+        <Field name="status" value="Y"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8003-0024"/>
+            <Field name="ima02" value="1U机架式开关电源 输入AC110V±15% 60HZ 单相，输出DC48V/1A;DC 36V/8A;DC 24V/1A;DC 12V/2A 384W"/>
+            <Field name="ima06" value="8003"/>
+            <Field name="ima021" value="4NIC-ZYQG384-4"/>
+            <Field name="ima25" value="PCS"/>
+            <Field name="imaud02" value="071BART"/>
+            <Field name="ima08" value="P"/>
+            <Field name="ima37" value="2"/>
+            <Field name="ima921" value="N"/>
+            <Field name="ima70" value="N"/>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5110909381231483"/>
+        <Field name="seq_tot_cnt" value="1"/>
+        <Field name="seq_sub_cnt" value="1"/>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+[Response Service #105645336]
+    '' end at 10:56:45.354
+
+[Response Message #105645336]
+<Response>
+  <Execution>
+    <Status code="aws-624" sqlcode="0" description="傳入的DataKey不存在於暫存資料表(wcf_file) ，請確認!"/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 11:01:40) ----------------------------#
+[Request Service #110140244]
+    'CreatePLMTempTableData' begin at 11:01:40.244
+
+[Request Message #110140244]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""></Authentication>
+    <Connection application="PLM" source="10.0.2.8"></Connection>
+    <Organization name="SHXK"></Organization>
+    <Locale language="zh_cn"></Locale>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"></Field>
+        <Field name="datakey" value="5111198551675003001"></Field>
+        <Field name="tot_cnt" value="1"></Field>
+        <Field name="sub_cnt" value="1"></Field>
+        <Field name="status" value="Y"></Field>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8003-0025"></Field>
+            <Field name="ima02" value="1U机架式可调电源 输入AC110V±15% 60Hz 单相, 输出DC0~60V,600W"></Field>
+            <Field name="ima06" value="8003"></Field>
+            <Field name="ima021" value="4NIC-ZYQG600"></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="071BART"></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5111198551675003"></Field>
+        <Field name="seq_tot_cnt" value="1"></Field>
+        <Field name="seq_sub_cnt" value="1"></Field>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+
+[Response Service #110140244]
+    'CreatePLMTempTableData' end at 11:01:40.422
+
+[Response Message #110140244]
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 11:01:41) ----------------------------#
+[Request Service #110141316]
+    'CreatePLMTempTableData' begin at 11:01:41.316
+
+[Request Message #110141316]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""></Authentication>
+    <Connection application="PLM" source="10.0.2.8"></Connection>
+    <Organization name="SHXK_STE"></Organization>
+    <Locale language="zh_cn"></Locale>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"></Field>
+        <Field name="datakey" value="5111198559198515001"></Field>
+        <Field name="tot_cnt" value="1"></Field>
+        <Field name="sub_cnt" value="1"></Field>
+        <Field name="status" value="Y"></Field>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8003-0025"></Field>
+            <Field name="ima02" value="1U机架式可调电源 输入AC110V±15% 60Hz 单相, 输出DC0~60V,600W"></Field>
+            <Field name="ima06" value="8003"></Field>
+            <Field name="ima021" value="4NIC-ZYQG600"></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="071BART"></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5111198559198515"></Field>
+        <Field name="seq_tot_cnt" value="1"></Field>
+        <Field name="seq_sub_cnt" value="1"></Field>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+
+[Response Service #110141316]
+    'CreatePLMTempTableData' end at 11:01:41.628
+
+[Response Message #110141316]
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 11:01:41) ----------------------------#
+[Request Service #110141766]
+    '' begin at 11:01:41.766
+
+[Request Message #110141766]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""/>
+    <Connection application="PLM" source="10.0.2.8"/>
+    <Organization name="SHXK"/>
+    <Locale language="zh_cn"/>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"/>
+        <Field name="datakey" value="5111198551675003001"/>
+        <Field name="tot_cnt" value="1"/>
+        <Field name="sub_cnt" value="1"/>
+        <Field name="status" value="Y"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8003-0025"/>
+            <Field name="ima02" value="1U机架式可调电源 输入AC110V±15% 60Hz 单相, 输出DC0~60V,600W"/>
+            <Field name="ima06" value="8003"/>
+            <Field name="ima021" value="4NIC-ZYQG600"/>
+            <Field name="ima25" value="PCS"/>
+            <Field name="imaud02" value="071BART"/>
+            <Field name="ima08" value="P"/>
+            <Field name="ima37" value="2"/>
+            <Field name="ima921" value="N"/>
+            <Field name="ima70" value="N"/>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5111198551675003"/>
+        <Field name="seq_tot_cnt" value="1"/>
+        <Field name="seq_sub_cnt" value="1"/>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+[Response Service #110141766]
+    '' end at 11:01:41.787
+
+[Response Message #110141766]
+<Response>
+  <Execution>
+    <Status code="aws-624" sqlcode="0" description="傳入的DataKey不存在於暫存資料表(wcf_file) ，請確認!"/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 11:01:42) ----------------------------#
+[Request Service #110142974]
+    '' begin at 11:01:42.974
+
+[Request Message #110142974]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""/>
+    <Connection application="PLM" source="10.0.2.8"/>
+    <Organization name="SHXK_STE"/>
+    <Locale language="zh_cn"/>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"/>
+        <Field name="datakey" value="5111198559198515001"/>
+        <Field name="tot_cnt" value="1"/>
+        <Field name="sub_cnt" value="1"/>
+        <Field name="status" value="Y"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8003-0025"/>
+            <Field name="ima02" value="1U机架式可调电源 输入AC110V±15% 60Hz 单相, 输出DC0~60V,600W"/>
+            <Field name="ima06" value="8003"/>
+            <Field name="ima021" value="4NIC-ZYQG600"/>
+            <Field name="ima25" value="PCS"/>
+            <Field name="imaud02" value="071BART"/>
+            <Field name="ima08" value="P"/>
+            <Field name="ima37" value="2"/>
+            <Field name="ima921" value="N"/>
+            <Field name="ima70" value="N"/>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5111198559198515"/>
+        <Field name="seq_tot_cnt" value="1"/>
+        <Field name="seq_sub_cnt" value="1"/>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+[Response Service #110142974]
+    '' end at 11:01:42.991
+
+[Response Message #110142974]
+<Response>
+  <Execution>
+    <Status code="aws-624" sqlcode="0" description="傳入的DataKey不存在於暫存資料表(wcf_file) ，請確認!"/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 13:22:09) ----------------------------#
+[Request Service #132209515]
+    'CreatePLMTempTableData' begin at 13:22:09.515
+
+[Request Message #132209515]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""></Authentication>
+    <Connection application="PLM" source="10.0.2.8"></Connection>
+    <Organization name="SHXK"></Organization>
+    <Locale language="zh_cn"></Locale>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"></Field>
+        <Field name="datakey" value="5119619254923950001"></Field>
+        <Field name="tot_cnt" value="1"></Field>
+        <Field name="sub_cnt" value="1"></Field>
+        <Field name="status" value="Y"></Field>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8015-0248"></Field>
+            <Field name="ima02" value="PSU Card"></Field>
+            <Field name="ima06" value="8015"></Field>
+            <Field name="ima021" value=""></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="HK93 TRAIN"></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5119619254923950"></Field>
+        <Field name="seq_tot_cnt" value="1"></Field>
+        <Field name="seq_sub_cnt" value="1"></Field>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+
+[Response Service #132209515]
+    'CreatePLMTempTableData' end at 13:22:09.701
+
+[Response Message #132209515]
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 13:22:10) ----------------------------#
+[Request Service #132210564]
+    'CreatePLMTempTableData' begin at 13:22:10.564
+
+[Request Message #132210564]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""></Authentication>
+    <Connection application="PLM" source="10.0.2.8"></Connection>
+    <Organization name="SHXK_STE"></Organization>
+    <Locale language="zh_cn"></Locale>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"></Field>
+        <Field name="datakey" value="5119619261064116001"></Field>
+        <Field name="tot_cnt" value="1"></Field>
+        <Field name="sub_cnt" value="1"></Field>
+        <Field name="status" value="Y"></Field>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8015-0248"></Field>
+            <Field name="ima02" value="PSU Card"></Field>
+            <Field name="ima06" value="8015"></Field>
+            <Field name="ima021" value=""></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="HK93 TRAIN"></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5119619261064116"></Field>
+        <Field name="seq_tot_cnt" value="1"></Field>
+        <Field name="seq_sub_cnt" value="1"></Field>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+
+[Response Service #132210564]
+    'CreatePLMTempTableData' end at 13:22:10.891
+
+[Response Message #132210564]
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 13:22:11) ----------------------------#
+[Request Service #132211059]
+    '' begin at 13:22:11.060
+
+[Request Message #132211059]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""/>
+    <Connection application="PLM" source="10.0.2.8"/>
+    <Organization name="SHXK"/>
+    <Locale language="zh_cn"/>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"/>
+        <Field name="datakey" value="5119619254923950001"/>
+        <Field name="tot_cnt" value="1"/>
+        <Field name="sub_cnt" value="1"/>
+        <Field name="status" value="Y"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8015-0248"/>
+            <Field name="ima02" value="PSU Card"/>
+            <Field name="ima06" value="8015"/>
+            <Field name="ima021" value=""/>
+            <Field name="ima25" value="PCS"/>
+            <Field name="imaud02" value="HK93 TRAIN"/>
+            <Field name="ima08" value="P"/>
+            <Field name="ima37" value="2"/>
+            <Field name="ima921" value="N"/>
+            <Field name="ima70" value="N"/>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5119619254923950"/>
+        <Field name="seq_tot_cnt" value="1"/>
+        <Field name="seq_sub_cnt" value="1"/>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+[Response Service #132211059]
+    '' end at 13:22:11.077
+
+[Response Message #132211059]
+<Response>
+  <Execution>
+    <Status code="aws-624" sqlcode="0" description="傳入的DataKey不存在於暫存資料表(wcf_file) ，請確認!"/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 13:22:12) ----------------------------#
+[Request Service #132212249]
+    '' begin at 13:22:12.249
+
+[Request Message #132212249]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""/>
+    <Connection application="PLM" source="10.0.2.8"/>
+    <Organization name="SHXK_STE"/>
+    <Locale language="zh_cn"/>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"/>
+        <Field name="datakey" value="5119619261064116001"/>
+        <Field name="tot_cnt" value="1"/>
+        <Field name="sub_cnt" value="1"/>
+        <Field name="status" value="Y"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8015-0248"/>
+            <Field name="ima02" value="PSU Card"/>
+            <Field name="ima06" value="8015"/>
+            <Field name="ima021" value=""/>
+            <Field name="ima25" value="PCS"/>
+            <Field name="imaud02" value="HK93 TRAIN"/>
+            <Field name="ima08" value="P"/>
+            <Field name="ima37" value="2"/>
+            <Field name="ima921" value="N"/>
+            <Field name="ima70" value="N"/>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5119619261064116"/>
+        <Field name="seq_tot_cnt" value="1"/>
+        <Field name="seq_sub_cnt" value="1"/>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+[Response Service #132212249]
+    '' end at 13:22:12.266
+
+[Response Message #132212249]
+<Response>
+  <Execution>
+    <Status code="aws-624" sqlcode="0" description="傳入的DataKey不存在於暫存資料表(wcf_file) ，請確認!"/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 14:43:11) ----------------------------#
+[Request Service #144311300]
+    'CreatePLMTempTableData' begin at 14:43:11.300
+
+[Request Message #144311300]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""></Authentication>
+    <Connection application="PLM" source="10.0.2.8"></Connection>
+    <Organization name="SHXK"></Organization>
+    <Locale language="zh_cn"></Locale>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"></Field>
+        <Field name="datakey" value="5124501897139162001"></Field>
+        <Field name="tot_cnt" value="1"></Field>
+        <Field name="sub_cnt" value="1"></Field>
+        <Field name="status" value="Y"></Field>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="9949-8000-0333"></Field>
+            <Field name="ima02" value="BTE &amp; Simulator System"></Field>
+            <Field name="ima06" value="99XX"></Field>
+            <Field name="ima021" value=""></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="071BART"></Field>
+            <Field name="ima08" value="M"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5124501897139162"></Field>
+        <Field name="seq_tot_cnt" value="1"></Field>
+        <Field name="seq_sub_cnt" value="1"></Field>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+
+[Response Service #144311300]
+    'CreatePLMTempTableData' end at 14:43:11.497
+
+[Response Message #144311300]
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 14:43:12) ----------------------------#
+[Request Service #144312375]
+    'CreatePLMTempTableData' begin at 14:43:12.375
+
+[Request Message #144312375]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""></Authentication>
+    <Connection application="PLM" source="10.0.2.8"></Connection>
+    <Organization name="SHXK_STE"></Organization>
+    <Locale language="zh_cn"></Locale>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"></Field>
+        <Field name="datakey" value="5124501903843435001"></Field>
+        <Field name="tot_cnt" value="1"></Field>
+        <Field name="sub_cnt" value="1"></Field>
+        <Field name="status" value="Y"></Field>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="9949-8000-0333"></Field>
+            <Field name="ima02" value="BTE &amp; Simulator System"></Field>
+            <Field name="ima06" value="99XX"></Field>
+            <Field name="ima021" value=""></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="071BART"></Field>
+            <Field name="ima08" value="M"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5124501903843435"></Field>
+        <Field name="seq_tot_cnt" value="1"></Field>
+        <Field name="seq_sub_cnt" value="1"></Field>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+
+[Response Service #144312375]
+    'CreatePLMTempTableData' end at 14:43:12.851
+
+[Response Message #144312375]
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 14:43:13) ----------------------------#
+[Request Service #144313032]
+    '' begin at 14:43:13.032
+
+[Request Message #144313032]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""/>
+    <Connection application="PLM" source="10.0.2.8"/>
+    <Organization name="SHXK"/>
+    <Locale language="zh_cn"/>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"/>
+        <Field name="datakey" value="5124501897139162001"/>
+        <Field name="tot_cnt" value="1"/>
+        <Field name="sub_cnt" value="1"/>
+        <Field name="status" value="Y"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="9949-8000-0333"/>
+            <Field name="ima02" value="BTE &amp; Simulator System"/>
+            <Field name="ima06" value="99XX"/>
+            <Field name="ima021" value=""/>
+            <Field name="ima25" value="PCS"/>
+            <Field name="imaud02" value="071BART"/>
+            <Field name="ima08" value="M"/>
+            <Field name="ima37" value="2"/>
+            <Field name="ima921" value="N"/>
+            <Field name="ima70" value="N"/>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5124501897139162"/>
+        <Field name="seq_tot_cnt" value="1"/>
+        <Field name="seq_sub_cnt" value="1"/>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+[Response Service #144313032]
+    '' end at 14:43:13.049
+
+[Response Message #144313032]
+<Response>
+  <Execution>
+    <Status code="aws-624" sqlcode="0" description="傳入的DataKey不存在於暫存資料表(wcf_file) ，請確認!"/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 14:43:14) ----------------------------#
+[Request Service #144314228]
+    '' begin at 14:43:14.228
+
+[Request Message #144314228]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""/>
+    <Connection application="PLM" source="10.0.2.8"/>
+    <Organization name="SHXK_STE"/>
+    <Locale language="zh_cn"/>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"/>
+        <Field name="datakey" value="5124501903843435001"/>
+        <Field name="tot_cnt" value="1"/>
+        <Field name="sub_cnt" value="1"/>
+        <Field name="status" value="Y"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="9949-8000-0333"/>
+            <Field name="ima02" value="BTE &amp; Simulator System"/>
+            <Field name="ima06" value="99XX"/>
+            <Field name="ima021" value=""/>
+            <Field name="ima25" value="PCS"/>
+            <Field name="imaud02" value="071BART"/>
+            <Field name="ima08" value="M"/>
+            <Field name="ima37" value="2"/>
+            <Field name="ima921" value="N"/>
+            <Field name="ima70" value="N"/>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5124501903843435"/>
+        <Field name="seq_tot_cnt" value="1"/>
+        <Field name="seq_sub_cnt" value="1"/>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+[Response Service #144314228]
+    '' end at 14:43:14.245
+
+[Response Message #144314228]
+<Response>
+  <Execution>
+    <Status code="aws-624" sqlcode="0" description="傳入的DataKey不存在於暫存資料表(wcf_file) ，請確認!"/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 16:02:10) ----------------------------#
+[Request Service #160210219]
+    'CreatePLMTempTableData' begin at 16:02:10.219
+
+[Request Message #160210219]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""></Authentication>
+    <Connection application="PLM" source="10.0.2.8"></Connection>
+    <Organization name="SHXK"></Organization>
+    <Locale language="zh_cn"></Locale>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"></Field>
+        <Field name="datakey" value="5129239646659142001"></Field>
+        <Field name="tot_cnt" value="1"></Field>
+        <Field name="sub_cnt" value="1"></Field>
+        <Field name="status" value="Y"></Field>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8022-0440"></Field>
+            <Field name="ima02" value="2芯DB2公头连接器带16AWG白色线带3.96间距2P母连接器"></Field>
+            <Field name="ima06" value="8022"></Field>
+            <Field name="ima021" value=""></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="071BART"></Field>
+            <Field name="ima08" value="M"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+      <RecordSet id="2">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8011-0072"></Field>
+            <Field name="ima02" value="16 AWG白色线缆"></Field>
+            <Field name="ima06" value="8011"></Field>
+            <Field name="ima021" value="H16655     520088462"></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value=""></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="Y"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+      <RecordSet id="3">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8010-0321"></Field>
+            <Field name="ima02" value="3.96间距2P母头连接器组件"></Field>
+            <Field name="ima06" value="8010"></Field>
+            <Field name="ima021" value="3-644460-2   TE"></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value=""></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+      <RecordSet id="4">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8010-0498"></Field>
+            <Field name="ima02" value="Mixed 2pin D-sub 公插芯"></Field>
+            <Field name="ima06" value="8010"></Field>
+            <Field name="ima021" value="09691100522"></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="071BART"></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+      <RecordSet id="5">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8010-0530"></Field>
+            <Field name="ima02" value="Mixed 2pin D-sub 头子（公针）"></Field>
+            <Field name="ima06" value="8010"></Field>
+            <Field name="ima021" value="09692815821"></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="071BART"></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5129239646659142"></Field>
+        <Field name="seq_tot_cnt" value="2"></Field>
+        <Field name="seq_sub_cnt" value="1"></Field>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+
+[Response Service #160210219]
+    'CreatePLMTempTableData' end at 16:02:10.325
+
+[Response Message #160210219]
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 16:02:11) ----------------------------#
+[Request Service #160211147]
+    'CreatePLMTempTableData' begin at 16:02:11.147
+
+[Request Message #160211147]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""></Authentication>
+    <Connection application="PLM" source="10.0.2.8"></Connection>
+    <Organization name="SHXK"></Organization>
+    <Locale language="zh_cn"></Locale>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreatePLMBOMData"></Field>
+        <Field name="datakey" value="5129239646659142002"></Field>
+        <Field name="tot_cnt" value="1"></Field>
+        <Field name="sub_cnt" value="1"></Field>
+        <Field name="status" value="Y"></Field>
+        <Field name="smyslip" value="EN01"></Field>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="bma_file">
+          <Record>
+            <Field name="acttype" value=""></Field>
+            <Field name="bma01" value="8022-0440"></Field>
+          </Record>
+        </Master>
+        <Detail name="bmb_file">
+          <Record>
+            <Field name="bmb02" value="0010"></Field>
+            <Field name="bmb03" value="8011-0072"></Field>
+            <Field name="bmb04" value="2017/11/21"></Field>
+            <Field name="bmb15" value="Y"></Field>
+            <Field name="bmb05" value="2050/12/30"></Field>
+            <Field name="bmb06" value="240"></Field>
+            <Field name="bmb07" value="1"></Field>
+            <Field name="bmb08" value="0"></Field>
+            <Field name="bmb19" value="1"></Field>
+            <Field name="bmb14" value="0"></Field>
+            <Field name="bmb37" value="28116F5D96D0495E827EAB7FAD64A254"></Field>
+          </Record>
+          <Record>
+            <Field name="bmb02" value="0040"></Field>
+            <Field name="bmb03" value="8010-0321"></Field>
+            <Field name="bmb04" value="2017/11/21"></Field>
+            <Field name="bmb15" value="N"></Field>
+            <Field name="bmb05" value="2050/12/30"></Field>
+            <Field name="bmb06" value="1"></Field>
+            <Field name="bmb07" value="1"></Field>
+            <Field name="bmb08" value="0"></Field>
+            <Field name="bmb19" value="1"></Field>
+            <Field name="bmb14" value="0"></Field>
+            <Field name="bmb37" value="24604F9BCC1A4615831E8656516B35B4"></Field>
+          </Record>
+          <Record>
+            <Field name="bmb02" value="0050"></Field>
+            <Field name="bmb03" value="8010-0498"></Field>
+            <Field name="bmb04" value="2017/11/21"></Field>
+            <Field name="bmb15" value="N"></Field>
+            <Field name="bmb05" value="2050/12/30"></Field>
+            <Field name="bmb06" value="2"></Field>
+            <Field name="bmb07" value="1"></Field>
+            <Field name="bmb08" value="0"></Field>
+            <Field name="bmb19" value="1"></Field>
+            <Field name="bmb14" value="0"></Field>
+            <Field name="bmb37" value="7304FBC241D84428970A57DA80249FE9"></Field>
+          </Record>
+          <Record>
+            <Field name="bmb02" value="0060"></Field>
+            <Field name="bmb03" value="8010-0530"></Field>
+            <Field name="bmb04" value="2017/11/21"></Field>
+            <Field name="bmb15" value="N"></Field>
+            <Field name="bmb05" value="2050/12/30"></Field>
+            <Field name="bmb06" value="1"></Field>
+            <Field name="bmb07" value="1"></Field>
+            <Field name="bmb08" value="0"></Field>
+            <Field name="bmb19" value="1"></Field>
+            <Field name="bmb14" value="0"></Field>
+            <Field name="bmb37" value="2765F990551A49278585A3B7FEEC0A13"></Field>
+          </Record>
+        </Detail>
+        <Detail name="bmt_file"></Detail>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5129239646659142"></Field>
+        <Field name="seq_tot_cnt" value="2"></Field>
+        <Field name="seq_sub_cnt" value="2"></Field>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+
+[Response Service #160211147]
+    'CreatePLMTempTableData' end at 16:02:11.591
+
+[Response Message #160211147]
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 16:02:12) ----------------------------#
+[Request Service #160212441]
+    'CreatePLMTempTableData' begin at 16:02:12.441
+
+[Request Message #160212441]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""></Authentication>
+    <Connection application="PLM" source="10.0.2.8"></Connection>
+    <Organization name="SHXK_STE"></Organization>
+    <Locale language="zh_cn"></Locale>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreateItemMasterData"></Field>
+        <Field name="datakey" value="5129239654436667001"></Field>
+        <Field name="tot_cnt" value="1"></Field>
+        <Field name="sub_cnt" value="1"></Field>
+        <Field name="status" value="Y"></Field>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8022-0440"></Field>
+            <Field name="ima02" value="2芯DB2公头连接器带16AWG白色线带3.96间距2P母连接器"></Field>
+            <Field name="ima06" value="8022"></Field>
+            <Field name="ima021" value=""></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="071BART"></Field>
+            <Field name="ima08" value="M"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+      <RecordSet id="2">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8011-0072"></Field>
+            <Field name="ima02" value="16 AWG白色线缆"></Field>
+            <Field name="ima06" value="8011"></Field>
+            <Field name="ima021" value="H16655     520088462"></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value=""></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="Y"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+      <RecordSet id="3">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8010-0321"></Field>
+            <Field name="ima02" value="3.96间距2P母头连接器组件"></Field>
+            <Field name="ima06" value="8010"></Field>
+            <Field name="ima021" value="3-644460-2   TE"></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value=""></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+      <RecordSet id="4">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8010-0498"></Field>
+            <Field name="ima02" value="Mixed 2pin D-sub 公插芯"></Field>
+            <Field name="ima06" value="8010"></Field>
+            <Field name="ima021" value="09691100522"></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="071BART"></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+      <RecordSet id="5">
+        <Master name="ima_file">
+          <Record>
+            <Field name="ima01" value="8010-0530"></Field>
+            <Field name="ima02" value="Mixed 2pin D-sub 头子（公针）"></Field>
+            <Field name="ima06" value="8010"></Field>
+            <Field name="ima021" value="09692815821"></Field>
+            <Field name="ima25" value="PCS"></Field>
+            <Field name="imaud02" value="071BART"></Field>
+            <Field name="ima08" value="P"></Field>
+            <Field name="ima37" value="2"></Field>
+            <Field name="ima921" value="N"></Field>
+            <Field name="ima70" value="N"></Field>
+          </Record>
+        </Master>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5129239654436667"></Field>
+        <Field name="seq_tot_cnt" value="2"></Field>
+        <Field name="seq_sub_cnt" value="1"></Field>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+
+[Response Service #160212441]
+    'CreatePLMTempTableData' end at 16:02:12.531
+
+[Response Message #160212441]
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 16:02:13) ----------------------------#
+[Request Service #160213402]
+    'CreatePLMTempTableData' begin at 16:02:13.402
+
+[Request Message #160213402]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""></Authentication>
+    <Connection application="PLM" source="10.0.2.8"></Connection>
+    <Organization name="SHXK_STE"></Organization>
+    <Locale language="zh_cn"></Locale>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreatePLMBOMData"></Field>
+        <Field name="datakey" value="5129239654436667002"></Field>
+        <Field name="tot_cnt" value="1"></Field>
+        <Field name="sub_cnt" value="1"></Field>
+        <Field name="status" value="Y"></Field>
+        <Field name="smyslip" value="EN01"></Field>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="bma_file">
+          <Record>
+            <Field name="acttype" value=""></Field>
+            <Field name="bma01" value="8022-0440"></Field>
+          </Record>
+        </Master>
+        <Detail name="bmb_file">
+          <Record>
+            <Field name="bmb02" value="0010"></Field>
+            <Field name="bmb03" value="8011-0072"></Field>
+            <Field name="bmb04" value="2017/11/21"></Field>
+            <Field name="bmb15" value="Y"></Field>
+            <Field name="bmb05" value="2050/12/30"></Field>
+            <Field name="bmb06" value="240"></Field>
+            <Field name="bmb07" value="1"></Field>
+            <Field name="bmb08" value="0"></Field>
+            <Field name="bmb19" value="1"></Field>
+            <Field name="bmb14" value="0"></Field>
+            <Field name="bmb37" value="28116F5D96D0495E827EAB7FAD64A254"></Field>
+          </Record>
+          <Record>
+            <Field name="bmb02" value="0040"></Field>
+            <Field name="bmb03" value="8010-0321"></Field>
+            <Field name="bmb04" value="2017/11/21"></Field>
+            <Field name="bmb15" value="N"></Field>
+            <Field name="bmb05" value="2050/12/30"></Field>
+            <Field name="bmb06" value="1"></Field>
+            <Field name="bmb07" value="1"></Field>
+            <Field name="bmb08" value="0"></Field>
+            <Field name="bmb19" value="1"></Field>
+            <Field name="bmb14" value="0"></Field>
+            <Field name="bmb37" value="24604F9BCC1A4615831E8656516B35B4"></Field>
+          </Record>
+          <Record>
+            <Field name="bmb02" value="0050"></Field>
+            <Field name="bmb03" value="8010-0498"></Field>
+            <Field name="bmb04" value="2017/11/21"></Field>
+            <Field name="bmb15" value="N"></Field>
+            <Field name="bmb05" value="2050/12/30"></Field>
+            <Field name="bmb06" value="2"></Field>
+            <Field name="bmb07" value="1"></Field>
+            <Field name="bmb08" value="0"></Field>
+            <Field name="bmb19" value="1"></Field>
+            <Field name="bmb14" value="0"></Field>
+            <Field name="bmb37" value="7304FBC241D84428970A57DA80249FE9"></Field>
+          </Record>
+          <Record>
+            <Field name="bmb02" value="0060"></Field>
+            <Field name="bmb03" value="8010-0530"></Field>
+            <Field name="bmb04" value="2017/11/21"></Field>
+            <Field name="bmb15" value="N"></Field>
+            <Field name="bmb05" value="2050/12/30"></Field>
+            <Field name="bmb06" value="1"></Field>
+            <Field name="bmb07" value="1"></Field>
+            <Field name="bmb08" value="0"></Field>
+            <Field name="bmb19" value="1"></Field>
+            <Field name="bmb14" value="0"></Field>
+            <Field name="bmb37" value="2765F990551A49278585A3B7FEEC0A13"></Field>
+          </Record>
+        </Detail>
+        <Detail name="bmt_file"></Detail>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5129239654436667"></Field>
+        <Field name="seq_tot_cnt" value="2"></Field>
+        <Field name="seq_sub_cnt" value="2"></Field>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+
+[Response Service #160213402]
+    'CreatePLMTempTableData' end at 16:02:13.823
+
+[Response Message #160213402]
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 16:02:14) ----------------------------#
+[Request Service #160214316]
+    '' begin at 16:02:14.316
+
+[Request Message #160214316]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""/>
+    <Connection application="PLM" source="10.0.2.8"/>
+    <Organization name="SHXK"/>
+    <Locale language="zh_cn"/>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreatePLMBOMData"/>
+        <Field name="datakey" value="5129239646659142002"/>
+        <Field name="tot_cnt" value="1"/>
+        <Field name="sub_cnt" value="1"/>
+        <Field name="status" value="Y"/>
+        <Field name="smyslip" value="EN01"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="bma_file">
+          <Record>
+            <Field name="acttype" value=""/>
+            <Field name="bma01" value="8022-0440"/>
+          </Record>
+        </Master>
+        <Detail name="bmb_file">
+          <Record>
+            <Field name="bmb02" value="0010"/>
+            <Field name="bmb03" value="8011-0072"/>
+            <Field name="bmb04" value="2017/11/21"/>
+            <Field name="bmb15" value="Y"/>
+            <Field name="bmb05" value="2050/12/30"/>
+            <Field name="bmb06" value="240"/>
+            <Field name="bmb07" value="1"/>
+            <Field name="bmb08" value="0"/>
+            <Field name="bmb19" value="1"/>
+            <Field name="bmb14" value="0"/>
+            <Field name="bmb37" value="28116F5D96D0495E827EAB7FAD64A254"/>
+          </Record>
+          <Record>
+            <Field name="bmb02" value="0040"/>
+            <Field name="bmb03" value="8010-0321"/>
+            <Field name="bmb04" value="2017/11/21"/>
+            <Field name="bmb15" value="N"/>
+            <Field name="bmb05" value="2050/12/30"/>
+            <Field name="bmb06" value="1"/>
+            <Field name="bmb07" value="1"/>
+            <Field name="bmb08" value="0"/>
+            <Field name="bmb19" value="1"/>
+            <Field name="bmb14" value="0"/>
+            <Field name="bmb37" value="24604F9BCC1A4615831E8656516B35B4"/>
+          </Record>
+          <Record>
+            <Field name="bmb02" value="0050"/>
+            <Field name="bmb03" value="8010-0498"/>
+            <Field name="bmb04" value="2017/11/21"/>
+            <Field name="bmb15" value="N"/>
+            <Field name="bmb05" value="2050/12/30"/>
+            <Field name="bmb06" value="2"/>
+            <Field name="bmb07" value="1"/>
+            <Field name="bmb08" value="0"/>
+            <Field name="bmb19" value="1"/>
+            <Field name="bmb14" value="0"/>
+            <Field name="bmb37" value="7304FBC241D84428970A57DA80249FE9"/>
+          </Record>
+          <Record>
+            <Field name="bmb02" value="0060"/>
+            <Field name="bmb03" value="8010-0530"/>
+            <Field name="bmb04" value="2017/11/21"/>
+            <Field name="bmb15" value="N"/>
+            <Field name="bmb05" value="2050/12/30"/>
+            <Field name="bmb06" value="1"/>
+            <Field name="bmb07" value="1"/>
+            <Field name="bmb08" value="0"/>
+            <Field name="bmb19" value="1"/>
+            <Field name="bmb14" value="0"/>
+            <Field name="bmb37" value="2765F990551A49278585A3B7FEEC0A13"/>
+          </Record>
+        </Detail>
+        <Detail name="bmt_file"/>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5129239646659142"/>
+        <Field name="seq_tot_cnt" value="2"/>
+        <Field name="seq_sub_cnt" value="2"/>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+[Response Service #160214316]
+    '' end at 16:02:14.349
+
+[Response Message #160214316]
+<Response>
+  <Execution>
+    <Status code="aws-624" sqlcode="0" description="傳入的DataKey不存在於暫存資料表(wcf_file) ，請確認!"/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2017-11-21 16:02:16) ----------------------------#
+[Request Service #160216225]
+    '' begin at 16:02:16.226
+
+[Request Message #160216225]
+<Request>
+  <Access>
+    <Authentication user="tiptop" password=""/>
+    <Connection application="PLM" source="10.0.2.8"/>
+    <Organization name="SHXK_STE"/>
+    <Locale language="zh_cn"/>
+  </Access>
+  <RequestContent>
+    <Parameter>
+      <Record>
+        <Field name="ws_name" value="CreatePLMBOMData"/>
+        <Field name="datakey" value="5129239654436667002"/>
+        <Field name="tot_cnt" value="1"/>
+        <Field name="sub_cnt" value="1"/>
+        <Field name="status" value="Y"/>
+        <Field name="smyslip" value="EN01"/>
+      </Record>
+    </Parameter>
+    <Document>
+      <RecordSet id="1">
+        <Master name="bma_file">
+          <Record>
+            <Field name="acttype" value=""/>
+            <Field name="bma01" value="8022-0440"/>
+          </Record>
+        </Master>
+        <Detail name="bmb_file">
+          <Record>
+            <Field name="bmb02" value="0010"/>
+            <Field name="bmb03" value="8011-0072"/>
+            <Field name="bmb04" value="2017/11/21"/>
+            <Field name="bmb15" value="Y"/>
+            <Field name="bmb05" value="2050/12/30"/>
+            <Field name="bmb06" value="240"/>
+            <Field name="bmb07" value="1"/>
+            <Field name="bmb08" value="0"/>
+            <Field name="bmb19" value="1"/>
+            <Field name="bmb14" value="0"/>
+            <Field name="bmb37" value="28116F5D96D0495E827EAB7FAD64A254"/>
+          </Record>
+          <Record>
+            <Field name="bmb02" value="0040"/>
+            <Field name="bmb03" value="8010-0321"/>
+            <Field name="bmb04" value="2017/11/21"/>
+            <Field name="bmb15" value="N"/>
+            <Field name="bmb05" value="2050/12/30"/>
+            <Field name="bmb06" value="1"/>
+            <Field name="bmb07" value="1"/>
+            <Field name="bmb08" value="0"/>
+            <Field name="bmb19" value="1"/>
+            <Field name="bmb14" value="0"/>
+            <Field name="bmb37" value="24604F9BCC1A4615831E8656516B35B4"/>
+          </Record>
+          <Record>
+            <Field name="bmb02" value="0050"/>
+            <Field name="bmb03" value="8010-0498"/>
+            <Field name="bmb04" value="2017/11/21"/>
+            <Field name="bmb15" value="N"/>
+            <Field name="bmb05" value="2050/12/30"/>
+            <Field name="bmb06" value="2"/>
+            <Field name="bmb07" value="1"/>
+            <Field name="bmb08" value="0"/>
+            <Field name="bmb19" value="1"/>
+            <Field name="bmb14" value="0"/>
+            <Field name="bmb37" value="7304FBC241D84428970A57DA80249FE9"/>
+          </Record>
+          <Record>
+            <Field name="bmb02" value="0060"/>
+            <Field name="bmb03" value="8010-0530"/>
+            <Field name="bmb04" value="2017/11/21"/>
+            <Field name="bmb15" value="N"/>
+            <Field name="bmb05" value="2050/12/30"/>
+            <Field name="bmb06" value="1"/>
+            <Field name="bmb07" value="1"/>
+            <Field name="bmb08" value="0"/>
+            <Field name="bmb19" value="1"/>
+            <Field name="bmb14" value="0"/>
+            <Field name="bmb37" value="2765F990551A49278585A3B7FEEC0A13"/>
+          </Record>
+        </Detail>
+        <Detail name="bmt_file"/>
+      </RecordSet>
+    </Document>
+    <ParameterGroup>
+      <Record>
+        <Field name="seqkey" value="5129239654436667"/>
+        <Field name="seq_tot_cnt" value="2"/>
+        <Field name="seq_sub_cnt" value="2"/>
+      </Record>
+    </ParameterGroup>
+  </RequestContent>
+</Request>
+
+
+[Response Service #160216225]
+    '' end at 16:02:16.256
+
+[Response Message #160216225]
+<Response>
+  <Execution>
+    <Status code="aws-624" sqlcode="0" description="傳入的DataKey不存在於暫存資料表(wcf_file) ，請確認!"/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+#------------------------------------------------------------------------------#
+
+

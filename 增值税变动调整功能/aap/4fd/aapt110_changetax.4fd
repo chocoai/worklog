@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="ds" gstVersion="22800" name="ManagedForm" uid="{2bf3c79a-9550-497f-8323-3f2bce84b33a}">
+  <AGSettings/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{f41a9795-a094-42ca-b06c-08a480534a0e}" where="">
+    <RecordField colName="apa15" fieldIdRef="4" fieldType="TABLE_COLUMN" name="apa_file.apa15" sqlTabName="apa_file" sqlType="VARCHAR" table_alias_name="" uid="{f4e5dc94-8ef3-45cf-a48b-317f36abe87c}"/>
+    <RecordField colName="" fieldIdRef="5" fieldType="NON_DATABASE" name="gec02" precisionDecimal="9" scaleDecimal="4" sqlTabName="" sqlType="DECIMAL" table_alias_name="" uid="{187d4bda-a2bb-49eb-8d5c-a0fff5e6bb0e}"/>
+    <RecordField colName="apa16" fieldIdRef="6" fieldType="TABLE_COLUMN" name="apa_file.apa16" precisionDecimal="9" scaleDecimal="4" sqlTabName="apa_file" sqlType="DECIMAL" table_alias_name="" uid="{756c8f49-7a63-4fd4-bd8f-26532a68e7f1}"/>
+    <RecordField colName="gec07" fieldIdRef="8" fieldType="TABLE_COLUMN" name="gec_file.gec07" sqlTabName="gec_file" sqlType="VARCHAR" table_alias_name="" uid="{ec7fd5f5-237a-4d2b-9b53-1487e59223ae}"/>
+    <RecordField colName="" fieldIdRef="9" name="chtype" sqlTabName="" table_alias_name="" uid="{32102339-925f-4876-8045-107190c290d9}"/>
+    <RecordField colName="" fieldIdRef="1" fieldType="NON_DATABASE" name="apa15_1" sqlTabName="" sqlType="VARCHAR" table_alias_name="" uid="{c34565ea-ee4b-4a86-81bc-d9b9a245c2b2}"/>
+    <RecordField colName="" fieldIdRef="2" fieldType="NON_DATABASE" name="gec02_1" sqlTabName="" sqlType="DECIMAL" table_alias_name="" uid="{ef1aec01-1013-4ac9-9b0d-36ec190b0d09}"/>
+    <RecordField colName="" fieldIdRef="3" fieldType="NON_DATABASE" name="apa16_1" precisionDecimal="9" scaleDecimal="4" sqlTabName="" sqlType="DECIMAL" table_alias_name="" uid="{7be2e31d-a161-44b5-afba-182ede3fe5e3}"/>
+    <RecordField colName="" fieldIdRef="7" fieldType="NON_DATABASE" name="gec07_1" sqlTabName="" sqlType="VARCHAR" table_alias_name="" uid="{5946947a-7329-4136-8a34-d0b758d2ca92}"/>
+  </Record>
+  <Form gridHeight="22" gridWidth="99" name="Form" text="Form">
+    <VBox gridHeight="19" gridWidth="86" name="VBox1" posX="3" posY="1">
+      <Grid gridHeight="17" gridWidth="86" name="Grid1" posX="0" posY="1">
+        <Group gridHeight="5" gridWidth="80" name="Group1" posX="2" posY="0" text="Group1">
+          <Label posX="1" posY="2" text="Tax Type"/>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="1" fieldType="NON_DATABASE" gridHeight="1" gridWidth="10" name="apa15_1" noEntry="true" posX="12" posY="2" rowCount="" sqlTabName="" sqlType="VARCHAR" stepX="" stepY="" tabIndex="6" table_alias_name="" title="Edit1" widget="Edit"/>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="2" fieldType="NON_DATABASE" gridHeight="1" gridWidth="16" name="gec02_1" noEntry="true" posX="23" posY="2" precisionDecimal="18" rowCount="" sqlTabName="" sqlType="DECIMAL" stepX="" stepY="" tabIndex="7" table_alias_name="" title="Edit1" widget="Edit"/>
+          <Label posX="42" posY="2" text="Tax Rate%"/>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="3" fieldType="NON_DATABASE" gridHeight="1" gridWidth="10" lstrcomment="false" lstrtitle="false" name="apa16_1" noEntry="true" posX="53" posY="2" precisionDecimal="9" rowCount="" scaleDecimal="4" sqlTabName="" sqlType="DECIMAL" stepX="" stepY="" tabIndex="8" table_alias_name="" widget="Edit"/>
+          <CheckBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="7" fieldType="NON_DATABASE" gridHeight="1" gridWidth="10" name="gec07_1" noEntry="true" posX="65" posY="2" rowCount="" sqlTabName="" sqlType="VARCHAR" stepX="" stepY="" tabIndex="9" table_alias_name="" text="CheckBox1" title="CheckBox1" valueChecked="Y" valueUnchecked="N" widget="CheckBox"/>
+        </Group>
+        <Group gridHeight="5" gridWidth="78" name="Group2" posX="2" posY="6" text="Group2">
+          <Label posX="2" posY="2" text="Tax Type"/>
+          <ButtonEdit action="controlp" aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="apa15" columnCount="" comment="&lt;^P&gt;Qry Tax Type" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" image="zoom" lstrcomment="false" lstrtitle="false" name="apa_file.apa15" notNull="true" posX="13" posY="2" required="true" rowCount="" sqlTabName="apa_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="1" table_alias_name="" widget="ButtonEdit"/>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="5" fieldType="NON_DATABASE" gridHeight="1" gridWidth="18" name="gec02" noEntry="true" posX="24" posY="2" rowCount="" sqlTabName="" sqlType="DECIMAL" stepX="" stepY="" tabIndex="1" table_alias_name="" title="Edit1" widget="Edit"/>
+          <Label posX="43" posY="2" text="Tax Rate%"/>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="apa16" columnCount="" fieldId="6" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" lstrcomment="false" lstrtitle="false" name="apa_file.apa16" noEntry="true" posX="54" posY="2" precisionDecimal="9" rowCount="" scaleDecimal="4" sqlTabName="apa_file" sqlType="DECIMAL" stepX="" stepY="" tabIndex="1" table_alias_name="" widget="Edit"/>
+          <CheckBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="gec07" columnCount="" fieldId="8" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" name="gec_file.gec07" noEntry="true" posX="66" posY="2" rowCount="" sqlTabName="gec_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="2" table_alias_name="" text="CheckBox1" title="CheckBox1" valueChecked="Y" valueUnchecked="N" widget="CheckBox"/>
+        </Group>
+        <Group gridHeight="5" gridWidth="22" name="Group3" posX="2" posY="11" text="Group3">
+          <RadioGroup aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="9" gridHeight="1" gridWidth="10" items="By Taxes included, By Excluding tax" name="chtype" notNull="true" posX="4" posY="1" required="true" rowCount="" sqlTabName="" stepX="" stepY="" tabIndex="5" table_alias_name="" title="RadioGroup1" widget="RadioGroup">
+            <Item lstrtext="false" name="1" text="By Taxes included"/>
+            <Item lstrtext="false" name="2" text="By Excluding tax"/>
+          </RadioGroup>
+        </Group>
+      </Grid>
+    </VBox>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewAzADIAMQAwADIAMwAzADkALQA5ADIANQBmAC0ANAA4ADcANgAtADgAMAA0ADUALQAxADAANwAxADkAMABjADIAOQAwAGQAOQB9QCQAAAAAAABAX0AAAAAAAAAAAAAAAAAAAQAAAEwAewA3AGIAZQAyAGUAMwAxAGQALQBhADEANgAxAC0ANAA0AGIANQAtAGEAZgBiAGEALQAxADgAMgBlAGQAZQAzAGYAZQA1AGUAMwB9QCQAAAAAAABAZ+AAAAAAAAAAAAAAAAAAAQAAAEwAewBmADQAMQBhADkANwA5ADUALQBhADAAOQA0AC0ANAAyAGMAYQAtAGIAMAA2AGMALQAwADgAYQA0ADgAMAA1ADMANABhADAAZQB9AAAAAAAAAAAAAAAAAAAAAD+RaHKwIMSeAQAAAEwAewBlAGMANwBmAGQANQBmADUALQAyADMANwBhAC0ANABkADIAYgAtADkAYgA1ADMALQAxADQAOAA3AGUANQA5ADIAMgAzAGEAZQB9QCQAAAAAAABAWcAAAAAAAAAAAAAAAAAAAQAAAEwAewBlAGYAMQBhAGUAYwAwADEALQAxADAAMQAzAC0ANABhAGMAOQAtADkAYgAwAGQALQAzADYAZQBjADEAOQAwAGIAMABkADAAOQB9QCQAAAAAAABAZSAAAAAAAD+QYk3S8an+AQAAAEwAewBmADQAZQA1AGQAYwA5ADQALQA4AGUAZgAzAC0ANAA1AGMAZgAtAGEANAA4AGIALQAzADEANwBmADMANgBhAGIAZQA4ADcAYwB9QCQAAAAAAABAQoAAAAAAAAAAAAAAAAAAAQAAAEwAewA1ADkANAA2ADkANAA3AGEALQA3ADMAMgA5AC0ANAAxADMANgAtADgAYQAzADQALQBkADAAYgA3ADUAOABkADIAYwBhADkAMgB9QCQAAAAAAABAaqAAAAAAAAAAAAAAAAAAAQAAAEwAewBjADMANAA1ADYANQBlAGEALQBlAGUANABiAC0ANABhADgANgAtADgAMQBiAGMALQBkADkAYgA5AGEAMgA0ADUAYwAyAGIAMgB9QCQAAAAAAABAYmAAAAAAAD+Kn752yLQ8AQAAAEwAewA3ADUANgBjADgAZgA0ADkALQA3AGEANgAzAC0ANABmAGQANAAtAGIAZAA4AGYALQAyADYANQAzADIAYQA2ADgAZQA3AGYAMQB9QCQAAAAAAABAVEAAAAAAAAAAAAAAAAAAAQAAAEwAewAxADgANwBkADQAYgBkAGEALQBhADIAYgBiAC0ANAA5AGUAYgAtADgAZAA1AGMALQBhADAAZgBmAGYANQBlADYAYgBiADAAZQB9QCQAAAAAAABATYAAAAAAAD+MrAgxJul8AQ==]]>
+  </DiagramLayout>
+</ManagedForm>

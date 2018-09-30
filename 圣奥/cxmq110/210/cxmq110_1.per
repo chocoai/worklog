@@ -1,0 +1,68 @@
+---------------------------------------------------------------------------------- 
+-- File created from /u1/topprod/topcust/cxm/4fd/cxmq110_1.4fd by Genero Studio
+-- WARNING! All changes made in this file will be lost!
+----------------------------------------------------------------------------------
+
+SCHEMA formonly
+
+LAYOUT (text=%"cxmq110_1")
+VBox vbox1
+Folder folder1
+Page page1(text=%"Page1")
+Grid grid1
+{
+
+ [label1            ][oea03              ] [oea032                                         ]
+ [label3    ]        [oea23              ]
+
+}
+END -- grid1
+END -- page1
+END -- folder1
+Table table1
+{
+[oea03t        |oea032t       |vdate            |vno                 |oea01         |type             |tc_nmg01     |df                 |d                |cf                  |c                  |zzysye             |chysye               |exp                    ]
+[oea03t        |oea032t       |vdate            |vno                 |oea01         |type             |tc_nmg01     |df                 |d                |cf                  |c                  |zzysye             |chysye               |exp                    ]
+[oea03t        |oea032t       |vdate            |vno                 |oea01         |type             |tc_nmg01     |df                 |d                |cf                  |c                  |zzysye             |chysye               |exp                    ]
+[oea03t        |oea032t       |vdate            |vno                 |oea01         |type             |tc_nmg01     |df                 |d                |cf                  |c                  |zzysye             |chysye               |exp                    ]
+[oea03t        |oea032t       |vdate            |vno                 |oea01         |type             |tc_nmg01     |df                 |d                |cf                  |c                  |zzysye             |chysye               |exp                    ]
+}
+END -- table1
+Grid grid2
+{
+
+   ----------[label2  ][cnt       ]---------
+}
+END -- grid2
+END -- vbox1
+END -- cxmq110_1
+
+ATTRIBUTES
+Label label1:label1, text=%"Customer No#";
+Edit oea03=formonly.oea03 type VARCHAR, tabIndex=1, noEntry;
+Edit oea032=formonly.oea032 type VARCHAR, tabIndex=2, noEntry;
+Label label3:label3, text=%"oea23";
+Edit oea23=formonly.oea23 type VARCHAR, tabIndex=3, noEntry;
+Edit oea03t=formonly.oea03t type VARCHAR, tabIndex=4, title=%"oea03t", noEntry;
+Edit oea032t=formonly.oea032t type VARCHAR, tabIndex=5, title=%"oea03t", noEntry;
+DateEdit vdate=formonly.vdate type DATE, tabIndex=6, title=%"Voucher Date", noEntry;
+Edit vno=formonly.vno type VARCHAR, tabIndex=7, title=%"Voucher No.", noEntry;
+Edit oea01=formonly.oea01 type VARCHAR, tabIndex=8, title=%"oea01", noEntry;
+ComboBox type=formonly.type type VARCHAR, tabIndex=9, title=%"type", noEntry, items=(("0", %"期初余额"),("17", %"销退作业单"),("1", %"应收调整"),("2", %"出货作业单"),("3", %"开票作业单"),("4", %"订单小计"),("5", %"本期合计"),("6", %"累计额"),("7", %"收支作业单"),("8", %"MISC"),("9", %"杂项/待抵"),("10", %"未维护收支单"),("11", %"退款"),("12", %"应收调整"),("13", %"杂项/待抵小计"),("14", %"未维护收支单小计"),("15", %"退款小计"),("16", %"应收调整小计"));
+Edit tc_nmg01=formonly.tc_nmg01 type VARCHAR, tabIndex=10, title=%"tc_nmg01", noEntry;
+Edit df=formonly.df type DECIMAL, tabIndex=11, title=%"df", noEntry;
+Edit d=formonly.d type DECIMAL, tabIndex=12, title=%"d", noEntry;
+Edit cf=formonly.cf type DECIMAL, tabIndex=13, title=%"cf", noEntry;
+Edit c=formonly.c type DECIMAL, tabIndex=14, title=%"c";
+Edit zzysye=formonly.zzysye type DECIMAL, tabIndex=15, title=%"zzysye", noEntry;
+Edit chysye=formonly.chysye type DECIMAL, tabIndex=16, title=%"chysye", noEntry;
+Edit exp=formonly.exp type VARCHAR, tabIndex=17, title=%"Explanation";
+Label label2:label2, text=%"Rows";
+Edit cnt=formonly.cnt type SMALLINT, tabIndex=18;
+END -- ATTRIBUTES
+
+INSTRUCTIONS
+SCREEN RECORD s_oea(formonly.vdate,formonly.vno,formonly.oea032t,formonly.oea03t,formonly.oea01,formonly.type,formonly.tc_nmg01,formonly.df,formonly.d,formonly.cf,formonly.c,formonly.zzysye,formonly.chysye,formonly.exp)
+SCREEN RECORD undefined(formonly.oea03,formonly.oea032,formonly.oea23,formonly.cnt)
+END -- INSTRUCTIONS
+

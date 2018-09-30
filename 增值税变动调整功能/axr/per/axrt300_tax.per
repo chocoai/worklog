@@ -1,0 +1,53 @@
+---------------------------------------------------------------------------------- 
+-- File created from /u53/tiptop/axr/42f/axrt300_tax.4fd by Genero Studio
+-- WARNING! All changes made in this file will be lost!
+----------------------------------------------------------------------------------
+
+SCHEMA ds
+
+LAYOUT (spacing=normal, text=%"")
+VBox VBox1
+Grid gr27
+{
+
+ <G group1                                                                           >
+  Tax Code [taxcode        |taxname        ]   Tax Rate [taxrate   ]  [oma213    ]
+ <                                                                                   >
+
+ <G group2                                                                           >
+  Tax Code [oma21        ] [taxname2       ]   Tax Rate [taxrate2  ]  [gec07     ]
+ <                                                                                   >
+
+ <G group3                                   >
+   [chtype                  ]
+   [                        ]
+   [                        ]
+ <                                           >
+
+
+}
+END -- gr27
+END -- VBox1
+END -- 
+
+TABLES
+oma_file
+ATTRIBUTES
+Group group1:group1, text=%"Original Document";
+Edit taxcode=formonly.taxcode type VARCHAR, tabIndex=1, noEntry;
+Edit taxname=formonly.taxname type VARCHAR, tabIndex=1, noEntry;
+Edit taxrate=formonly.taxrate type DECIMAL(9,4), tabIndex=1, noEntry;
+CheckBox oma213=formonly.oma213 type CHAR, tabIndex=1, text=%"With Tax", noEntry, valueChecked = "Y", valueUnchecked = "N";
+Group group2:group2, text=%"After Change";
+ButtonEdit oma21=oma_file.oma21, action=CONTROLP, tabIndex=1, required, image="zoom";
+Edit taxname2=formonly.taxname2 type VARCHAR, tabIndex=1, noEntry;
+Edit taxrate2=formonly.taxrate2 type DECIMAL(9,4), tabIndex=2, noEntry;
+CheckBox gec07=formonly.gec07 type CHAR, tabIndex=3, text=%"With Tax", noEntry, valueChecked = "Y", valueUnchecked = "N";
+Group group3:group3, text=%"Re-calculate Option";
+RadioGroup chtype=formonly.chtype, tabIndex=4, not null, required, items=(("1", "By Taxes Included"),("2", "By Excluding Tax"));
+END -- ATTRIBUTES
+
+INSTRUCTIONS
+SCREEN RECORD Undefined(formonly.taxcode,formonly.taxname,formonly.taxrate,formonly.oma213,oma_file.oma21,formonly.taxname2,formonly.taxrate2,formonly.gec07,formonly.chtype)
+END -- INSTRUCTIONS
+

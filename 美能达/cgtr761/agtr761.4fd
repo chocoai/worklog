@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="ds" gstVersion="21e00" name="Root" uid="{f1519b0c-7877-4cd0-ab72-9e15f85fd25c}">
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{3e525d5e-ff88-494d-b5ab-1d3b8a57dcfb}" where="">
+    <RecordField colName="" fieldIdRef="2" name="uhc06" sqlTabName="" table_alias_name="" uid="{e6dced21-770f-4942-be88-305ea9f83c25}"/>
+    <RecordField colName="" fieldIdRef="4" name="uhc07" sqlTabName="" table_alias_name="" uid="{bd93b066-b8fc-46d4-a049-341e75e6088e}"/>
+    <RecordField colName="" fieldIdRef="5" name="uhc02" sqlTabName="" table_alias_name="" uid="{253d24e1-a292-423b-8e07-55b0924f9678}"/>
+    <RecordField colName="" fieldIdRef="6" name="uhc03" sqlTabName="" table_alias_name="" uid="{81b24ec7-0680-42f7-a4a1-6f68dba566d4}"/>
+    <RecordField colName="" fieldIdRef="8" name="uab02" sqlTabName="" table_alias_name="" uid="{5ce3b641-f39f-4afe-ab97-29cf1cc12060}"/>
+    <RecordField colName="" fieldIdRef="9" name="mm" sqlTabName="" table_alias_name="" uid="{a512d26c-202b-486b-a61f-8c1fbcfe5c45}"/>
+    <RecordField colName="" fieldIdRef="11" name="yy" sqlTabName="" table_alias_name="" uid="{d3a94a05-431b-49c7-890b-f88eaae844ff}"/>
+    <RecordField colName="" fieldIdRef="1" name="uhc05" sqlTabName="" table_alias_name="" uid="{a22a2edc-59cf-43b8-9ccf-a42983744422}"/>
+    <RecordField colName="" fieldIdRef="13" name="uhc01" sqlTabName="" table_alias_name="" uid="{71e2bc57-07e6-42cd-aaa5-8d2c8c2d8172}"/>
+  </Record>
+  <Form gridHeight="21" gridWidth="92" name="aglt110_6" spacing="normal" text="aglt110_6">
+    <Grid gridHeight="11" gridWidth="86" lstrcomment="false" name="gr2865" posX="0" posY="1">
+      <Group gridHeight="4" gridWidth="79" name="Group1" posX="1" posY="0" text="QBE">
+        <Label gridHeight="1" gridWidth="5" posX="1" posY="1" text="uhc05"/>
+        <ButtonEdit action="controlp" colName="" columnCount="" fieldId="1" gridHeight="1" gridWidth="20" image="zoom" name="uhc05" notNull="false" posX="12" posY="1" required="false" rowCount="" sqlTabName="" stepX="" stepY="" tabIndex="9" table_alias_name="" title="ButtonEdit1" widget="ButtonEdit"/>
+        <Label gridHeight="1" gridWidth="5" posX="1" posY="2" text="uhc01"/>
+        <ButtonEdit action="controlp" colName="" columnCount="" fieldId="13" gridHeight="1" gridWidth="20" image="zoom" name="uhc01" notNull="false" posX="12" posY="2" required="false" rowCount="" sqlTabName="" stepX="" stepY="" tabIndex="10" table_alias_name="" title="Edit1" widget="ButtonEdit"/>
+      </Group>
+      <Group gridHeight="6" gridWidth="79" lstrcomment="false" lstrtext="false" name="group2" posX="1" posY="4" text="INPUT">
+        <Label gridHeight="1" gridWidth="5" posX="1" posY="1" text="uhc06"/>
+        <ButtonEdit action="controlp" colName="" columnCount="" fieldId="2" gridHeight="1" gridWidth="20" image="zoom" name="uhc06" notNull="true" posX="12" posY="1" required="true" rowCount="" sqlTabName="" stepX="" stepY="" tabIndex="1" table_alias_name="" title="ButtonEdit1" widget="ButtonEdit"/>
+        <Label gridHeight="1" gridWidth="5" posX="33" posY="1" text="uab02"/>
+        <Edit colName="" columnCount="" fieldId="8" gridHeight="1" gridWidth="20" name="uab02" noEntry="true" posX="47" posY="1" rowCount="" sqlTabName="" stepX="" stepY="" tabIndex="8" table_alias_name="" title="Edit3" widget="Edit"/>
+        <Label gridHeight="1" gridWidth="5" posX="1" posY="2" text="uhc07"/>
+        <Edit colName="" columnCount="" fieldId="4" gridHeight="1" gridWidth="20" name="uhc07" notNull="true" posX="12" posY="2" required="true" rowCount="" sqlTabName="" stepX="" stepY="" tabIndex="2" table_alias_name="" title="Edit1" widget="Edit"/>
+        <Label gridHeight="1" gridWidth="5" posX="1" posY="3" text="uhc02"/>
+        <Edit colName="" columnCount="" fieldId="5" gridHeight="1" gridWidth="20" name="uhc02" notNull="true" posX="12" posY="3" required="true" rowCount="" sqlTabName="" stepX="" stepY="" tabIndex="3" table_alias_name="" title="Edit2" widget="Edit"/>
+        <Label gridHeight="1" gridWidth="5" posX="33" posY="3" text="year"/>
+        <Edit colName="" columnCount="" fieldId="11" gridHeight="1" gridWidth="20" name="yy" noEntry="true" posX="47" posY="3" rowCount="" sqlTabName="" stepX="" stepY="" tabIndex="7" table_alias_name="" title="Edit3" widget="Edit"/>
+        <Label gridHeight="1" gridWidth="5" posX="1" posY="4" text="uhc03"/>
+        <Edit colName="" columnCount="" fieldId="6" gridHeight="1" gridWidth="20" name="uhc03" notNull="true" posX="12" posY="4" required="true" rowCount="" sqlTabName="" stepX="" stepY="" tabIndex="4" table_alias_name="" title="Edit3" widget="Edit"/>
+        <Label gridHeight="1" gridWidth="2" posX="33" posY="4" text="mm"/>
+        <Edit colName="" columnCount="" fieldId="9" gridHeight="1" gridWidth="20" name="mm" noEntry="true" posX="47" posY="4" rowCount="" sqlTabName="" stepX="" stepY="" tabIndex="6" table_alias_name="" title="Edit3" widget="Edit"/>
+      </Group>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBlADYAZABjAGUAZAAyADEALQA3ADcAMABmAC0ANAA5ADQAMgAtAGIAZQA4ADgALQAzADAANQBlAGEAOQBmADgAMwBjADIANQB9QBQAAAAAAABAOAAAAAAAAAAAAAAAAAAAAQAAAEwAewBhADUAMQAyAGQAMgA2AGMALQAyADAAMgBiAC0ANAA4ADYAYgAtAGEANgAxAGYALQA4AGMAMQBmAGIAYwBmAGUANQBjADQANQB9QBQAAAAAAABAYMAAAAAAAAAAAAAAAAAAAQAAAEwAewA3ADEAZQAyAGIAYwA1ADcALQAwADcAZQA2AC0ANAAyAGMAZAAtAGEAYQBhADUALQA4AGQAMgBjADgAYwAyAGQAOAAxADcAMgB9QBQAAAAAAABAaQAAAAAAAAAAAAAAAAAAAQAAAEwAewBiAGQAOQAzAGIAMAA2ADYALQBiADgAZgBjAC0ANAA2AGQANAAtAGEAMAA0ADkALQAzADQAMQBlADcANQBlADYAMAA4ADgAZQB9QBQAAAAAAABARwAAAAAAAAAAAAAAAAAAAQAAAEwAewAzAGUANQAyADUAZAA1AGUALQBmAGYAOAA4AC0ANAA5ADQAZAAtAGIANQBhAGIALQAxAGQAMwBiADgAYQA1ADcAZABjAGYAYgB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEwAewAyADUAMwBkADIANABlADEALQBhADIAOQAyAC0ANAAyADMAYgAtADgAZQAwADcALQA1ADUAYgAwADkAMgA0AGYAOQA2ADcAOAB9QBQAAAAAAABAUQAAAAAAAAAAAAAAAAAAAQAAAEwAewBhADIAMgBhADIAZQBkAGMALQA1ADkAYwBmAC0ANAAzAGIAOAAtADkAYwBjAGYALQBhADQAMgA5ADgAMwA3ADQANAA0ADIAMgB9QBQAAAAAAABAZkAAAAAAAAAAAAAAAAAAAQAAAEwAewA1AGMAZQAzAGIANgA0ADEALQBmADMAOQBmAC0ANABhAGYAZQAtAGEAYgA5ADcALQAyADkAYwBmADEAYwBjADEAMgAwADYAMAB9QBQAAAAAAABAXAAAAAAAAAAAAAAAAAAAAQAAAEwAewBkADMAYQA5ADQAYQAwADUALQA0ADMAMQBiAC0ANAA5AGMANwAtADgAOQAwAGIALQBmADgAOABlAGEAYQBlADgANAA0AGYAZgB9QBQAAAAAAABAY4AAAAAAAAAAAAAAAAAAAQAAAEwAewA4ADEAYgAyADQAZQBjADcALQAwADYAOAAwAC0ANAAyAGYANwAtAGEANABhADEALQA2AGYANgA4AGQAYgBhADUANgA2AGQANAB9QBQAAAAAAABAVoAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

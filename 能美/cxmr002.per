@@ -1,0 +1,46 @@
+---------------------------------------------------------------------------------- 
+-- File created from /u1/topprod/topcust/cxm/4fd/cxmr002.4fd by Genero Studio
+-- WARNING! All changes made in this file will be lost!
+----------------------------------------------------------------------------------
+
+SCHEMA ds
+
+LAYOUT 
+VBox VBox1
+Grid Grid1
+{
+ <G group01                                                      >
+
+  oma01               [oma01               ]
+  oma02               [oma02               ]
+  oma03               [oma03               ]
+  omb04               [omb04               ] 
+ 
+}
+END -- Grid1
+Grid Grid3
+{
+[more                                                        ]
+
+
+
+}
+END -- Grid3
+END -- VBox1
+END -- cxmr002
+
+ATTRIBUTES
+Group group01:group01, text=%"QBE";
+Edit oma01=formonly.oma01 type VARCHAR, tabIndex=1, comment=%" 1.Sotck-in 2.Reject 3.Inventory Return";
+DateEdit oma02=formonly.oma02 type DATE, tabIndex=3;
+Edit oma03=formonly.oma03 type VARCHAR, tabIndex=2, not null, required;
+Edit omb04=formonly.omb04 type VARCHAR, tabIndex=4;
+CheckBox more=formonly.more, tabIndex=5, text=%"Other codition to print", not null, required, valueChecked = "Y", valueUnchecked = "N";
+END -- ATTRIBUTES
+
+INSTRUCTIONS
+SCREEN RECORD oma_file(formonly.oma01,formonly.oma03,formonly.oma02)
+SCREEN RECORD omb_file(formonly.omb04)
+SCREEN RECORD Undefined(formonly.more)
+END -- INSTRUCTIONS
+

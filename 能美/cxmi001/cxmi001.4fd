@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="ds" gstVersion="22800" name="Root" uid="{765f09e9-0000-4000-b43a-903cf0c5b42c}">
+  <AGSettings/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="s_tc_oqd" order="" uid="{9474c095-0000-4000-acc3-b1d1760cd379}" where="">
+    <RecordField colName="cce04" fieldIdRef="5" fieldType="NON_DATABASE" name="tc_oqd02" sqlTabName="cce_file" sqlType="VARCHAR" table_alias_name="" uid="{778368b5-0000-4000-bf16-0375daa52090}"/>
+    <RecordField colName="" fieldIdRef="6" name="ima02" sqlTabName="" sqlType="VARCHAR" table_alias_name="" uid="{cc527c75-0000-4000-ac21-68477fe257d6}"/>
+    <RecordField colName="" fieldIdRef="7" name="ima021" sqlTabName="" sqlType="VARCHAR" table_alias_name="" uid="{656e2dc0-0000-4000-b080-a8bb273af002}"/>
+    <RecordField colName="" fieldIdRef="8" name="tc_oqd03" sqlTabName="" sqlType="VARCHAR" table_alias_name="" uid="{a30960ba-0000-4000-817b-01fe6f5e2044}"/>
+    <RecordField colName="cce21" fieldIdRef="9" fieldType="NON_DATABASE" name="tc_oqd04" sqlTabName="cce_file" sqlType="VARCHAR" table_alias_name="" uid="{5b4fa247-0000-4000-9303-c85c4e25f067}"/>
+    <RecordField colName="cce22a" fieldIdRef="10" fieldType="NON_DATABASE" name="tc_oqd05" sqlTabName="cce_file" sqlType="DATE" table_alias_name="" uid="{c1e73282-0000-4000-97c1-caaf99a31a84}"/>
+    <RecordField colName="cce22b" fieldIdRef="11" fieldType="NON_DATABASE" name="tc_oqd06" sqlTabName="cce_file" sqlType="VARCHAR" table_alias_name="" uid="{d0730347-0000-4000-b715-c440820ff01d}"/>
+  </Record>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{04463f06-0000-4000-88a7-65673f60917c}" where="">
+    <RecordField colName="ccg01" fieldIdRef="1" fieldType="NON_DATABASE" name="tc_oqd01" sqlTabName="ccg_file" sqlType="VARCHAR" table_alias_name="" uid="{64280b88-0000-4000-811d-720105cfd957}"/>
+    <RecordField colName="" fieldIdRef="2" fieldType="NON_DATABASE" name="cnt" sqlTabName="" sqlType="SMALLINT" table_alias_name="" uid="{c6f176b7-30c9-4731-8291-f2b4fe7a1b76}"/>
+    <RecordField colName="" fieldIdRef="3" fieldType="NON_DATABASE" name="cnt1" sqlTabName="" sqlType="SMALLINT" table_alias_name="" uid="{cef00a2c-9765-40d5-a1dd-4a3cabaa8b06}"/>
+    <RecordField colName="" fieldIdRef="4" fieldType="NON_DATABASE" name="cnt2" sqlTabName="" sqlType="SMALLINT" table_alias_name="" uid="{3fa9d58f-be51-44b0-ab1e-36ad67392057}"/>
+  </Record>
+  <Form gridHeight="26" gridWidth="283" name="axcq450" spacing="normal" text="axcq450">
+    <VBox gridHeight="25" gridWidth="135" name="vb6" posX="1" posY="0" splitter="">
+      <Folder gridHeight="7" gridWidth="135" lstrcomment="false" name="folder01" posX="0" posY="1">
+        <Page lstrtext="false" name="page01" text="Main">
+          <Grid gridHeight="4" gridWidth="122" lstrcomment="false" name="gr1554" posX="0" posY="0">
+            <Label posX="1" posY="2" text="tc_oqd01"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="ccg01" columnCount="" fieldId="1" fieldType="NON_DATABASE" gridHeight="1" gridWidth="18" lstrcomment="false" lstrtitle="false" name="tc_oqd01" notNull="true" posX="26" posY="2" required="true" rowCount="" sqlTabName="ccg_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="1" table_alias_name="" widget="Edit"/>
+          </Grid>
+        </Page>
+      </Folder>
+      <Table gridHeight="13" gridWidth="135" lstrcomment="false" name="s_tc_oqd" posX="0" posY="8" totalRows="11">
+        <ButtonEdit action="controlp" aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="cce04" columnCount="" fieldId="5" fieldType="NON_DATABASE" gridHeight="1" gridWidth="16" image="zoom" lstrcomment="false" lstrtitle="false" name="tc_oqd02" notNull="true" posX="0" posY="0" required="true" rowCount="" sqlTabName="cce_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="2" table_alias_name="" title="tc_oqd02" widget="ButtonEdit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="6" gridHeight="1" gridWidth="19" lstrcomment="false" lstrtitle="false" name="ima02" noEntry="true" posX="16" posY="0" rowCount="" sqlTabName="" sqlType="VARCHAR" stepX="" stepY="" tabIndex="3" table_alias_name="" title="ima02" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="7" gridHeight="1" gridWidth="17" lstrcomment="false" lstrtitle="false" name="ima021" noEntry="true" posX="35" posY="0" rowCount="" sqlTabName="" sqlType="VARCHAR" stepX="" stepY="" tabIndex="4" table_alias_name="" title="ima021" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="8" gridHeight="1" gridWidth="18" lstrcomment="false" lstrtitle="false" name="tc_oqd03" noEntry="false" posX="52" posY="0" rowCount="" sqlTabName="" sqlType="VARCHAR" stepX="" stepY="" tabIndex="5" table_alias_name="" title="tc_oqd03" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="cce21" columnCount="" fieldId="9" fieldType="NON_DATABASE" gridHeight="1" gridWidth="17" lstrcomment="false" lstrtitle="false" name="tc_oqd04" notNull="false" posX="70" posY="0" required="false" rowCount="" sqlTabName="cce_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="6" table_alias_name="" title="tc_oqd04" widget="Edit"/>
+        <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="cce22a" columnCount="" fieldId="10" fieldType="NON_DATABASE" gridHeight="1" gridWidth="20" lstrcomment="false" lstrtitle="false" name="tc_oqd05" notNull="false" posX="87" posY="0" required="true" rowCount="" sqlTabName="cce_file" sqlType="DATE" stepX="" stepY="" tabIndex="7" table_alias_name="" title="tc_oqd05" widget="DateEdit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="cce22b" columnCount="" fieldId="11" fieldType="NON_DATABASE" gridHeight="1" gridWidth="20" lstrcomment="false" lstrtitle="false" name="tc_oqd06" notNull="false" posX="107" posY="0" required="false" rowCount="" sqlTabName="cce_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="8" table_alias_name="" title="tc_oqd06" widget="Edit"/>
+      </Table>
+      <Grid gridHeight="3" gridWidth="135" lstrcomment="false" name="gr" posX="0" posY="21">
+        <Label posX="4" posY="0" text="Rows"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="3" fieldType="NON_DATABASE" gridHeight="1" gridWidth="6" lstrcomment="false" lstrtitle="false" name="cnt1" noEntry="true" posX="9" posY="0" rowCount="" sqlTabName="" sqlType="SMALLINT" stepX="" stepY="" tabIndex="10" table_alias_name="" widget="Edit"/>
+        <Label posX="16" posY="0" text="/"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="2" fieldType="NON_DATABASE" gridHeight="1" gridWidth="6" lstrcomment="false" lstrtitle="false" name="cnt" noEntry="true" posX="18" posY="0" rowCount="" sqlTabName="" sqlType="SMALLINT" stepX="" stepY="" tabIndex="9" table_alias_name="" widget="Edit"/>
+        <HLine gridWidth="3" name="hl01" posX="26" posY="0"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="4" fieldType="NON_DATABASE" gridHeight="1" gridWidth="6" lstrcomment="false" lstrtitle="false" name="cnt2" noEntry="true" posX="32" posY="0" rowCount="" sqlTabName="" sqlType="SMALLINT" stepX="" stepY="" tabIndex="11" table_alias_name="" widget="Edit"/>
+        <HLine gridWidth="3" name="hl02" posX="43" posY="0"/>
+      </Grid>
+    </VBox>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA1AGIANABmAGEAMgA0ADcALQAwADAAMAAwAC0ANAAwADAAMAAtADkAMwAwADMALQBjADgANQBjADQAZQAyADUAZgAwADYANwB9QCAAABAAAAZAWQAAGQAACQAAAAAAAAAAAQAAAEwAewBjAGUAZgAwADAAYQAyAGMALQA5ADcANgA1AC0ANAAwAGQANQAtAGEAMQBkAGQALQA0AGEAMwBjAGEAYgBhAGEAOABiADAANgB9QCAAAAQAAABAUDMzN0AAAAAAAAAAAAAAAQAAAEwAewBjAGMANQAyADcAYwA3ADUALQAwADAAMAAwAC0ANAAwADAAMAAtAGEAYwAyADEALQA2ADgANAA3ADcAZgBlADIANQA3AGQANgB9QCAAABAAAAZAR5mZsTMzPAAAAAAAAAAAAQAAAEwAewBkADAANwAzADAAMwA0ADcALQAwADAAMAAwAC0ANAAwADAAMAAtAGIANwAxADUALQBjADQANAAwADgAMgAwAGYAZgAwADEAZAB9QCAAABAAAAZAYOZmd0zM1AAAAAAAAAAAAQAAAEwAewAzAGYAYQA5AGQANQA4AGYALQBiAGUANQAxAC0ANAA0AGIAMAAtAGEAYgAxAGUALQAzADYAYQBkADYANwAzADkAMgAwADUANwB9QCAAAAQAAABAVJmZnsAAAAAAAAAAAAAAAQAAAEwAewAwADQANAA2ADMAZgAwADYALQAwADAAMAAwAC0ANAAwADAAMAAtADgAOABhADcALQA2ADUANgA3ADMAZgA2ADAAOQAxADcAYwB9QGnmZnoTMzhAIAAAEAAABj9QYk3S8an8AQAAAEwAewBjADYAZgAxADcANgBiADcALQAzADAAYwA5AC0ANAA3ADMAMQAtADgAMgA5ADEALQBmADIAYgA0AGYAZQA3AGEAMQBiADcANgB9QCAAAAQAAABAR5mZn4AAAAAAAAAAAAAAAQAAAEwAewA5ADQANwA0AGMAMAA5ADUALQAwADAAMAAwAC0ANAAwADAAMAAtAGEAYwBjADMALQBiADEAZAAxADcANgAwAGMAZAAzADcAOQB9QHbzM0RpmZ5AEzMzQZmZnj9ok3S8an76AQAAAEwAewA2ADUANgBlADIAZABjADAALQAwADAAMAAwAC0ANAAwADAAMAAtAGIAMAA4ADAALQBhADgAYgBiADIANwAzAGEAZgAwADAAMgB9QCAAABAAAAZAUDMzQ2ZmbQAAAAAAAAAAAQAAAEwAewA3ADcAOAAzADYAOABiADUALQAwADAAMAAwAC0ANAAwADAAMAAtAGIAZgAxADYALQAwADMANwA1AGQAYQBhADUAMgAwADkAMAB9QCAAABAAAAZAPZmZtzMzPgAAAAAAAAAAAQAAAEwAewBhADMAMAA5ADYAMABiAGEALQAwADAAMAAwAC0ANAAwADAAMAAtADgAMQA3AGIALQAwADEAZgBlADYAZgA1AGUAMgAwADQANAB9QCAAABAAAAZAVJmZrjMzOwAAAAAAAAAAAQAAAEwAewBjADEAZQA3ADMAMgA4ADIALQAwADAAMAAwAC0ANAAwADAAMAAtADkANwBjADEALQBjAGEAYQBmADkAOQBhADMAMQBhADgANAB9QCAAABAAAAZAXWZmg8zM1wAAAAAAAAAAAQAAAEwAewA2ADQAMgA4ADAAYgA4ADgALQAwADAAMAAwAC0ANAAwADAAMAAtADgAMQAxAGQALQA3ADIAMAAxADAANQBjAGYAZAA5ADUANwB9QCAAAAQAAABAPZmZoQAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

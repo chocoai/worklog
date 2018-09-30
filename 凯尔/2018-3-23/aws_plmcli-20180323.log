@@ -1,0 +1,261 @@
+#--------------------------- (2018-03-23 13:12:49) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='5014974796321500' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='4' />
+       <Field name='Message' value='执行失败，7110-130027001:无此用户代码:无此用户代码' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <ExecutionCode>100</ExecutionCode>  <Message>Session Expired</Message></Response>
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-03-23 13:47:48) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='5017062800209700' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='3' />
+       <Field name='Message' value='执行成功' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <ExecutionCode>100</ExecutionCode>  <Message>Session Expired</Message></Response>
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-03-23 13:51:49) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='5017295568262600' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='3' />
+       <Field name='Message' value='执行成功' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <ExecutionCode>100</ExecutionCode>  <Message>Session Expired</Message></Response>
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-03-23 14:55:51) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='5021128492647200' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='4' />
+       <Field name='Message' value='执行失败，3141-000000002:无此用户代码:无此用户代码' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <Execution>    <Status code="0" description=""/>  </Execution>  <ResponseContent>  <Parameter>    <Record>      <Field name="jobID" value="5021128492647200"/>    </Record>  </Parameter>  </ResponseContent></Response>
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-03-23 14:59:15) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='5021349770574200' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='4' />
+       <Field name='Message' value='执行失败，3141-000000002:无此用户代码:无此用户代码' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <Execution>    <Status code="0" description=""/>  </Execution>  <ResponseContent>  <Parameter>    <Record>      <Field name="jobID" value="5021349770574200"/>    </Record>  </Parameter>  </ResponseContent></Response>
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-03-23 15:28:10) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='5023102899560800' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='4' />
+       <Field name='Message' value='执行失败，5121-105000014:无此用户代码:无此用户代码' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <Execution>    <Status code="0" description=""/>  </Execution>  <ResponseContent>  <Parameter>    <Record>      <Field name="jobID" value="5023102899560800"/>    </Record>  </Parameter>  </ResponseContent></Response>
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-03-23 15:46:39) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='5024198336565400' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='4' />
+       <Field name='Message' value='执行失败，5121-105000014:无此用户代码:无此用户代码' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <Execution>    <Status code="0" description=""/>  </Execution>  <ResponseContent>  <Parameter>    <Record>      <Field name="jobID" value="5024198336565400"/>    </Record>  </Parameter>  </ResponseContent></Response>
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-03-23 15:48:10) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='5024279398717400' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='4' />
+       <Field name='Message' value='执行失败，5121-105000014:无此用户代码:无此用户代码' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <Execution>    <Status code="0" description=""/>  </Execution>  <ResponseContent>  <Parameter>    <Record>      <Field name="jobID" value="5024279398717400"/>    </Record>  </Parameter>  </ResponseContent></Response>
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-03-23 15:50:43) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='5024429059080900' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='4' />
+       <Field name='Message' value='执行失败，5121-105000014:无此用户代码:无此用户代码' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <Execution>    <Status code="0" description=""/>  </Execution>  <ResponseContent>  <Parameter>    <Record>      <Field name="jobID" value="5024429059080900"/>    </Record>  </Parameter>  </ResponseContent></Response>
+
+#------------------------------------------------------------------------------#
+
+

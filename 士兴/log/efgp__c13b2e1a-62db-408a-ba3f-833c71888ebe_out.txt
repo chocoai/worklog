@@ -1,0 +1,21 @@
+
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="wss-00008" sqlcode="0" description="单据状态(Y:已审核)不是送签中，不可异动！"/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+

@@ -1,0 +1,235 @@
+Service starting
+<TTP_IN>  <Service Name="GetData">    <ObjectID>FACTORY</ObjectID>    <User>067221</User>    <FieldList>azp01|azp02|azp03</FieldList>    <Format>Join</Format>  </Service></TTP_IN>
+Service starting
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>067221</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS0</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="AGPK35P0110500H|AGPK35P0黑0.5中性笔|12支盒装|A001|PCS"/></DataSet></Data></Service></STD_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>067221</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS0</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="D13F3003|原料POM F30-03|POM-F30-03|D001|KG"/><Row Data="D08SX304|原料PMMA-SX304|%%|D001|KG"/><Row Data="D05PN125|原料SAN:PN-108L125|%%|D001|KG"/><Row Data="D08SX304|原料PMMA-SX304|%%|D001|KG"/><Row Data="D64T3031|纳米改性竹炭弹性体原料TPE T03-031|%%|D001|KG"/><Row Data="D071225Y|原料PC-1225Y|PC-1225Y|D001|KG"/><Row Data="D03MGMB011|纳米颗粒中性颜料黑色墨水Black MB-01|%%|D001|KG"/><Row Data="D90BK331|半成品 TBK33-1 BASE|%%|D001|KG"/><Row Data="D90EG400|聚乙二醇400| PEG 400|D001|KG"/><Row Data="D90BASE1|基料1|BASE 1|D001|KG"/><Row Data="D90PXL02|P.XL-2杀菌剂|P.XL-2|D001|KG"/><Row Data="D90BASEA|基料添加剂|BASE ADD|D001|KG"/><Row Data="D90BK332|半成品 TBK33-2 BASE|%%|D001|KG"/><Row Data="D90EG300|聚乙二醇300|MONOPOL The PEG300|D001|KG"/><Row Data="D90BASE2|基料2|BASE 2|D001|KG"/><Row Data="D90BASEA|基料添加剂|BASE ADD|D001|KG"/><Row Data="D90INKAD|油墨添加剂|INK ADD|D001|KG"/><Row Data="D9081811|DP 818黑色浆|DP BLACK 818|D001|KG"/><Row Data="D90EG400|聚乙二醇400| PEG 400|D001|KG"/><Row Data="D90PXL02|P.XL-2杀菌剂|P.XL-2|D001|KG"/><Row Data="D43MC160|黄硅油KDG-MC(Y)|南韩锂基油(黄)|D001|KG"/><Row Data="D0167TZR0105|670/05ZR子弹头中性笔头(弹簧头)670SS/0.5T|%%|D001|PCS"/><Row Data="D8467TZR0105|670/05散装陶瓷球珠弹簧子弹头中性笔头|%%|D001|PCS"/><Row Data="D8367TZR0105|67T/05笔头组件|%%|D001|PCS"/><Row Data="D8200016|Φ2.3不锈钢线材(毛坯粒)|%%|D001|PCS"/><Row Data="D8200002|Φ2.3不锈钢线材|%%|D001|KG"/><Row Data="D800H3RA0105|陶瓷球珠H3/0.5mmRa0.012|%%|D001|PCS"/><Row Data="D8100001|670/05笔头弹簧|%%|D001|PCS"/><Row Data="D12P344R|原料PP344R|PP344R|D001|KG"/></DataSet></Data></Service></STD_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>067221</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS0</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="111302|黑POM F30-03色粉|%%|G002|BAG"/><Row Data="115808|黑TPR 545CN色粉|%%|G002|BAG"/><Row Data="110704|黑PC-1225Y色粉|%%|G002|BAG"/><Row Data="161201|灰PP344R色粉|%%|G002|BAG"/></DataSet></Data></Service></STD_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>067221</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS0</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="AGPK35P0110500|AGPK35P0黑0.5中性笔|%%|B001|PCS"/></DataSet></Data></Service></STD_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>067221</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS0</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="EGP30103010528X|AGP30103商标不干胶贴(收缩膜)|%%|E001|PCS"/><Row Data="EGPK35P0110534|AGPK35P0黑条形码不干胶贴(外箱)|%%|E001|PCS"/><Row Data="EGPK3501110503X|AGPK3501黑外箱481*325*366|%%|E001|PCS"/><Row Data="EGPK3501110501|AGPK3501黑小盒|GP-K35|E001|PCS"/><Row Data="EGPK3501110534X|AGPK3501黑条形码不干胶贴(收缩膜)|%%|E001|PCS"/><Row Data="EGPK35P0010518|AGPK35P0不干胶贴(笔杆)|%%|E001|PCS"/></DataSet></Data></Service></STD_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>067221</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS0</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="C01K3501C401|K3501转轮模具|%%|C001|PCS"/><Row Data="C01K3501C301|K3501揿芯模具|%%|C001|PCS"/><Row Data="C01K3501A401|K3501笔颈模具|%%|C001|PCS"/><Row Data="C01K3501A101|K3501笔杆模具|%%|C001|PCS"/><Row Data="C01K3501A701|K3501护套模具|%%|C001|PCS"/><Row Data="C01K3501A301|K3501笔夹模具|%%|C001|PCS"/><Row Data="C0102301D501|02301连接模具|%%|C001|PCS"/></DataSet></Data></Service></STD_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>067221</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS0</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="G0791001|油墨桶|120KG|G001|PCS"/><Row Data="G0782001|笔头内箱150*130*105|%%|G001|PCS"/><Row Data="G0781001|670笔头塑封袋220*150|%%|G001|PCS"/></DataSet></Data></Service></STD_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>067221</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS0</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="BGR67T01110543L|BGR67T01黑0.5陶瓷球珠中性笔芯透明油管|MF2001黑670/0.5|B141|PCS"/></DataSet></Data></Service></STD_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>067221</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS0</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="BGPK3501C41311Z1|AGPK3501转轮POM F30-03黑|GP-K35|B111|PCS"/><Row Data="BGPK3501C30800Z1|AGPK3501揿芯PMMA-SX304透明|GP-K35|B111|PCS"/><Row Data="BGPK3501A40500Z1|AGPK3501笔颈SAN PN-108L125透明|GP-K35|B111|PCS"/><Row Data="BGPK3501C63601D|AGPK3501伸缩弹簧电镀|%%|B151|PCS"/><Row Data="BGPK3501A10800Z1|AGPK3501笔杆PMMA-SX304透明|GP-K35|B111|PCS"/><Row Data="BGPK3501A75811Z1|AGPK3501护套TPE T03-031黑|%%|B111|PCS"/><Row Data="BGPK3501B80601D|AGPK3501饰圈ABS727电镀亮铬|%%|B151|PCS"/><Row Data="BGPK3501A60601D|AGPK3501尖套ABS727电镀亮铬|%%|B151|PCS"/><Row Data="BGPK35P0A31011Y1|AGPK35P0笔夹移印白(黑)|%%|B121|PCS"/><Row Data="BGPK3501A30711Z1|AGPK3501笔夹PC-1225Y黑|GP-K35|B111|PCS"/><Row Data="BGR67T01D71201|油管透明磨砂5.47*3.95*89.2|%%|B151|PCS"/><Row Data="BGR67T01D51216Z1|1008连接PP344R灰|%%|B111|PCS"/><Row Data="BGR67001D94116|670-5笔头保护套灰|%%|B151|PCS"/></DataSet></Data></Service></STD_IN>
+<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="AGPK35P0110500H|AGPK35P0110500H|BC|10|EGP30103010528X|2017/02/24|1.0|144|1|1"/><Row Data="AGPK35P0110500H|AGPK35P0110500H|BC|50|EGPK35P0110534|2017/02/24|4.0|1728|1|1"/><Row Data="AGPK35P0110500H|AGPK35P0110500H|BC|40|EGPK3501110503X|2017/02/24|1.0|1728|0.0|1"/><Row Data="AGPK35P0110500H|AGPK35P0110500H|BC|30|EGPK3501110501|2017/02/24|1.0|12|0.0|1"/><Row Data="AGPK35P0110500H|AGPK35P0110500H|BC|20|EGPK3501110534X|2017/02/24|1.0|144|1|1"/><Row Data="AGPK35P0110500H|AGPK35P0110500H|%%|60|AGPK35P0110500|2017/02/24|1.0|1.0|0.0|3"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="AGPK35P0110500H">
+<Body Data="AGPK35P0110500H|BC|10|EGP30103010528X|2017/02/24|1.0|144|1|1"/>
+<Body Data="AGPK35P0110500H|BC|50|EGPK35P0110534|2017/02/24|4.0|1728|1|1"/>
+<Body Data="AGPK35P0110500H|BC|40|EGPK3501110503X|2017/02/24|1.0|1728|0.0|1"/>
+<Body Data="AGPK35P0110500H|BC|30|EGPK3501110501|2017/02/24|1.0|12|0.0|1"/>
+<Body Data="AGPK35P0110500H|BC|20|EGPK3501110534X|2017/02/24|1.0|144|1|1"/>
+<Body Data="AGPK35P0110500H|%%|60|AGPK35P0110500|2017/02/24|1.0|1.0|0.0|3"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="AGPK35P0110500|AGPK35P0110500|JT-WX|100|EGPK35P0010518|2017/02/24|1.0|1.0|1|1"/><Row Data="AGPK35P0110500|AGPK35P0110500|ZZ|60|BGPK3501C41311Z1|2017/02/24|1.0|1.0|0.3|1"/><Row Data="AGPK35P0110500|AGPK35P0110500|ZZ|50|BGPK3501C30800Z1|2017/02/24|1.0|1.0|0.3|1"/><Row Data="AGPK35P0110500|AGPK35P0110500|JQ-ZZ|30|BGPK3501A40500Z1|2017/02/24|1.0|1.0|0.3|1"/><Row Data="AGPK35P0110500|AGPK35P0110500|WX|90|BGPK3501C63601D|2017/02/24|1.0|1.0|0.0|1"/><Row Data="AGPK35P0110500|AGPK35P0110500|JT-ZZ|10|BGPK3501A10800Z1|2017/02/24|1.0|1.0|0.3|1"/><Row Data="AGPK35P0110500|AGPK35P0110500|JQ-ZZ|40|BGPK3501A75811Z1|2017/02/24|1.0|1.0|0.3|1"/><Row Data="AGPK35P0110500|AGPK35P0110500|JG-WX|70|BGPK3501B80601D|2017/02/24|1.0|1.0|0.3|1"/><Row Data="AGPK35P0110500|AGPK35P0110500|JQ-WX|80|BGPK3501A60601D|2017/02/24|1.0|1.0|0.3|1"/><Row Data="AGPK35P0110500|AGPK35P0110500|JG-ZZ|20|BGPK35P0A31011Y1|2017/02/24|1.0|1.0|0.3|1"/><Row Data="AGPK35P0110500|AGPK35P0110500|ZZ|110|BGR67T01110543L|2017/02/24|1.0|1.0|0.1|1"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="AGPK35P0110500">
+<Body Data="AGPK35P0110500|JT-WX|100|EGPK35P0010518|2017/02/24|1.0|1.0|1|1"/>
+<Body Data="AGPK35P0110500|ZZ|60|BGPK3501C41311Z1|2017/02/24|1.0|1.0|0.3|1"/>
+<Body Data="AGPK35P0110500|ZZ|50|BGPK3501C30800Z1|2017/02/24|1.0|1.0|0.3|1"/>
+<Body Data="AGPK35P0110500|JQ-ZZ|30|BGPK3501A40500Z1|2017/02/24|1.0|1.0|0.3|1"/>
+<Body Data="AGPK35P0110500|WX|90|BGPK3501C63601D|2017/02/24|1.0|1.0|0.0|1"/>
+<Body Data="AGPK35P0110500|JT-ZZ|10|BGPK3501A10800Z1|2017/02/24|1.0|1.0|0.3|1"/>
+<Body Data="AGPK35P0110500|JQ-ZZ|40|BGPK3501A75811Z1|2017/02/24|1.0|1.0|0.3|1"/>
+<Body Data="AGPK35P0110500|JG-WX|70|BGPK3501B80601D|2017/02/24|1.0|1.0|0.3|1"/>
+<Body Data="AGPK35P0110500|JQ-WX|80|BGPK3501A60601D|2017/02/24|1.0|1.0|0.3|1"/>
+<Body Data="AGPK35P0110500|JG-ZZ|20|BGPK35P0A31011Y1|2017/02/24|1.0|1.0|0.3|1"/>
+<Body Data="AGPK35P0110500|ZZ|110|BGR67T01110543L|2017/02/24|1.0|1.0|0.1|1"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="BGPK3501C41311Z1|BGPK3501C41311Z1|%%|30|111302|2007/12/01|1.0|33750|0|3"/><Row Data="BGPK3501C41311Z1|BGPK3501C41311Z1|WX|20|D13F3003|2007/12/01|1.0|1350|0.4|1"/><Row Data="BGPK3501C41311Z1|BGPK3501C41311Z1|%%|10|C01K3501C401|2007/12/01|1.0|1|0|3"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="BGPK3501C41311Z1">
+<Body Data="BGPK3501C41311Z1|%%|30|111302|2007/12/01|1.0|33750|0|3"/>
+<Body Data="BGPK3501C41311Z1|WX|20|D13F3003|2007/12/01|1.0|1350|0.4|1"/>
+<Body Data="BGPK3501C41311Z1|%%|10|C01K3501C401|2007/12/01|1.0|1|0|3"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="BGPK3501C30800Z1|BGPK3501C30800Z1|WX|20|D08SX304|2008/07/05|1.0|2809|0.4|1"/><Row Data="BGPK3501C30800Z1|BGPK3501C30800Z1|%%|10|C01K3501C301|2008/07/05|1.0|1|0|3"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="BGPK3501C30800Z1">
+<Body Data="BGPK3501C30800Z1|WX|20|D08SX304|2008/07/05|1.0|2809|0.4|1"/>
+<Body Data="BGPK3501C30800Z1|%%|10|C01K3501C301|2008/07/05|1.0|1|0|3"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="BGPK3501A40500Z1|BGPK3501A40500Z1|WX|20|D05PN125|2007/12/01|1.0|613|0.4|1"/><Row Data="BGPK3501A40500Z1|BGPK3501A40500Z1|%%|10|C01K3501A401|2007/12/01|1.0|1|0|3"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="BGPK3501A40500Z1">
+<Body Data="BGPK3501A40500Z1|WX|20|D05PN125|2007/12/01|1.0|613|0.4|1"/>
+<Body Data="BGPK3501A40500Z1|%%|10|C01K3501A401|2007/12/01|1.0|1|0|3"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="BGPK3501A10800Z1|BGPK3501A10800Z1|WX|20|D08SX304|2007/12/01|1.0|297|0.4|1"/><Row Data="BGPK3501A10800Z1|BGPK3501A10800Z1|%%|10|C01K3501A101|2007/12/01|1.0|1|0|3"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="BGPK3501A10800Z1">
+<Body Data="BGPK3501A10800Z1|WX|20|D08SX304|2007/12/01|1.0|297|0.4|1"/>
+<Body Data="BGPK3501A10800Z1|%%|10|C01K3501A101|2007/12/01|1.0|1|0|3"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="BGPK3501A75811Z1|BGPK3501A75811Z1|%%|30|115808|2009/07/13|1.0|16750|0|3"/><Row Data="BGPK3501A75811Z1|BGPK3501A75811Z1|WX|20|D64T3031|2009/07/13|1.0|670|0.4|1"/><Row Data="BGPK3501A75811Z1|BGPK3501A75811Z1|%%|10|C01K3501A701|2009/07/13|1.0|1|0|3"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="BGPK3501A75811Z1">
+<Body Data="BGPK3501A75811Z1|%%|30|115808|2009/07/13|1.0|16750|0|3"/>
+<Body Data="BGPK3501A75811Z1|WX|20|D64T3031|2009/07/13|1.0|670|0.4|1"/>
+<Body Data="BGPK3501A75811Z1|%%|10|C01K3501A701|2009/07/13|1.0|1|0|3"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="BGPK35P0A31011Y1|BGPK35P0A31011Y1|ZZ|10|BGPK3501A30711Z1|2018/08/30|1.0|1.0|0.4|1"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="BGPK35P0A31011Y1">
+<Body Data="BGPK35P0A31011Y1|ZZ|10|BGPK3501A30711Z1|2018/08/30|1.0|1.0|0.4|1"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="BGPK3501A30711Z1|BGPK3501A30711Z1|%%|30|110704|2007/12/01|1.0|10000|0|3"/><Row Data="BGPK3501A30711Z1|BGPK3501A30711Z1|WX|20|D071225Y|2007/12/01|1.0|400|0.4|1"/><Row Data="BGPK3501A30711Z1|BGPK3501A30711Z1|%%|10|C01K3501A301|2007/12/01|1.0|1|0|3"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="BGPK3501A30711Z1">
+<Body Data="BGPK3501A30711Z1|%%|30|110704|2007/12/01|1.0|10000|0|3"/>
+<Body Data="BGPK3501A30711Z1|WX|20|D071225Y|2007/12/01|1.0|400|0.4|1"/>
+<Body Data="BGPK3501A30711Z1|%%|10|C01K3501A301|2007/12/01|1.0|1|0|3"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="BGR67T01110543L|BGR67T01110543L|%%|20|D03MGMB011|2007/12/01|0.901|1000|0.5|1"/><Row Data="BGR67T01110543L|BGR67T01110543L|%%|40|D43MC160|2007/12/01|0.105|1000|0.1|1"/><Row Data="BGR67T01110543L|BGR67T01110543L|%%|10|D0167TZR0105|2007/12/01|1.0|1|0.07|1"/><Row Data="BGR67T01110543L|BGR67T01110543L|%%|30|BGR67T01D71201|2007/12/01|1.0|1|1|1"/><Row Data="BGR67T01110543L|BGR67T01110543L|%%|50|BGR67T01D51216Z1|2007/12/01|1.0|1|0.1|1"/><Row Data="BGR67T01110543L|BGR67T01110543L|%%|60|BGR67001D94116|2011/08/15|0.5|1.0|0.0|1"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="BGR67T01110543L">
+<Body Data="BGR67T01110543L|%%|20|D03MGMB011|2007/12/01|0.901|1000|0.5|1"/>
+<Body Data="BGR67T01110543L|%%|40|D43MC160|2007/12/01|0.105|1000|0.1|1"/>
+<Body Data="BGR67T01110543L|%%|10|D0167TZR0105|2007/12/01|1.0|1|0.07|1"/>
+<Body Data="BGR67T01110543L|%%|30|BGR67T01D71201|2007/12/01|1.0|1|1|1"/>
+<Body Data="BGR67T01110543L|%%|50|BGR67T01D51216Z1|2007/12/01|1.0|1|0.1|1"/>
+<Body Data="BGR67T01110543L|%%|60|BGR67001D94116|2011/08/15|0.5|1.0|0.0|1"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="D03MGMB011|D03MGMB011|%%|70|G0791001|2016/02/19|1.0|120|0|1"/><Row Data="D03MGMB011|D03MGMB011|%%|10|D90BK331|2013/12/23|0.18|1.0|1|1"/><Row Data="D03MGMB011|D03MGMB011|%%|20|D90BK332|2013/12/23|0.12|1.0|1|1"/><Row Data="D03MGMB011|D03MGMB011|%%|40|D90INKAD|2013/12/23|0.11|1.0|0.5|1"/><Row Data="D03MGMB011|D03MGMB011|%%|60|D9081811|2013/12/23|0.26|1.0|0.5|1"/><Row Data="D03MGMB011|D03MGMB011|%%|30|D90EG400|2013/12/23|0.14|1.0|1|1"/><Row Data="D03MGMB011|D03MGMB011|%%|50|D90PXL02|2013/12/23|0.0010|1.0|1|1"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="D03MGMB011">
+<Body Data="D03MGMB011|%%|70|G0791001|2016/02/19|1.0|120|0|1"/>
+<Body Data="D03MGMB011|%%|10|D90BK331|2013/12/23|0.18|1.0|1|1"/>
+<Body Data="D03MGMB011|%%|20|D90BK332|2013/12/23|0.12|1.0|1|1"/>
+<Body Data="D03MGMB011|%%|40|D90INKAD|2013/12/23|0.11|1.0|0.5|1"/>
+<Body Data="D03MGMB011|%%|60|D9081811|2013/12/23|0.26|1.0|0.5|1"/>
+<Body Data="D03MGMB011|%%|30|D90EG400|2013/12/23|0.14|1.0|1|1"/>
+<Body Data="D03MGMB011|%%|50|D90PXL02|2013/12/23|0.0010|1.0|1|1"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="D90BK331|D90BK331|%%|10|D90EG400|2013/12/23|0.099|1.0|1|1"/><Row Data="D90BK331|D90BK331|%%|20|D90BASE1|2013/12/23|0.3|1.0|1|1"/><Row Data="D90BK331|D90BK331|%%|40|D90PXL02|2013/12/23|0.0010|1.0|1|1"/><Row Data="D90BK331|D90BK331|%%|30|D90BASEA|2013/12/23|0.05|1.0|1|1"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="D90BK331">
+<Body Data="D90BK331|%%|10|D90EG400|2013/12/23|0.099|1.0|1|1"/>
+<Body Data="D90BK331|%%|20|D90BASE1|2013/12/23|0.3|1.0|1|1"/>
+<Body Data="D90BK331|%%|40|D90PXL02|2013/12/23|0.0010|1.0|1|1"/>
+<Body Data="D90BK331|%%|30|D90BASEA|2013/12/23|0.05|1.0|1|1"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="D90BK332|D90BK332|%%|10|D90EG300|2013/12/23|0.099|1.0|1|1"/><Row Data="D90BK332|D90BK332|%%|20|D90BASE2|2013/12/23|0.3|1.0|1|1"/><Row Data="D90BK332|D90BK332|%%|30|D90BASEA|2013/12/23|0.055|1.0|1|1"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="D90BK332">
+<Body Data="D90BK332|%%|10|D90EG300|2013/12/23|0.099|1.0|1|1"/>
+<Body Data="D90BK332|%%|20|D90BASE2|2013/12/23|0.3|1.0|1|1"/>
+<Body Data="D90BK332|%%|30|D90BASEA|2013/12/23|0.055|1.0|1|1"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="D0167TZR0105|D0167TZR0105|%%|20|G0782001|2014/06/28|1.0|20000|0.0|1"/><Row Data="D0167TZR0105|D0167TZR0105|BC|10|G0781001|2014/06/28|1.0|10000|0|1"/><Row Data="D0167TZR0105|D0167TZR0105|%%|40|D8467TZR0105|2015/02/06|1.0|1.0|0.2|1"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="D0167TZR0105">
+<Body Data="D0167TZR0105|%%|20|G0782001|2014/06/28|1.0|20000|0.0|1"/>
+<Body Data="D0167TZR0105|BC|10|G0781001|2014/06/28|1.0|10000|0|1"/>
+<Body Data="D0167TZR0105|%%|40|D8467TZR0105|2015/02/06|1.0|1.0|0.2|1"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="D8467TZR0105|D8467TZR0105|%%|20|D8367TZR0105|2015/02/06|1.0|1.0|0.5|1"/><Row Data="D8467TZR0105|D8467TZR0105|%%|10|D8100001|2015/02/06|1.0|1.0|1|1"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="D8467TZR0105">
+<Body Data="D8467TZR0105|%%|20|D8367TZR0105|2015/02/06|1.0|1.0|0.5|1"/>
+<Body Data="D8467TZR0105|%%|10|D8100001|2015/02/06|1.0|1.0|1|1"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="D8367TZR0105|D8367TZR0105|%%|10|D8200016|2014/10/23|1.0|1|3|1"/><Row Data="D8367TZR0105|D8367TZR0105|%%|20|D800H3RA0105|2014/10/23|1.0|1|3|1"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="D8367TZR0105">
+<Body Data="D8367TZR0105|%%|10|D8200016|2014/10/23|1.0|1|3|1"/>
+<Body Data="D8367TZR0105|%%|20|D800H3RA0105|2014/10/23|1.0|1|3|1"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="D8200016|D8200016|%%|10|D8200002|2015/02/06|3.68|10000|0.5|1"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="D8200016">
+<Body Data="D8200016|%%|10|D8200002|2015/02/06|3.68|10000|0.5|1"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1l<STD_IN Origin="TIPTOP"><Service Name="UpdateBOM"><User>067221</User><Factory>DS0</Factory><Data Format="Join"><DataSet Field="bma01|bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19"><Row Data="BGR67T01D51216Z1|BGR67T01D51216Z1|%%|30|161201|2007/12/01|1.0|229350|0|3"/><Row Data="BGR67T01D51216Z1|BGR67T01D51216Z1|WX|20|D12P344R|2007/12/01|1.0|9174|0.4|1"/><Row Data="BGR67T01D51216Z1|BGR67T01D51216Z1|%%|10|C0102301D501|2007/12/01|1.0|1|0|3"/></DataSet></Data></Service></STD_IN>
+<Data Format="Logic" >
+<DataSet Head="bma01" Body="bmb01|bmb09|bmb02|bmb03|bmb04|bmb06|bmb07|bmb08|bmb19" >
+<Head Data="BGR67T01D51216Z1">
+<Body Data="BGR67T01D51216Z1|%%|30|161201|2007/12/01|1.0|229350|0|3"/>
+<Body Data="BGR67T01D51216Z1|WX|20|D12P344R|2007/12/01|1.0|9174|0.4|1"/>
+<Body Data="BGR67T01D51216Z1|%%|10|C0102301D501|2007/12/01|1.0|1|0|3"/>
+</Head>
+</DataSet>
+</Data>
+
+[?1l[m[39m[H[J[2;1H[H[J[?1lService starting
+<TTP_IN>  <Service Name="GetData">    <ObjectID>FACTORY</ObjectID>    <User>32292</User>    <FieldList>azp01|azp02|azp03</FieldList>    <Format>Join</Format>  </Service></TTP_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>32292</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS0</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="G0980339|上料器导向套Φ56(13工位)|1.062.3.0627.0|G001|PCS"/><Row Data="G0980338|上料器导向套Φ56(1工位)|1.062.3.0625.0|G001|PCS"/></DataSet></Data></Service></STD_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>32292</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS2</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="G0980339|上料器导向套Φ56(13工位)|1.062.3.0627.0|G001|PCS"/><Row Data="G0980338|上料器导向套Φ56(1工位)|1.062.3.0625.0|G001|PCS"/></DataSet></Data></Service></STD_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>32292</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS1</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="G0980339|上料器导向套Φ56(13工位)|1.062.3.0627.0|G001|PCS"/><Row Data="G0980338|上料器导向套Φ56(1工位)|1.062.3.0625.0|G001|PCS"/></DataSet></Data></Service></STD_IN>
+Service starting
+<TTP_IN>  <Service Name="GetData">    <ObjectID>FACTORY</ObjectID>    <User>32292</User>    <FieldList>azp01|azp02|azp03</FieldList>    <Format>Join</Format>  </Service></TTP_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>32292</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS0</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="D61405944|黄4059G|%%|D001|KG"/><Row Data="D61YGHR233|永固红R2|%%|D001|KG"/></DataSet></Data></Service></STD_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>32292</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS2</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="D61405944|黄4059G|%%|D001|KG"/><Row Data="D61YGHR233|永固红R2|%%|D001|KG"/></DataSet></Data></Service></STD_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>32292</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS1</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="D61405944|黄4059G|%%|D001|KG"/><Row Data="D61YGHR233|永固红R2|%%|D001|KG"/></DataSet></Data></Service></STD_IN>
+Service starting
+<TTP_IN>  <Service Name="GetData">    <ObjectID>FACTORY</ObjectID>    <User>32292</User>    <FieldList>azp01|azp02|azp03</FieldList>    <Format>Join</Format>  </Service></TTP_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>32292</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS0</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="D610405944|黄4059G|%%|D001|KG"/><Row Data="D610YGHR33|永固红R2|%%|D001|KG"/></DataSet></Data></Service></STD_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>32292</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS2</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="D610405944|黄4059G|%%|D001|KG"/><Row Data="D610YGHR33|永固红R2|%%|D001|KG"/></DataSet></Data></Service></STD_IN>
+<STD_IN Origin="TIPTOP"><Service Name="SetData"><ObjectID>ITEM</ObjectID><User>32292</User><Lang>2</Lang><Operate>ADJUST</Operate><Factory>DS1</Factory><Data Format="Join"><DataSet Field="ima01|ima02|ima021|ima06|ima25"><Row Data="D610405944|黄4059G|%%|D001|KG"/><Row Data="D610YGHR33|永固红R2|%%|D001|KG"/></DataSet></Data></Service></STD_IN>

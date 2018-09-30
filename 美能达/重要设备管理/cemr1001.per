@@ -1,0 +1,83 @@
+---------------------------------------------------------------------------------- 
+-- File created from /u1/topprod/topcust/cem/4fd/cemr100.4fd by Genero Studio
+-- WARNING! All changes made in this file will be lost!
+----------------------------------------------------------------------------------
+
+SCHEMA formonly
+
+LAYOUT (spacing=normal, text=%"apmr001")
+VBox VBox1
+Grid gr5030
+{
+ <G group01                                                       >
+  设备编号          [tc_fia01            ]
+  设备类型          [tc_fia05            ]
+  维保类型          [tc_fia17              ]
+  申请人            [tc_fiauser          ]
+  本期维保日        [tc_fia12      ]
+  维保周期          [tc_fia10  ] [tc_fia11  ]
+  下期维保日        [tc_fia13      ]
+
+
+
+ <                                                                >
+
+}
+END -- gr5030
+Grid gr1
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <G group02                                                             >
+  距离维保天数      [to_next             ]
+ <                                                                      >
+}
+END -- gr1
+Grid gr5031
+{
+[more                                                                  ]
+
+
+
+
+}
+END -- gr5031
+END -- VBox1
+END -- cemr100
+
+ATTRIBUTES
+Group group01:group01, text="QBE";
+ButtonEdit tc_fia01=formonly.tc_fia01 type VARCHAR, action=controlp, tabIndex=1, image="zoom";
+ComboBox tc_fia05=formonly.tc_fia05 type VARCHAR, tabIndex=8, sizePolicy=fixed, items=(("1", %"IT设备"),("2", %"安保设备"),("3", %"总务设备"),("4", %"生产设备"),("5", %"品检设备"),("6", %"其他"));
+ComboBox tc_fia17=formonly.tc_fia17 type VARCHAR, tabIndex=9, items=(("1", %"购入"),("2", %"租赁"),("3", %"借用"));
+ButtonEdit tc_fiauser=formonly.tc_fiauser type VARCHAR, action=controlp, tabIndex=4, image="zoom";
+DateEdit tc_fia12=formonly.tc_fia12 type DATE, tabIndex=3;
+SpinEdit tc_fia10=formonly.tc_fia10 type VARCHAR, tabIndex=5;
+ComboBox tc_fia11=formonly.tc_fia11 type VARCHAR, tabIndex=10, items=(("1", %"天"),("2", %"周"),("3", %"月"),("4", %"年"));
+DateEdit tc_fia13=formonly.tc_fia13 type DATE, tabIndex=6;
+Group group02:group02, text="INPUT";
+SpinEdit to_next=formonly.to_next type VARCHAR, tabIndex=7;
+CheckBox more=formonly.more type VARCHAR, tabIndex=2, text="Other codition to print", not null, required, valueChecked = "Y", valueUnchecked = "N";
+END -- ATTRIBUTES
+
+INSTRUCTIONS
+SCREEN RECORD Undefined(formonly.tc_fia01,formonly.more,formonly.tc_fia12,formonly.tc_fiauser,formonly.tc_fia10,formonly.tc_fia13,formonly.to_next,formonly.tc_fia05,formonly.tc_fia17,formonly.tc_fia11)
+END -- INSTRUCTIONS
+

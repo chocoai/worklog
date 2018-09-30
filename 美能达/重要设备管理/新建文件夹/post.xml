@@ -1,0 +1,15 @@
+<Mail>
+<Protocol>smtp</Protocol>
+<CheckAuth>Y</CheckAuth>
+<MailServer> </MailServer>
+<MailServerPort> </MailServerPort>
+<MailServerUser> </MailServerUser>
+<MailServerUserPassword> </MailServerUserPassword>
+<Subject>ERP 采购跟催信息</Subject>
+<MessageBody>/u1/out/email/cpm/context.txt</MessageBody>
+<Attach>/u1/out/email/cpm/unpost/capmr5031.07r.xls</Attach>
+<Recipient>darcy_joven@love.com</Recipient>
+<From>OMS-ERP@konicaminolta.com</From>
+</Mail>
+
+

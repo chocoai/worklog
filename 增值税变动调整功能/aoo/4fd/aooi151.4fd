@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="ds" gstVersion="22800" name="Root" uid="{9c4b07c6-0000-4000-9794-1caa074b477e}">
+  <AGSettings/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="s_hsc" order="" uid="{fc121b46-0000-4000-8d3a-d0b359dec695}" where="">
+    <RecordField colName="hsc01" fieldIdRef="1" fieldType="TABLE_COLUMN" name="hsc_file.hsc01" sqlTabName="hsc_file" sqlType="VARCHAR" table_alias_name="" uid="{fdee4913-0000-4000-823c-18a9b4a6c224}"/>
+    <RecordField colName="hsc011" fieldIdRef="9" fieldType="TABLE_COLUMN" name="hsc_file.hsc011" sqlTabName="hsc_file" sqlType="VARCHAR" table_alias_name="" uid="{cea5c793-8bd7-412f-9dc3-79f31688b9a2}"/>
+    <RecordField colName="" fieldIdRef="5" name="hsc01_desc" sqlTabName="" table_alias_name="" uid="{79bd0de2-c27c-4e5f-8beb-99f4f3a06a41}"/>
+    <RecordField colName="" fieldIdRef="6" fieldType="NON_DATABASE" name="gec04" precisionDecimal="9" scaleDecimal="4" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{a28cb944-c072-4cac-896f-6c784fff44b1}"/>
+    <RecordField colName="hsc02" fieldIdRef="3" fieldType="TABLE_COLUMN" name="hsc_file.hsc02" sqlTabName="hsc_file" sqlType="VARCHAR" table_alias_name="" uid="{5033980c-0000-4000-8e30-f55e7c5ca5ca}"/>
+    <RecordField colName="hsc021" fieldIdRef="11" fieldType="TABLE_COLUMN" name="hsc_file.hsc021" sqlTabName="hsc_file" sqlType="VARCHAR" table_alias_name="" uid="{19d62d74-bc5d-4de5-81f7-79b121439237}"/>
+    <RecordField colName="" fieldIdRef="7" name="hsc02_desc" sqlTabName="" table_alias_name="" uid="{d7496846-5c01-45ed-bf88-13b863bb7f8d}"/>
+    <RecordField colName="" fieldIdRef="8" fieldType="NON_DATABASE" name="gec04_1" precisionDecimal="9" scaleDecimal="4" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{5bf99841-b603-448d-a8f0-1003236d67ba}"/>
+    <RecordField colName="hsc03" fieldIdRef="4" fieldType="TABLE_ALIAS" name="a1.hsc03" sqlTabName="hsc_file" sqlType="DATE" table_alias_name="a1" uid="{7a68897a-0000-4000-b41b-651f9cc26ef1}"/>
+    <RecordField colName="hscacti" fieldIdRef="10" fieldType="TABLE_COLUMN" name="hsc_file.hscacti" sqlTabName="hsc_file" sqlType="VARCHAR" table_alias_name="" uid="{5473f910-0000-4000-9e06-f8836a3579c6}"/>
+  </Record>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{617c5c40-0000-4000-a490-0104d7fe4ba2}" where="">
+    <RecordField colName="" fieldIdRef="2" fieldType="NON_DATABASE" name="cn2" sqlTabName="" sqlType="SMALLINT" table_alias_name="" uid="{3beff366-0000-4000-96e6-3109b5e70492}"/>
+  </Record>
+  <Form gridHeight="18" gridWidth="188" name="aooi151" spacing="normal" text="aooi030">
+    <VBox gridHeight="18" gridWidth="187" name="vb3" posX="1" posY="0" splitter="">
+      <Folder gridHeight="14" gridWidth="187" lstrcomment="false" name="pc831" posX="0" posY="1">
+        <Page lstrtext="false" name="page01" text="Page01">
+          <Table gridHeight="12" gridWidth="187" lstrcomment="false" name="s_tc_hsc" posX="0" posY="0" totalRows="10">
+            <ButtonEdit action="controlp" aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="hsc01" columnCount="" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" image="zoom" name="hsc_file.hsc01" notNull="true" posX="0" posY="0" required="true" rowCount="" sqlTabName="hsc_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="1" table_alias_name="" title="hsc01" widget="ButtonEdit"/>
+            <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="hsc011" columnCount="" fieldId="9" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="14" items="Purchase, Sales" name="hsc_file.hsc011" notNull="true" posX="15" posY="0" required="true" rowCount="" sqlTabName="hsc_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="2" table_alias_name="" title="hsc011" widget="ComboBox">
+              <Item lstrtext="false" name="1" text="Purchase"/>
+              <Item lstrtext="false" name="2" text="Sales"/>
+            </ComboBox>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="5" gridHeight="1" gridWidth="22" name="hsc01_desc" noEntry="true" posX="29" posY="0" rowCount="" sqlTabName="" stepX="" stepY="" tabIndex="3" table_alias_name="" title="hsc01_desc" widget="Edit"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="6" fieldType="NON_DATABASE" gridHeight="1" gridWidth="13" name="gec04" noEntry="true" posX="51" posY="0" rowCount="" sqlTabName="" sqlType="CHAR" stepX="" stepY="" tabIndex="4" table_alias_name="" title="gec04" widget="Edit"/>
+            <ButtonEdit action="controlp" aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="hsc02" columnCount="" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="22" image="zoom" name="hsc_file.hsc02" notNull="true" picture="" posX="64" posY="0" required="true" rowCount="" sqlTabName="hsc_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="5" table_alias_name="" title="hsc02" widget="ButtonEdit"/>
+            <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="hsc021" columnCount="" fieldId="11" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="19" items="Purchase, Sales" name="hsc_file.hsc021" noEntry="true" posX="86" posY="0" rowCount="" sqlTabName="hsc_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="6" table_alias_name="" title="hsc021" widget="ComboBox">
+              <Item lstrtext="false" name="1" text="Purchase"/>
+              <Item lstrtext="false" name="2" text="Sales"/>
+            </ComboBox>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="7" gridHeight="1" gridWidth="20" name="hsc02_desc" noEntry="true" posX="105" posY="0" rowCount="" sqlTabName="" stepX="" stepY="" tabIndex="7" table_alias_name="" title="hsc02_desc" widget="Edit"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="8" fieldType="NON_DATABASE" gridHeight="1" gridWidth="17" name="gec04_1" noEntry="true" posX="125" posY="0" rowCount="" sqlTabName="" sqlType="CHAR" stepX="" stepY="" tabIndex="8" table_alias_name="" title="gec04_1" widget="Edit"/>
+            <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="hsc03" columnCount="" fieldId="4" fieldType="TABLE_ALIAS" gridHeight="1" gridWidth="21" name="a1.hsc03" posX="142" posY="0" rowCount="" sqlTabName="hsc_file" sqlType="DATE" stepX="" stepY="" tabIndex="9" table_alias_name="a1" title="hsc03" widget="DateEdit"/>
+            <CheckBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="hscacti" columnCount="" fieldId="10" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="13" name="hsc_file.hscacti" notNull="true" posX="163" posY="0" required="true" rowCount="" sqlTabName="hsc_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="10" table_alias_name="" title="Valid" valueChecked="Y" valueUnchecked="N" widget="CheckBox"/>
+          </Table>
+        </Page>
+      </Folder>
+      <Grid gridHeight="2" gridWidth="187" lstrcomment="false" name="gr4617" posX="0" posY="15">
+        <HLine gridWidth="10" name="hl1420" posX="1" posY="0"/>
+        <Label posX="11" posY="0" text="Rows"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="2" fieldType="NON_DATABASE" gridHeight="1" gridWidth="6" lstrcomment="false" lstrtitle="false" name="cn2" noEntry="true" posX="17" posY="0" rowCount="" sqlTabName="" sqlType="SMALLINT" stepX="" stepY="" tabIndex="11" table_alias_name="" widget="Edit"/>
+        <HLine gridWidth="10" name="hl1421" posX="25" posY="0"/>
+      </Grid>
+    </VBox>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA3ADkAYgBkADAAZABlADIALQBjADIANwBjAC0ANABlADUAZgAtADgAYgBlAGIALQA5ADkAZgA0AGYAMwBhADAANgBhADQAMQB9QCQAAAAAAABAVEAAAAAAAAAAAAAAAAAAAQAAAEwAewA3AGEANgA4ADgAOQA3AGEALQAwADAAMAAwAC0ANAAwADAAMAAtAGIANAAxAGIALQA2ADUAMQBmADkAYwBjADIANgBlAGYAMQB9QCQAAAAAAABAaqAAAAAAAAAAAAAAAAAAAQAAAEwAewBmAGQAZQBlADQAOQAxADMALQAwADAAMAAwAC0ANAAwADAAMAAtADgAMgAzAGMALQAxADgAYQA5AGIANABhADYAYwAyADIANAB9QCQAAAAAAABAQoAAAAAAAAAAAAAAAAAAAQAAAEwAewAzAGIAZQBmAGYAMwA2ADYALQAwADAAMAAwAC0ANAAwADAAMAAtADkANgBlADYALQAzADEAMAA5AGIANQBlADcAMAA0ADkAMgB9QCQAAAAAAABAQoAAAAAAAAAAAAAAAAAAAQAAAEwAewA2ADEANwBjADUAYwA0ADAALQAwADAAMAAwAC0ANAAwADAAMAAtAGEANAA5ADAALQAwADEAMAA0AGQANwBmAGUANABiAGEAMgB9QHYQAAAAAABAMAAAAAAAAD9QYk3S8an8AQAAAEwAewBhADIAOABjAGIAOQA0ADQALQBjADAANwAyAC0ANABjAGEAYwAtADgAOQA2AGYALQA2AGMANwA4ADQAZgBmAGYANAA0AGIAMQB9QCQAAAAAAABAWcAAAAAAAAAAAAAAAAAAAQAAAEwAewA1ADAAMwAzADkAOAAwAGMALQAwADAAMAAwAC0ANAAwADAAMAAtADgAZQAzADAALQBmADUANQBlADcAYwA1AGMAYQA1AGMAYQB9QCQAAAAAAABAX0AAAAAAAAAAAAAAAAAAAQAAAEwAewA1ADQANwAzAGYAOQAxADAALQAwADAAMAAwAC0ANAAwADAAMAAtADkAZQAwADYALQBmADgAOAAzADYAYQAzADUANwA5AGMANgB9QCQAAAAAAABAbWAAAAAAAAAAAAAAAAAAAQAAAEwAewBmAGMAMQAyADEAYgA0ADYALQAwADAAMAAwAC0ANAAwADAAMAAtADgAZAAzAGEALQBkADAAYgAzADUAOQBkAGUAYwA2ADkANQB9AAAAAAAAAAC/8AAAAAAAAD90euFHrhR7AQAAAEwAewA1AGIAZgA5ADkAOAA0ADEALQBiADYAMAAzAC0ANAA0ADgAZAAtAGEAOABmADAALQAxADAAMAAzADIAMwA2AGQANgA3AGIAYQB9QCQAAAAAAABAZ+AAAAAAAAAAAAAAAAAAAQAAAEwAewAxADkAZAA2ADIAZAA3ADQALQBiAGMANQBkAC0ANABkAGUANQAtADgAMQBmADcALQA3ADkAYgAxADIAMQA0ADMAOQAyADMANwB9QCQAAAAAAABAYmAAAAAAAAAAAAAAAAAAAQAAAEwAewBjAGUAYQA1AGMANwA5ADMALQA4AGIAZAA3AC0ANAAxADIAZgAtADkAZABjADMALQA3ADkAZgAzADEANgA4ADgAYgA5AGEAMgB9QCQAAAAAAABATYAAAAAAAAAAAAAAAAAAAQAAAEwAewBkADcANAA5ADYAOAA0ADYALQA1AGMAMAAxAC0ANAA1AGUAZAAtAGIAZgA4ADgALQAxADMAYgA4ADYAMwBiAGIANwBmADgAZAB9QCQAAAAAAABAZSAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

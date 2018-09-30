@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="ds" gstVersion="22800" name="ManagedForm" uid="{a5f36799-0000-4000-9b94-e9aa54f3849d}">
+  <AGSettings/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="undefined" order="" uid="{a9f7a9b5-0000-4000-8d4f-cd5d05631dcb}" where="">
+    <RecordField colName="cnt" fieldIdRef="42" name="cnt" sqlTabName="formonly" sqlType="SMALLINT" table_alias_name="" uid="{b3da46c0-0000-4000-b1b7-b50b7c625a8f}"/>
+    <RecordField colName="tc_fib20" fieldIdRef="27" name="tc_fib20" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{87e8b909-0000-4000-a58c-2bfabfce13ce}"/>
+    <RecordField colName="tc_fib32" fieldIdRef="29" name="tc_fib32" sqlTabName="formonly" sqlType="DATE" table_alias_name="" uid="{abb64945-0000-4000-afa6-a9797b866a76}"/>
+    <RecordField colName="tc_fib27" fieldIdRef="30" name="tc_fib27" sqlTabName="formonly" sqlType="DECIMAL" table_alias_name="" uid="{90176a93-0000-4000-806d-5ae1bf9c86d3}"/>
+    <RecordField colName="tc_fib33" fieldIdRef="31" name="tc_fib33" sqlTabName="formonly" sqlType="DATE" table_alias_name="" uid="{e7d873d1-0000-4000-94b6-b9b661b16c12}"/>
+    <RecordField colName="tc_fib21" fieldIdRef="32" name="tc_fib21" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{035dee0d-0000-4000-8944-178b29a6e342}"/>
+    <RecordField colName="tc_fib28" fieldIdRef="33" name="tc_fib28" sqlTabName="formonly" sqlType="DECIMAL" table_alias_name="" uid="{4ee75a14-0000-4000-bce3-ddcb9966c530}"/>
+    <RecordField colName="tc_fib34" fieldIdRef="34" name="tc_fib34" sqlTabName="formonly" sqlType="DATE" table_alias_name="" uid="{52cf3c72-0000-4000-894a-23c2f8d3dee3}"/>
+    <RecordField colName="tc_fib22" fieldIdRef="35" name="tc_fib22" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{335b1d76-0000-4000-8d45-78134bcdef9f}"/>
+    <RecordField colName="tc_fib29" fieldIdRef="36" name="tc_fib29" sqlTabName="formonly" sqlType="INTEGER" table_alias_name="" uid="{b0db7d2b-0000-4000-a794-18c1563bcb64}"/>
+    <RecordField colName="tc_fib23" fieldIdRef="37" name="tc_fib23" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{a79bdf60-0000-4000-b1fc-3a289f00476e}"/>
+    <RecordField colName="tc_fib30" fieldIdRef="38" name="tc_fib30" sqlTabName="formonly" sqlType="INTEGER" table_alias_name="" uid="{0ff2cba0-0000-4000-8b4a-41826a013c34}"/>
+    <RecordField colName="tc_fib24" fieldIdRef="39" name="tc_fib24" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{7e41bd39-0000-4000-9034-78e4bd27666a}"/>
+    <RecordField colName="tc_fib31" fieldIdRef="40" name="tc_fib31" sqlTabName="formonly" sqlType="INTEGER" table_alias_name="" uid="{a2b54338-0000-4000-9e87-47405c4bb400}"/>
+    <RecordField colName="tc_fib25" fieldIdRef="41" name="tc_fib25" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{49c4d46a-0000-4000-9101-d262cc55d8a2}"/>
+    <RecordField colName="tc_fibuser" fieldIdRef="20" name="tc_fibuser" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{dba3075b-0000-4000-8768-8575542eb738}"/>
+    <RecordField colName="tc_fibmodu" fieldIdRef="21" name="tc_fibmodu" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{dcad4e5a-0000-4000-9d87-ba7df6b918e6}"/>
+    <RecordField colName="tc_fibacti" fieldIdRef="22" name="tc_fibacti" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{6d2c3772-0000-4000-af1b-a55c79d7c70a}"/>
+    <RecordField colName="tc_fibgrup" fieldIdRef="23" name="tc_fibgrup" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{c9634071-0000-4000-9ae6-b3cf626792c2}"/>
+    <RecordField colName="tc_fibdate" fieldIdRef="24" name="tc_fibdate" sqlTabName="formonly" sqlType="DATE" table_alias_name="" uid="{49c0f6e4-0000-4000-bdb2-1070f5575965}"/>
+    <RecordField colName="tc_fiboriu" fieldIdRef="25" name="tc_fiboriu" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{e29ed018-0000-4000-b33c-30b33785d006}"/>
+    <RecordField colName="tc_fiborig" fieldIdRef="26" name="tc_fiborig" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{2401611a-0000-4000-9950-526aeed8fe76}"/>
+    <RecordField colName="tc_fib01" fieldIdRef="0" name="tc_fib01" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{ba9822b7-0000-4000-8eac-c1429f326e41}"/>
+    <RecordField colName="tc_fib02" fieldIdRef="1" name="tc_fib02" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{6e6d997b-0000-4000-ac19-d4c58e7b1b2e}"/>
+    <RecordField colName="tc_fib03" fieldIdRef="3" name="tc_fib03" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{a3f749b4-0000-4000-9354-ead8c08eb640}"/>
+    <RecordField colName="tc_fib06" fieldIdRef="9" name="tc_fib06" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{db75bf70-0000-4000-9e28-30bdfb583239}"/>
+    <RecordField colName="tc_fib07" fieldIdRef="11" name="tc_fib07" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{3134727a-0000-4000-aa55-1c90c3b85493}"/>
+    <RecordField colName="tc_fib08" fieldIdRef="14" name="tc_fib08" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{dd89ee60-0000-4000-96a3-e04a5e96e606}"/>
+    <RecordField colName="tc_fib05" fieldIdRef="7" name="tc_fib05" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{34d7b66e-0000-4000-bdd1-d9c2d1d3b387}"/>
+    <RecordField colName="tc_fib04" fieldIdRef="5" name="tc_fib04" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{274a4db3-0000-4000-bca4-5fa9e050ab45}"/>
+    <RecordField colName="tc_fib09" fieldIdRef="16" name="tc_fib09" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{c15936fb-0000-4000-b1e6-a40b10fb6eac}"/>
+    <RecordField colName="imgmksg" fieldIdRef="2" name="imgmksg" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{ab26f4d2-0000-4000-b950-17d3a7add3e3}"/>
+    <RecordField colName="tc_fib16" fieldIdRef="4" name="tc_fib16" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{29211186-0000-4000-b0b2-0fc5a951d14f}"/>
+    <RecordField colName="tc_fib15" fieldIdRef="15" name="tc_fib15" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{1ba00f24-0000-4000-b4c6-b182dcc92210}"/>
+    <RecordField colName="tc_fib11" fieldIdRef="8" name="tc_fib11" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{fee76f79-0000-4000-a157-7c89c4f68500}"/>
+    <RecordField colName="tc_fib12" fieldIdRef="10" name="tc_fib12" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{eb45b012-0000-4000-9623-9932a7c2eb38}"/>
+    <RecordField colName="tc_fib13" fieldIdRef="12" name="tc_fib13" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{9504663c-0000-4000-adf3-7cb3890d088d}"/>
+    <RecordField colName="tc_fib10" fieldIdRef="6" name="tc_fib10" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{cc780703-0000-4000-868a-479d30b9b18c}"/>
+    <RecordField colName="tc_fib14" fieldIdRef="13" name="tc_fib14" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{7df01736-0000-4000-bca8-735d20add203}"/>
+    <RecordField colName="tc_fib17" fieldIdRef="17" name="tc_fib17" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{31d72360-0000-4000-ac17-47bd9fd2177a}"/>
+    <RecordField colName="tc_fib18" fieldIdRef="18" name="tc_fib18" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{0c52abcf-0000-4000-b494-1262b1005133}"/>
+    <RecordField colName="tc_fib19" fieldIdRef="19" name="tc_fib19" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{4dc32c90-0000-4000-b1ee-21cd1c2471af}"/>
+    <RecordField colName="cnt1" fieldIdRef="43" name="cnt1" sqlTabName="formonly" sqlType="SMALLINT" table_alias_name="" uid="{52843570-0000-4000-bfdc-bbdb64233e2a}"/>
+    <RecordField colName="tc_fib12" fieldIdRef="44" name="tc_fib26" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{32cd1137-0852-4d50-a342-7c859b850001}"/>
+  </Record>
+  <Form gridHeight="27" gridWidth="126" lstrtext="true" name="cemt100" spacing="normal" text="cemt100">
+    <VBox gridHeight="27" gridWidth="126" name="vbox1" posX="0" posY="0">
+      <Folder gridHeight="20" gridWidth="126" name="folder01" posX="0" posY="1">
+        <Page name="page01" text="Main">
+          <HBox gridHeight="19" gridWidth="118" name="hbox1" posX="0" posY="0">
+            <Grid gridHeight="19" gridWidth="114" name="grid01" posX="2" posY="0">
+              <Label posX="1" posY="0" text="tc_fib01"/>
+              <ButtonEdit action="controlp" aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib01" columnCount="" fieldId="0" gridHeight="1" gridWidth="22" image="zoom" name="tc_fib01" posX="29" posY="0" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="23" table_alias_name="" widget="ButtonEdit"/>
+              <Label posX="1" posY="1" text="tc_fib02"/>
+              <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib02" columnCount="" fieldId="1" gridHeight="1" gridWidth="11" name="tc_fib02" posX="29" posY="1" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="24" table_alias_name="" widget="DateEdit"/>
+              <FFImage aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoScale="true" colName="imgmksg" columnCount="" fieldId="2" gridHeight="2" gridWidth="7" height="2" name="imgmksg" posX="104" posY="1" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" table_alias_name="" widget="FFImage" width="7"/>
+              <Label posX="1" posY="2" text="tc_fib03"/>
+              <ButtonEdit action="controlp" aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib03" columnCount="" fieldId="3" gridHeight="1" gridWidth="22" image="zoom" name="tc_fib03" posX="29" posY="2" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="25" table_alias_name="" widget="ButtonEdit"/>
+              <CheckBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib16" columnCount="" fieldId="4" gridHeight="1" gridWidth="6" name="tc_fib16" noEntry="true" notNull="true" posX="90" posY="2" required="true" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="32" table_alias_name="" text="Confirm" valueChecked="Y" valueUnchecked="N" widget="CheckBox"/>
+              <Label posX="1" posY="3" text="tc_fib04"/>
+              <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib04" columnCount="" fieldId="5" gridHeight="1" gridWidth="22" items="" name="tc_fib04" posX="29" posY="3" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="30" table_alias_name="" widget="ComboBox">
+                <Item name="1" text="保内定期维护"/>
+                <Item name="3" text="保外维护"/>
+                <Item name="2" text="日常点检"/>
+              </ComboBox>
+              <Label posX="64" posY="4" text="tc_fib10"/>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib10" columnCount="" fieldId="6" gridHeight="1" gridWidth="22" name="tc_fib10" posX="90" posY="4" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="37" table_alias_name="" widget="Edit"/>
+              <Label posX="1" posY="5" text="tc_fib05"/>
+              <ButtonEdit action="controlp" aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib05" columnCount="" fieldId="7" gridHeight="1" gridWidth="22" image="zoom" name="tc_fib05" posX="29" posY="5" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="29" table_alias_name="" widget="ButtonEdit"/>
+              <Label posX="64" posY="5" text="tc_fib11"/>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib11" columnCount="" fieldId="8" gridHeight="1" gridWidth="22" name="tc_fib11" posX="90" posY="5" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="34" table_alias_name="" widget="Edit"/>
+              <Label posX="1" posY="6" text="tc_fib06"/>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib06" columnCount="" fieldId="9" gridHeight="1" gridWidth="22" name="tc_fib06" posX="29" posY="6" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="26" table_alias_name="" widget="Edit"/>
+              <Label posX="64" posY="6" text="tc_fib12"/>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib12" columnCount="" fieldId="10" gridHeight="1" gridWidth="22" name="tc_fib12" posX="90" posY="6" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="35" table_alias_name="" widget="Edit"/>
+              <Label posX="1" posY="7" text="tc_fib07"/>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib07" columnCount="" fieldId="11" gridHeight="1" gridWidth="22" name="tc_fib07" posX="29" posY="7" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="27" table_alias_name="" widget="Edit"/>
+              <Label posX="64" posY="7" text="tc_fib13"/>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib13" columnCount="" fieldId="12" gridHeight="1" gridWidth="11" name="tc_fib13" posX="90" posY="7" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="36" table_alias_name="" widget="Edit"/>
+              <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib14" columnCount="" fieldId="13" gridHeight="1" gridWidth="10" items="" name="tc_fib14" posX="104" posY="7" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="38" table_alias_name="" widget="ComboBox">
+                <Item name="1" text="天"/>
+                <Item name="2" text="周"/>
+                <Item name="3" text="月"/>
+                <Item name="4" text="年"/>
+              </ComboBox>
+              <Label posX="1" posY="8" text="tc_fib08"/>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib08" columnCount="" fieldId="14" gridHeight="1" gridWidth="22" name="tc_fib08" posX="29" posY="8" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="28" table_alias_name="" widget="Edit"/>
+              <Label posX="64" posY="8" text="tc_fib15"/>
+              <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib15" columnCount="" fieldId="15" gridHeight="1" gridWidth="11" name="tc_fib15" posX="90" posY="8" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="33" table_alias_name="" widget="DateEdit"/>
+              <Label posX="1" posY="9" text="tc_fib09"/>
+              <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib09" columnCount="" fieldId="16" gridHeight="1" gridWidth="22" items="" name="tc_fib09" posX="29" posY="9" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="31" table_alias_name="" widget="ComboBox">
+                <Item name="1" text="IT设备"/>
+                <Item name="2" text="安保设备"/>
+                <Item name="3" text="总务设备"/>
+                <Item name="4" text="生产设备"/>
+                <Item name="5" text="品检设备"/>
+                <Item name="6" text="其他"/>
+              </ComboBox>
+              <Label posX="64" posY="9" text="tc_fib26"/>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib12" columnCount="" fieldId="44" gridHeight="1" gridWidth="22" name="tc_fib26" posX="90" posY="9" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="43" table_alias_name="" widget="Edit"/>
+              <Label posX="1" posY="11" text="tc_fib17"/>
+              <TextEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib17" columnCount="" fieldId="17" gridHeight="2" gridWidth="75" name="tc_fib17" posX="29" posY="11" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="39" table_alias_name="" wantNoReturns="false" widget="TextEdit"/>
+              <Label posX="1" posY="14" text="tc_fib18"/>
+              <TextEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib18" columnCount="" fieldId="18" gridHeight="2" gridWidth="75" name="tc_fib18" posX="29" posY="14" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="40" table_alias_name="" wantNoReturns="false" widget="TextEdit"/>
+              <Label posX="1" posY="17" text="tc_fib19"/>
+              <TextEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib19" columnCount="" fieldId="19" gridHeight="2" gridWidth="75" name="tc_fib19" posX="29" posY="17" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="41" table_alias_name="" wantNoReturns="false" widget="TextEdit"/>
+            </Grid>
+          </HBox>
+        </Page>
+        <Page name="info" text="Info">
+          <Grid gridHeight="4" gridWidth="104" name="gr1785" posX="0" posY="0">
+            <Label posX="2" posY="0" text="Record Owner"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fibuser" columnCount="" fieldId="20" gridHeight="1" gridWidth="10" name="tc_fibuser" noEntry="true" posX="23" posY="0" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="16" table_alias_name="" widget="Edit"/>
+            <Label posX="37" posY="0" text="Last Modified by"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fibmodu" columnCount="" fieldId="21" gridHeight="1" gridWidth="10" name="tc_fibmodu" noEntry="true" posX="58" posY="0" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="17" table_alias_name="" widget="Edit"/>
+            <Label posX="72" posY="0" text="Data Valid Code"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="tc_fibacti" columnCount="" fieldId="22" gridHeight="1" gridWidth="10" name="tc_fibacti" noEntry="true" posX="93" posY="0" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="18" table_alias_name="" widget="Edit"/>
+            <Label posX="2" posY="1" text="Department"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fibgrup" columnCount="" fieldId="23" gridHeight="1" gridWidth="10" name="tc_fibgrup" noEntry="true" posX="23" posY="1" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="19" table_alias_name="" widget="Edit"/>
+            <Label posX="37" posY="1" text="Create/Modify Date"/>
+            <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fibdate" columnCount="" fieldId="24" gridHeight="1" gridWidth="10" name="tc_fibdate" noEntry="true" posX="58" posY="1" rowCount="" sqlTabName="formonly" sqlType="DATE" stepX="" stepY="" tabIndex="20" table_alias_name="" widget="DateEdit"/>
+            <Label posX="2" posY="2" text="Record Orig."/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fiboriu" columnCount="" fieldId="25" gridHeight="1" gridWidth="10" name="tc_fiboriu" noEntry="true" posX="23" posY="2" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="21" table_alias_name="" widget="Edit"/>
+            <Label posX="2" posY="3" text="Dept Orig."/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fiborig" columnCount="" fieldId="26" gridHeight="1" gridWidth="10" name="tc_fiborig" noEntry="true" posX="23" posY="3" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="22" table_alias_name="" widget="Edit"/>
+          </Grid>
+        </Page>
+        <Page name="userdefined_field" text="User Defined Field">
+          <Grid gridHeight="8" gridWidth="126" name="gru1" posX="0" posY="0">
+            <Label posX="1" posY="0" text="userdefined_field01"/>
+            <TextEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib20" columnCount="" fieldId="27" gridHeight="2" gridWidth="30" name="tc_fib20" posX="21" posY="0" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" stretch="none" tabIndex="2" table_alias_name="" wantNoReturns="false" widget="TextEdit"/>
+            <Label posX="90" posY="0" text="userdefined_field13"/>
+            <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib32" columnCount="" fieldId="29" gridHeight="1" gridWidth="15" name="tc_fib32" posX="110" posY="0" rowCount="" sqlTabName="formonly" sqlType="DATE" stepX="" stepY="" tabIndex="3" table_alias_name="" widget="DateEdit"/>
+            <Label posX="53" posY="1" text="userdefined_field08"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib27" columnCount="" fieldId="30" gridHeight="1" gridWidth="15" name="tc_fib27" posX="73" posY="1" rowCount="" sqlTabName="formonly" sqlType="DECIMAL" stepX="" stepY="" tabIndex="4" table_alias_name="" widget="Edit"/>
+            <Label posX="90" posY="1" text="userdefined_field14"/>
+            <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib33" columnCount="" fieldId="31" gridHeight="1" gridWidth="15" name="tc_fib33" posX="110" posY="1" rowCount="" sqlTabName="formonly" sqlType="DATE" stepX="" stepY="" tabIndex="5" table_alias_name="" widget="DateEdit"/>
+            <Label posX="1" posY="2" text="userdefined_field02"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib21" columnCount="" fieldId="32" gridHeight="1" gridWidth="15" name="tc_fib21" posX="21" posY="2" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="6" table_alias_name="" widget="Edit"/>
+            <Label posX="53" posY="2" text="userdefined_field09"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib28" columnCount="" fieldId="33" gridHeight="1" gridWidth="15" name="tc_fib28" posX="73" posY="2" rowCount="" sqlTabName="formonly" sqlType="DECIMAL" stepX="" stepY="" tabIndex="7" table_alias_name="" widget="Edit"/>
+            <Label posX="90" posY="2" text="userdefined_field15"/>
+            <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib34" columnCount="" fieldId="34" gridHeight="1" gridWidth="15" name="tc_fib34" posX="110" posY="2" rowCount="" sqlTabName="formonly" sqlType="DATE" stepX="" stepY="" tabIndex="8" table_alias_name="" widget="DateEdit"/>
+            <Label posX="1" posY="3" text="userdefined_field03"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib22" columnCount="" fieldId="35" gridHeight="1" gridWidth="15" name="tc_fib22" posX="21" posY="3" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="9" table_alias_name="" widget="Edit"/>
+            <Label posX="53" posY="3" text="userdefined_field10"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib29" columnCount="" fieldId="36" gridHeight="1" gridWidth="15" name="tc_fib29" posX="73" posY="3" rowCount="" sqlTabName="formonly" sqlType="INTEGER" stepX="" stepY="" tabIndex="10" table_alias_name="" widget="Edit"/>
+            <Label posX="1" posY="4" text="userdefined_field04"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib23" columnCount="" fieldId="37" gridHeight="1" gridWidth="15" name="tc_fib23" posX="21" posY="4" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="11" table_alias_name="" widget="Edit"/>
+            <Label posX="53" posY="4" text="userdefined_field11"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib30" columnCount="" fieldId="38" gridHeight="1" gridWidth="15" name="tc_fib30" posX="73" posY="4" rowCount="" sqlTabName="formonly" sqlType="INTEGER" stepX="" stepY="" tabIndex="12" table_alias_name="" widget="Edit"/>
+            <Label posX="1" posY="5" text="userdefined_field05"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib24" columnCount="" fieldId="39" gridHeight="1" gridWidth="15" name="tc_fib24" posX="21" posY="5" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="13" table_alias_name="" widget="Edit"/>
+            <Label posX="53" posY="5" text="userdefined_field12"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib31" columnCount="" fieldId="40" gridHeight="1" gridWidth="15" name="tc_fib31" posX="73" posY="5" rowCount="" sqlTabName="formonly" sqlType="INTEGER" stepX="" stepY="" tabIndex="14" table_alias_name="" widget="Edit"/>
+            <Label posX="1" posY="6" text="userdefined_field06"/>
+            <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fib25" columnCount="" fieldId="41" gridHeight="1" gridWidth="15" name="tc_fib25" posX="21" posY="6" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="15" table_alias_name="" widget="Edit"/>
+          </Grid>
+        </Page>
+      </Folder>
+      <Grid gridHeight="5" gridWidth="126" name="gr1790" posX="0" posY="21">
+        <HLine gridWidth="4" name="HLine1" posX="2" posY="4"/>
+        <Label posX="7" posY="4" text="笔数"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="cnt" columnCount="" fieldId="42" gridHeight="1" gridWidth="6" name="cnt" posX="12" posY="4" rowCount="" sqlTabName="formonly" sqlType="SMALLINT" stepX="" stepY="" tabIndex="1" table_alias_name="" widget="Edit"/>
+        <Label posX="19" posY="4" text="笔数"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="cnt1" columnCount="" fieldId="43" gridHeight="1" gridWidth="6" name="cnt1" posX="26" posY="4" rowCount="" sqlTabName="formonly" sqlType="SMALLINT" stepX="" stepY="" tabIndex="42" table_alias_name="" widget="Edit"/>
+        <HLine gridWidth="5" name="HLine2" posX="34" posY="4"/>
+      </Grid>
+    </VBox>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[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YQBiADQANQB9QCAAAAQAAABAgOAABDgAAAAAAAAAAAAAAQAAAEwAewBlADcAZAA4ADcAMwBkADEALQAwADAAMAAwAC0ANAAwADAAMAAtADkANABiADYALQBiADkAYgA2ADYAMQBiADEANgBjADEAMgB9QCAAAAQAAABAWQAABkAAAAAAAAAAAAAAAQAAAEwAewBhAGIAMgA2AGYANABkADIALQAwADAAMAAwAC0ANAAwADAAMAAtAGIAOQA1ADAALQAxADcAZAAzAGEANwBhAGQAZAAzAGUAMwB9QCAAAAQAAABAgfmZnhgAAAAAAAAAAAAAAQAAAEwAewA3AGQAZgAwADEANwAzADYALQAwADAAMAAwAC0ANAAwADAAMAAtAGIAYwBhADgALQA3ADMANQBkADIAMABhAGQAZAAyADAAMwB9QCAAAAQAAABAhdMzOKgAAAAAAAAAAAAAAQAAAEwAewBiADMAZABhADQANgBjADAALQAwADAAMAAwAC0ANAAwADAAMAAtAGIAMQBiADcALQBiADUAMABiADcAYwA2ADIANQBhADgAZgB9QCAAAAQAAABAPZmZoQAAAAAAAAAAAAAAAQAAAEwAewBlADIAOQBlAGQAMAAxADgALQAwADAAMAAwAC0ANAAwADAAMAAtAGIAMwAzAGMALQAzADAAYgAzADMANwA4ADUAZAAwADAANgB9QCAAAAQAAABAd9mZn5AAAAAAAAAAAAAAAQAAAEwAewBjADkANgAzADQAMAA3ADEALQAwADAAMAAwAC0ANAAwADAAMAAtADkAYQBlADYALQBiADMAYwBmADYAMgA2ADcAOQAyAGMAMgB9QCAAAAQAAABAdaZma9AAAAAAAAAAAAAAAQAAAEwAewBhADIAYgA1ADQAMwAzADgALQAwADAAMAAwAC0ANAAwADAAMAAtADkAZQA4ADcALQA0ADcANAAwADUAYwA0AGIAYgA0ADAAMAB9QCAAAAQAAABAcCZmanAAAAAAAAAAAAAAAQAAAEwAewAyADQAMAAxADYAMQAxAGEALQAwADAAMAAwAC0ANAAwADAAMAAtADkAOQA1ADAALQA1ADIANgBhAGUAZQBkADgAZgBlADcANgB9QCAAAAQAAABAePMzOXAAAAAAAAAAAAAAAQAAAEwAewBkAGIAYQAzADAANwA1AGIALQAwADAAMAAwAC0ANAAwADAAMAAtADgANwA2ADgALQA4ADUANwA1ADUANAAyAGUAYgA3ADMAOAB9QCAAAAQAAABAclmZnjAAAAAAAAAAAAAAAQAAAEwAewA0ADkAYwA0AGQANAA2AGEALQAwADAAMAAwAC0ANAAwADAAMAAtADkAMQAwADEALQBkADIANgAyAGMAYwA1ADUAZAA4AGEAMgB9QCAAAAQAAABAcUAABFAAAAAAAAAAAAAAAQAAAEwAewA2AGQAMgBjADMANwA3ADIALQAwADAAMAAwAC0ANAAwADAAMAAtAGEAZgAxAGIALQBhADUANQBjADcAOQBkADcAYwA3ADAAYQB9QCAAAAQAAABAdIzM0fAAAAAAAAAAAAAAAQAAAEwAewBjADEANQA5ADMANgBmAGIALQAwADAAMAAwAC0ANAAwADAAMAAtAGIAMQBlADYALQBhADQAMABiADEAMABmAGIANgBlAGEAYwB9QCAAAAQAAABAgWzM0SgAAAAAAAAAAAAAAQAAAEwAewAxAGIAYQAwADAAZgAyADQALQAwADAAMAAwAC0ANAAwADAAMAAtAGIANABjADYALQBiADEAOAAyAGQAYwBjADkAMgAyADEAMAB9QCAAAAQAAABAgxMzN/gAAAAAAAAAAAAAAQAAAEwAewBkAGIANwA1AGIAZgA3ADAALQAwADAAMAAwAC0ANAAwADAAMAAtADkAZQAyADgALQAzADAAYgBkAGYAYgA1ADgAMwAyADMAOQB9QCAAAAQAAABAfVmZoPAAAAAAAAAAAAAAAQAAAEwAewBkAGQAOAA5AGUAZQA2ADAALQAwADAAMAAwAC0ANAAwADAAMAAtADkANgBhADMALQBlADAANABhADUAZQA5ADYAZQA2ADAANgB9QCAAAAQAAABAf4zM1LAAAAAAAAAAAAAAAQAAAEwAewAzADEAMwA0ADcAMgA3AGEALQAwADAAMAAwAC0ANAAwADAAMAAtAGEAYQA1ADUALQAxAGMAOQAwAGMAMwBiADgANQA0ADkAMwB9QCAAAAQAAABAfnMzOtAAAAAAAAAAAAAAAQAAAEwAewBiADAAZABiADcAZAAyAGIALQAwADAAMAAwAC0ANAAwADAAMAAtAGEANwA5ADQALQAxADgAYwAxADUANgAzAGIAYwBiADYANAB9QCAAAAQAAABAZ4AABeAAAAAAAAAAAAAAAQAAAEwAewA3AGUANAAxAGIAZAAzADkALQAwADAAMAAwAC0ANAAwADAAMAAtADkAMAAzADQALQA3ADgAZQA0AGIAZAAyADcANgA2ADYAYQB9QCAAAAQAAABAbhmZoSAAAAAAAAAAAAAAAQAAAEwAewBiAGEAOQA4ADIAMgBiADcALQAwADAAMAAwAC0ANAAwADAAMAAtADgAZQBhAGMALQBjADEANAAyADkAZgAzADIANgBlADQAMQB9QCAAAAQAAABAegzM01AAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

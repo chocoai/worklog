@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="ds" gstVersion="22800" name="ManagedForm" uid="{0413ecd7-0000-4000-8c21-0e73faccc8f4}">
+  <AGSettings/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="oma_file" order="" uid="{16988ed7-0000-4000-aab2-3163116d41f2}" where="">
+    <RecordField colName="rvu00" fieldIdRef="1" name="oma01" sqlTabName="rvu_file" sqlType="VARCHAR" table_alias_name="" uid="{19093a45-0000-4000-9577-2e551710226f}"/>
+    <RecordField colName="rvu01" fieldIdRef="2" name="oma03" sqlTabName="rvu_file" sqlType="VARCHAR" table_alias_name="" uid="{4c880b7f-0000-4000-8bf1-9c8cc1a01bf9}"/>
+    <RecordField colName="rvu03" fieldIdRef="3" name="oma02" sqlTabName="rvu_file" sqlType="DATE" table_alias_name="" uid="{32bcb1d6-0000-4000-b404-146096097400}"/>
+  </Record>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="omb_file" order="" uid="{c3501590-0000-4000-a4d0-7520d38c8f30}" where="">
+    <RecordField colName="rvb22" fieldIdRef="4" name="omb04" sqlTabName="rvb_file" sqlType="VARCHAR" table_alias_name="" uid="{323e18b1-0000-4000-b07e-879a7570ad10}"/>
+  </Record>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{bd98dc14-0000-4000-a294-1d5272cc3093}" where="">
+    <RecordField colName="more" fieldIdRef="7" name="more" sqlTabName="formonly" table_alias_name="" uid="{a5f88dfe-0000-4000-b201-ee5a9d6b544a}"/>
+  </Record>
+  <Form gridHeight="16" gridWidth="68" name="cxmr002">
+    <VBox gridHeight="16" gridWidth="68" name="VBox1" posX="0" posY="0">
+      <Grid gridHeight="10" gridWidth="68" name="Grid1" posX="0" posY="1">
+        <Group gridHeight="7" gridWidth="65" name="group01" posX="1" posY="0" text="QBE">
+          <Label posX="1" posY="2" text="oma01"/>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="rvu00" columnCount="" comment=" 1.Sotck-in 2.Reject 3.Inventory Return" fieldId="1" gridHeight="1" gridWidth="20" name="oma01" posX="22" posY="2" rowCount="" sqlTabName="rvu_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="1" table_alias_name="" widget="Edit"/>
+          <Label posX="1" posY="3" text="oma02"/>
+          <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="rvu03" columnCount="" fieldId="3" gridHeight="1" gridWidth="20" name="oma02" posX="22" posY="3" rowCount="" sqlTabName="rvu_file" sqlType="DATE" stepX="" stepY="" tabIndex="3" table_alias_name="" widget="DateEdit"/>
+          <Label posX="1" posY="4" text="oma03"/>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="rvu01" columnCount="" fieldId="2" gridHeight="1" gridWidth="20" name="oma03" notNull="true" posX="22" posY="4" required="true" rowCount="" sqlTabName="rvu_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="2" table_alias_name="" widget="Edit"/>
+          <Label posX="1" posY="5" text="omb04"/>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="rvb22" columnCount="" fieldId="4" gridHeight="1" gridWidth="20" name="omb04" posX="22" posY="5" rowCount="" sqlTabName="rvb_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="4" table_alias_name="" widget="Edit"/>
+        </Group>
+      </Grid>
+      <Grid gridHeight="4" gridWidth="68" name="Grid3" posX="0" posY="11">
+        <CheckBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="more" columnCount="" fieldId="7" gridHeight="1" gridWidth="60" name="more" notNull="true" posX="1" posY="0" required="true" rowCount="" sqlTabName="formonly" stepX="" stepY="" tabIndex="5" table_alias_name="" text="Other codition to print" valueChecked="Y" valueUnchecked="N" widget="CheckBox"/>
+      </Grid>
+    </VBox>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewAxADYAOQA4ADgAZQBkADcALQAwADAAMAAwAC0ANAAwADAAMAAtAGEAYQBiADIALQAzADEANgAzADEAMQA2AGQANAAxAGYAMgB9AAAAAAAAAAAAAAAAAAAAAD98rAgxJul5AQAAAEwAewBjADMANQAwADEANQA5ADAALQAwADAAMAAwAC0ANAAwADAAMAAtAGEANABkADAALQA3ADUAMgAwAGQAMwA4AGMAOABmADMAMAB9QGKZmZ5AAABAAzMzOAAAAD94k3S8an76AQAAAEwAewAxADkAMAA5ADMAYQA0ADUALQAwADAAMAAwAC0ANAAwADAAMAAtADkANQA3ADcALQAyAGUANQA1ADEANwAxADAAMgAyADYAZgB9QCAAAAQAAABAPZmZoQAAAAAAAAAAAAAAAQAAAEwAewAzADIAYgBjAGIAMQBkADYALQAwADAAMAAwAC0ANAAwADAAMAAtAGIANAAwADQALQAxADQANgAwADkANgAwADkANwA0ADAAMAB9QCAAAAQAAABAUDMzN0AAAAAAAAAAAAAAAQAAAEwAewA0AGMAOAA4ADAAYgA3AGYALQAwADAAMAAwAC0ANAAwADAAMAAtADgAYgBmADEALQA5AGMAOABjAGMAMQBhADAAMQBiAGYAOQB9QCAAAAQAAABAR5mZn4AAAAAAAAAAAAAAAQAAAEwAewBhADUAZgA4ADgAZABmAGUALQAwADAAMAAwAC0ANAAwADAAMAAtAGIAMgAwADEALQBlAGUANQBhADkAZAA2AGIANQA0ADQAYQB9QCAAAAQAAABAPZmZoQAAAAAAAAAAAAAAAQAAAEwAewBiAGQAOQA4AGQAYwAxADQALQAwADAAMAAwAC0ANAAwADAAMAAtAGEAMgA5ADQALQAxAGQANQAyADcAMgBjAGMAMwAwADkAMwB9QHMZmZ5gAABAGZmZoAAAAD+AYk3S8an8AQAAAEwAewAzADIAMwBlADEAOABiADEALQAwADAAMAAwAC0ANAAwADAAMAAtAGIAMAA3AGUALQA4ADcAOQBhADcANQA3ADAAYQBkADEAMAB9QCAAAAQAAABAPZmZoQAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

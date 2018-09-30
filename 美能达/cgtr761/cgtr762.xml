@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="BIG5" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="cgtr762">
+            <xs:complexType>
+              <xs:sequence>
+                  <xs:element name="num1"       type="xs:decimal" minOccurs="0" />                  
+                  <xs:element name="uhc01"      type="xs:string"  minOccurs="0" />
+                  <xs:element name="uhc21"      type="xs:decimal" minOccurs="0" />
+                  <xs:element name="uhc22"      type="xs:decimal" minOccurs="0" />
+                  <xs:element name="uhc22f"     type="xs:decimal" minOccurs="0" />
+                  <xs:element name="uhc22g"     type="xs:decimal" minOccurs="0" />
+                  <xs:element name="uhc22h"     type="xs:decimal" minOccurs="0" /> 
+                  <xs:element name="uhc22ha"    type="xs:decimal" minOccurs="0" />
+                  <xs:element name="uhc22hb"    type="xs:decimal" minOccurs="0" />
+                  <xs:element name="uhc22a"     type="xs:decimal" minOccurs="0" />
+                  <xs:element name="uhc22b"     type="xs:decimal" minOccurs="0" />
+                  <xs:element name="uhc22c"     type="xs:decimal" minOccurs="0" />
+                  <xs:element name="uhc22ca"    type="xs:decimal" minOccurs="0" />
+                  <xs:element name="uhc22cb"    type="xs:decimal" minOccurs="0" />   
+                  <xs:element name="tc_gem01" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc01" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem02" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc02" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem03" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc03" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem04" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc04" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem05" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc05" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem06" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc06" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem07" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc07" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem08" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc08" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem09" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc09" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem10" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc10" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem11" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc11" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem12" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc12" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem13" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc13" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem14" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc14" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem15" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc15" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem16" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc16" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem17" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc17" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem18" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc18" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem19" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc19" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem20" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc20" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem21" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc21" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem22" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc22" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem23" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc23" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem24" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc24" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem25" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc25" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem26" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc26" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem27" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc27" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem28" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc28" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem29" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc29" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem30" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc30" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem31" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc31" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem32" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc32" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem33" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc33" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem34" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc34" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem35" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc35" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem36" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc36" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem37" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc37" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem38" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc38" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem39" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc39" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem40" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc40" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem41" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc41" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem42" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc42" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem43" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc43" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem44" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc44" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tc_gem45" type="xs:string" minOccurs="0" />
+                  <xs:element name="tc_uhc45" type="xs:decimal" minOccurs="0" />   
+              </xs:sequence>
+           </xs:complexType>
+         </xs:element>
+       </xs:choice>
+     </xs:complexType>
+   </xs:element>
+ </xs:schema>
+</NewDataSet>

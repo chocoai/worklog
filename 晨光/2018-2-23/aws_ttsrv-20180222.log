@@ -1,0 +1,2099 @@
+#--------------------------- (2018-02-22 09:10:57) ----------------------------#
+
+[Service]
+'chkpmc' start at 09:10:57.239
+
+[Input Message]
+<<< Field name="signin" >>>
+<SignIn><Account userId="tiptop" password="tiptop2016"/><Connection systemId="OA" from="192.168.10.113" organization="DS2"/></SignIn>
+
+<<< Field name="pmc01" >>>
+CS20180123
+
+<<< Field name="type" >>>
+0
+
+
+
+[Service]
+'chkpmc' stop at 09:10:57.560
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 11:19:13) ----------------------------#
+
+[Service]
+'chkpmc' start at 11:19:13.069
+
+[Input Message]
+<<< Field name="signin" >>>
+<SignIn><Account userId="tiptop" password="tiptop2016"/><Connection systemId="OA" from="192.168.10.113" organization="DS2"/></SignIn>
+
+<<< Field name="pmc01" >>>
+CS20180124
+
+<<< Field name="type" >>>
+0
+
+
+
+[Service]
+'chkpmc' stop at 11:19:13.240
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="-1" sqlcode="0" description="并非拥有者." />
+</Status>
+
+<<< Field name="msg" >>>
+CS20180124--该供应厂商全称已被使用
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 11:19:21) ----------------------------#
+
+[Service]
+'chkpmc' start at 11:19:21.819
+
+[Input Message]
+<<< Field name="signin" >>>
+<SignIn><Account userId="tiptop" password="tiptop2016"/><Connection systemId="OA" from="192.168.10.113" organization="DS2"/></SignIn>
+
+<<< Field name="pmc01" >>>
+CS20180125
+
+<<< Field name="type" >>>
+0
+
+
+
+[Service]
+'chkpmc' stop at 11:19:21.947
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="-1" sqlcode="0" description="并非拥有者." />
+</Status>
+
+<<< Field name="msg" >>>
+CS20180125--该供应厂商全称已被使用
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 11:23:42) ----------------------------#
+
+[Service]
+'chkpmc' start at 11:23:42.144
+
+[Input Message]
+<<< Field name="signin" >>>
+<SignIn><Account userId="tiptop" password="tiptop2016"/><Connection systemId="OA" from="192.168.10.113" organization="DS2"/></SignIn>
+
+<<< Field name="pmc01" >>>
+CS20180126
+
+<<< Field name="type" >>>
+0
+
+
+
+[Service]
+'chkpmc' stop at 11:23:42.410
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 11:55:02) ----------------------------#
+
+[Service]
+'setimaf' start at 11:55:02.403
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 11:55:02.558
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 12:49:31) ----------------------------#
+
+[Service]
+'setimaf' start at 12:49:31.167
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 12:49:31.285
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 13:43:51) ----------------------------#
+
+[Service]
+'setimaf' start at 13:43:51.855
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 13:43:51.953
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 15:53:29) ----------------------------#
+
+[Service]
+'updima' start at 15:53:29.037
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="code" >>>
+ds2
+
+
+
+[Service]
+'updima' stop at 15:53:29.105
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 15:53:35) ----------------------------#
+
+[Service]
+'updima' start at 15:53:35.779
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="code" >>>
+ds2
+
+
+
+[Service]
+'updima' stop at 15:53:35.838
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 15:53:40) ----------------------------#
+
+[Service]
+'updima' start at 15:53:40.153
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="code" >>>
+ds2
+
+
+
+[Service]
+'updima' stop at 15:53:40.213
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 15:53:44) ----------------------------#
+
+[Service]
+'updima' start at 15:53:44.931
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="code" >>>
+ds2
+
+
+
+[Service]
+'updima' stop at 15:53:44.987
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 15:54:57) ----------------------------#
+
+[Service]
+'updima' start at 15:54:57.323
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="code" >>>
+ds2
+
+
+
+[Service]
+'updima' stop at 15:54:57.379
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 16:19:57) ----------------------------#
+
+[Service]
+'setimaf' start at 16:19:57.756
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 16:19:57.844
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 16:44:00) ----------------------------#
+
+[Service]
+'updima' start at 16:44:00.513
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="code" >>>
+ds2
+
+
+
+[Service]
+'updima' stop at 16:44:00.572
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 17:01:55) ----------------------------#
+
+[Service]
+'setimaf' start at 17:01:55.268
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 17:01:55.362
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 17:12:53) ----------------------------#
+
+[Service]
+'updima' start at 17:12:53.983
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="code" >>>
+ds2
+
+
+
+[Service]
+'updima' stop at 17:12:54.046
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 17:38:51) ----------------------------#
+
+[Service]
+'chkpmc' start at 17:38:51.423
+
+[Input Message]
+<<< Field name="signin" >>>
+<SignIn><Account userId="tiptop" password="tiptop2016"/><Connection systemId="OA" from="192.168.10.113" organization="DS2"/></SignIn>
+
+<<< Field name="pmc01" >>>
+CS20180127
+
+<<< Field name="type" >>>
+0
+
+
+
+[Service]
+'chkpmc' stop at 17:38:51.583
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 17:39:07) ----------------------------#
+
+[Service]
+'updima' start at 17:39:07.508
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="code" >>>
+ds2
+
+
+
+[Service]
+'updima' stop at 17:39:07.569
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:04) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:04.754
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:04.829
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:05) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:05.054
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:05.118
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:05) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:05.215
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:05.283
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:05) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:05.364
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:05.421
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:05) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:05.495
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:05.552
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:05) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:05.661
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:05.719
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:05) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:05.811
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:05.873
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:05) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:05.954
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:06.013
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:06) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:06.090
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:06.185
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:06) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:06.274
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:06.330
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:06) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:06.410
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:06.471
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:06) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:06.545
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:06.605
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:06) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:06.686
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:06.744
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:06) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:06.839
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:06.898
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:06) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:06.974
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:07.040
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:07) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:07.118
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:07.181
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:07) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:07.270
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:07.334
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:07) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:07.409
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:07.465
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:07) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:07.545
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:07.604
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:07) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:07.687
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:07.747
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:07) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:07.817
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:07.875
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:07) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:07.964
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:08.021
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:08) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:08.089
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:08.144
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:10:08) ----------------------------#
+
+[Service]
+'setimaf' start at 21:10:08.221
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:10:08.279
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:04) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:04.420
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:04.486
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:04) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:04.723
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:04.782
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:04) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:04.856
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:04.940
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:05) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:05.007
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:05.070
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:05) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:05.135
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:05.194
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:05) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:05.278
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:05.337
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:05) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:05.405
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:05.464
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:05) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:05.569
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:05.634
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:05) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:05.705
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:05.760
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:05) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:05.841
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:05.895
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:05) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:05.963
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:06.024
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:06) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:06.092
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:06.149
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:06) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:06.221
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:06.284
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:06) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:06.373
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:06.429
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:06) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:06.500
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:06.552
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:06) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:06.622
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:06.673
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:06) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:06.750
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:06.890
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:06) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:06.958
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:07.014
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:07) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:07.074
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:07.133
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:07) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:07.202
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:07.264
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:07) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:07.329
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:07.387
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:07) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:07.461
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:07.515
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:07) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:07.583
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:07.634
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:07) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:07.722
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:07.787
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:07) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:07.856
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:07.915
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-02-22 21:20:07) ----------------------------#
+
+[Service]
+'setimaf' start at 21:20:07.985
+
+[Input Message]
+<<< Field name="signin" >>>
+<signIn><Account userId="tiptop" password="tiptop"/><Connection systemId="MDM" from="192.168.10.208" organization="DS2"/></signIn>
+
+<<< Field name="dbs" >>>
+ds2
+
+
+
+[Service]
+'setimaf' stop at 21:20:08.045
+
+[Output Message]
+<<< Field name="status" >>>
+<Status>
+  <Result code="0" sqlcode="" description="" />
+</Status>
+
+<<< Field name="msg" >>>
+
+
+
+
+#------------------------------------------------------------------------------#
+
+

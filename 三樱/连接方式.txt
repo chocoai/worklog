@@ -1,0 +1,30 @@
+AP主机：10.0.1.35
+数据库：10.0.1.36
+报表：10.0.1.33
+地址：58.210.53.246
+VPN:用户名：djtest   密码：T100erp 
+web连接  http://10.0.1.35/
+
+root/T100erp
+oracle/oracle
+tiptop/tiptop
+toptst/toptst
+topstd/4bugfix
+
+T100DB  root/T100erp   oracle/oracle
+GS账号密码 Administrator/123456789
+T100数据库  sys/tiptop100 
+            system/tiptop100AP主机：10.0.1.35
+数据库：10.0.1.36
+报表：10.0.1.33
+
+root/T100erp
+oracle/oracle
+tiptop/tiptop
+toptst/toptst
+topstd/4bugfix
+
+T100DB  root/T100erp   oracle/oracle
+GS账号密码 Administrator/123456789
+T100数据库  sys/tiptop100 
+            system/tiptop100

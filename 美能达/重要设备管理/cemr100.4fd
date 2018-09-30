@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm gstVersion="22800" name="ManagedForm" uid="{a5f36799-0000-4000-9b94-e9aa54f3849d}">
+  <AGSettings/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="undefined" order="" uid="{a9f7a9b5-0000-4000-8d4f-cd5d05631dcb}" where="">
+    <RecordField colName="tc_fia01" fieldIdRef="0" name="tc_fia01" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{b3da46c0-0000-4000-b1b7-b50b7c625a8f}"/>
+    <RecordField colName="tc_fia09" fieldIdRef="2" name="tc_fia09" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{87e8b909-0000-4000-a58c-2bfabfce13ce}"/>
+    <RecordField colName="more" fieldIdRef="9" name="more" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{866b8e9c-0000-4000-859e-624a928e24a7}"/>
+    <RecordField colName="tc_fia12" fieldIdRef="4" name="tc_fia12" sqlTabName="formonly" sqlType="DATE" table_alias_name="" uid="{abb64945-0000-4000-afa6-a9797b866a76}"/>
+    <RecordField colName="tc_fiauser" fieldIdRef="3" name="tc_fiauser" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{90176a93-0000-4000-806d-5ae1bf9c86d3}"/>
+    <RecordField colName="tc_fia05" fieldIdRef="1" name="tc_fia05" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{e7d873d1-0000-4000-94b6-b9b661b16c12}"/>
+    <RecordField colName="tc_fia10" fieldIdRef="5" name="tc_fia10" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{035dee0d-0000-4000-8944-178b29a6e342}"/>
+    <RecordField colName="tc_fia13" fieldIdRef="7" name="tc_fia13" sqlTabName="formonly" sqlType="DATE" table_alias_name="" uid="{52cf3c72-0000-4000-894a-23c2f8d3dee3}"/>
+    <RecordField colName="to_next" fieldIdRef="8" name="to_next" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{335b1d76-0000-4000-8d45-78134bcdef9f}"/>
+  </Record>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined1" order="" uid="{349c9179-85ed-4883-a914-e79481130e7f}" where="">
+    <RecordField colName="tc_fia10" fieldIdRef="6" name="tc_fia11" sqlTabName="formonly" sqlType="VARCHAR" table_alias_name="" uid="{9629a083-363a-4bee-9463-ce4be93c5677}"/>
+  </Record>
+  <Form gridHeight="36" gridWidth="73" lstrtext="true" name="cemr100" spacing="normal" text="apmr001">
+    <VBox gridHeight="36" gridWidth="73" name="vbox1" posX="0" posY="0">
+      <Grid gridHeight="10" gridWidth="73" name="gr5030" posX="0" posY="1">
+        <Group gridHeight="10" gridWidth="44" lstrtext="true" name="group01" posX="1" posY="0" text="QBE">
+          <Label posX="1" posY="1" text="设备编号"/>
+          <ButtonEdit action="controlp" aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fia01" columnCount="" fieldId="0" gridHeight="1" gridWidth="20" image="zoom" name="tc_fia01" posX="19" posY="1" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="1" table_alias_name="" widget="ButtonEdit"/>
+          <Label posX="1" posY="2" text="设备类型"/>
+          <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fia05" columnCount="" fieldId="1" gridHeight="1" gridWidth="20" items="" name="tc_fia05" posX="19" posY="2" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="6" table_alias_name="" widget="ComboBox"/>
+          <Label posX="1" posY="3" text="维保类型"/>
+          <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fia09" columnCount="" fieldId="2" gridHeight="1" gridWidth="20" items="" name="tc_fia09" posX="19" posY="3" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="2" table_alias_name="" widget="ComboBox"/>
+          <Label posX="1" posY="4" text="申请人"/>
+          <ButtonEdit action="controlp" aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fiauser" columnCount="" fieldId="3" gridHeight="1" gridWidth="20" image="zoom" name="tc_fiauser" posX="19" posY="4" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="5" table_alias_name="" widget="ButtonEdit"/>
+          <Label posX="1" posY="5" text="本期维保日"/>
+          <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fia12" columnCount="" fieldId="4" gridHeight="1" gridWidth="14" name="tc_fia12" posX="19" posY="5" rowCount="" sqlTabName="formonly" sqlType="DATE" stepX="" stepY="" tabIndex="4" table_alias_name="" widget="DateEdit"/>
+          <Label posX="1" posY="6" text="维保周期"/>
+          <SpinEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fia10" columnCount="" fieldId="5" gridHeight="1" gridWidth="10" name="tc_fia10" posX="19" posY="6" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" step="1" stepX="" stepY="" tabIndex="7" table_alias_name="" widget="SpinEdit"/>
+          <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fia10" columnCount="" fieldId="6" gridHeight="1" gridWidth="10" items="天, 周, 月, 年" name="tc_fia11" posX="19" posY="7" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="10" table_alias_name="" widget="ComboBox">
+            <Item lstrtext="false" name="1" text="天"/>
+            <Item lstrtext="false" name="2" text="周"/>
+            <Item lstrtext="false" name="3" text="月"/>
+            <Item lstrtext="false" name="4" text="年"/>
+          </ComboBox>
+          <Label posX="1" posY="8" text="下期维保日"/>
+          <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tc_fia13" columnCount="" fieldId="7" gridHeight="1" gridWidth="14" name="tc_fia13" posX="19" posY="8" rowCount="" sqlTabName="formonly" sqlType="DATE" stepX="" stepY="" tabIndex="8" table_alias_name="" widget="DateEdit"/>
+        </Group>
+      </Grid>
+      <Grid gridHeight="22" gridWidth="73" name="gr1" posX="0" posY="11">
+        <Group gridHeight="3" gridWidth="72" lstrtext="true" name="group02" posX="1" posY="19" text="INPUT">
+          <Label posX="1" posY="1" text="距离维保天数"/>
+          <SpinEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="to_next" columnCount="" fieldId="8" gridHeight="1" gridWidth="20" name="to_next" posX="23" posY="1" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" step="1" stepX="" stepY="" tabIndex="9" table_alias_name="" widget="SpinEdit"/>
+        </Group>
+      </Grid>
+      <Grid gridHeight="2" gridWidth="73" name="gr5031" posX="0" posY="33">
+        <CheckBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="more" columnCount="" fieldId="9" gridHeight="1" gridWidth="70" lstrtitle="true" name="more" notNull="true" posX="1" posY="0" required="true" rowCount="" sqlTabName="formonly" sqlType="VARCHAR" stepX="" stepY="" tabIndex="3" table_alias_name="" text="Other codition to print" valueChecked="Y" valueUnchecked="N" widget="CheckBox"/>
+      </Grid>
+    </VBox>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA4ADYANgBiADgAZQA5AGMALQAwADAAMAAwAC0ANAAwADAAMAAtADgANQA5AGUALQA2ADIANABhADkAMgA4AGUAMgA0AGEANwB9QCAAAAgAAAFAUDMzO0zMzgAAAAAAAAAAAQAAAEwAewAwADMANQBkAGUAZQAwAGQALQAwADAAMAAwAC0ANAAwADAAMAAtADgAOQA0ADQALQAxADcAOABiADIAOQBhADYAZQAzADQAMgB9QCAAAAgAAAFAYOZmbtmZmwAAAAAAAAAAAQAAAEwAewA5ADYAMgA5AGEAMAA4ADMALQAzADYAMwBhAC0ANABiAGUAZQAtADkANAA2ADMALQBjAGUANABiAGUAOQAzAGMANQA2ADcANwB9QCAAAAQAAABAPZmZoQAAAD9ok3S8an76AQAAAEwAewBiADMAZABhADQANgBjADAALQAwADAAMAAwAC0ANAAwADAAMAAtAGIAMQBiADcALQBiADUAMABiADcAYwA2ADIANQBhADgAZgB9QCAAAAgAAAFAPZmZqGZmaAAAAAAAAAAAAQAAAEwAewAzADMANQBiADEAZAA3ADYALQAwADAAMAAwAC0ANAAwADAAMAAtADgAZAA0ADUALQA3ADgAMQAzADQAYgBjAGQAZQBmADkAZgB9QCAAAAgAAAFAZUzM13MzNQAAAAAAAAAAAQAAAEwAewAzADQAOQBjADkAMQA3ADkALQA4ADUAZQBkAC0ANAA4ADgAMwAtAGEAOQAxADQALQBlADcAOQA0ADgAMQAxADMAMABlADcAZgB9QGQAAAUAAABAFmZmbAAAAD9gYk3S8an8AQAAAEwAewA5ADAAMQA3ADYAYQA5ADMALQAwADAAMAAwAC0ANAAwADAAMAAtADgAMAA2AGQALQA1AGEAZQAxAGIAZgA5AGMAOAA2AGQAMwB9QCAAAAgAAAFAWQAADIAAAgAAAAAAAAAAAQAAAEwAewBlADcAZAA4ADcAMwBkADEALQAwADAAMAAwAC0ANAAwADAAMAAtADkANABiADYALQBiADkAYgA2ADYAMQBiADEANgBjADEAMgB9QCAAAAgAAAFAXWZmdRmZmwAAAAAAAAAAAQAAAEwAewBhADkAZgA3AGEAOQBiADUALQAwADAAMAAwAC0ANAAwADAAMAAtADgAZAA0AGYALQBjAGQANQBkADAANQA2ADMAMQBkAGMAYgB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEwAewBhAGIAYgA2ADQAOQA0ADUALQAwADAAMAAwAC0ANAAwADAAMAAtAGEAZgBhADYALQBhADkANwA5ADcAYgA4ADYANgBhADcANgB9QCAAAAgAAAFAVJmZo+ZmaAAAAAAAAAAAAQAAAEwAewA1ADIAYwBmADMAYwA3ADIALQAwADAAMAAwAC0ANAAwADAAMAAtADgAOQA0AGEALQAyADMAYwAyAGYAOABkADMAZABlAGUAMwB9QCAAAAgAAAFAYxmZoyZmaAAAAAAAAAAAAQAAAEwAewA4ADcAZQA4AGIAOQAwADkALQAwADAAMAAwAC0ANAAwADAAMAAtAGEANQA4AGMALQAyAGIAZgBhAGIAZgBjAGUAMQAzAGMAZQB9QCAAAAgAAAFAR5mZpWZmaAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

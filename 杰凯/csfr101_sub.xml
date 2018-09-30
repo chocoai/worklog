@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="BIG5" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="csfr101_sub">
+            <xs:complexType>
+              <xs:sequence>
+                  <xs:element name="oea01" type="xs:string" minOccurs="0" />
+                  <xs:element name="muima01" type="xs:string" minOccurs="0" />
+		  <xs:element name="lt1ima01" type="xs:string" minOccurs="0" />
+		  <xs:element name="lt2ima01" type="xs:string" minOccurs="0" />
+                  <xs:element name="yanse" type="xs:string" minOccurs="0" />
+                  <xs:element name="cd" type="xs:string" minOccurs="0" />
+                  <xs:element name="cddw" type="xs:string" minOccurs="0" />
+		  <xs:element name="oeb12" type="xs:string" minOccurs="0" />
+		  <xs:element name="other" type="xs:string" minOccurs="0" /> 
+                  <xs:element name="sfb08" type="xs:string" minOccurs="0" />
+		  <xs:element name="buf1" type="xs:string" minOccurs="0" />
+		  <xs:element name="rownum1" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="dbcd" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="sfbud07" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="sfbud06" type="xs:string" minOccurs="0" />
+		  <xs:element name="oeb11" type="xs:string" minOccurs="0" />
+                  <xs:element name="yanse2" type="xs:string" minOccurs="0" />
+                  <xs:element name="yanse3" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+           </xs:complexType>
+         </xs:element>
+       </xs:choice>
+     </xs:complexType>
+   </xs:element>
+ </xs:schema>
+</NewDataSet>

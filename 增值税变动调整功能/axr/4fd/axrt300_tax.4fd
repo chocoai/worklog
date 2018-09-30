@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="ds" gstVersion="22800" name="Root" uid="{a02eb079-0000-4000-8dba-a48882de0ae1}">
+  <AGSettings/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{dbe188e3-0000-4000-80df-8f793cc428ae}" where="">
+    <RecordField colName="" fieldIdRef="2" fieldType="NON_DATABASE" name="taxcode" sqlTabName="" sqlType="VARCHAR" table_alias_name="" uid="{ff11d3c7-8897-4a13-9337-a181303a1480}"/>
+    <RecordField colName="" fieldIdRef="3" name="taxname" sqlTabName="" sqlType="VARCHAR" table_alias_name="" uid="{f00204c7-b528-4afd-8275-b33886456f4b}"/>
+    <RecordField colName="" fieldIdRef="4" fieldType="NON_DATABASE" name="taxrate" precisionDecimal="9" scaleDecimal="4" sqlTabName="" sqlType="DECIMAL" table_alias_name="" uid="{a867755f-55c0-4b84-9aae-6f9d894254b9}"/>
+    <RecordField colName="" fieldIdRef="5" fieldType="NON_DATABASE" name="oma213" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{f74e0423-d181-4660-98ce-07fae655986a}"/>
+    <RecordField colName="oma21" fieldIdRef="6" fieldType="TABLE_COLUMN" name="oma_file.oma21" sqlTabName="oma_file" sqlType="VARCHAR" table_alias_name="" uid="{6e44b916-364b-4385-a5da-27c1c7953c5d}"/>
+    <RecordField colName="" fieldIdRef="8" name="taxname2" sqlTabName="" sqlType="VARCHAR" table_alias_name="" uid="{e296c34a-1ff8-41e3-8cde-19b46dd3a358}"/>
+    <RecordField colName="" fieldIdRef="9" fieldType="NON_DATABASE" name="taxrate2" precisionDecimal="9" scaleDecimal="4" sqlTabName="" sqlType="DECIMAL" table_alias_name="" uid="{60675407-0a47-4c98-962a-f904f5eb777d}"/>
+    <RecordField colName="gec07" fieldIdRef="10" fieldType="NON_DATABASE" name="gec07" precisionDecimal="9" scaleDecimal="4" sqlTabName="gec_file" sqlType="CHAR" table_alias_name="" uid="{54b42283-eef2-4ca5-852c-229529590c62}"/>
+    <RecordField colName="" fieldIdRef="1" name="chtype" sqlTabName="" table_alias_name="" uid="{39d3cd73-b463-4ed0-b14c-8b784d1e4ec6}"/>
+  </Record>
+  <Form gridHeight="20" gridWidth="98" name="" spacing="normal" text="">
+    <VBox gridHeight="18" gridWidth="92" name="VBox1" posX="1" posY="0">
+      <Grid gridHeight="16" gridWidth="92" lstrcomment="false" name="gr27" posX="0" posY="1">
+        <Group gridHeight="3" gridWidth="85" name="group1" posX="1" posY="1" text="Original Document">
+          <Label posX="1" posY="1" text="Tax Code"/>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="2" fieldType="NON_DATABASE" gridHeight="1" gridWidth="15" name="taxcode" noEntry="true" posX="11" posY="1" rowCount="" sqlTabName="" sqlType="VARCHAR" stepX="" stepY="" tabIndex="1" table_alias_name="" title="Edit1" widget="Edit"/>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="3" gridHeight="1" gridWidth="15" name="taxname" noEntry="true" posX="27" posY="1" rowCount="" sqlTabName="" sqlType="VARCHAR" stepX="" stepY="" tabIndex="1" table_alias_name="" title="Edit1" widget="Edit"/>
+          <Label posX="46" posY="1" text="Tax Rate"/>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="4" fieldType="NON_DATABASE" gridHeight="1" gridWidth="10" name="taxrate" noEntry="true" posX="56" posY="1" precisionDecimal="9" rowCount="" scaleDecimal="4" sqlTabName="" sqlType="DECIMAL" stepX="" stepY="" tabIndex="1" table_alias_name="" title="Edit1" widget="Edit"/>
+          <CheckBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="5" fieldType="NON_DATABASE" gridHeight="1" gridWidth="10" name="oma213" noEntry="true" notNull="false" posX="70" posY="1" required="false" rowCount="" sqlTabName="" sqlType="CHAR" stepX="" stepY="" tabIndex="1" table_alias_name="" text="With Tax" title="CheckBox1" valueChecked="Y" valueUnchecked="N" widget="CheckBox"/>
+        </Group>
+        <Group gridHeight="3" gridWidth="85" name="group2" posX="1" posY="5" text="After Change">
+          <Label posX="1" posY="1" text="Tax Code"/>
+          <ButtonEdit action="CONTROLP" aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="oma21" columnCount="" fieldId="6" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="13" image="zoom" name="oma_file.oma21" noEntry="false" posX="11" posY="1" required="true" rowCount="" sqlTabName="oma_file" sqlType="VARCHAR" stepX="" stepY="" tabIndex="1" table_alias_name="" title="Edit1" widget="ButtonEdit"/>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="8" gridHeight="1" gridWidth="15" name="taxname2" noEntry="true" posX="27" posY="1" rowCount="" sqlTabName="" sqlType="VARCHAR" stepX="" stepY="" tabIndex="1" table_alias_name="" title="Edit1" widget="Edit"/>
+          <Label posX="46" posY="1" text="Tax Rate"/>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="9" fieldType="NON_DATABASE" gridHeight="1" gridWidth="10" name="taxrate2" noEntry="true" posX="56" posY="1" precisionDecimal="9" rowCount="" scaleDecimal="4" sqlTabName="" sqlType="DECIMAL" stepX="" stepY="" tabIndex="2" table_alias_name="" title="Edit1" widget="Edit"/>
+          <CheckBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="gec07" columnCount="" fieldId="10" fieldType="NON_DATABASE" gridHeight="1" gridWidth="10" name="gec07" noEntry="true" notNull="false" posX="70" posY="1" required="false" rowCount="" sqlTabName="gec_file" sqlType="CHAR" stepX="" stepY="" tabIndex="3" table_alias_name="" text="With Tax" title="CheckBox1" valueChecked="Y" valueUnchecked="N" widget="CheckBox"/>
+        </Group>
+        <Group gridHeight="5" gridWidth="45" name="group3" posX="1" posY="9" text="Re-calculate Option">
+          <RadioGroup aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="1" gridHeight="3" gridWidth="24" items="By Taxes Included, By Excluding Tax" name="chtype" notNull="true" posX="3" posY="1" required="true" rowCount="" sqlTabName="" stepX="" stepY="" tabIndex="4" table_alias_name="" title="RadioGroup1" widget="RadioGroup">
+            <Item lstrtext="false" name="1" text="By Taxes Included"/>
+            <Item lstrtext="false" name="2" text="By Excluding Tax"/>
+          </RadioGroup>
+        </Group>
+      </Grid>
+    </VBox>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBmAGYAMQAxAGQAMwBjADcALQA4ADgAOQA3AC0ANABhADEAMwAtADkAMwAzADcALQBhADEAOAAxADMAMAAzAGEAMQA0ADgAMAB9QCQAAAAAAABAQoAAAAAAAAAAAAAAAAAAAQAAAEwAewA1ADQAYgA0ADIAMgA4ADMALQBlAGUAZgAyAC0ANABjAGEANQAtADgANQAyAGMALQAyADIAOQA1ADIAOQA1ADkAMABjADYAMgB9QCQAAAAAAABAZ+AAAAAAAAAAAAAAAAAAAQAAAEwAewBmADAAMAAyADAANABjADcALQBiADUAMgA4AC0ANABhAGYAZAAtADgAMgA3ADUALQBiADMAMwA4ADgANgA0ADUANgBmADQAYgB9QCQAAAAAAABATYAAAAAAAAAAAAAAAAAAAQAAAEwAewBkAGIAZQAxADgAOABlADMALQAwADAAMAAwAC0ANAAwADAAMAAtADgAMABkAGYALQA4AGYANwA5ADMAYwBjADQAMgA4AGEAZQB9QAgAAAAAAAA/8AAAAAAAAD94k3S8an76AQAAAEwAewA2ADAANgA3ADUANAAwADcALQAwAGEANAA3AC0ANABjADkAOAAtADkANgAyAGEALQBmADkAMAA0AGYANQBlAGIANwA3ADcAZAB9QCQAAAAAAABAZSAAAAAAAAAAAAAAAAAAAQAAAEwAewAzADkAZAAzAGMAZAA3ADMALQBiADQANgAzAC0ANABlAGQAMAAtAGIAMQA0AGMALQA4AGIANwA4ADQAZAAxAGUANABlAGMANgB9QCQAAAAAAABAaqAAAAAAAAAAAAAAAAAAAQAAAEwAewA2AGUANAA0AGIAOQAxADYALQAzADYANABiAC0ANAAzADgANQAtAGEANQBkAGEALQAyADcAYwAxAGMANwA5ADUAMwBjADUAZAB9QCQAAAAAAABAX0AAAAAAAAAAAAAAAAAAAQAAAEwAewBmADcANABlADAANAAyADMALQBkADEAOAAxAC0ANAA2ADYAMAAtADkAOABjAGUALQAwADcAZgBhAGUANgA1ADUAOQA4ADYAYQB9QCQAAAAAAABAWcAAAAAAAAAAAAAAAAAAAQAAAEwAewBhADgANgA3ADcANQA1AGYALQA1ADUAYwAwAC0ANABiADgANAAtADkAYQBhAGUALQA2AGYAOQBkADgAOQA0ADIANQA0AGIAOQB9QCQAAAAAAABAVEAAAAAAAAAAAAAAAAAAAQAAAEwAewBlADIAOQA2AGMAMwA0AGEALQAxAGYAZgA4AC0ANAAxAGUAMwAtADgAYwBkAGUALQAxADkAYgA0ADYAZABkADMAYQAzADUAOAB9QCQAAAAAAABAYmAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

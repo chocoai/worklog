@@ -1,0 +1,203 @@
+#--------------------------- (2018-03-22 08:30:17) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR04' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='4911627142925100' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='3' />
+       <Field name='Message' value='执行成功' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <Execution>    <Status code="0" description=""/>  </Execution>  <ResponseContent>  <Parameter>    <Record>      <Field name="jobID" value="4911627142925100"/>    </Record>  </Parameter>  </ResponseContent></Response>
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-03-22 11:23:18) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='4921996102972100' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='4' />
+       <Field name='Message' value='执行失败，5121-105000014:无此用户代码:无此用户代码' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <ExecutionCode>100</ExecutionCode>  <Message>Session Expired</Message></Response>
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-03-22 13:49:24) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='4930757004853400' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='4' />
+       <Field name='Message' value='执行失败，7110-090030002:无此用户代码:无此用户代码' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <ExecutionCode>100</ExecutionCode>  <Message>Session Expired</Message></Response>
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-03-22 13:49:55) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='4930776915780300' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='4' />
+       <Field name='Message' value='执行失败，7110-002004001:无此用户代码:无此用户代码' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <ExecutionCode>100</ExecutionCode>  <Message>Session Expired</Message></Response>
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-03-22 16:50:22) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='4941608461137300' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='4' />
+       <Field name='Message' value='执行失败，3141-000000002:无此用户代码:无此用户代码' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <ExecutionCode>100</ExecutionCode>  <Message>Session Expired</Message></Response>
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-03-22 16:50:27) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='4941616352704800' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='4' />
+       <Field name='Message' value='执行失败，7140-100062003:无此用户代码:无此用户代码' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <ExecutionCode>100</ExecutionCode>  <Message>Session Expired</Message></Response>
+
+#------------------------------------------------------------------------------#
+
+
+#--------------------------- (2018-03-22 16:50:32) ----------------------------#
+
+Program: aws_process
+Request XML:
+<Request>
+  <Access>
+    <Authentication user='PLM' password='PLM' />
+    <Connection application='TIPTOP' source='192.168.135.17' />
+    <COMPANY name='KERR' />
+    <Locale language='zh_CN' />
+  </Access>
+<RequestContent>
+  <Parameter>
+    <Master name = 'UpdateJob'>
+       <Field name='JobID' value='4941616363482200' />
+       <Field name='UserId' value='tiptop' />
+       <Field name='JobStatus' value='4' />
+       <Field name='Message' value='执行失败，7140-100062004:无此用户代码:无此用户代码' />
+    </Master>
+  </Parameter>
+</RequestContent>
+</Request>
+
+Response XML:
+<Response>  <ExecutionCode>100</ExecutionCode>  <Message>Session Expired</Message></Response>
+
+#------------------------------------------------------------------------------#
+
+

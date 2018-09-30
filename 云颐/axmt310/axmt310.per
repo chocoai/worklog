@@ -1,0 +1,286 @@
+---------------------------------------------------------------------------------- 
+-- File created from /u1/toptest/tiptop/axm/4fd/axmt310.4fd by Genero Studio
+-- WARNING! All changes made in this file will be lost!
+----------------------------------------------------------------------------------
+
+SCHEMA ds
+
+LAYOUT (spacing=normal, text=%"axmt310")
+VBox VBox2
+Folder Folder1
+Page page1(action=main, text=%"page1")
+VBox VBox1
+Folder folder01
+Page page01(text="Main")
+HBox HBox1
+Grid gr2485
+{
+ Estimate No.       [oqa01                 ]
+ Date               [oqa02       ]
+ Product No.        [oqa03                 ]
+ Alternate          [oqa18                 ]
+ P/N Name           [oqa031                     ]
+ Specification      [oqa032                     ]
+ Description        [oqa04                      ]
+                    [oqa041                     ]
+[l_oqa042 ]         [oqa042                     ]
+
+
+
+}
+END -- gr2485
+Grid gr2486
+{
+ Customer No                 [oqa06       ]
+ Customer Name               [occ02       ]
+ Salesman                    [oqa07       ]
+ Salesman Name               [gen02       ]
+ Department No.              [oqa05       ]
+ Depparment Name             [gem02       ]
+
+[label1   |oqaud01   |label14  |oqaud03   ]
+
+[label2   |oqaud02   |label15  |oqaud04   ]
+
+
+}
+END -- gr2486
+Grid gr2487
+{
+ Qty                     [oqa10       ]
+ Ref Init Begin Date     [oqa11       ]
+ Ref Init End Date       [oqa12       ][imgmksg]
+ Confirmation Code       [oqaconf     ][       ]
+
+[label3          ]       [oqaud05     ]
+[label5          ]       [oqaud06     ]
+[label4          ]       [oqaud07     ]
+
+[label16         ]       [ta_oqa02    ]
+
+
+}
+END -- gr2487
+Grid gr2490
+{
+[label13  ]        [oqaud08                 ]
+[label12  ]        [oqaud09                 ]
+
+
+[label6   ]        [oqaud10       ][p_oqaud1]
+[label7   ]        [oqaud11       ][p_oqaud2]
+[label8   ]        [oqaud12       ][p_oqaud3]
+[label9   ]        [oqaud13       ][p_oqaud4]
+[label10  ]        [oqaud14       ][p_oqaud5]
+[label17  ]        [ta_oqa01      ][p_ta_oqa]
+[label11  ]        [oqaud15       ][p_oqaud6]
+
+}
+END -- gr2490
+END -- HBox1
+END -- page01
+Page info(text="Info")
+Grid gr2488
+{
+ Record Owner        [oqauser   ] Last Modified by    [oqamodu   ] Data Valid Code     [oqaacti   ]
+ Department          [oqagrup   ] Create/Modify Date  [oqadate     ]
+ Record Orig.        [oqaoriu   ]
+ Dept Orig.          [oqaorig   ]
+
+
+}
+END -- gr2488
+END -- info
+Page userdefined_field(text="User Defined Field")
+Grid gru47
+{
+ Estimate Currency       [oqa08       ]
+ Exchange Rate           [oqa09               ]
+
+
+
+
+
+
+}
+END -- gru47
+END -- userdefined_field
+END -- folder01
+Table s_oqb
+{
+[oqb02    |oqbud01   |oqb03                |oqb031                        |oqb032                         |oqb04|oqbud07    |oqb05     |oqb06            |oqb07    |oqb08               |oqb09               |oqb10               |oqb11               |oqb12    |oqb13               |oqbud02              |oqbud03    |oqbud04    |oqbud05    |oqbud06    |oqbud08    |oqbud09    |oqbud10    |oqbud11   |oqbud12  |oqbud13   |oqbud14   |oqbud15     ]
+[oqb02    |oqbud01   |oqb03                |oqb031                        |oqb032                         |oqb04|oqbud07    |oqb05     |oqb06            |oqb07    |oqb08               |oqb09               |oqb10               |oqb11               |oqb12    |oqb13               |oqbud02              |oqbud03    |oqbud04    |oqbud05    |oqbud06    |oqbud08    |oqbud09    |oqbud10    |oqbud11   |oqbud12  |oqbud13   |oqbud14   |oqbud15     ]
+[oqb02    |oqbud01   |oqb03                |oqb031                        |oqb032                         |oqb04|oqbud07    |oqb05     |oqb06            |oqb07    |oqb08               |oqb09               |oqb10               |oqb11               |oqb12    |oqb13               |oqbud02              |oqbud03    |oqbud04    |oqbud05    |oqbud06    |oqbud08    |oqbud09    |oqbud10    |oqbud11   |oqbud12  |oqbud13   |oqbud14   |oqbud15     ]
+[oqb02    |oqbud01   |oqb03                |oqb031                        |oqb032                         |oqb04|oqbud07    |oqb05     |oqb06            |oqb07    |oqb08               |oqb09               |oqb10               |oqb11               |oqb12    |oqb13               |oqbud02              |oqbud03    |oqbud04    |oqbud05    |oqbud06    |oqbud08    |oqbud09    |oqbud10    |oqbud11   |oqbud12  |oqbud13   |oqbud14   |oqbud15     ]
+[oqb02    |oqbud01   |oqb03                |oqb031                        |oqb032                         |oqb04|oqbud07    |oqb05     |oqb06            |oqb07    |oqb08               |oqb09               |oqb10               |oqb11               |oqb12    |oqb13               |oqbud02              |oqbud03    |oqbud04    |oqbud05    |oqbud06    |oqbud08    |oqbud09    |oqbud10    |oqbud11   |oqbud12  |oqbud13   |oqbud14   |oqbud15     ]
+[oqb02    |oqbud01   |oqb03                |oqb031                        |oqb032                         |oqb04|oqbud07    |oqb05     |oqb06            |oqb07    |oqb08               |oqb09               |oqb10               |oqb11               |oqb12    |oqb13               |oqbud02              |oqbud03    |oqbud04    |oqbud05    |oqbud06    |oqbud08    |oqbud09    |oqbud10    |oqbud11   |oqbud12  |oqbud13   |oqbud14   |oqbud15     ]
+[oqb02    |oqbud01   |oqb03                |oqb031                        |oqb032                         |oqb04|oqbud07    |oqb05     |oqb06            |oqb07    |oqb08               |oqb09               |oqb10               |oqb11               |oqb12    |oqb13               |oqbud02              |oqbud03    |oqbud04    |oqbud05    |oqbud06    |oqbud08    |oqbud09    |oqbud10    |oqbud11   |oqbud12  |oqbud13   |oqbud14   |oqbud15     ]
+[oqb02    |oqbud01   |oqb03                |oqb031                        |oqb032                         |oqb04|oqbud07    |oqb05     |oqb06            |oqb07    |oqb08               |oqb09               |oqb10               |oqb11               |oqb12    |oqb13               |oqbud02              |oqbud03    |oqbud04    |oqbud05    |oqbud06    |oqbud08    |oqbud09    |oqbud10    |oqbud11   |oqbud12  |oqbud13   |oqbud14   |oqbud15     ]
+[oqb02    |oqbud01   |oqb03                |oqb031                        |oqb032                         |oqb04|oqbud07    |oqb05     |oqb06            |oqb07    |oqb08               |oqb09               |oqb10               |oqb11               |oqb12    |oqb13               |oqbud02              |oqbud03    |oqbud04    |oqbud05    |oqbud06    |oqbud08    |oqbud09    |oqbud10    |oqbud11   |oqbud12  |oqbud13   |oqbud14   |oqbud15     ]
+[oqb02    |oqbud01   |oqb03                |oqb031                        |oqb032                         |oqb04|oqbud07    |oqb05     |oqb06            |oqb07    |oqb08               |oqb09               |oqb10               |oqb11               |oqb12    |oqb13               |oqbud02              |oqbud03    |oqbud04    |oqbud05    |oqbud06    |oqbud08    |oqbud09    |oqbud10    |oqbud11   |oqbud12  |oqbud13   |oqbud14   |oqbud15     ]
+
+}
+END -- s_oqb
+Grid gr2489
+{
+                 Material Amount  [oqa13               ]                 Labor Amount  [oqa14               ]
+                 Overhead Amount  [oqa15               ]                 Othr Expense  [oqa16               ]        = Estimate Amount  [oqa17               ]
+ ---------- Rows [cnt   ]/[cn2   ] ----------
+
+}
+END -- gr2489
+END -- VBox1
+END -- page1
+Page page2(action=info_list, text=%"page2")
+HBox HBox2
+Table s_oqa_1
+{
+[oqa01_1       |oqa02_1   |oqa03_1                       |oqa031_1                      |oqa032_1                      |oqa05_1   |gem02_1 |oqa06_1   |occ02_1 |oqa07_1   |gen02_1 |oqa0|oqa09_1               |oqa10_1          |oqa11_1   |oqa12_1   |o]
+[oqa01_1       |oqa02_1   |oqa03_1                       |oqa031_1                      |oqa032_1                      |oqa05_1   |gem02_1 |oqa06_1   |occ02_1 |oqa07_1   |gen02_1 |oqa0|oqa09_1               |oqa10_1          |oqa11_1   |oqa12_1   |o]
+[oqa01_1       |oqa02_1   |oqa03_1                       |oqa031_1                      |oqa032_1                      |oqa05_1   |gem02_1 |oqa06_1   |occ02_1 |oqa07_1   |gen02_1 |oqa0|oqa09_1               |oqa10_1          |oqa11_1   |oqa12_1   |o]
+[oqa01_1       |oqa02_1   |oqa03_1                       |oqa031_1                      |oqa032_1                      |oqa05_1   |gem02_1 |oqa06_1   |occ02_1 |oqa07_1   |gen02_1 |oqa0|oqa09_1               |oqa10_1          |oqa11_1   |oqa12_1   |o]
+[oqa01_1       |oqa02_1   |oqa03_1                       |oqa031_1                      |oqa032_1                      |oqa05_1   |gem02_1 |oqa06_1   |occ02_1 |oqa07_1   |gen02_1 |oqa0|oqa09_1               |oqa10_1          |oqa11_1   |oqa12_1   |o]
+}
+END -- s_oqa_1
+END -- HBox2
+END -- page2
+END -- Folder1
+END -- VBox2
+END -- axmt310
+
+TABLES
+oqb_file,
+oqa_file
+ATTRIBUTES
+ButtonEdit oqa01=oqa_file.oqa01, action=controlp, tabIndex=1, not null, required, image="zoom", upShift, comment="<^P>Qry Documents";
+DateEdit oqa02=oqa_file.oqa02, tabIndex=2, not null, required;
+ButtonEdit oqa03=oqa_file.oqa03, action=controlp, tabIndex=3, image="zoom", comment="<^P>Query Item  ";
+ButtonEdit oqa18=oqa_file.oqa18, action=controlp, tabIndex=4, image="zoom", comment="<^P>Query Item  ";
+Edit oqa031=oqa_file.oqa031, tabIndex=5;
+Edit oqa032=oqa_file.oqa032, tabIndex=6;
+Edit oqa04=oqa_file.oqa04, tabIndex=7;
+Edit oqa041=oqa_file.oqa041, tabIndex=8;
+Label l_oqa042:l_oqa042, text=%"l_oqaud02";
+Edit oqa042=oqa_file.oqa042, tabIndex=9;
+ButtonEdit oqa06=oqa_file.oqa06, action=controlp, tabIndex=10, not null, required, image="zoom", comment="<^P>Qry Customer";
+Edit occ02=formonly.occ02 type CHAR, tabIndex=11, noEntry;
+ButtonEdit oqa07=oqa_file.oqa07, action=controlp, tabIndex=12, not null, required, image="zoom", comment="<^P>Qry Employee";
+Edit gen02=formonly.gen02 type CHAR, tabIndex=13, noEntry;
+ButtonEdit oqa05=oqa_file.oqa05, action=controlp, tabIndex=14, not null, required, image="zoom", comment="<^P>Query Department";
+Edit gem02=formonly.gem02 type CHAR, tabIndex=15, noEntry;
+Label label1:Label1, text=%"l_oqaud01";
+Edit oqaud01=oqa_file.oqaud01, tabIndex=16;
+Label label14:Label14, text=%"l_oqaud03";
+ComboBox oqaud03=oqa_file.oqaud03, tabIndex=17;
+Label label2:Label2, text=%"l_oqaud02";
+Edit oqaud02=oqa_file.oqaud02, tabIndex=18;
+Label label15:Label15, text=%"l_oqaud04";
+Edit oqaud04=oqa_file.oqaud04, tabIndex=19;
+Edit oqa10=oqa_file.oqa10, tabIndex=20, not null, required;
+DateEdit oqa11=oqa_file.oqa11, tabIndex=21, not null, required;
+DateEdit oqa12=oqa_file.oqa12, tabIndex=22, not null, required;
+IMAGE imgmksg=formonly.imgmksg type CHAR, autoScale, width = 7 characters, height = 2 characters;
+ComboBox oqaconf=oqa_file.oqaconf, tabIndex=23, noEntry, not null, required, items=(("N", "Not Confirm"),("Y", "Confirmed"),("X", "Cancelled"));
+Label label3:Label3, text=%"l_oqaud05";
+Edit oqaud05=oqa_file.oqaud05, tabIndex=24;
+Label label5:Label5, text=%"l_oqaud06";
+Edit oqaud06=oqa_file.oqaud06, tabIndex=25;
+Label label4:Label4, text=%"l_oqaud07";
+Edit oqaud07=oqa_file.oqaud07, tabIndex=26;
+Label label16:Label16, text=%"Box price";
+Edit ta_oqa02=formonly.ta_oqa02 type VARCHAR, tabIndex=43;
+Label label13:Label13, text=%"l_oqaud08";
+Edit oqaud08=oqa_file.oqaud08, tabIndex=27;
+Label label12:Label12, text=%"l_oqaud09";
+Edit oqaud09=oqa_file.oqaud09, tabIndex=28;
+Label label6:Label6, text=%"l_oqaud10";
+Edit oqaud10=oqa_file.oqaud10, tabIndex=29;
+Edit p_oqaud1=formonly.p_oqaud10 type VARCHAR, tabIndex=36;
+Label label7:Label7, text=%"l_oqaud11";
+Edit oqaud11=oqa_file.oqaud11, tabIndex=30;
+Edit p_oqaud2=formonly.p_oqaud11 type VARCHAR, tabIndex=37;
+Label label8:Label8, text=%"l_oqaud12";
+Edit oqaud12=oqa_file.oqaud12, tabIndex=31;
+Edit p_oqaud3=formonly.p_oqaud12 type VARCHAR, tabIndex=38;
+Label label9:Label9, text=%"l_oqaud13";
+Edit oqaud13=oqa_file.oqaud13, tabIndex=32;
+Edit p_oqaud4=formonly.p_oqaud13 type VARCHAR, tabIndex=39;
+Label label10:Label10, text=%"l_oqaud14";
+Edit oqaud14=oqa_file.oqaud14, tabIndex=33;
+Edit p_oqaud5=formonly.p_oqaud14 type DATE, tabIndex=40;
+Label label17:Label17, text=%"l_oqaud15";
+Edit ta_oqa01=formonly.ta_oqa01 type DATE, tabIndex=34;
+Edit p_ta_oqa=formonly.p_ta_oqa01 type DATE, tabIndex=41;
+Label label11:Label11, text=%"l_oqaud15";
+Edit oqaud15=oqa_file.oqaud15, tabIndex=35;
+Edit p_oqaud6=formonly.p_oqaud15 type DATE, tabIndex=42;
+Edit oqauser=oqa_file.oqauser, tabIndex=73, noEntry;
+Edit oqamodu=oqa_file.oqamodu, tabIndex=77, noEntry;
+Edit oqaacti=oqa_file.oqaacti, tabIndex=79, noEntry;
+Edit oqagrup=oqa_file.oqagrup, tabIndex=74, noEntry;
+DateEdit oqadate=oqa_file.oqadate, tabIndex=78, noEntry;
+Edit oqaoriu=oqa_file.oqaoriu, tabIndex=76, noEntry;
+Edit oqaorig=oqa_file.oqaorig, tabIndex=75, noEntry;
+ButtonEdit oqa08=oqa_file.oqa08, action=controlp, tabIndex=80, not null, required, image="zoom", comment="<^P>Qry Currency";
+ButtonEdit oqa09=oqa_file.oqa09, action=controlp, tabIndex=81, not null, required, image="zoom";
+Edit oqb02=oqb_file.oqb02, tabIndex=44, title="Line No.", not null, required, comment="<^Y>Enter Line# Memo";
+ComboBox oqbud01=oqb_file.oqbud01, tabIndex=45, default = "1", title="oqbud01", items=(("1", "oqbud01_1"),("2", "oqbud01_2"),("3", "oqbud01_3"),("4", "oqbud01_4"),("5", "oqbud01_5"),("6", "oqbud01_6"),("7", "oqbud01_7"));
+ButtonEdit oqb03=oqb_file.oqb03, action=controlp, tabIndex=46, title="Item No.", not null, required, image="zoom", comment="<^P>Query Item  ";
+Edit oqb031=oqb_file.oqb031, tabIndex=47, title="Part Name", noEntry;
+Edit oqb032=oqb_file.oqb032, tabIndex=48, title="Specification", noEntry;
+ButtonEdit oqb04=oqb_file.oqb04, action=controlp, tabIndex=49, title="Unit", not null, required, image="zoom", comment="<^P>Qry Unit    ";
+Edit oqbud07=oqb_file.oqbud07, tabIndex=50, title="oqbud07", not null, required;
+Edit oqb05=oqb_file.oqb05, tabIndex=51, title="Qty";
+CheckBox oqb06=oqb_file.oqb06, tabIndex=52, title="Material by Cust", not null, required, valueChecked = "Y", valueUnchecked = "N";
+ButtonEdit oqb07=oqb_file.oqb07, action=controlp, tabIndex=53, title="Ori.Curr", not null, required, image="zoom", upShift, comment="<^P>Qry Currency";
+Edit oqb08=oqb_file.oqb08, tabIndex=54, title="Exchg Rate", not null, required;
+Edit oqb09=oqb_file.oqb09, tabIndex=55, title="Ori.Curr", not null, required;
+Edit oqb10=oqb_file.oqb10, tabIndex=56, title="Unit Prc", not null, required;
+Edit oqb11=oqb_file.oqb11, tabIndex=57, title="Est.U/P", not null, required;
+Edit oqb12=oqb_file.oqb12, tabIndex=58, title="Esti.Amt", noEntry;
+DateEdit oqb13=oqb_file.oqb13, tabIndex=59, title="Reference Document Reference Date", noEntry;
+Edit oqbud02=oqb_file.oqbud02, tabIndex=60, title="oqbud02";
+Edit oqbud03=oqb_file.oqbud03, tabIndex=61, title="oqbud03";
+Edit oqbud04=oqb_file.oqbud04, tabIndex=62, title="oqbud04";
+Edit oqbud05=oqb_file.oqbud05, tabIndex=63, title="oqbud05";
+Edit oqbud06=oqb_file.oqbud06, tabIndex=64, title="oqbud06";
+Edit oqbud08=oqb_file.oqbud08, tabIndex=65, title="oqbud08";
+Edit oqbud09=oqb_file.oqbud09, tabIndex=66, title="oqbud09";
+Edit oqbud10=oqb_file.oqbud10, tabIndex=67, title="oqbud10";
+Edit oqbud11=oqb_file.oqbud11, tabIndex=68, title="oqbud11";
+Edit oqbud12=oqb_file.oqbud12, tabIndex=69, title="oqbud12";
+Edit oqbud13=oqb_file.oqbud13, tabIndex=70, title="oqbud13";
+Edit oqbud14=oqb_file.oqbud14, tabIndex=71, title="oqbud14";
+Edit oqbud15=oqb_file.oqbud15, tabIndex=72, title="oqbud15";
+Edit oqa13=oqa_file.oqa13, tabIndex=99, noEntry;
+Edit oqa14=oqa_file.oqa14, tabIndex=101, noEntry;
+Edit oqa15=oqa_file.oqa15, tabIndex=100, noEntry;
+Edit oqa16=oqa_file.oqa16, tabIndex=102, noEntry;
+Edit oqa17=oqa_file.oqa17, tabIndex=103, noEntry;
+Edit cnt=formonly.cnt type SMALLINT, tabIndex=104, noEntry;
+Edit cn2=formonly.cn2 type SMALLINT, tabIndex=105, noEntry;
+ButtonEdit oqa01_1=formonly.oqa01_1 type VARCHAR, action=controlp, tabIndex=82, title=%"oqa01", image="zoom";
+DateEdit oqa02_1=formonly.oqa02_1 type DATE, tabIndex=83, title=%"oqa02";
+ButtonEdit oqa03_1=formonly.oqa03_1 type VARCHAR, action=controlp, tabIndex=84, title=%"oqa03", image="zoom", scroll;
+Edit oqa031_1=formonly.oqa031_1 type VARCHAR, tabIndex=85, title=%"oqa031", scroll;
+Edit oqa032_1=formonly.oqa032_1 type VARCHAR, tabIndex=86, title=%"oqa032", scroll;
+ButtonEdit oqa05_1=formonly.oqa05_1 type VARCHAR, action=controlp, tabIndex=87, title=%"oqa05", image="zoom", scroll;
+Edit gem02_1=formonly.gem02_1 type VARCHAR, tabIndex=88, title=%"gem02";
+ButtonEdit oqa06_1=formonly.oqa06_1 type VARCHAR, action=controlp, tabIndex=89, title=%"oqa06", image="zoom", scroll;
+Edit occ02_1=formonly.occ02_1 type VARCHAR, tabIndex=90, title=%"occ02";
+ButtonEdit oqa07_1=formonly.oqa07_1 type VARCHAR, action=controlp, tabIndex=91, title=%"oqa07", image="zoom", scroll;
+Edit gen02_1=formonly.gen02_1 type VARCHAR, tabIndex=92, title=%"gen02";
+ButtonEdit oqa0=formonly.oqa08_1 type VARCHAR, action=controlp, tabIndex=93, title=%"oqa08", image="zoom", scroll;
+ButtonEdit oqa09_1=formonly.oqa09_1 type DECIMAL(20,10), action=controlp, tabIndex=94, title=%"oqa09", image="zoom", scroll;
+Edit oqa10_1=formonly.oqa10_1 type DECIMAL(15,3), tabIndex=95, title=%"oqa10", scroll;
+DateEdit oqa11_1=formonly.oqa11_1 type DATE, tabIndex=96, title=%"oqa11";
+DateEdit oqa12_1=formonly.oqa12_1 type DATE, tabIndex=97, title=%"oqa12";
+ComboBox o=formonly.oqaconf_1 type VARCHAR, tabIndex=98, title=%"oqaconf", scroll, items=(("N", "Text"),("Y", "Text"),("X", "Text"));
+END -- ATTRIBUTES
+
+INSTRUCTIONS
+SCREEN RECORD s_oqb(oqb_file.oqb02,oqb_file.oqb03,oqb_file.oqb031,oqb_file.oqb032,oqb_file.oqb04,oqb_file.oqb05,oqb_file.oqb06,oqb_file.oqb07,oqb_file.oqb08,oqb_file.oqb09,oqb_file.oqb10,oqb_file.oqb11,oqb_file.oqb12,oqb_file.oqb13,oqb_file.oqbud01,oqb_file.oqbud02,oqb_file.oqbud03,oqb_file.oqbud04,oqb_file.oqbud05,oqb_file.oqbud06,oqb_file.oqbud07,oqb_file.oqbud08,oqb_file.oqbud09,oqb_file.oqbud10,oqb_file.oqbud11,oqb_file.oqbud12,oqb_file.oqbud13,oqb_file.oqbud14,oqb_file.oqbud15)
+SCREEN RECORD Undefined(oqa_file.oqa01,oqa_file.oqa02,oqa_file.oqa03,oqa_file.oqa18,oqa_file.oqa031,oqa_file.oqa032,oqa_file.oqa04,oqa_file.oqa041,oqa_file.oqa042,oqa_file.oqa06,formonly.occ02,oqa_file.oqa07,formonly.gen02,oqa_file.oqa05,formonly.gem02,oqa_file.oqa08,oqa_file.oqa09,oqa_file.oqa10,oqa_file.oqa11,oqa_file.oqa12,formonly.imgmksg,oqa_file.oqaconf,oqa_file.oqauser,oqa_file.oqamodu,oqa_file.oqaacti,oqa_file.oqagrup,oqa_file.oqadate,oqa_file.oqaoriu,oqa_file.oqaorig,oqa_file.oqa13,oqa_file.oqa14,oqa_file.oqa15,oqa_file.oqa16,oqa_file.oqa17,formonly.cnt,formonly.cn2,oqa_file.oqaud01,oqa_file.oqaud02,oqa_file.oqaud03,oqa_file.oqaud04,oqa_file.oqaud05,oqa_file.oqaud06,oqa_file.oqaud07,oqa_file.oqaud08,oqa_file.oqaud09,oqa_file.oqaud10,oqa_file.oqaud11,oqa_file.oqaud12,oqa_file.oqaud13,oqa_file.oqaud14,oqa_file.oqaud15,formonly.p_oqaud15,formonly.p_oqaud14,formonly.p_oqaud13,formonly.p_oqaud12,formonly.p_oqaud11,formonly.p_oqaud10,formonly.ta_oqa02,formonly.ta_oqa01,formonly.p_ta_oqa01)
+SCREEN RECORD s_oqa_1(formonly.oqa01_1,formonly.oqa02_1,formonly.oqa03_1,formonly.oqa031_1,formonly.oqa032_1,formonly.oqa05_1,formonly.gem02_1,formonly.oqa06_1,formonly.occ02_1,formonly.oqa07_1,formonly.gen02_1,formonly.oqa08_1,formonly.oqa09_1,formonly.oqa10_1,formonly.oqa11_1,formonly.oqa12_1,formonly.oqaconf_1)
+END -- INSTRUCTIONS
+

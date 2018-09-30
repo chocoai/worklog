@@ -1,0 +1,508 @@
+<?xml version='1.0' encoding='BIG5'?>
+<Form CHECKSUM="-1" database_name="ds" defaultspacing="true" fourSTFile="" gstVersion="11401" height="37" lstrtoallcomment="false" lstrtoallitem="false" lstrtoalltext="false" lstrtoalltitle="false" name="aemi100" percommentattribute="" percommentheader="" percommentinstruction="" percommentlayout="GRID&#13;&#10; GRID&#13;&#10; HBOX&#13;&#10; PAGE&#13;&#10; GRID&#13;&#10; GRID&#13;&#10; HBOX&#13;&#10; PAGE&#13;&#10; GRID&#13;&#10; PAGE&#13;&#10; GRID&#13;&#10; PAGE&#13;&#10; FOLDER&#13;&#10; TABLE&#13;&#10; GRID&#13;&#10; VBOX&#13;&#10; PAGE&#13;&#10; TABLE&#13;&#10; GRID&#13;&#10; VBOX&#13;&#10; PAGE&#13;&#10; TABLE&#13;&#10; GRID&#13;&#10; VBOX&#13;&#10; PAGE&#13;&#10; TABLE&#13;&#10; GRID&#13;&#10; VBOX&#13;&#10; PAGE&#13;&#10; FOLDER&#13;&#10; GRID&#13;&#10; VBOX&#13;&#10; LAYOUT&#13;&#10;" percommentschema="" posX="0" posY="0" spacing="normal" text="aemi100" width="294">
+  <VBox hidden="" posX="0" posY="0" style="" tag="">
+    <PageControl height="17" lstrcomment="false" name="folder01" posX="0" posY="0" width="291">
+      <Page fontPitch="default" hidden="--------" imagetype="Image as URL" lstrtext="false" name="page01" text="Main">
+        <HBox height="14" hidden="" posX="0" posY="0" style="" tag="" width="133">
+          <Grid fontPitch="default" height="14" hidden="--------" lstrcomment="false" name="grid01" posX="0" posY="0" scroll="false" width="66">
+            <Text gridWidth="10" height="1" lstrtext="false" name="text1" posX="1" posY="0" sizePolicy="initial" text="Device No." width="10"/>
+            <FormField colName="fia01" fieldId="0" fieldtype="TABLE_COLUMN" name="fia_file.fia01" sqlDBName="ds" sqlTabName="fia_file">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" comment="KEY Field,No Blank/Repeated" data_type="VARCHAR" fontPitch="default" formfieldname="formfield0" gridWidth="20" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia01" noEntry="--------" notNull="true" posX="32" posY="0" required="true" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="1" verify="--------" width="20" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="9" height="1" lstrtext="false" name="text2" posX="1" posY="1" sizePolicy="initial" text="Asset No." width="9"/>
+            <FormField colName="fia011" fieldId="1" fieldtype="TABLE_COLUMN" name="fia_file.fia011" sqlDBName="ds" sqlTabName="fia_file">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt; Qry Asset No." data_type="VARCHAR" fontPitch="default" formfieldname="formfield1" gridWidth="10" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia011" noEntry="--------" notNull="true" posX="32" posY="1" required="true" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="2" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <FormField colName="fia012" fieldId="2" fieldtype="TABLE_COLUMN" name="fia_file.fia012" sqlDBName="ds" sqlTabName="fia_file">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield2" gridWidth="20" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia012" noEntry="true" notNull="--------" posX="45" posY="1" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="3" verify="--------" width="20" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="4" height="1" lstrtext="false" name="text3" posX="1" posY="2" sizePolicy="initial" text="Name" width="4"/>
+            <FormField colName="fia02" fieldId="3" fieldtype="TABLE_COLUMN" name="fia_file.fia02" sqlDBName="ds" sqlTabName="fia_file">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield3" gridWidth="30" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia02" noEntry="--------" notNull="--------" posX="32" posY="2" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="4" verify="--------" width="30" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="13" height="1" lstrtext="false" name="text4" posX="1" posY="3" sizePolicy="initial" text="Classfication" width="13"/>
+            <FormField colName="fia03" fieldId="4" fieldtype="TABLE_COLUMN" name="fia_file.fia03" sqlDBName="ds" sqlTabName="fia_file">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Classification Data" data_type="VARCHAR" fontPitch="default" formfieldname="formfield4" gridWidth="10" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia03" noEntry="--------" notNull="true" posX="32" posY="3" required="true" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="5" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <FormField colName="fic02" fieldId="5" fieldtype="FORM_ONLY" name="formonly.fic02" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield5" gridWidth="20" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fic02" noEntry="true" notNull="--------" posX="45" posY="3" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="6" verify="--------" width="20" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="10" height="1" lstrtext="false" name="text5" posX="1" posY="4" sizePolicy="initial" text="Serial No." width="10"/>
+            <FormField colName="fia04" fieldId="6" fieldtype="TABLE_COLUMN" name="fia_file.fia04" sqlDBName="ds" sqlTabName="fia_file">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Serial Data" data_type="VARCHAR" fontPitch="default" formfieldname="formfield6" gridWidth="30" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia04" noEntry="--------" notNull="--------" posX="32" posY="4" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="7" verify="--------" width="30" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="5" height="1" lstrtext="false" name="text6" posX="1" posY="5" sizePolicy="initial" text="Model" width="5"/>
+            <FormField colName="fia05" fieldId="7" fieldtype="TABLE_COLUMN" name="fia_file.fia05" sqlDBName="ds" sqlTabName="fia_file">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Model Data" data_type="VARCHAR" fontPitch="default" formfieldname="formfield7" gridWidth="30" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia05" noEntry="--------" notNull="--------" posX="32" posY="5" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="8" verify="--------" width="30" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="9" height="1" lstrtext="false" name="text7" posX="1" posY="6" sizePolicy="initial" text="Nameplate" width="9"/>
+            <FormField colName="fia06" fieldId="8" fieldtype="TABLE_COLUMN" name="fia_file.fia06" sqlDBName="ds" sqlTabName="fia_file">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield8" gridWidth="30" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia06" noEntry="--------" notNull="--------" posX="32" posY="6" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="9" verify="--------" width="30" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="12" height="1" lstrtext="false" name="text8" posX="1" posY="7" sizePolicy="initial" text="Manufacturer" width="12"/>
+            <FormField colName="fia07" fieldId="9" fieldtype="TABLE_COLUMN" name="fia_file.fia07" sqlDBName="ds" sqlTabName="fia_file">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Vendor Data" data_type="VARCHAR" fontPitch="default" formfieldname="formfield9" gridWidth="10" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia07" noEntry="--------" notNull="--------" posX="32" posY="7" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="10" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="12" height="1" lstrtext="false" name="text9" posX="1" posY="8" sizePolicy="initial" text="Orginal Site" width="12"/>
+            <FormField colName="fia08" fieldId="10" fieldtype="TABLE_COLUMN" name="fia_file.fia08" sqlDBName="ds" sqlTabName="fia_file">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Country Data" data_type="VARCHAR" fontPitch="default" formfieldname="formfield10" gridWidth="10" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia08" noEntry="--------" notNull="--------" posX="32" posY="8" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="11" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="8" height="1" lstrtext="false" name="text10" posX="1" posY="9" sizePolicy="initial" text="Supplier" width="8"/>
+            <FormField colName="fia09" fieldId="11" fieldtype="TABLE_COLUMN" name="fia_file.fia09" sqlDBName="ds" sqlTabName="fia_file">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Vendor Data" data_type="VARCHAR" fontPitch="default" formfieldname="formfield11" gridWidth="10" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia09" noEntry="--------" notNull="--------" posX="32" posY="9" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="12" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <FormField colName="pmc03" fieldId="12" fieldtype="FORM_ONLY" name="formonly.pmc03" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield12" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="pmc03" noEntry="true" notNull="--------" posX="45" posY="9" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="13" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="9" height="1" lstrtext="false" name="text11" posX="1" posY="10" sizePolicy="initial" text="Principal" width="9"/>
+            <FormField colName="fia10" fieldId="13" fieldtype="TABLE_COLUMN" name="fia_file.fia10" sqlDBName="ds" sqlTabName="fia_file">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Employee Data" data_type="VARCHAR" fontPitch="default" formfieldname="formfield13" gridWidth="10" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia10" noEntry="--------" notNull="true" posX="32" posY="10" required="true" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="14" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <FormField colName="gen02" fieldId="14" fieldtype="FORM_ONLY" name="formonly.gen02" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield14" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="gen02" noEntry="true" notNull="--------" posX="45" posY="10" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="15" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="20" height="1" lstrtext="false" name="text12" posX="1" posY="11" sizePolicy="initial" text="Principal Department" width="20"/>
+            <FormField colName="fia11" fieldId="15" fieldtype="TABLE_COLUMN" name="fia_file.fia11" sqlDBName="ds" sqlTabName="fia_file">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Department" data_type="VARCHAR" fontPitch="default" formfieldname="formfield15" gridWidth="10" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia11" noEntry="--------" notNull="true" posX="32" posY="11" required="true" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="16" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <FormField colName="gem02" fieldId="16" fieldtype="FORM_ONLY" name="formonly.gem02" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield16" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="gem02" noEntry="true" notNull="--------" posX="45" posY="11" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="17" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="17" height="1" lstrtext="false" name="text13" posX="1" posY="12" sizePolicy="initial" text="Maintain Contract" width="17"/>
+            <FormField colName="fia12" fieldId="17" fieldtype="TABLE_COLUMN" name="fia_file.fia12" sqlDBName="ds" sqlTabName="fia_file">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield17" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia12" noEntry="--------" notNull="--------" posX="32" posY="12" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="18" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+          </Grid>
+          <Grid fontPitch="default" height="13" hidden="--------" lstrcomment="false" name="grid02" posX="66" posY="0" scroll="false" width="66">
+            <Text gridWidth="8" height="1" lstrtext="false" name="text14" posX="1" posY="0" sizePolicy="initial" text="Priority" width="8"/>
+            <FormField colName="fia13" fieldId="18" fieldtype="TABLE_COLUMN" name="fia_file.fia13" sqlDBName="ds" sqlTabName="fia_file">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="SMALLINT" fontPitch="default" formfieldname="formfield18" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia13" noEntry="--------" notNull="--------" posX="32" posY="0" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="19" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="8" height="1" lstrtext="false" name="text15" posX="1" posY="1" sizePolicy="initial" text="Position" width="8"/>
+            <FormField colName="fia14" fieldId="19" fieldtype="TABLE_COLUMN" name="fia_file.fia14" sqlDBName="ds" sqlTabName="fia_file">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Deposit Position" data_type="VARCHAR" fontPitch="default" formfieldname="formfield19" gridWidth="10" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia14" noEntry="--------" notNull="true" posX="32" posY="1" required="true" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="20" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <FormField colName="fka02" fieldId="20" fieldtype="FORM_ONLY" name="formonly.fka02" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield20" gridWidth="20" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fka02" noEntry="true" notNull="--------" posX="45" posY="1" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="21" verify="--------" width="20" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="14" height="1" lstrtext="false" name="text16" posX="1" posY="2" sizePolicy="initial" text="Sub-Position 1" width="14"/>
+            <FormField colName="fia15" fieldId="21" fieldtype="TABLE_COLUMN" name="fia_file.fia15" sqlDBName="ds" sqlTabName="fia_file">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Deposit Position" data_type="VARCHAR" fontPitch="default" formfieldname="formfield21" gridWidth="10" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia15" noEntry="--------" notNull="--------" posX="32" posY="2" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="22" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <FormField colName="fka02a" fieldId="22" fieldtype="FORM_ONLY" name="formonly.fka02a" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield22" gridWidth="20" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fka02a" noEntry="true" notNull="--------" posX="45" posY="2" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="23" verify="--------" width="20" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="14" height="1" lstrtext="false" name="text17" posX="1" posY="3" sizePolicy="initial" text="Sub-Position 2" width="14"/>
+            <FormField colName="fia16" fieldId="23" fieldtype="TABLE_COLUMN" name="fia_file.fia16" sqlDBName="ds" sqlTabName="fia_file">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Deposit Position" data_type="VARCHAR" fontPitch="default" formfieldname="formfield23" gridWidth="10" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia16" noEntry="--------" notNull="--------" posX="32" posY="3" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="24" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <FormField colName="fka02b" fieldId="24" fieldtype="FORM_ONLY" name="formonly.fka02b" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield24" gridWidth="20" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fka02b" noEntry="true" notNull="--------" posX="45" posY="3" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="25" verify="--------" width="20" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="14" height="1" lstrtext="false" name="text18" posX="1" posY="4" sizePolicy="initial" text="Sub-Position 3" width="14"/>
+            <FormField colName="fia17" fieldId="25" fieldtype="TABLE_COLUMN" name="fia_file.fia17" sqlDBName="ds" sqlTabName="fia_file">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Deposit Position" data_type="VARCHAR" fontPitch="default" formfieldname="formfield25" gridWidth="10" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia17" noEntry="--------" notNull="--------" posX="32" posY="4" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="26" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <FormField colName="fka02c" fieldId="26" fieldtype="FORM_ONLY" name="formonly.fka02c" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield26" gridWidth="20" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fka02c" noEntry="true" notNull="--------" posX="45" posY="4" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="27" verify="--------" width="20" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="63" height="1" lstrtext="false" name="text19" posX="2" posY="5" sizePolicy="initial" text="                                                             " width="63"/>
+            <Text gridWidth="13" height="1" lstrtext="false" name="text20" posX="1" posY="6" sizePolicy="initial" text="Purchase Date" width="13"/>
+            <FormField colName="fia18" fieldId="27" fieldtype="TABLE_COLUMN" name="fia_file.fia18" sqlDBName="ds" sqlTabName="fia_file">
+              <DateEdit autoNext="--------" century="R" color="black" data_type="DATE" fontPitch="default" formfieldname="formfield27" gridWidth="10" height="1" hidden="--------" lstrcomment="false" lstrtitle="false" name="fia18" noEntry="--------" notNull="--------" posX="32" posY="6" required="--------" sizePolicy="initial" tabIndex="28" width="10"/>
+            </FormField>
+            <Text gridWidth="10" height="1" lstrtext="false" name="text21" posX="1" posY="7" sizePolicy="initial" text="Start Date" width="10"/>
+            <FormField colName="fia19" fieldId="28" fieldtype="TABLE_COLUMN" name="fia_file.fia19" sqlDBName="ds" sqlTabName="fia_file">
+              <DateEdit autoNext="--------" century="R" color="black" data_type="DATE" fontPitch="default" formfieldname="formfield28" gridWidth="10" height="1" hidden="--------" lstrcomment="false" lstrtitle="false" name="fia19" noEntry="--------" notNull="--------" posX="32" posY="7" required="--------" sizePolicy="initial" tabIndex="29" width="10"/>
+            </FormField>
+            <Text gridWidth="23" height="1" lstrtext="false" name="text22" posX="1" posY="8" sizePolicy="initial" text="Hypothecary Expiry Date" width="23"/>
+            <FormField colName="fia20" fieldId="29" fieldtype="TABLE_COLUMN" name="fia_file.fia20" sqlDBName="ds" sqlTabName="fia_file">
+              <DateEdit autoNext="--------" century="R" color="black" data_type="DATE" fontPitch="default" formfieldname="formfield29" gridWidth="10" height="1" hidden="--------" lstrcomment="false" lstrtitle="false" name="fia20" noEntry="--------" notNull="--------" posX="32" posY="8" required="--------" sizePolicy="initial" tabIndex="30" width="10"/>
+            </FormField>
+            <Text gridWidth="63" height="1" lstrtext="false" name="text23" posX="2" posY="9" sizePolicy="initial" text="                                                             " width="63"/>
+            <FormField colName="fia21" fieldId="30" fieldtype="TABLE_COLUMN" name="fia_file.fia21" sqlDBName="ds" sqlTabName="fia_file">
+              <CheckBox data_type="VARCHAR" fontPitch="default" formfieldname="formfield30" gridWidth="30" height="1" hidden="--------" lstrcomment="false" lstrtext="false" lstrtitle="false" name="fia21" noEntry="--------" notNull="true" posX="32" posY="10" required="true" sizePolicy="initial" tabIndex="31" text="Notify When Issue a New Work Order" valueChecked="Y" valueUnchecked="N" width="30"/>
+            </FormField>
+            <Text gridWidth="4" height="1" lstrtext="false" name="text24" posX="1" posY="11" sizePolicy="initial" text="Memo" width="4"/>
+            <FormField colName="fia22" fieldId="31" fieldtype="TABLE_COLUMN" name="fia_file.fia22" sqlDBName="ds" sqlTabName="fia_file">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield31" gridWidth="30" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia22" noEntry="--------" notNull="--------" posX="32" posY="11" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="32" verify="--------" width="30" zeroFill="--------"/>
+            </FormField>
+          </Grid>
+        </HBox>
+      </Page>
+      <Page fontPitch="default" hidden="--------" imagetype="Image as URL" lstrtext="false" name="page02" text="Finance">
+        <HBox height="8" hidden="" posX="0" posY="0" style="" tag="" width="102">
+          <Grid fontPitch="default" height="8" hidden="--------" lstrcomment="false" name="gr1782" posX="0" posY="0" scroll="false" width="53">
+            <Text gridWidth="13" height="1" lstrtext="false" name="text25" posX="1" posY="0" sizePolicy="initial" text="Asset Account" width="13"/>
+            <FormField colName="faj53" fieldId="32" fieldtype="FORM_ONLY" name="formonly.faj53" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield32" gridWidth="20" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="faj53" noEntry="true" notNull="--------" posX="32" posY="0" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="33" verify="--------" width="20" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="10" height="1" lstrtext="false" name="text26" posX="1" posY="1" sizePolicy="initial" text="Asset Type" width="10"/>
+            <FormField colName="faj04" fieldId="33" fieldtype="FORM_ONLY" name="formonly.faj04" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield33" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="faj04" noEntry="true" notNull="--------" posX="32" posY="1" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="34" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="8" height="1" lstrtext="false" name="text27" posX="1" posY="2" sizePolicy="initial" text="Sub-Type" width="8"/>
+            <FormField colName="faj05" fieldId="34" fieldtype="FORM_ONLY" name="formonly.faj05" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield34" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="faj05" noEntry="true" notNull="--------" posX="32" posY="2" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="35" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="14" height="1" lstrtext="false" name="text28" posX="1" posY="3" sizePolicy="initial" text="Apportion Type" width="14"/>
+            <FormField colName="faj23" fieldId="35" fieldtype="FORM_ONLY" name="formonly.faj23" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield35" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="faj23" noEntry="true" notNull="--------" posX="32" posY="3" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="36" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="20" height="1" lstrtext="false" name="text29" posX="1" posY="4" sizePolicy="initial" text="Apportion Department" width="20"/>
+            <FormField colName="faj24" fieldId="36" fieldtype="FORM_ONLY" name="formonly.faj24" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield36" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="faj24" noEntry="true" notNull="--------" posX="32" posY="4" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="37" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="21" height="1" lstrtext="false" name="text30" posX="1" posY="5" sizePolicy="initial" text="Service Life (Months)" width="21"/>
+            <FormField colName="faj29" fieldId="37" fieldtype="FORM_ONLY" name="formonly.faj29" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield37" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="faj29" noEntry="true" notNull="--------" posX="32" posY="5" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="38" verify="--------" width="10" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="15" height="1" lstrtext="false" name="text31" posX="1" posY="6" sizePolicy="initial" text="Remanet Degress" width="15"/>
+            <FormField colName="c" fieldId="38" fieldtype="FORM_ONLY" name="formonly.c" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield38" gridWidth="20" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="c" noEntry="true" notNull="--------" posX="32" posY="6" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="39" verify="--------" width="20" zeroFill="--------"/>
+            </FormField>
+          </Grid>
+          <Grid fontPitch="default" height="5" hidden="--------" lstrcomment="false" name="gr1783" posX="53" posY="0" scroll="false" width="48">
+            <Text gridWidth="4" height="1" lstrtext="false" name="text32" posX="1" posY="0" sizePolicy="initial" text="Cost" width="4"/>
+            <FormField colName="d" fieldId="39" fieldtype="FORM_ONLY" name="formonly.d" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield39" gridWidth="15" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="d" noEntry="true" notNull="--------" posX="32" posY="0" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="40" verify="--------" width="15" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="13" height="1" lstrtext="false" name="text33" posX="1" posY="1" sizePolicy="initial" text="Material Cost" width="13"/>
+            <FormField colName="fia23" fieldId="40" fieldtype="TABLE_COLUMN" name="fia_file.fia23" sqlDBName="ds" sqlTabName="fia_file">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="DECIMAL" fontPitch="default" formfieldname="formfield40" gridWidth="15" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia23" noEntry="true" notNull="--------" posX="32" posY="1" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="41" verify="--------" width="15" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="10" height="1" lstrtext="false" name="text34" posX="1" posY="2" sizePolicy="initial" text="Abbor Cost" width="10"/>
+            <FormField colName="fia24" fieldId="41" fieldtype="TABLE_COLUMN" name="fia_file.fia24" sqlDBName="ds" sqlTabName="fia_file">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="DECIMAL" fontPitch="default" formfieldname="formfield41" gridWidth="15" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fia24" noEntry="true" notNull="--------" posX="32" posY="2" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="42" verify="--------" width="15" zeroFill="--------"/>
+            </FormField>
+            <Text gridWidth="11" height="1" lstrtext="false" name="text35" posX="1" posY="3" sizePolicy="initial" text="Adjust Cost" width="11"/>
+            <FormField colName="f" fieldId="42" fieldtype="FORM_ONLY" name="formonly.f" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" formfieldname="formfield42" gridWidth="15" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="f" noEntry="true" notNull="--------" posX="32" posY="3" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="43" verify="--------" width="15" zeroFill="--------"/>
+            </FormField>
+          </Grid>
+        </HBox>
+      </Page>
+      <Page fontPitch="default" hidden="--------" imagetype="Image as URL" lstrtext="false" name="page03" text="Security">
+        <Grid fontPitch="default" height="7" hidden="--------" lstrcomment="false" name="gr1784" posX="0" posY="0" scroll="false" width="75">
+          <Text gridWidth="21" height="1" lstrtext="false" name="text36" posX="1" posY="0" sizePolicy="initial" text="Security Illustration" width="21"/>
+          <FormField colName="fia25" fieldId="43" fieldtype="TABLE_COLUMN" name="fia_file.fia25" sqlDBName="ds" sqlTabName="fia_file">
+            <TextEdit case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield43" gridHeight="6" gridWidth="40" height="6" hidden="--------" lstrcomment="false" lstrtitle="false" name="fia25" noEntry="--------" notNull="--------" posX="34" posY="0" required="--------" scroll="true" scrollBars="vertical" sizePolicy="initial" stretch="NONE" tabIndex="44" wantNoReturns="false" wantTabs="--------" width="40"/>
+          </FormField>
+        </Grid>
+      </Page>
+      <Page fontPitch="default" hidden="--------" imagetype="Image as URL" lstrtext="false" name="info" text="Info">
+        <Grid fontPitch="default" height="3" hidden="--------" lstrcomment="false" name="gr1785" posX="0" posY="0" scroll="false" width="104">
+          <Text gridWidth="12" height="1" lstrtext="false" name="text37" posX="2" posY="0" sizePolicy="initial" text="Record Owner" width="12"/>
+          <FormField colName="fiauser" fieldId="44" fieldtype="TABLE_COLUMN" name="fia_file.fiauser" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield44" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiauser" noEntry="true" notNull="--------" posX="23" posY="0" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="45" verify="--------" width="10" zeroFill="--------"/>
+          </FormField>
+          <Text gridWidth="16" height="1" lstrtext="false" name="text38" posX="37" posY="0" sizePolicy="initial" text="Last Modified by" width="16"/>
+          <FormField colName="fiamodu" fieldId="45" fieldtype="TABLE_COLUMN" name="fia_file.fiamodu" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield45" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiamodu" noEntry="true" notNull="--------" posX="58" posY="0" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="46" verify="--------" width="10" zeroFill="--------"/>
+          </FormField>
+          <Text gridWidth="15" height="1" lstrtext="false" name="text39" posX="72" posY="0" sizePolicy="initial" text="Data Valid Code" width="15"/>
+          <FormField colName="fiaacti" fieldId="46" fieldtype="TABLE_COLUMN" name="fia_file.fiaacti" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="UPPER" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield46" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiaacti" noEntry="true" notNull="--------" posX="93" posY="0" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="47" verify="--------" width="10" zeroFill="--------"/>
+          </FormField>
+          <Text gridWidth="10" height="1" lstrtext="false" name="text40" posX="2" posY="1" sizePolicy="initial" text="Department" width="10"/>
+          <FormField colName="fiagrup" fieldId="47" fieldtype="TABLE_COLUMN" name="fia_file.fiagrup" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield47" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiagrup" noEntry="true" notNull="--------" posX="23" posY="1" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="48" verify="--------" width="10" zeroFill="--------"/>
+          </FormField>
+          <Text gridWidth="18" height="1" lstrtext="false" name="text41" posX="37" posY="1" sizePolicy="initial" text="Create/Modify Date" width="18"/>
+          <FormField colName="fiadate" fieldId="48" fieldtype="TABLE_COLUMN" name="fia_file.fiadate" sqlDBName="ds" sqlTabName="fia_file">
+            <DateEdit autoNext="--------" century="R" color="black" data_type="DATE" fontPitch="default" formfieldname="formfield48" gridWidth="10" height="1" hidden="--------" lstrcomment="false" lstrtitle="false" name="fiadate" noEntry="true" notNull="--------" posX="58" posY="1" required="--------" sizePolicy="initial" tabIndex="49" width="10"/>
+          </FormField>
+          <Text gridWidth="12" height="1" lstrtext="false" name="text501" posX="2" posY="2" sizePolicy="initial" text="Record Orig." width="12"/>
+          <FormField colName="fiaoriu" fieldId="501" fieldtype="TABLE_COLUMN" name="fiaoriu" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield501" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiaoriu" noEntry="true" notNull="--------" posX="23" posY="2" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="501" verify="--------" width="10" zeroFill="--------"/>
+          </FormField>
+          <Text gridWidth="10" height="1" lstrtext="false" name="text502" posX="2" posY="3" sizePolicy="initial" text="Dept Orig." width="10"/>
+          <FormField colName="fiaorig" fieldId="502" fieldtype="TABLE_COLUMN" name="fiaorig" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield502" gridWidth="10" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiaorig" noEntry="true" notNull="--------" posX="23" posY="3" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="502" verify="--------" width="10" zeroFill="--------"/>
+          </FormField>
+        </Grid>
+      </Page>
+      <Page fontPitch="default" hidden="--------" imagetype="Image as URL" lstrtext="false" name="userdefined_field" text="User Defined Field">
+        <Grid fontPitch="default" height="8" hidden="--------" lstrcomment="false" name="gru47" posX="0" posY="0" scroll="false" width="126">
+          <Text gridWidth="19" height="1" lstrtext="false" name="text42" posX="1" posY="0" sizePolicy="initial" text="userdefined_field01" width="19"/>
+          <FormField colName="fiaud01" fieldId="73" fieldtype="TABLE_COLUMN" name="fia_file.fiaud01" sqlDBName="ds" sqlTabName="fia_file">
+            <TextEdit case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield49" gridHeight="2" gridWidth="30" height="2" hidden="--------" lstrcomment="false" lstrtitle="false" name="fiaud01" noEntry="--------" notNull="--------" posX="21" posY="0" required="--------" scroll="true" scrollBars="vertical" sizePolicy="initial" stretch="NONE" tabIndex="326" wantNoReturns="false" wantTabs="--------" width="30"/>
+          </FormField>
+          <Text gridWidth="19" height="1" lstrtext="false" name="text43" posX="53" posY="0" sizePolicy="initial" text="userdefined_field07" width="19"/>
+          <FormField colName="fiaud07" fieldId="79" fieldtype="TABLE_COLUMN" name="fia_file.fiaud07" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="DECIMAL" fontPitch="default" formfieldname="formfield50" gridWidth="15" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiaud07" noEntry="--------" notNull="--------" posX="73" posY="0" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="327" verify="--------" width="15" zeroFill="--------"/>
+          </FormField>
+          <Text gridWidth="19" height="1" lstrtext="false" name="text44" posX="90" posY="0" sizePolicy="initial" text="userdefined_field13" width="19"/>
+          <FormField colName="fiaud13" fieldId="85" fieldtype="TABLE_COLUMN" name="fia_file.fiaud13" sqlDBName="ds" sqlTabName="fia_file">
+            <DateEdit autoNext="--------" century="R" color="black" data_type="DATE" fontPitch="default" formfieldname="formfield51" gridWidth="15" height="1" hidden="--------" lstrcomment="false" lstrtitle="false" name="fiaud13" noEntry="--------" notNull="--------" posX="110" posY="0" required="--------" sizePolicy="initial" tabIndex="328" width="15"/>
+          </FormField>
+          <Text gridWidth="19" height="1" lstrtext="false" name="text45" posX="53" posY="1" sizePolicy="initial" text="userdefined_field08" width="19"/>
+          <FormField colName="fiaud08" fieldId="80" fieldtype="TABLE_COLUMN" name="fia_file.fiaud08" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="DECIMAL" fontPitch="default" formfieldname="formfield52" gridWidth="15" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiaud08" noEntry="--------" notNull="--------" posX="73" posY="1" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="329" verify="--------" width="15" zeroFill="--------"/>
+          </FormField>
+          <Text gridWidth="19" height="1" lstrtext="false" name="text46" posX="90" posY="1" sizePolicy="initial" text="userdefined_field14" width="19"/>
+          <FormField colName="fiaud14" fieldId="86" fieldtype="TABLE_COLUMN" name="fia_file.fiaud14" sqlDBName="ds" sqlTabName="fia_file">
+            <DateEdit autoNext="--------" century="R" color="black" data_type="DATE" fontPitch="default" formfieldname="formfield53" gridWidth="15" height="1" hidden="--------" lstrcomment="false" lstrtitle="false" name="fiaud14" noEntry="--------" notNull="--------" posX="110" posY="1" required="--------" sizePolicy="initial" tabIndex="330" width="15"/>
+          </FormField>
+          <Text gridWidth="19" height="1" lstrtext="false" name="text47" posX="1" posY="2" sizePolicy="initial" text="userdefined_field02" width="19"/>
+          <FormField colName="fiaud02" fieldId="74" fieldtype="TABLE_COLUMN" name="fia_file.fiaud02" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield54" gridWidth="15" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiaud02" noEntry="--------" notNull="--------" posX="21" posY="2" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="331" verify="--------" width="15" zeroFill="--------"/>
+          </FormField>
+          <Text gridWidth="19" height="1" lstrtext="false" name="text48" posX="53" posY="2" sizePolicy="initial" text="userdefined_field09" width="19"/>
+          <FormField colName="fiaud09" fieldId="81" fieldtype="TABLE_COLUMN" name="fia_file.fiaud09" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="DECIMAL" fontPitch="default" formfieldname="formfield55" gridWidth="15" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiaud09" noEntry="--------" notNull="--------" posX="73" posY="2" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="332" verify="--------" width="15" zeroFill="--------"/>
+          </FormField>
+          <Text gridWidth="19" height="1" lstrtext="false" name="text49" posX="90" posY="2" sizePolicy="initial" text="userdefined_field15" width="19"/>
+          <FormField colName="fiaud15" fieldId="87" fieldtype="TABLE_COLUMN" name="fia_file.fiaud15" sqlDBName="ds" sqlTabName="fia_file">
+            <DateEdit autoNext="--------" century="R" color="black" data_type="DATE" fontPitch="default" formfieldname="formfield56" gridWidth="15" height="1" hidden="--------" lstrcomment="false" lstrtitle="false" name="fiaud15" noEntry="--------" notNull="--------" posX="110" posY="2" required="--------" sizePolicy="initial" tabIndex="333" width="15"/>
+          </FormField>
+          <Text gridWidth="19" height="1" lstrtext="false" name="text50" posX="1" posY="3" sizePolicy="initial" text="userdefined_field03" width="19"/>
+          <FormField colName="fiaud03" fieldId="75" fieldtype="TABLE_COLUMN" name="fia_file.fiaud03" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield57" gridWidth="15" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiaud03" noEntry="--------" notNull="--------" posX="21" posY="3" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="334" verify="--------" width="15" zeroFill="--------"/>
+          </FormField>
+          <Text gridWidth="19" height="1" lstrtext="false" name="text51" posX="53" posY="3" sizePolicy="initial" text="userdefined_field10" width="19"/>
+          <FormField colName="fiaud10" fieldId="82" fieldtype="TABLE_COLUMN" name="fia_file.fiaud10" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="INTEGER" fontPitch="default" formfieldname="formfield58" gridWidth="15" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiaud10" noEntry="--------" notNull="--------" posX="73" posY="3" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="335" verify="--------" width="15" zeroFill="--------"/>
+          </FormField>
+          <Text gridWidth="19" height="1" lstrtext="false" name="text52" posX="1" posY="4" sizePolicy="initial" text="userdefined_field04" width="19"/>
+          <FormField colName="fiaud04" fieldId="76" fieldtype="TABLE_COLUMN" name="fia_file.fiaud04" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield59" gridWidth="15" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiaud04" noEntry="--------" notNull="--------" posX="21" posY="4" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="336" verify="--------" width="15" zeroFill="--------"/>
+          </FormField>
+          <Text gridWidth="19" height="1" lstrtext="false" name="text53" posX="53" posY="4" sizePolicy="initial" text="userdefined_field11" width="19"/>
+          <FormField colName="fiaud11" fieldId="83" fieldtype="TABLE_COLUMN" name="fia_file.fiaud11" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="INTEGER" fontPitch="default" formfieldname="formfield60" gridWidth="15" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiaud11" noEntry="--------" notNull="--------" posX="73" posY="4" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="337" verify="--------" width="15" zeroFill="--------"/>
+          </FormField>
+          <Text gridWidth="19" height="1" lstrtext="false" name="text54" posX="1" posY="5" sizePolicy="initial" text="userdefined_field05" width="19"/>
+          <FormField colName="fiaud05" fieldId="77" fieldtype="TABLE_COLUMN" name="fia_file.fiaud05" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield61" gridWidth="15" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiaud05" noEntry="--------" notNull="--------" posX="21" posY="5" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="338" verify="--------" width="15" zeroFill="--------"/>
+          </FormField>
+          <Text gridWidth="19" height="1" lstrtext="false" name="text55" posX="53" posY="5" sizePolicy="initial" text="userdefined_field12" width="19"/>
+          <FormField colName="fiaud12" fieldId="84" fieldtype="TABLE_COLUMN" name="fia_file.fiaud12" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="INTEGER" fontPitch="default" formfieldname="formfield62" gridWidth="15" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiaud12" noEntry="--------" notNull="--------" posX="73" posY="5" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="339" verify="--------" width="15" zeroFill="--------"/>
+          </FormField>
+          <Text gridWidth="19" height="1" lstrtext="false" name="text56" posX="1" posY="6" sizePolicy="initial" text="userdefined_field06" width="19"/>
+          <FormField colName="fiaud06" fieldId="78" fieldtype="TABLE_COLUMN" name="fia_file.fiaud06" sqlDBName="ds" sqlTabName="fia_file">
+            <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" formfieldname="formfield63" gridWidth="15" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="fiaud06" noEntry="--------" notNull="--------" posX="21" posY="6" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="340" verify="--------" width="15" zeroFill="--------"/>
+          </FormField>
+        </Grid>
+      </Page>
+    </PageControl>
+    <PageControl height="16" lstrcomment="false" name="folder02" posX="0" posY="17" width="291">
+      <Page action="accessory" fontPitch="default" hidden="--------" imagetype="Image as URL" lstrtext="false" name="page04" text="Accessory">
+        <VBox height="14" hidden="" posX="0" posY="0" style="" tag="" width="161">
+          <Table fontPitch="default" height="12" hidden="--------" lstrcomment="false" name="s_fib" posX="0" posY="0" tabName="s_fib" totalRows="10" unhidableColumns="--------" unmovableColumns="--------" unsizableColumns="--------" unsortableColumns="--------" wantFixedPageSize="--------" width="54">
+            <TableColumn colName="fib02" fieldId="49" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fib02" sqlDBName="ds" sqlTabName="fib_file" tabIndex="50" text="Line No." unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="11">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="SMALLINT" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="true" required="true" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="11" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fib03" fieldId="50" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fib03" sqlDBName="ds" sqlTabName="fib_file" tabIndex="51" text="File Access Path" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="40">
+              <TextEdit case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" height="1" hidden="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="true" required="true" scroll="true" scrollBars="vertical" sizePolicy="initial" stretch="NONE" wantNoReturns="false" wantReturns="1" wantTabs="--------" width="40"/>
+            </TableColumn>
+          </Table>
+          <Grid fontPitch="default" height="2" hidden="--------" lstrcomment="false" name="gr1786" posX="0" posY="12" scroll="false" width="160">
+            <Text gridWidth="121" height="1" lstrtext="false" name="text57" posX="3" posY="0" sizePolicy="initial" text="                                                                                                                       " width="121"/>
+            <HLine gridWidth="10" height="1" name="hl1" posX="125" posY="0" width="10"/>
+            <Text gridWidth="4" height="1" lstrtext="false" name="text58" posX="136" posY="0" sizePolicy="initial" text="Rows" width="4"/>
+            <FormField colName="cn2" fieldId="51" fieldtype="FORM_ONLY" name="formonly.cn2" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="SMALLINT" fontPitch="default" formfieldname="formfield64" gridWidth="6" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="cn2" noEntry="--------" notNull="--------" posX="142" posY="0" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="52" verify="--------" width="6" zeroFill="--------"/>
+            </FormField>
+            <HLine gridWidth="10" height="1" name="hl2" posX="150" posY="0" width="10"/>
+          </Grid>
+        </VBox>
+      </Page>
+      <Page action="user_defined_columns" fontPitch="default" hidden="--------" imagetype="Image as URL" lstrtext="false" name="page05" text="User-defined Columns">
+        <VBox height="14" hidden="" posX="0" posY="0" style="" tag="" width="161">
+          <Table fontPitch="default" height="12" hidden="--------" lstrcomment="false" name="s_fij" posX="0" posY="0" tabName="s_fij" totalRows="10" unhidableColumns="--------" unmovableColumns="--------" unsizableColumns="--------" unsortableColumns="--------" wantFixedPageSize="--------" width="65">
+            <TableColumn colName="fij02" fieldId="52" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fij02" sqlDBName="ds" sqlTabName="fij_file" tabIndex="53" text="User Defined Column" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="22">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="true" required="true" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="22" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fij03" fieldId="53" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fij03" sqlDBName="ds" sqlTabName="fij_file" tabIndex="54" text="Name" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="40">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="true" required="true" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="40" zeroFill="--------"/>
+            </TableColumn>
+          </Table>
+          <Grid fontPitch="default" height="2" hidden="--------" lstrcomment="false" name="gr1787" posX="0" posY="12" scroll="false" width="160">
+            <Text gridWidth="121" height="1" lstrtext="false" name="text59" posX="3" posY="0" sizePolicy="initial" text="                                                                                                                       " width="121"/>
+            <HLine gridWidth="10" height="1" name="hl3" posX="125" posY="0" width="10"/>
+            <Text gridWidth="4" height="1" lstrtext="false" name="text60" posX="136" posY="0" sizePolicy="initial" text="Rows" width="4"/>
+            <FormField colName="cn4" fieldId="54" fieldtype="FORM_ONLY" name="formonly.cn4" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="SMALLINT" fontPitch="default" formfieldname="formfield65" gridWidth="6" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="cn4" noEntry="--------" notNull="--------" posX="142" posY="0" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="55" verify="--------" width="6" zeroFill="--------"/>
+            </FormField>
+            <HLine gridWidth="10" height="1" name="hl4" posX="150" posY="0" width="10"/>
+          </Grid>
+        </VBox>
+      </Page>
+      <Page action="spare_part" fontPitch="default" hidden="--------" imagetype="Image as URL" lstrtext="false" name="page06" text="Spare Part">
+        <VBox height="14" hidden="" posX="0" posY="0" style="" tag="" width="289">
+          <Table fontPitch="default" height="12" hidden="--------" lstrcomment="false" name="s_fjb" posX="0" posY="0" tabName="s_fjb" totalRows="10" unhidableColumns="--------" unmovableColumns="--------" unsizableColumns="--------" unsortableColumns="--------" wantFixedPageSize="--------" width="288">
+            <TableColumn colName="fjb02" fieldId="55" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjb02" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="56" text="Line No." unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="11">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="SMALLINT" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="true" required="true" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="11" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjb03" fieldId="56" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjb03" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="57" text="Spare Part No." unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="17">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Item No." data_type="VARCHAR" fontPitch="default" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="true" required="true" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="17" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="ima02" fieldId="57" height="1" lstrtext="false" name="ima02" sqlTabName="formonly" tabIndex="58" text="Part Name Specification" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="30">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="true" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="30" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjb04" fieldId="58" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjb04" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="59" text="Type" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="7">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Spare Type" data_type="VARCHAR" fontPitch="default" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="true" required="true" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="7" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fiz02" fieldId="59" height="1" lstrtext="false" name="fiz02" sqlTabName="formonly" tabIndex="60" text="Illustration" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="20">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="true" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="20" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjb05" fieldId="60" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjb05" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="61" text="Unit" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="7">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Unit" data_type="VARCHAR" fontPitch="default" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="true" required="true" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="7" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjb06" fieldId="61" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjb06" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="62" text="Quantity" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="15">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="DECIMAL" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="15" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjbud01" fieldId="88" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjbud01" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="325" text="fjbud01" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="10">
+              <TextEdit case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" height="1" hidden="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" scroll="true" scrollBars="vertical" sizePolicy="initial" stretch="NONE" wantNoReturns="false" wantReturns="1" wantTabs="--------" width="10"/>
+            </TableColumn>
+            <TableColumn colName="fjbud02" fieldId="89" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjbud02" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="341" text="fjbud02" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="10">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="10" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjbud03" fieldId="90" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjbud03" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="342" text="fjbud03" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="11">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="11" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjbud04" fieldId="91" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjbud04" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="343" text="fjbud04" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="11">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="11" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjbud05" fieldId="92" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjbud05" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="344" text="fjbud05" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="11">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="11" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjbud06" fieldId="93" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjbud06" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="345" text="fjbud06" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="11">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="VARCHAR" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="11" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjbud07" fieldId="94" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjbud07" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="346" text="fjbud07" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="11">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="DECIMAL" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="11" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjbud08" fieldId="95" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjbud08" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="347" text="fjbud08" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="11">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="DECIMAL" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="11" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjbud09" fieldId="96" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjbud09" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="348" text="fjbud09" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="11">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="DECIMAL" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="11" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjbud10" fieldId="97" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjbud10" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="349" text="fjbud10" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="11">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="INTEGER" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="11" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjbud11" fieldId="98" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjbud11" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="350" text="fjbud11" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="10">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="INTEGER" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="10" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjbud12" fieldId="99" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjbud12" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="351" text="fjbud12" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="9">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="INTEGER" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="9" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjbud13" fieldId="100" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjbud13" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="352" text="fjbud13" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="10">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="DATE" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="10" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjbud14" fieldId="101" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjbud14" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="353" text="fjbud14" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="10">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="DATE" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="10" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjbud15" fieldId="102" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjbud15" sqlDBName="ds" sqlTabName="fjb_file" tabIndex="354" text="fjbud15" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="11">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="DATE" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="11" zeroFill="--------"/>
+            </TableColumn>
+          </Table>
+          <Grid fontPitch="default" height="2" hidden="--------" lstrcomment="false" name="gr1788" posX="0" posY="12" scroll="false" width="160">
+            <Text gridWidth="121" height="1" lstrtext="false" name="text61" posX="3" posY="0" sizePolicy="initial" text="                                                                                                                       " width="121"/>
+            <HLine gridWidth="10" height="1" name="hl5" posX="125" posY="0" width="10"/>
+            <Text gridWidth="4" height="1" lstrtext="false" name="text62" posX="136" posY="0" sizePolicy="initial" text="Rows" width="4"/>
+            <FormField colName="cn6" fieldId="62" fieldtype="FORM_ONLY" name="formonly.cn6" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="SMALLINT" fontPitch="default" formfieldname="formfield66" gridWidth="6" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="cn6" noEntry="--------" notNull="--------" posX="142" posY="0" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="63" verify="--------" width="6" zeroFill="--------"/>
+            </FormField>
+            <HLine gridWidth="10" height="1" name="hl6" posX="150" posY="0" width="10"/>
+          </Grid>
+        </VBox>
+      </Page>
+      <Page action="maintain_repair" fontPitch="default" hidden="--------" imagetype="Image as URL" lstrtext="false" name="page07" text="Maintain/Repair">
+        <VBox height="14" hidden="" posX="0" posY="0" style="" tag="" width="164">
+          <Table fontPitch="default" height="12" hidden="--------" lstrcomment="false" name="s_fjc" posX="0" posY="0" tabName="s_fjc" totalRows="10" unhidableColumns="--------" unmovableColumns="--------" unsizableColumns="--------" unsortableColumns="--------" wantFixedPageSize="--------" width="120">
+            <TableColumn colName="fjc02" fieldId="63" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjc02" sqlDBName="ds" sqlTabName="fjc_file" tabIndex="64" text="Line No." unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="11">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="SMALLINT" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="true" required="true" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="11" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fjc03" fieldId="64" fieldtype="TABLE_COLUMN" height="1" lstrtext="false" name="fjc03" sqlDBName="ds" sqlTabName="fjc_file" tabIndex="65" text="Item No." unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="11">
+              <ButtonEdit action="controlp" autoNext="--------" case="NONE" century="R" color="black" comment="&lt;^P&gt;Qry Maintain/Repaire Data" data_type="VARCHAR" fontPitch="default" height="1" hidden="--------" image="zoom" imagetype="Image as URL" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="--------" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="11" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fio05" fieldId="65" height="1" lstrtext="false" name="fio05" sqlTabName="formonly" tabIndex="66" text="Maintain Type" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="15">
+              <ComboBox case="NONE" century="R" color="black" fontPitch="default" height="1" hidden="--------" lstrcomment="false" lstrtitle="false" noEntry="true" notNull="--------" queryEditable="--------" required="--------" sizePolicy="initial" width="15">
+                <Item name="1" text="Maintain"/>
+                <Item name="2" text="Repair"/>
+              </ComboBox>
+            </TableColumn>
+            <TableColumn colName="fio06" fieldId="66" height="1" lstrtext="false" name="fio06" sqlTabName="formonly" tabIndex="67" text="Maintain Cycle" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="17">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="true" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="17" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fiu02" fieldId="67" height="1" lstrtext="false" name="fiu02" sqlTabName="formonly" tabIndex="68" text="Description" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="14">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="true" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="14" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fio07" fieldId="68" height="1" lstrtext="false" name="fio07" sqlTabName="formonly" tabIndex="69" text="Maintain Scale" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="17">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="true" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="17" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fja02" fieldId="69" height="1" lstrtext="false" name="fja02" sqlTabName="formonly" tabIndex="70" text="Description" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="14">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" fontPitch="default" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" noEntry="true" notNull="--------" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" verify="--------" width="14" zeroFill="--------"/>
+            </TableColumn>
+            <TableColumn colName="fio08" fieldId="70" height="1" lstrtext="false" name="fio08" sqlTabName="formonly" tabIndex="71" text="Stop Machine" unhidable="--------" unmovable="--------" unsizable="--------" unsortable="--------" width="12">
+              <CheckBox fontPitch="default" height="1" hidden="--------" lstrcomment="false" lstrtext="false" lstrtitle="false" noEntry="true" notNull="--------" required="--------" sizePolicy="initial" valueChecked="Y" valueUnchecked="N" width="12"/>
+            </TableColumn>
+          </Table>
+          <Grid fontPitch="default" height="2" hidden="--------" lstrcomment="false" name="gr1789" posX="0" posY="12" scroll="false" width="163">
+            <Text gridWidth="124" height="1" lstrtext="false" name="text63" posX="3" posY="0" sizePolicy="initial" text="                                                                                                                          " width="124"/>
+            <HLine gridWidth="10" height="1" name="hl7" posX="128" posY="0" width="10"/>
+            <Text gridWidth="4" height="1" lstrtext="false" name="text64" posX="139" posY="0" sizePolicy="initial" text="Rows" width="4"/>
+            <FormField colName="cn8" fieldId="71" fieldtype="FORM_ONLY" name="formonly.cn8" sqlTabName="formonly">
+              <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="SMALLINT" fontPitch="default" formfieldname="formfield67" gridWidth="6" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="cn8" noEntry="--------" notNull="--------" posX="145" posY="0" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="72" verify="--------" width="6" zeroFill="--------"/>
+            </FormField>
+            <HLine gridWidth="10" height="1" name="hl8" posX="153" posY="0" width="10"/>
+          </Grid>
+        </VBox>
+      </Page>
+    </PageControl>
+    <Grid fontPitch="default" height="2" hidden="--------" lstrcomment="false" name="gr1790" posX="0" posY="33" scroll="false" width="291">
+      <HLine gridWidth="10" height="1" name="hl9" posX="2" posY="0" width="10"/>
+      <Text gridWidth="4" height="1" lstrtext="false" name="text65" posX="13" posY="0" sizePolicy="initial" text="Rows" width="4"/>
+      <FormField colName="cnt" fieldId="72" fieldtype="FORM_ONLY" name="formonly.cnt" sqlTabName="formonly">
+        <Edit autoNext="--------" case="NONE" century="R" color="black" data_type="SMALLINT" fontPitch="default" formfieldname="formfield68" gridWidth="6" height="1" hidden="--------" invisible="--------" lstrcomment="false" lstrtitle="false" name="cnt" noEntry="--------" notNull="--------" posX="19" posY="0" required="--------" reverse="--------" scroll="--------" sizePolicy="initial" tabIndex="73" verify="--------" width="6" zeroFill="--------"/>
+      </FormField>
+      <HLine gridWidth="10" height="1" name="hl10" posX="27" posY="0" width="10"/>
+    </Grid>
+  </VBox>
+  <RecordView SRType="default" fromTable="true" name="s_fib" tableKey="tb1">
+    <Link colKey="Col1" colName="fib_file.fib02" fromTable="true"/>
+    <Link colKey="Col2" colName="fib_file.fib03" fromTable="true"/>
+  </RecordView>
+  <RecordView SRType="default" fromTable="true" name="s_fij" tableKey="tb2">
+    <Link colKey="Col3" colName="fij_file.fij02" fromTable="true"/>
+    <Link colKey="Col4" colName="fij_file.fij03" fromTable="true"/>
+  </RecordView>
+  <RecordView SRType="default" fromTable="true" name="s_fjb" tableKey="tb3">
+    <Link colKey="Col5" colName="fjb_file.fjb02" fromTable="true"/>
+    <Link colKey="Col6" colName="fjb_file.fjb03" fromTable="true"/>
+    <Link colKey="Col7" colName="formonly.ima02" fromTable="true"/>
+    <Link colKey="Col8" colName="fjb_file.fjb04" fromTable="true"/>
+    <Link colKey="Col9" colName="formonly.fiz02" fromTable="true"/>
+    <Link colKey="Col10" colName="fjb_file.fjb05" fromTable="true"/>
+    <Link colKey="Col11" colName="fjb_file.fjb06" fromTable="true"/>
+    <Link colKey="Col12" colName="fjb_file.fjbud01" fromTable="true"/>
+    <Link colKey="Col13" colName="fjb_file.fjbud02" fromTable="true"/>
+    <Link colKey="Col14" colName="fjb_file.fjbud03" fromTable="true"/>
+    <Link colKey="Col15" colName="fjb_file.fjbud04" fromTable="true"/>
+    <Link colKey="Col16" colName="fjb_file.fjbud05" fromTable="true"/>
+    <Link colKey="Col17" colName="fjb_file.fjbud06" fromTable="true"/>
+    <Link colKey="Col18" colName="fjb_file.fjbud07" fromTable="true"/>
+    <Link colKey="Col19" colName="fjb_file.fjbud08" fromTable="true"/>
+    <Link colKey="Col20" colName="fjb_file.fjbud09" fromTable="true"/>
+    <Link colKey="Col21" colName="fjb_file.fjbud10" fromTable="true"/>
+    <Link colKey="Col22" colName="fjb_file.fjbud11" fromTable="true"/>
+    <Link colKey="Col23" colName="fjb_file.fjbud12" fromTable="true"/>
+    <Link colKey="Col24" colName="fjb_file.fjbud13" fromTable="true"/>
+    <Link colKey="Col25" colName="fjb_file.fjbud14" fromTable="true"/>
+    <Link colKey="Col26" colName="fjb_file.fjbud15" fromTable="true"/>
+  </RecordView>
+  <RecordView SRType="default" fromTable="true" name="s_fjc" tableKey="tb4">
+    <Link colKey="Col27" colName="fjc_file.fjc02" fromTable="true"/>
+    <Link colKey="Col28" colName="fjc_file.fjc03" fromTable="true"/>
+    <Link colKey="Col29" colName="formonly.fio05" fromTable="true"/>
+    <Link colKey="Col30" colName="formonly.fio06" fromTable="true"/>
+    <Link colKey="Col31" colName="formonly.fiu02" fromTable="true"/>
+    <Link colKey="Col32" colName="formonly.fio07" fromTable="true"/>
+    <Link colKey="Col33" colName="formonly.fja02" fromTable="true"/>
+    <Link colKey="Col34" colName="formonly.fio08" fromTable="true"/>
+  </RecordView>
+</Form>

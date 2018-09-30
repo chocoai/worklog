@@ -1,0 +1,822 @@
+time_zone:2017-11-01 10:18:01.94100
+request_file_path = /ut/topprd/tmp/efgp__6e823b98-2ad7-4418-a533-3be2a2d8ac1f_in.txt
+response_file_path = /ut/topprd/tmp/efgp__6e823b98-2ad7-4418-a533-3be2a2d8ac1f_out.txt
+awsp900_02_invokeSrv start:10:18:01.946
+time_zone:2017-11-01 10:18:01.94763
+file:/ut/topprd/tmp/efgp__6e823b98-2ad7-4418-a533-3be2a2d8ac1f_in.txt
+service :ProcessStatusUpdate
+02_account:98100010
+02_topent:     9
+service:ProcessStatusUpdate
+run service: {"prog":"wssp999","param":["/ut/topprd/tmp/efgp__6e823b98-2ad7-4418-a533-3be2a2d8ac1f_in.txt","/ut/topprd/tmp/efgp__6e823b98-2ad7-4418-a533-3be2a2d8ac1f_out.txt"]}
+(debug cmdrun)  r.dg wssp999 '/ut/topprd/tmp/efgp__6e823b98-2ad7-4418-a533-3be2a2d8ac1f_in.txt' '/ut/topprd/tmp/efgp__6e823b98-2ad7-4418-a533-3be2a2d8ac1f_out.txt'
+-- Web Service MODE --
+time_zone:2017-11-01 10:18:02.36733
+request_file_path = /ut/topprd/tmp/efgp__6e823b98-2ad7-4418-a533-3be2a2d8ac1f_in.txt
+response_file_path = /ut/topprd/tmp/efgp__6e823b98-2ad7-4418-a533-3be2a2d8ac1f_out.txt
+payload request:
+ <Request>
+  <RequestContent>
+   <Parameter>
+    <Record>
+     <Field name="processSN" value="ALL_cpjt310_CPJ300001396"/>
+     <Field name="status" value="A"/>
+     <Field name="description" value=""/>
+    </Record>
+   </Parameter>
+  </RequestContent>
+  <Document/>
+ </Request>
+;
+BEGIN WORK
+sql:UPDATE pjbn_t  SET pjbnstus = 'A'   WHERE pjbnent='9' AND pjbn001='02-C23-2017002' AND pjbn900='30'
+call cpjt310state_change()
+g_roles 98100010
+call cpjt310confirm()
+2017-11-01 10:18:02.61436
+192.168.10.8:1099
+cmdrun:{"prog":"awsp002","param":["CPJ3","pjbnent=9{+}pjbn001=02-C23-2017002{+}pjbn900=30",null,"cpjt310","ALL_cpjt310_CPJ300001396","002-CPJ3-171000015","cpjt310"]}
+response xml:
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+size:        341
+file:/ut/topprd/tmp/efgp__6e823b98-2ad7-4418-a533-3be2a2d8ac1f_out.txt
+res:
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+
+
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+
+awsp900_02_invokeSrv end:10:18:02.950
+invokSrv process:  1.004
+-- Web Service MODE --
+#console: missing capability=cm TERM=(null)
+#console: missing capability=cm TERM=(null)
+g_roles 
+time_zone:2017-11-01 10:18:45.24680
+request_file_path = /ut/topprd/tmp/efgp__126dbf3e-dc5f-4d33-ae9a-c2a9a3c0a048_in.txt
+response_file_path = /ut/topprd/tmp/efgp__126dbf3e-dc5f-4d33-ae9a-c2a9a3c0a048_out.txt
+awsp900_02_invokeSrv start:10:18:45.253
+time_zone:2017-11-01 10:18:45.25360
+file:/ut/topprd/tmp/efgp__126dbf3e-dc5f-4d33-ae9a-c2a9a3c0a048_in.txt
+service :ProcessStatusUpdate
+02_account:98100010
+02_topent:     9
+service:ProcessStatusUpdate
+run service: {"prog":"wssp999","param":["/ut/topprd/tmp/efgp__126dbf3e-dc5f-4d33-ae9a-c2a9a3c0a048_in.txt","/ut/topprd/tmp/efgp__126dbf3e-dc5f-4d33-ae9a-c2a9a3c0a048_out.txt"]}
+(debug cmdrun)  r.dg wssp999 '/ut/topprd/tmp/efgp__126dbf3e-dc5f-4d33-ae9a-c2a9a3c0a048_in.txt' '/ut/topprd/tmp/efgp__126dbf3e-dc5f-4d33-ae9a-c2a9a3c0a048_out.txt'
+-- Web Service MODE --
+time_zone:2017-11-01 10:18:45.66896
+request_file_path = /ut/topprd/tmp/efgp__126dbf3e-dc5f-4d33-ae9a-c2a9a3c0a048_in.txt
+response_file_path = /ut/topprd/tmp/efgp__126dbf3e-dc5f-4d33-ae9a-c2a9a3c0a048_out.txt
+payload request:
+ <Request>
+  <RequestContent>
+   <Parameter>
+    <Record>
+     <Field name="processSN" value="ALL_cpjt310_CPJ300001397"/>
+     <Field name="status" value="A"/>
+     <Field name="description" value=""/>
+    </Record>
+   </Parameter>
+  </RequestContent>
+  <Document/>
+ </Request>
+;
+BEGIN WORK
+sql:UPDATE pjbn_t  SET pjbnstus = 'A'   WHERE pjbnent='9' AND pjbn001='02-C23-2017005' AND pjbn900='13'
+call cpjt310state_change()
+g_roles 98100010
+call cpjt310confirm()
+2017-11-01 10:18:45.83246
+192.168.10.8:1099
+cmdrun:{"prog":"awsp002","param":["CPJ3","pjbnent=9{+}pjbn001=02-C23-2017005{+}pjbn900=13",null,"cpjt310","ALL_cpjt310_CPJ300001397","002-CPJ3-171000016","cpjt310"]}
+response xml:
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+size:        341
+file:/ut/topprd/tmp/efgp__126dbf3e-dc5f-4d33-ae9a-c2a9a3c0a048_out.txt
+res:
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+
+
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+
+awsp900_02_invokeSrv end:10:18:46.121
+invokSrv process:  0.868
+-- Web Service MODE --
+#console: missing capability=cm TERM=(null)
+#console: missing capability=cm TERM=(null)
+g_roles 
+time_zone:2017-11-01 10:22:17.15679
+request_file_path = /ut/topprd/tmp/efgp__adcdf92e-ff3c-4b66-b08f-809dc2f70bf1_in.txt
+response_file_path = /ut/topprd/tmp/efgp__adcdf92e-ff3c-4b66-b08f-809dc2f70bf1_out.txt
+awsp900_02_invokeSrv start:10:22:17.163
+time_zone:2017-11-01 10:22:17.16370
+file:/ut/topprd/tmp/efgp__adcdf92e-ff3c-4b66-b08f-809dc2f70bf1_in.txt
+service :ProcessStatusUpdate
+02_account:98100010
+02_topent:     9
+service:ProcessStatusUpdate
+run service: {"prog":"wssp999","param":["/ut/topprd/tmp/efgp__adcdf92e-ff3c-4b66-b08f-809dc2f70bf1_in.txt","/ut/topprd/tmp/efgp__adcdf92e-ff3c-4b66-b08f-809dc2f70bf1_out.txt"]}
+(debug cmdrun)  r.dg wssp999 '/ut/topprd/tmp/efgp__adcdf92e-ff3c-4b66-b08f-809dc2f70bf1_in.txt' '/ut/topprd/tmp/efgp__adcdf92e-ff3c-4b66-b08f-809dc2f70bf1_out.txt'
+-- Web Service MODE --
+time_zone:2017-11-01 10:22:17.59802
+request_file_path = /ut/topprd/tmp/efgp__adcdf92e-ff3c-4b66-b08f-809dc2f70bf1_in.txt
+response_file_path = /ut/topprd/tmp/efgp__adcdf92e-ff3c-4b66-b08f-809dc2f70bf1_out.txt
+payload request:
+ <Request>
+  <RequestContent>
+   <Parameter>
+    <Record>
+     <Field name="processSN" value="ALL_apmt500_PMB000002620"/>
+     <Field name="status" value="A"/>
+     <Field name="description" value=""/>
+    </Record>
+   </Parameter>
+  </RequestContent>
+  <Document/>
+ </Request>
+;
+BEGIN WORK
+sql:UPDATE pmdl_t  SET pmdlstus = 'A'   WHERE pmdlent='9' AND pmdldocno='001-PMB0-171000038'
+call apmt500state_change()
+g_roles 98100010
+call apmt500confirm()
+sql = SELECT    CASE 
+      WHEN (ooagstus != 'Y') THEN 'aim-00070' 
+      ELSE '1' END 
+
+  FROM ooag_t
+  WHERE ooagent = 9 AND ooag001 = '14050318' AND 1=1 
+sql = SELECT COUNT(*) 
+  FROM ooeg_t
+  WHERE ooeg001 = 'B0207' AND ooegent  = 9 AND ooegstus = 'Y' AND ooeg006 <= '17/10/30' AND (ooeg007 IS NULL OR ooeg007 > '17/10/30') AND 1=1 
+2017-11-01 10:22:17.93490
+192.168.10.8:1099
+cmdrun:{"prog":"awsp002","param":["PMB0","pmdlent=9{+}pmdldocno=001-PMB0-171000038",null,"apmt500","ALL_apmt500_PMB000002620","001-PMB0-171000038","apmt500"]}
+response xml:
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+size:        341
+file:/ut/topprd/tmp/efgp__adcdf92e-ff3c-4b66-b08f-809dc2f70bf1_out.txt
+res:
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+
+
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+
+awsp900_02_invokeSrv end:10:22:18.238
+invokSrv process:  1.075
+-- Web Service MODE --
+#console: missing capability=cm TERM=(null)
+#console: missing capability=cm TERM=(null)
+g_roles 
+time_zone:2017-11-01 10:23:32.16415
+request_file_path = /ut/topprd/tmp/efgp__5d7342f3-5801-4945-99d4-7be020b95607_in.txt
+response_file_path = /ut/topprd/tmp/efgp__5d7342f3-5801-4945-99d4-7be020b95607_out.txt
+awsp900_02_invokeSrv start:10:23:32.170
+time_zone:2017-11-01 10:23:32.17064
+file:/ut/topprd/tmp/efgp__5d7342f3-5801-4945-99d4-7be020b95607_in.txt
+service :ProcessStatusUpdate
+02_account:98100010
+02_topent:     9
+service:ProcessStatusUpdate
+run service: {"prog":"wssp999","param":["/ut/topprd/tmp/efgp__5d7342f3-5801-4945-99d4-7be020b95607_in.txt","/ut/topprd/tmp/efgp__5d7342f3-5801-4945-99d4-7be020b95607_out.txt"]}
+(debug cmdrun)  r.dg wssp999 '/ut/topprd/tmp/efgp__5d7342f3-5801-4945-99d4-7be020b95607_in.txt' '/ut/topprd/tmp/efgp__5d7342f3-5801-4945-99d4-7be020b95607_out.txt'
+-- Web Service MODE --
+time_zone:2017-11-01 10:23:32.58422
+request_file_path = /ut/topprd/tmp/efgp__5d7342f3-5801-4945-99d4-7be020b95607_in.txt
+response_file_path = /ut/topprd/tmp/efgp__5d7342f3-5801-4945-99d4-7be020b95607_out.txt
+payload request:
+ <Request>
+  <RequestContent>
+   <Parameter>
+    <Record>
+     <Field name="processSN" value="ALL_apmt500_PMB000002619"/>
+     <Field name="status" value="A"/>
+     <Field name="description" value=""/>
+    </Record>
+   </Parameter>
+  </RequestContent>
+  <Document/>
+ </Request>
+;
+BEGIN WORK
+sql:UPDATE pmdl_t  SET pmdlstus = 'A'   WHERE pmdlent='9' AND pmdldocno='002-PMB0-171000072'
+call apmt500state_change()
+g_roles 98100010
+call apmt500confirm()
+sql = SELECT    CASE 
+      WHEN (ooagstus != 'Y') THEN 'aim-00070' 
+      ELSE '1' END 
+
+  FROM ooag_t
+  WHERE ooagent = 9 AND ooag001 = '14050318' AND 1=1 
+sql = SELECT COUNT(*) 
+  FROM ooeg_t
+  WHERE ooeg001 = 'B0207' AND ooegent  = 9 AND ooegstus = 'Y' AND ooeg006 <= '17/10/30' AND (ooeg007 IS NULL OR ooeg007 > '17/10/30') AND 1=1 
+2017-11-01 10:23:32.87293
+192.168.10.8:1099
+cmdrun:{"prog":"awsp002","param":["PMB0","pmdlent=9{+}pmdldocno=002-PMB0-171000072",null,"apmt500","ALL_apmt500_PMB000002619","002-PMB0-171000072","apmt500"]}
+response xml:
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+size:        341
+file:/ut/topprd/tmp/efgp__5d7342f3-5801-4945-99d4-7be020b95607_out.txt
+res:
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+
+
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+
+awsp900_02_invokeSrv end:10:23:33.187
+invokSrv process:  1.017
+-- Web Service MODE --
+#console: missing capability=cm TERM=(null)
+#console: missing capability=cm TERM=(null)
+g_roles 
+time_zone:2017-11-01 10:29:04.60078
+request_file_path = /ut/topprd/tmp/efgp__3df23d6e-958a-4a49-9bc7-9c78225f3dd4_in.txt
+response_file_path = /ut/topprd/tmp/efgp__3df23d6e-958a-4a49-9bc7-9c78225f3dd4_out.txt
+awsp900_02_invokeSrv start:10:29:04.606
+time_zone:2017-11-01 10:29:04.60696
+file:/ut/topprd/tmp/efgp__3df23d6e-958a-4a49-9bc7-9c78225f3dd4_in.txt
+service :ProcessStatusUpdate
+02_account:98100010
+02_topent:     9
+service:ProcessStatusUpdate
+run service: {"prog":"wssp999","param":["/ut/topprd/tmp/efgp__3df23d6e-958a-4a49-9bc7-9c78225f3dd4_in.txt","/ut/topprd/tmp/efgp__3df23d6e-958a-4a49-9bc7-9c78225f3dd4_out.txt"]}
+(debug cmdrun)  r.dg wssp999 '/ut/topprd/tmp/efgp__3df23d6e-958a-4a49-9bc7-9c78225f3dd4_in.txt' '/ut/topprd/tmp/efgp__3df23d6e-958a-4a49-9bc7-9c78225f3dd4_out.txt'
+-- Web Service MODE --
+time_zone:2017-11-01 10:29:05.03375
+request_file_path = /ut/topprd/tmp/efgp__3df23d6e-958a-4a49-9bc7-9c78225f3dd4_in.txt
+response_file_path = /ut/topprd/tmp/efgp__3df23d6e-958a-4a49-9bc7-9c78225f3dd4_out.txt
+payload request:
+ <Request>
+  <RequestContent>
+   <Parameter>
+    <Record>
+     <Field name="processSN" value="ALL_apmt500_PMB000002619"/>
+     <Field name="status" value="A"/>
+     <Field name="description" value=""/>
+    </Record>
+   </Parameter>
+  </RequestContent>
+  <Document/>
+ </Request>
+;
+BEGIN WORK
+sql:UPDATE pmdl_t  SET pmdlstus = 'A'   WHERE pmdlent='9' AND pmdldocno='002-PMB0-171000072'
+call apmt500state_change()
+g_roles 98100010
+call apmt500confirm()
+sql = SELECT    CASE 
+      WHEN (ooagstus != 'Y') THEN 'aim-00070' 
+      ELSE '1' END 
+
+  FROM ooag_t
+  WHERE ooagent = 9 AND ooag001 = '14050318' AND 1=1 
+sql = SELECT COUNT(*) 
+  FROM ooeg_t
+  WHERE ooeg001 = 'B0207' AND ooegent  = 9 AND ooegstus = 'Y' AND ooeg006 <= '17/10/30' AND (ooeg007 IS NULL OR ooeg007 > '17/10/30') AND 1=1 
+2017-11-01 10:29:05.28979
+192.168.10.8:1099
+cmdrun:{"prog":"awsp002","param":["PMB0","pmdlent=9{+}pmdldocno=002-PMB0-171000072",null,"apmt500","ALL_apmt500_PMB000002619","002-PMB0-171000072","apmt500"]}
+response xml:
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+size:        341
+file:/ut/topprd/tmp/efgp__3df23d6e-958a-4a49-9bc7-9c78225f3dd4_out.txt
+res:
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+
+
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+
+awsp900_02_invokeSrv end:10:29:05.599
+invokSrv process:  0.993
+-- Web Service MODE --
+#console: missing capability=cm TERM=(null)
+#console: missing capability=cm TERM=(null)
+g_roles 
+time_zone:2017-11-01 10:30:16.04661
+request_file_path = /ut/topprd/tmp/efgp__66809a81-425f-45a1-bf67-a11570dec747_in.txt
+response_file_path = /ut/topprd/tmp/efgp__66809a81-425f-45a1-bf67-a11570dec747_out.txt
+awsp900_02_invokeSrv start:10:30:16.052
+time_zone:2017-11-01 10:30:16.05302
+file:/ut/topprd/tmp/efgp__66809a81-425f-45a1-bf67-a11570dec747_in.txt
+service :ProcessStatusUpdate
+02_account:98100010
+02_topent:     9
+service:ProcessStatusUpdate
+run service: {"prog":"wssp999","param":["/ut/topprd/tmp/efgp__66809a81-425f-45a1-bf67-a11570dec747_in.txt","/ut/topprd/tmp/efgp__66809a81-425f-45a1-bf67-a11570dec747_out.txt"]}
+(debug cmdrun)  r.dg wssp999 '/ut/topprd/tmp/efgp__66809a81-425f-45a1-bf67-a11570dec747_in.txt' '/ut/topprd/tmp/efgp__66809a81-425f-45a1-bf67-a11570dec747_out.txt'
+-- Web Service MODE --
+time_zone:2017-11-01 10:30:16.47720
+request_file_path = /ut/topprd/tmp/efgp__66809a81-425f-45a1-bf67-a11570dec747_in.txt
+response_file_path = /ut/topprd/tmp/efgp__66809a81-425f-45a1-bf67-a11570dec747_out.txt
+payload request:
+ <Request>
+  <RequestContent>
+   <Parameter>
+    <Record>
+     <Field name="processSN" value="ALL_apmt500_PMB000002619"/>
+     <Field name="status" value="A"/>
+     <Field name="description" value=""/>
+    </Record>
+   </Parameter>
+  </RequestContent>
+  <Document/>
+ </Request>
+;
+BEGIN WORK
+sql:UPDATE pmdl_t  SET pmdlstus = 'A'   WHERE pmdlent='9' AND pmdldocno='002-PMB0-171000072'
+call apmt500state_change()
+g_roles 98100010
+call apmt500confirm()
+sql = SELECT    CASE 
+      WHEN (ooagstus != 'Y') THEN 'aim-00070' 
+      ELSE '1' END 
+
+  FROM ooag_t
+  WHERE ooagent = 9 AND ooag001 = '14050318' AND 1=1 
+sql = SELECT COUNT(*) 
+  FROM ooeg_t
+  WHERE ooeg001 = 'B0207' AND ooegent  = 9 AND ooegstus = 'Y' AND ooeg006 <= '17/10/30' AND (ooeg007 IS NULL OR ooeg007 > '17/10/30') AND 1=1 
+2017-11-01 10:30:16.72461
+192.168.10.8:1099
+cmdrun:{"prog":"awsp002","param":["PMB0","pmdlent=9{+}pmdldocno=002-PMB0-171000072",null,"apmt500","ALL_apmt500_PMB000002619","002-PMB0-171000072","apmt500"]}
+response xml:
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+size:        341
+file:/ut/topprd/tmp/efgp__66809a81-425f-45a1-bf67-a11570dec747_out.txt
+res:
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+
+
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+
+awsp900_02_invokeSrv end:10:30:17.031
+invokSrv process:  0.979
+-- Web Service MODE --
+#console: missing capability=cm TERM=(null)
+#console: missing capability=cm TERM=(null)
+g_roles 
+time_zone:2017-11-01 10:33:05.39271
+request_file_path = /ut/topprd/tmp/efgp__4d0dd474-a33d-448c-b968-8a43b53a3ccf_in.txt
+response_file_path = /ut/topprd/tmp/efgp__4d0dd474-a33d-448c-b968-8a43b53a3ccf_out.txt
+awsp900_02_invokeSrv start:10:33:05.398
+time_zone:2017-11-01 10:33:05.39914
+file:/ut/topprd/tmp/efgp__4d0dd474-a33d-448c-b968-8a43b53a3ccf_in.txt
+service :ProcessStatusUpdate
+02_account:98100010
+02_topent:     9
+service:ProcessStatusUpdate
+run service: {"prog":"wssp999","param":["/ut/topprd/tmp/efgp__4d0dd474-a33d-448c-b968-8a43b53a3ccf_in.txt","/ut/topprd/tmp/efgp__4d0dd474-a33d-448c-b968-8a43b53a3ccf_out.txt"]}
+(debug cmdrun)  r.dg wssp999 '/ut/topprd/tmp/efgp__4d0dd474-a33d-448c-b968-8a43b53a3ccf_in.txt' '/ut/topprd/tmp/efgp__4d0dd474-a33d-448c-b968-8a43b53a3ccf_out.txt'
+-- Web Service MODE --
+time_zone:2017-11-01 10:33:05.80413
+request_file_path = /ut/topprd/tmp/efgp__4d0dd474-a33d-448c-b968-8a43b53a3ccf_in.txt
+response_file_path = /ut/topprd/tmp/efgp__4d0dd474-a33d-448c-b968-8a43b53a3ccf_out.txt
+payload request:
+ <Request>
+  <RequestContent>
+   <Parameter>
+    <Record>
+     <Field name="processSN" value="ALL_apmt500_PMB000002618"/>
+     <Field name="status" value="A"/>
+     <Field name="description" value=""/>
+    </Record>
+   </Parameter>
+  </RequestContent>
+  <Document/>
+ </Request>
+;
+BEGIN WORK
+sql:UPDATE pmdl_t  SET pmdlstus = 'A'   WHERE pmdlent='9' AND pmdldocno='002-PMB0-171000071'
+call apmt500state_change()
+g_roles 98100010
+call apmt500confirm()
+sql = SELECT    CASE 
+      WHEN (ooagstus != 'Y') THEN 'aim-00070' 
+      ELSE '1' END 
+
+  FROM ooag_t
+  WHERE ooagent = 9 AND ooag001 = '13040255' AND 1=1 
+sql = SELECT COUNT(*) 
+  FROM ooeg_t
+  WHERE ooeg001 = 'B0207' AND ooegent  = 9 AND ooegstus = 'Y' AND ooeg006 <= '17/10/30' AND (ooeg007 IS NULL OR ooeg007 > '17/10/30') AND 1=1 
+2017-11-01 10:33:06.10129
+192.168.10.8:1099
+cmdrun:{"prog":"awsp002","param":["PMB0","pmdlent=9{+}pmdldocno=002-PMB0-171000071",null,"apmt500","ALL_apmt500_PMB000002618","002-PMB0-171000071","apmt500"]}
+response xml:
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+size:        341
+file:/ut/topprd/tmp/efgp__4d0dd474-a33d-448c-b968-8a43b53a3ccf_out.txt
+res:
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+
+
+<response>
+  <srvver>1.0</srvver>
+  <srvcode>000</srvcode>
+  <payload>
+    <param key="data" type="XML">
+      <![CDATA[
+<Response>
+  <Execution>
+    <Status code="0" sqlcode="0" description=""/>
+  </Execution>
+  <ResponseContent>
+    <Parameter/>
+    <Document/>
+  </ResponseContent>
+</Response>
+]]>
+    </param>
+  </payload>
+</response>
+
+
+awsp900_02_invokeSrv end:10:33:06.411
+invokSrv process:  1.013
+-- Web Service MODE --
+#console: missing capability=cm TERM=(null)
+#console: missing capability=cm TERM=(null)
+g_roles 

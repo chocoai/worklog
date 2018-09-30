@@ -1,0 +1,59 @@
+---------------------------------------------------------------------------------- 
+-- File created from /u53/tiptop/aoo/4fd/aooi151.4fd by Genero Studio
+-- WARNING! All changes made in this file will be lost!
+----------------------------------------------------------------------------------
+
+SCHEMA ds
+
+LAYOUT (spacing=normal, text=%"aooi030")
+VBox vb3
+Folder pc831
+Page page01(text="Page01")
+Table s_tc_hsc
+{
+[hsc01          |hsc011        |hsc01_desc            |gec04        |hsc02                 |hsc021             |hsc02_desc          |gec04_1          |hsc03                |hscacti      ]
+[hsc01          |hsc011        |hsc01_desc            |gec04        |hsc02                 |hsc021             |hsc02_desc          |gec04_1          |hsc03                |hscacti      ]
+[hsc01          |hsc011        |hsc01_desc            |gec04        |hsc02                 |hsc021             |hsc02_desc          |gec04_1          |hsc03                |hscacti      ]
+[hsc01          |hsc011        |hsc01_desc            |gec04        |hsc02                 |hsc021             |hsc02_desc          |gec04_1          |hsc03                |hscacti      ]
+[hsc01          |hsc011        |hsc01_desc            |gec04        |hsc02                 |hsc021             |hsc02_desc          |gec04_1          |hsc03                |hscacti      ]
+[hsc01          |hsc011        |hsc01_desc            |gec04        |hsc02                 |hsc021             |hsc02_desc          |gec04_1          |hsc03                |hscacti      ]
+[hsc01          |hsc011        |hsc01_desc            |gec04        |hsc02                 |hsc021             |hsc02_desc          |gec04_1          |hsc03                |hscacti      ]
+[hsc01          |hsc011        |hsc01_desc            |gec04        |hsc02                 |hsc021             |hsc02_desc          |gec04_1          |hsc03                |hscacti      ]
+[hsc01          |hsc011        |hsc01_desc            |gec04        |hsc02                 |hsc021             |hsc02_desc          |gec04_1          |hsc03                |hscacti      ]
+[hsc01          |hsc011        |hsc01_desc            |gec04        |hsc02                 |hsc021             |hsc02_desc          |gec04_1          |hsc03                |hscacti      ]
+
+}
+END -- s_tc_hsc
+END -- page01
+END -- pc831
+Grid gr4617
+{
+ ----------Rows [cn2   ] ----------
+
+}
+END -- gr4617
+END -- vb3
+END -- aooi151
+
+TABLES
+hsc_file,
+a1=hsc_file
+ATTRIBUTES
+ButtonEdit hsc01=hsc_file.hsc01, action=controlp, tabIndex=1, title=%"hsc01", not null, required, image="zoom";
+ComboBox hsc011=hsc_file.hsc011, tabIndex=2, title=%"hsc011", not null, required, items=(("1", "Purchase"),("2", "Sales"));
+Edit hsc01_desc=formonly.hsc01_desc, tabIndex=3, title=%"hsc01_desc", noEntry;
+Edit gec04=formonly.gec04 type CHAR, tabIndex=4, title=%"gec04", noEntry;
+ButtonEdit hsc02=hsc_file.hsc02, action=controlp, tabIndex=5, title=%"hsc02", not null, required, image="zoom", picture="";
+ComboBox hsc021=hsc_file.hsc021, tabIndex=6, title=%"hsc021", noEntry, items=(("1", "Purchase"),("2", "Sales"));
+Edit hsc02_desc=formonly.hsc02_desc, tabIndex=7, title=%"hsc02_desc", noEntry;
+Edit gec04_1=formonly.gec04_1 type CHAR, tabIndex=8, title=%"gec04_1", noEntry;
+DateEdit hsc03=a1.hsc03, tabIndex=9, title=%"hsc03";
+CheckBox hscacti=hsc_file.hscacti, tabIndex=10, title=%"Valid", not null, required, valueChecked = "Y", valueUnchecked = "N";
+Edit cn2=formonly.cn2 type SMALLINT, tabIndex=11, noEntry;
+END -- ATTRIBUTES
+
+INSTRUCTIONS
+SCREEN RECORD s_hsc(hsc_file.hsc01,hsc_file.hsc011,formonly.hsc01_desc,formonly.gec04,hsc_file.hsc02,hsc_file.hsc021,formonly.hsc02_desc,formonly.gec04_1,a1.hsc03,hsc_file.hscacti)
+SCREEN RECORD Undefined(formonly.cn2)
+END -- INSTRUCTIONS
+
