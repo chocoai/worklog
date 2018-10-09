@@ -1,0 +1,1 @@
+GP5.3  webservice网址 http://172.16.51.2/web/ws/r/aws_ttsrv2?WSDL
